@@ -1,0 +1,69 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testAddBody_setsContentLengthAndWritesContent() throws Exception {
+    Verbs verb = Verbs.POST;
+    String url = "http://example.com";
+    Request request = new Request(verb, url);
+    URL dummyUrl = new URL("http://localhost/");
+    HttpURLConnection conn = (HttpURLConnection) dummyUrl.openConnection();
+    class TestHttpURLConnection extends HttpURLConnection {
+        private ByteArrayOutputStream baos = new ByteArrayOutputStream();
+
+            <Buggy Line>: diamond operator is not supported in -source 1.6
+        private Map<String, String> requestProperties = new HashMap<>();
+
+        private boolean doOutput = false;
+        protected TestHttpURLConnection(URL u) {
+            super(u);
+        }
+        @Override
+        public void disconnect() {}
+        @Override
+        public boolean usingProxy() { return false; }
+        @Override
+        public void connect() throws IOException {}
+        @Override
+        public void setRequestProperty(String key, String value) {
+            requestProperties.put(key, value);
+        }
+        @Override
+        public String getRequestProperty(String key) {
+            return requestProperties.get(key);
+        }
+        @Override
+        public void setDoOutput(boolean dooutput) {
+            this.doOutput = dooutput;
+        }
+        @Override
+        public boolean getDoOutput() {
+            return doOutput;
+        }
+        @Override
+        public OutputStream getOutputStream() {
+            return baos;
+        }
+        public byte[] getWrittenBytes() {
+            return baos.toByteArray();
+        }
+    }
+    TestHttpURLConnection testConn = new TestHttpURLConnection(dummyUrl);
+    byte[] content = "Hello, world!".getBytes("UTF-8");
+    request.addBody(testConn, content);
+    String contentLengthHeader = testConn.getRequestProperty("Content-Length");
+    org.junit.Assert.assertEquals(String.valueOf(content.length), contentLengthHeader);
+    org.junit.Assert.assertTrue(testConn.getDoOutput());
+    byte[] writtenBytes = testConn.getWrittenBytes();
+    org.junit.Assert.assertArrayEquals(content, writtenBytes);
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

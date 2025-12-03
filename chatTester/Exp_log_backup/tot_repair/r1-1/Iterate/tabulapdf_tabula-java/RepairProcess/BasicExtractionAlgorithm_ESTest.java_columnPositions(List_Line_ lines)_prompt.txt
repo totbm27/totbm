@@ -1,0 +1,484 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testColumnPositions() {
+        List<Line> lines = new ArrayList<>();
+        Line line1 = new Line();
+
+           <Buggy Line>: no suitable constructor found for TextChunk(int,int,int,int,java.lang.String)
+        line1.addTextElement(new TextChunk(10, 20, 30, 40, "Text1"));
+
+        line1.addTextElement(new TextChunk(50, 60, 70, 80, "Text2"));
+        lines.add(line1);
+        Line line2 = new Line();
+        line2.addTextElement(new TextChunk(15, 25, 35, 45, "Text3"));
+        line2.addTextElement(new TextChunk(55, 65, 75, 85, "Text4"));
+        lines.add(line2);
+        List<Float> columnPositions = BasicExtractionAlgorithm.columnPositions(lines);
+        List<Float> expectedColumnPositions = new ArrayList<>();
+        expectedColumnPositions.add(30.0f);
+        expectedColumnPositions.add(70.0f);
+        Collections.sort(expectedColumnPositions);
+        assertEquals(expectedColumnPositions, columnPositions);
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testColumnPositions() {
+        List<Line> lines = new ArrayList<>();
+        Line line1 = new Line();
+
+          <Buggy Line>: incompatible types: java.lang.String cannot be converted to float
+        line1.addTextElement(new TextChunk(10, 20, 30, "Text1"));
+
+        line1.addTextElement(new TextChunk(50, 60, 70, "Text2"));
+        lines.add(line1);
+        Line line2 = new Line();
+        line2.addTextElement(new TextChunk(15, 25, 35, "Text3"));
+        line2.addTextElement(new TextChunk(55, 65, 75, "Text4"));
+        lines.add(line2);
+        List<Float> columnPositions = BasicExtractionAlgorithm.columnPositions(lines);
+        List<Float> expectedColumnPositions = new ArrayList<>();
+        expectedColumnPositions.add(30.0f);
+        expectedColumnPositions.add(70.0f);
+        Collections.sort(expectedColumnPositions);
+        assertEquals(expectedColumnPositions, columnPositions);
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->1-->compileRepair
+
+# Line class
+package technology.tabula;
+public class Line {
+public static final Character[] WHITE_SPACE_CHARS = { ' ', '\t', '\r', '\n', '\f' };
+public List<TextChunk> getTextElements();
+public void setTextElements(List<TextChunk> textChunks);
+public void addTextChunk(int i, TextChunk textChunk);
+public void addTextChunk(TextChunk textChunk);
+public String toString();
+}
+
+
+# Test Method
+    @Test
+    public void testColumnPositions() {
+        List<Line> lines = new ArrayList<>();
+        Line line1 = new Line();
+
+             <Buggy Line>: cannot find symbol method "addTextElement(technology.tabula.TextChunk)" in Line
+        line1.addTextElement(new TextChunk(10, 20, 30, Float.parseFloat("30"))); 
+
+        line1.addTextElement(new TextChunk(50, 60, 70, "Text2"));
+        lines.add(line1);
+        Line line2 = new Line();
+        line2.addTextElement(new TextChunk(15, 25, 35, "Text3"));
+        line2.addTextElement(new TextChunk(55, 65, 75, "Text4"));
+        lines.add(line2);
+        List<Float> columnPositions = BasicExtractionAlgorithm.columnPositions(lines);
+        List<Float> expectedColumnPositions = new ArrayList<>();
+        expectedColumnPositions.add(30.0f);
+        expectedColumnPositions.add(70.0f);
+        Collections.sort(expectedColumnPositions);
+        assertEquals(expectedColumnPositions, columnPositions);
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "Line" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "Line" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+
+3-->4-->1-->compileRepair
+
+# Line class
+package technology.tabula;
+public class Line {
+public static final Character[] WHITE_SPACE_CHARS = { ' ', '\t', '\r', '\n', '\f' };
+public List<TextChunk> getTextElements();
+public void setTextElements(List<TextChunk> textChunks);
+public void addTextChunk(int i, TextChunk textChunk);
+public void addTextChunk(TextChunk textChunk);
+public String toString();
+}
+
+
+# Focal Method
+public class BasicExtractionAlgorithm {
+public BasicExtractionAlgorithm() {
+}public BasicExtractionAlgorithm(List<Ruling> verticalRulings) {
+    this.verticalRulings = verticalRulings;
+}
+# Focal method
+public static List<java.lang.Float> columnPositions(List<Line> lines) {
+    List<Rectangle> regions = new ArrayList<>();
+    for (TextChunk tc : lines.get(0).getTextElements()) {
+        if (tc.isSameChar(Line.WHITE_SPACE_CHARS)) {
+            continue;
+        }
+        Rectangle r = new Rectangle();
+        r.setRect(tc);
+        regions.add(r);
+    }
+    for (Line l : lines.subList(1, lines.size())) {
+        List<TextChunk> lineTextElements = new ArrayList<>();
+        for (TextChunk tc : l.getTextElements()) {
+            if (!tc.isSameChar(Line.WHITE_SPACE_CHARS)) {
+                lineTextElements.add(tc);
+            }
+        }
+        for (Rectangle cr : regions) {
+            List<TextChunk> overlaps = new ArrayList<>();
+            for (TextChunk te : lineTextElements) {
+                if (cr.horizontallyOverlaps(te)) {
+                    overlaps.add(te);
+                }
+            }
+            for (TextChunk te : overlaps) {
+                cr.merge(te);
+            }
+            lineTextElements.removeAll(overlaps);
+        }
+        for (TextChunk te : lineTextElements) {
+            Rectangle r = new Rectangle();
+            r.setRect(te);
+            regions.add(r);
+        }
+    }
+    List<java.lang.Float> rv = new ArrayList<>();
+    for (Rectangle r : regions) {
+        rv.add(r.getRight());
+    }
+    Collections.sort(rv);
+    return rv;
+}
+}
+
+# Method Intention
+The columnPositions method aims to extract the rightmost positions of text elements within each line of a document, merging overlapping text elements to identify distinct columns and returning a sorted list of the rightmost positions of these columns.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+4-->5-->1-->compileRepair
+
+# Line class
+package technology.tabula;
+public class Line {
+public static final Character[] WHITE_SPACE_CHARS = { ' ', '\t', '\r', '\n', '\f' };
+public List<TextChunk> getTextElements();
+public void setTextElements(List<TextChunk> textChunks);
+public void addTextChunk(int i, TextChunk textChunk);
+public void addTextChunk(TextChunk textChunk);
+public String toString();
+}
+
+
+# Focal Method
+public class BasicExtractionAlgorithm {
+public BasicExtractionAlgorithm() {
+}public BasicExtractionAlgorithm(List<Ruling> verticalRulings) {
+    this.verticalRulings = verticalRulings;
+}
+# Focal method
+public static List<java.lang.Float> columnPositions(List<Line> lines) {
+    List<Rectangle> regions = new ArrayList<>();
+    for (TextChunk tc : lines.get(0).getTextElements()) {
+        if (tc.isSameChar(Line.WHITE_SPACE_CHARS)) {
+            continue;
+        }
+        Rectangle r = new Rectangle();
+        r.setRect(tc);
+        regions.add(r);
+    }
+    for (Line l : lines.subList(1, lines.size())) {
+        List<TextChunk> lineTextElements = new ArrayList<>();
+        for (TextChunk tc : l.getTextElements()) {
+            if (!tc.isSameChar(Line.WHITE_SPACE_CHARS)) {
+                lineTextElements.add(tc);
+            }
+        }
+        for (Rectangle cr : regions) {
+            List<TextChunk> overlaps = new ArrayList<>();
+            for (TextChunk te : lineTextElements) {
+                if (cr.horizontallyOverlaps(te)) {
+                    overlaps.add(te);
+                }
+            }
+            for (TextChunk te : overlaps) {
+                cr.merge(te);
+            }
+            lineTextElements.removeAll(overlaps);
+        }
+        for (TextChunk te : lineTextElements) {
+            Rectangle r = new Rectangle();
+            r.setRect(te);
+            regions.add(r);
+        }
+    }
+    List<java.lang.Float> rv = new ArrayList<>();
+    for (Rectangle r : regions) {
+        rv.add(r.getRight());
+    }
+    Collections.sort(rv);
+    return rv;
+}
+}
+
+# Method Intention
+The columnPositions method aims to extract the rightmost positions of text elements within each line of a document, merging overlapping text elements to identify distinct columns and returning a sorted list of the rightmost positions.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+5-->6-->2-->compileRepair
+
+# Line class
+package technology.tabula;
+public class Line {
+public static final Character[] WHITE_SPACE_CHARS = { ' ', '\t', '\r', '\n', '\f' };
+public List<TextChunk> getTextElements();
+public void setTextElements(List<TextChunk> textChunks);
+public void addTextChunk(int i, TextChunk textChunk);
+public void addTextChunk(TextChunk textChunk);
+public String toString();
+}
+
+
+# Focal Method
+public class BasicExtractionAlgorithm {
+public BasicExtractionAlgorithm() {
+}public BasicExtractionAlgorithm(List<Ruling> verticalRulings) {
+    this.verticalRulings = verticalRulings;
+}
+# Focal method
+public static List<java.lang.Float> columnPositions(List<Line> lines) {
+    List<Rectangle> regions = new ArrayList<>();
+    for (TextChunk tc : lines.get(0).getTextElements()) {
+        if (tc.isSameChar(Line.WHITE_SPACE_CHARS)) {
+            continue;
+        }
+        Rectangle r = new Rectangle();
+        r.setRect(tc);
+        regions.add(r);
+    }
+    for (Line l : lines.subList(1, lines.size())) {
+        List<TextChunk> lineTextElements = new ArrayList<>();
+        for (TextChunk tc : l.getTextElements()) {
+            if (!tc.isSameChar(Line.WHITE_SPACE_CHARS)) {
+                lineTextElements.add(tc);
+            }
+        }
+        for (Rectangle cr : regions) {
+            List<TextChunk> overlaps = new ArrayList<>();
+            for (TextChunk te : lineTextElements) {
+                if (cr.horizontallyOverlaps(te)) {
+                    overlaps.add(te);
+                }
+            }
+            for (TextChunk te : overlaps) {
+                cr.merge(te);
+            }
+            lineTextElements.removeAll(overlaps);
+        }
+        for (TextChunk te : lineTextElements) {
+            Rectangle r = new Rectangle();
+            r.setRect(te);
+            regions.add(r);
+        }
+    }
+    List<java.lang.Float> rv = new ArrayList<>();
+    for (Rectangle r : regions) {
+        rv.add(r.getRight());
+    }
+    Collections.sort(rv);
+    return rv;
+}
+}
+
+# Method Intention
+The columnPositions method aims to extract the rightmost positions of text elements in each line of a document, merging overlapping text elements to identify distinct columns based on their horizontal positions.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+6-->7-->2-->compileRepair
+
+# Line class
+package technology.tabula;
+public class Line {
+public static final Character[] WHITE_SPACE_CHARS = { ' ', '\t', '\r', '\n', '\f' };
+public List<TextChunk> getTextElements();
+public void setTextElements(List<TextChunk> textChunks);
+public void addTextChunk(int i, TextChunk textChunk);
+public void addTextChunk(TextChunk textChunk);
+public String toString();
+}
+
+
+# Focal Method
+public class BasicExtractionAlgorithm {
+public BasicExtractionAlgorithm() {
+}public BasicExtractionAlgorithm(List<Ruling> verticalRulings) {
+    this.verticalRulings = verticalRulings;
+}
+# Focal method
+public static List<java.lang.Float> columnPositions(List<Line> lines) {
+    List<Rectangle> regions = new ArrayList<>();
+    for (TextChunk tc : lines.get(0).getTextElements()) {
+        if (tc.isSameChar(Line.WHITE_SPACE_CHARS)) {
+            continue;
+        }
+        Rectangle r = new Rectangle();
+        r.setRect(tc);
+        regions.add(r);
+    }
+    for (Line l : lines.subList(1, lines.size())) {
+        List<TextChunk> lineTextElements = new ArrayList<>();
+        for (TextChunk tc : l.getTextElements()) {
+            if (!tc.isSameChar(Line.WHITE_SPACE_CHARS)) {
+                lineTextElements.add(tc);
+            }
+        }
+        for (Rectangle cr : regions) {
+            List<TextChunk> overlaps = new ArrayList<>();
+            for (TextChunk te : lineTextElements) {
+                if (cr.horizontallyOverlaps(te)) {
+                    overlaps.add(te);
+                }
+            }
+            for (TextChunk te : overlaps) {
+                cr.merge(te);
+            }
+            lineTextElements.removeAll(overlaps);
+        }
+        for (TextChunk te : lineTextElements) {
+            Rectangle r = new Rectangle();
+            r.setRect(te);
+            regions.add(r);
+        }
+    }
+    List<java.lang.Float> rv = new ArrayList<>();
+    for (Rectangle r : regions) {
+        rv.add(r.getRight());
+    }
+    Collections.sort(rv);
+    return rv;
+}
+}
+
+# Method Intention
+The columnPositions method aims to extract the rightmost positions of text elements in each line of a document, merging overlapping text elements to identify distinct columns.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+7-->8-->3-->compileRepair
+
+# Line class
+package technology.tabula;
+public class Line {
+public static final Character[] WHITE_SPACE_CHARS = { ' ', '\t', '\r', '\n', '\f' };
+public List<TextChunk> getTextElements();
+public void setTextElements(List<TextChunk> textChunks);
+public void addTextChunk(int i, TextChunk textChunk);
+public void addTextChunk(TextChunk textChunk);
+public String toString();
+}
+
+
+# Focal Method
+public class BasicExtractionAlgorithm {
+public BasicExtractionAlgorithm() {
+}public BasicExtractionAlgorithm(List<Ruling> verticalRulings) {
+    this.verticalRulings = verticalRulings;
+}
+# Focal method
+public static List<java.lang.Float> columnPositions(List<Line> lines) {
+    List<Rectangle> regions = new ArrayList<>();
+    for (TextChunk tc : lines.get(0).getTextElements()) {
+        if (tc.isSameChar(Line.WHITE_SPACE_CHARS)) {
+            continue;
+        }
+        Rectangle r = new Rectangle();
+        r.setRect(tc);
+        regions.add(r);
+    }
+    for (Line l : lines.subList(1, lines.size())) {
+        List<TextChunk> lineTextElements = new ArrayList<>();
+        for (TextChunk tc : l.getTextElements()) {
+            if (!tc.isSameChar(Line.WHITE_SPACE_CHARS)) {
+                lineTextElements.add(tc);
+            }
+        }
+        for (Rectangle cr : regions) {
+            List<TextChunk> overlaps = new ArrayList<>();
+            for (TextChunk te : lineTextElements) {
+                if (cr.horizontallyOverlaps(te)) {
+                    overlaps.add(te);
+                }
+            }
+            for (TextChunk te : overlaps) {
+                cr.merge(te);
+            }
+            lineTextElements.removeAll(overlaps);
+        }
+        for (TextChunk te : lineTextElements) {
+            Rectangle r = new Rectangle();
+            r.setRect(te);
+            regions.add(r);
+        }
+    }
+    List<java.lang.Float> rv = new ArrayList<>();
+    for (Rectangle r : regions) {
+        rv.add(r.getRight());
+    }
+    Collections.sort(rv);
+    return rv;
+}
+}
+
+# Method Intention
+The columnPositions method aims to extract the rightmost positions of text elements in each line of a document, merging overlapping text elements to identify distinct columns based on their horizontal positions.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+

@@ -1,0 +1,52 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class Request {
+private Proxy proxy;
+public Request(Verbs verb, String url) {
+    this.verb = verb;
+    this.url = url;
+    this.querystringParams = new HashMap<String, String>();
+    this.bodyParams = new HashMap<String, String>();
+    this.headers = new HashMap<String, String>();
+}
+# Focal method
+public void setProxy(Proxy proxy) {
+    this.proxy = proxy;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testSetProxy() {
+
+      <Buggy Line>: constructor Proxy in class java.net.Proxy cannot be applied to given types;
+    Proxy proxy = new Proxy();
+
+    Request request = new Request(Verbs.GET, "https://example.com");
+    request.setProxy(proxy);
+    assertEquals(proxy, request.getProxy());
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "Proxy" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "Proxy" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

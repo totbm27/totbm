@@ -1,0 +1,75 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java
+[GENERATED PATH] Table_ESTest#getColCount().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[34,37] cannot find symbol
+  symbol:   variable table
+  location: class technology.tabula.Table_ESTest
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java
+[GENERATED PATH] Table_ESTest#getColCount().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[31,29] technology.tabula.extractors.ExtractionAlgorithm is abstract; cannot be instantiated
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[33,15] constructor RectangularTextContainer in class technology.tabula.RectangularTextContainer<T> cannot be applied to given types;
+  required: float,float,float,float
+  found: java.awt.geom.Rectangle2D.Double,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[34,15] constructor RectangularTextContainer in class technology.tabula.RectangularTextContainer<T> cannot be applied to given types;
+  required: float,float,float,float
+  found: java.awt.geom.Rectangle2D.Double,java.lang.String
+  reason: actual and formal argument lists differ in length
+[INFO] 3 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java
+[GENERATED PATH] Table_ESTest#getColCount().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[31,29] technology.tabula.extractors.ExtractionAlgorithm is abstract; cannot be instantiated
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[33,15] constructor RectangularTextContainer in class technology.tabula.RectangularTextContainer<T> cannot be applied to given types;
+  required: float,float,float,float
+  found: java.awt.geom.Rectangle2D.Double,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[34,15] constructor RectangularTextContainer in class technology.tabula.RectangularTextContainer<T> cannot be applied to given types;
+  required: float,float,float,float
+  found: java.awt.geom.Rectangle2D.Double,java.lang.String
+  reason: actual and formal argument lists differ in length
+[INFO] 3 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java
+[GENERATED PATH] Table_ESTest#getColCount().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[32,77] <anonymous technology.tabula.Table_ESTest$1> is not abstract and does not override abstract method extract(technology.tabula.Page) in technology.tabula.extractors.ExtractionAlgorithm
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[33,9] method does not override or implement a method from a supertype
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[40,15] constructor RectangularTextContainer in class technology.tabula.RectangularTextContainer<T> cannot be applied to given types;
+  required: float,float,float,float
+  found: java.awt.geom.Rectangle2D.Double,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[41,15] constructor RectangularTextContainer in class technology.tabula.RectangularTextContainer<T> cannot be applied to given types;
+  required: float,float,float,float
+  found: java.awt.geom.Rectangle2D.Double,java.lang.String
+  reason: actual and formal argument lists differ in length
+[INFO] 4 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java
+[GENERATED PATH] Table_ESTest#getColCount().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[34,47] technology.tabula.extractors.ExtractionAlgorithm is abstract; cannot be instantiated
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[39,15] constructor RectangularTextContainer in class technology.tabula.RectangularTextContainer<T> cannot be applied to given types;
+  required: float,float,float,float
+  found: java.awt.geom.Rectangle2D.Double,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[40,15] constructor RectangularTextContainer in class technology.tabula.RectangularTextContainer<T> cannot be applied to given types;
+  required: float,float,float,float
+  found: java.awt.geom.Rectangle2D.Double,java.lang.String
+  reason: actual and formal argument lists differ in length
+[INFO] 3 errors 
+####################
+

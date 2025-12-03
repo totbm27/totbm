@@ -1,0 +1,65 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/TypeImpl_ESTest.java
+[GENERATED PATH] TypeImpl_ESTest#getMapImpl(Class<?> mapClass).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/TypeImpl_ESTest.java:[39,22] cannot find symbol
+  symbol:   class ConcurrentHashMap
+  location: class com.zappos.json.util.TypeImpl_ESTest
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/TypeImpl_ESTest.java
+[GENERATED PATH] TypeImpl_ESTest#getMapImpl(Class<?> mapClass).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/TypeImpl_ESTest.java:[37,18] cannot find symbol
+  symbol:   class ConcurrentHashMap
+  location: class com.zappos.json.util.TypeImpl_ESTest
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/TypeImpl_ESTest.java
+[GENERATED PATH] TypeImpl_ESTest#getMapImpl(Class<?> mapClass).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/TypeImpl_ESTest.java:[39,18] cannot find symbol
+  symbol:   class ConcurrentHashMap
+  location: class com.zappos.json.util.TypeImpl_ESTest
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/TypeImpl_ESTest.java
+[GENERATED PATH] TypeImpl_ESTest#getMapImpl(Class<?> mapClass).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/TypeImpl_ESTest.java:[38,44] implClass has private access in com.zappos.json.util.TypeImpl
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/TypeImpl_ESTest.java:[42,52] implClass has private access in com.zappos.json.util.TypeImpl
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/TypeImpl_ESTest.java:[46,22] cannot find symbol
+  symbol:   class ConcurrentHashMap
+  location: class com.zappos.json.util.TypeImpl_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/TypeImpl_ESTest.java:[46,64] implClass has private access in com.zappos.json.util.TypeImpl
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/TypeImpl_ESTest.java:[50,50] implClass has private access in com.zappos.json.util.TypeImpl
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/TypeImpl_ESTest.java:[54,52] implClass has private access in com.zappos.json.util.TypeImpl
+[INFO] 6 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/TypeImpl_ESTest.java
+[GENERATED PATH] TypeImpl_ESTest#getMapImpl(Class<?> mapClass).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/TypeImpl_ESTest.java:[45,18] cannot find symbol
+  symbol:   class ConcurrentHashMap
+  location: class com.zappos.json.util.TypeImpl_ESTest
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/TypeImpl_ESTest.java
+[GENERATED PATH] TypeImpl_ESTest#getMapImpl(Class<?> mapClass).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/TypeImpl_ESTest.java:[50,22] cannot find symbol
+  symbol:   class ConcurrentHashMap
+  location: class com.zappos.json.util.TypeImpl_ESTest
+[INFO] 1 error
+####################
+

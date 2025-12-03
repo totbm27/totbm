@@ -1,0 +1,56 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java
+[GENERATED PATH] Ruling_ESTest#cropRulingsToArea(List<Ruling> rulings, Rectangle2D area).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[27,5] cannot find symbol
+  symbol:   class Rectangle2D
+  location: class technology.tabula.Ruling_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[27,39] package Rectangle2D does not exist
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java
+[GENERATED PATH] Ruling_ESTest#cropRulingsToArea(List<Ruling> rulings, Rectangle2D area).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[30,5] cannot find symbol
+  symbol:   class Rectangle2D
+  location: class technology.tabula.Ruling_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[30,39] package Rectangle2D does not exist
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java
+[GENERATED PATH] Ruling_ESTest#cropRulingsToArea(List<Ruling> rulings, Rectangle2D area).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[34,8] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[37,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[38,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[39,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[42,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[45,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[48,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[51,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[52,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[53,1] class, interface, or enum expected
+[INFO] 10 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java
+[GENERATED PATH] Ruling_ESTest#cropRulingsToArea(List<Ruling> rulings, Rectangle2D area).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[32,8] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[35,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[36,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[37,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[40,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[43,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[46,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[49,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[50,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[51,1] class, interface, or enum expected
+[INFO] 10 errors 
+####################
+

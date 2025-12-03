@@ -1,0 +1,29 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Rectangle_ESTest.java
+[GENERATED PATH] Rectangle_ESTest#setLeft(float left).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Rectangle_ESTest.java:[32,8] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Rectangle_ESTest.java:[35,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Rectangle_ESTest.java:[36,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Rectangle_ESTest.java:[39,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Rectangle_ESTest.java:[42,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Rectangle_ESTest.java:[43,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Rectangle_ESTest.java:[44,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Rectangle_ESTest.java:[45,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Rectangle_ESTest.java:[46,1] class, interface, or enum expected
+[INFO] 9 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Rectangle_ESTest.java
+[GENERATED PATH] Rectangle_ESTest#setLeft(float left).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Rectangle_ESTest.java:[42,22] cannot find symbol
+  symbol:   variable initialRight
+  location: class technology.tabula.Rectangle_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Rectangle_ESTest.java:[43,22] cannot find symbol
+  symbol:   variable initialBottom
+  location: class technology.tabula.Rectangle_ESTest
+[INFO] 2 errors 
+####################
+

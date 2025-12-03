@@ -1,0 +1,75 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class ObjectArray {
+private int size;
+# Focal method
+public int size() {
+    return size;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testSize() {
+        ObjectArray array = new ObjectArray();
+
+            <Buggy Line>: no suitable method found for assertEquals(int,int,java.lang.String)
+        assertEquals(0, array.size(), "Initial size should be 0");
+
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "Assert" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "Assert" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->1-->compileRepair
+
+# ObjectArray class
+package com.zappos.json.util;
+public class ObjectArray {
+public boolean add(Object e);
+public Object get(int index);
+public int size();
+public Object[] toArray();
+public T[] toArray(T[] a);
+}
+
+
+# Test Method
+@Test
+public void testSize() {
+    ObjectArray array = new ObjectArray();
+
+   <Buggy Line>: cannot find symbol variable "Assert"
+    Assert.assertEquals(0, array.size());
+
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "ObjectArray" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "ObjectArray" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

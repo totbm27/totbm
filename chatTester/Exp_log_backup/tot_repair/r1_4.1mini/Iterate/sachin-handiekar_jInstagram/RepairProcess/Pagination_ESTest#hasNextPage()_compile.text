@@ -1,0 +1,106 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java
+[GENERATED PATH] Pagination_ESTest#hasNextPage().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/comments/MediaCommentsFeed_ESTest.java:[37,59] diamond operator is not supported in -source 1.6
+  (use -source 7 or higher to enable diamond operator)
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java
+[GENERATED PATH] Pagination_ESTest#hasNextPage().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[29,9] cannot find symbol
+  symbol:   method setNextUrl(org.jinstagram.entity.common.Pagination,java.lang.String)
+  location: class org.jinstagram.entity.common.Pagination_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[32,9] cannot find symbol
+  symbol:   method setNextUrl(org.jinstagram.entity.common.Pagination,java.lang.String)
+  location: class org.jinstagram.entity.common.Pagination_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[35,9] cannot find symbol
+  symbol:   method setNextUrl(org.jinstagram.entity.common.Pagination,<nulltype>)
+  location: class org.jinstagram.entity.common.Pagination_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[38,9] cannot find symbol
+  symbol:   method setNextUrl(org.jinstagram.entity.common.Pagination,java.lang.String)
+  location: class org.jinstagram.entity.common.Pagination_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[41,53] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[42,59] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[43,58] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[44,59] incompatible types: boolean cannot be converted to java.lang.String
+[INFO] 8 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java
+[GENERATED PATH] Pagination_ESTest#hasNextPage().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[7,30] package org.testng.annotations does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[8,25] package org.testng does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[8,1] static import only from classes and interfaces
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[9,25] package org.testng does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[9,1] static import only from classes and interfaces
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[42,53] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[43,59] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[44,58] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[45,59] incompatible types: boolean cannot be converted to java.lang.String
+[INFO] 9 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java
+[GENERATED PATH] Pagination_ESTest#hasNextPage().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[8,30] package org.testng.annotations does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[9,25] package org.testng does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[9,1] static import only from classes and interfaces
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[10,25] package org.testng does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[10,1] static import only from classes and interfaces
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[38,19] nextUrl has private access in org.jinstagram.entity.common.Pagination
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[39,43] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[42,19] nextUrl has private access in org.jinstagram.entity.common.Pagination
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[43,43] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[46,19] nextUrl has private access in org.jinstagram.entity.common.Pagination
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[47,43] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[50,19] nextUrl has private access in org.jinstagram.entity.common.Pagination
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[51,42] incompatible types: boolean cannot be converted to java.lang.String
+[INFO] 13 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java
+[GENERATED PATH] Pagination_ESTest#hasNextPage().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[9,30] package org.testng.annotations does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[10,25] package org.testng does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[10,1] static import only from classes and interfaces
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[11,25] package org.testng does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[11,1] static import only from classes and interfaces
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[36,30] nextUrl has private access in org.jinstagram.entity.common.Pagination
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[39,35] nextUrl has private access in org.jinstagram.entity.common.Pagination
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[42,34] nextUrl has private access in org.jinstagram.entity.common.Pagination
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[45,35] nextUrl has private access in org.jinstagram.entity.common.Pagination
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[50,53] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[53,59] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[56,58] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[59,59] incompatible types: boolean cannot be converted to java.lang.String
+[INFO] 13 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java
+[GENERATED PATH] Pagination_ESTest#hasNextPage().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[10,30] package org.testng.annotations does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[11,25] package org.testng does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[11,1] static import only from classes and interfaces
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[12,25] package org.testng does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[12,1] static import only from classes and interfaces
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[38,30] nextUrl has private access in org.jinstagram.entity.common.Pagination
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[41,35] nextUrl has private access in org.jinstagram.entity.common.Pagination
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[44,34] nextUrl has private access in org.jinstagram.entity.common.Pagination
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[49,53] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[52,59] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/Pagination_ESTest.java:[55,58] incompatible types: boolean cannot be converted to java.lang.String
+[INFO] 11 errors 
+####################
+

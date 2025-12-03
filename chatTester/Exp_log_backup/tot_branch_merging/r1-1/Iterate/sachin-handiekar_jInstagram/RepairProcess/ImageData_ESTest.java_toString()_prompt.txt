@@ -1,0 +1,25 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class ImageData {
+@SerializedName("height")
+private int imageHeight;@SerializedName("url")
+private String imageUrl;@SerializedName("width")
+private int imageWidth;
+# Focal method
+@Override
+public String toString() {
+    return String.format("ImageData [imageHeight=%s, imageUrl=%s, imageWidth=%s]", imageHeight, imageUrl, imageWidth);
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+

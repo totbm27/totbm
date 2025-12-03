@@ -1,0 +1,90 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class RelationshipFeed {
+@SerializedName("data")
+private RelationshipData data;
+# Focal method
+public void setData(RelationshipData data) {
+    this.data = data;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# RelationshipFeed class
+package org.jinstagram.entity.relationships;
+public class RelationshipFeed {
+public Meta getMeta();
+public void setMeta(Meta meta);
+public RelationshipData getData();
+public void setData(RelationshipData data);
+public String toString();
+}
+
+
+# Test Method
+@Test
+public void testSetData() {
+    RelationshipData testData = new RelationshipData();
+    RelationshipFeed relationshipFeed = new RelationshipFeed();
+    relationshipFeed.setData(testData);
+
+   <Buggy Line>: cannot find symbol variable "Assert"
+    Assert.assertEquals(testData, relationshipFeed.getData());
+
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "RelationshipFeed" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "RelationshipFeed" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->1-->compileRepair
+
+# RelationshipFeed class
+package org.jinstagram.entity.relationships;
+public class RelationshipFeed {
+public Meta getMeta();
+public void setMeta(Meta meta);
+public RelationshipData getData();
+public void setData(RelationshipData data);
+public String toString();
+}
+
+
+# Test Method
+@Test
+public void testSetData() {
+    RelationshipData testData = new RelationshipData();
+    RelationshipFeed relationshipFeed = new RelationshipFeed();
+    relationshipFeed.setData(testData);
+
+   <Buggy Line>: cannot find symbol variable "Assert"
+    Assert.assertEquals(testData, relationshipFeed.getData());
+
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "RelationshipFeed" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "RelationshipFeed" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

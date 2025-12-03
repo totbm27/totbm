@@ -1,0 +1,43 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java
+[GENERATED PATH] InstagramSubscription_ESTest#objectId(String objectId).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/InstagramObject_ESTest.java:[45,55] diamond operator is not supported in -source 1.6
+  (use -source 7 or higher to enable diamond operator)
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java
+[GENERATED PATH] InstagramSubscription_ESTest#objectId(String objectId).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java:[30,48] params has private access in org.jinstagram.realtime.InstagramSubscription
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java
+[GENERATED PATH] InstagramSubscription_ESTest#objectId(String objectId).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java:[31,44] cannot find symbol
+  symbol:   variable objectId
+  location: variable subscription of type org.jinstagram.realtime.InstagramSubscription
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java
+[GENERATED PATH] InstagramSubscription_ESTest#objectId(String objectId).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java:[36,44] params has private access in org.jinstagram.realtime.InstagramSubscription
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java
+[GENERATED PATH] InstagramSubscription_ESTest#objectId(String objectId).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java:[32,44] params has private access in org.jinstagram.realtime.InstagramSubscription
+[INFO] 1 error
+####################
+

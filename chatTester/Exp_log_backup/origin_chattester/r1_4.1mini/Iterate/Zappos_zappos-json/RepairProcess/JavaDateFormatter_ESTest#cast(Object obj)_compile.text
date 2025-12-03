@@ -1,0 +1,11 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java
+[GENERATED PATH] JavaDateFormatter_ESTest#cast(Object obj).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java:[32,23] cannot find symbol
+  symbol:   variable caster
+  location: class com.zappos.json.format.JavaDateFormatter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java:[33,20] incompatible types: java.util.Date cannot be converted to java.lang.String
+[INFO] 2 errors 
+####################
+

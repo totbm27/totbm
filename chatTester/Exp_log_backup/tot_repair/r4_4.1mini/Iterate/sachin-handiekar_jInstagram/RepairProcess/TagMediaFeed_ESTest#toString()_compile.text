@@ -1,0 +1,90 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagMediaFeed_ESTest.java
+[GENERATED PATH] TagMediaFeed_ESTest#toString().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagMediaFeed_ESTest.java:[28,50] diamond operator is not supported in -source 1.6
+  (use -source 7 or higher to enable diamond operator)
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagMediaFeed_ESTest.java
+[GENERATED PATH] TagMediaFeed_ESTest#toString().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagMediaFeed_ESTest.java:[43,9] cannot find symbol
+  symbol:   variable Assert
+  location: class org.jinstagram.entity.tags.TagMediaFeed_ESTest
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagMediaFeed_ESTest.java
+[GENERATED PATH] TagMediaFeed_ESTest#toString().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagMediaFeed_ESTest.java:[8,34] cannot find symbol
+  symbol:   class MediaFeedData
+  location: package org.jinstagram.entity.tags
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagMediaFeed_ESTest.java:[9,34] cannot find symbol
+  symbol:   class Meta
+  location: package org.jinstagram.entity.tags
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagMediaFeed_ESTest.java:[10,34] cannot find symbol
+  symbol:   class Pagination
+  location: package org.jinstagram.entity.tags
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagMediaFeed_ESTest.java:[46,9] cannot find symbol
+  symbol:   variable Assert
+  location: class org.jinstagram.entity.tags.TagMediaFeed_ESTest
+[INFO] 4 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagMediaFeed_ESTest.java
+[GENERATED PATH] TagMediaFeed_ESTest#toString().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagMediaFeed_ESTest.java:[9,34] cannot find symbol
+  symbol:   class MediaFeedData
+  location: package org.jinstagram.entity.tags
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagMediaFeed_ESTest.java:[10,34] cannot find symbol
+  symbol:   class Meta
+  location: package org.jinstagram.entity.tags
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagMediaFeed_ESTest.java:[11,34] cannot find symbol
+  symbol:   class Pagination
+  location: package org.jinstagram.entity.tags
+[INFO] 3 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagMediaFeed_ESTest.java
+[GENERATED PATH] TagMediaFeed_ESTest#toString().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagMediaFeed_ESTest.java:[59,50] diamond operator is not supported in -source 1.6
+  (use -source 7 or higher to enable diamond operator)
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagMediaFeed_ESTest.java
+[GENERATED PATH] TagMediaFeed_ESTest#toString().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagMediaFeed_ESTest.java:[43,50] diamond operator is not supported in -source 1.6
+  (use -source 7 or higher to enable diamond operator)
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagMediaFeed_ESTest.java
+[GENERATED PATH] TagMediaFeed_ESTest#toString().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagMediaFeed_ESTest.java:[10,34] package org.jinstagram.entity.meta does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagMediaFeed_ESTest.java:[11,40] package org.jinstagram.entity.pagination does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagMediaFeed_ESTest.java:[13,34] cannot find symbol
+  symbol:   class MediaFeedData
+  location: package org.jinstagram.entity.tags
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagMediaFeed_ESTest.java:[14,34] cannot find symbol
+  symbol:   class Meta
+  location: package org.jinstagram.entity.tags
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagMediaFeed_ESTest.java:[15,34] cannot find symbol
+  symbol:   class Pagination
+  location: package org.jinstagram.entity.tags
+[INFO] 5 errors 
+####################
+

@@ -1,0 +1,13 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java
+[GENERATED PATH] Ruling_ESTest#findIntersections(List<Ruling> horizontals, List<Ruling> verticals).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[59,85] cannot find symbol
+  symbol:   variable PERPENDICULAR_PIXEL_EXPAND_AMOUNT
+  location: class technology.tabula.Ruling_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[59,138] cannot find symbol
+  symbol:   variable PERPENDICULAR_PIXEL_EXPAND_AMOUNT
+  location: class technology.tabula.Ruling_ESTest
+[INFO] 2 errors 
+####################
+

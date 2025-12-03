@@ -1,0 +1,12 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Rectangle_ESTest.java
+[GENERATED PATH] Rectangle_ESTest#getRight().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Rectangle_ESTest.java:[30,27] no suitable constructor found for Rectangle(int,int)
+    constructor technology.tabula.Rectangle.Rectangle() is not applicable
+      (actual and formal argument lists differ in length)
+    constructor technology.tabula.Rectangle.Rectangle(float,float,float,float) is not applicable
+      (actual and formal argument lists differ in length)
+[INFO] 1 error
+####################
+

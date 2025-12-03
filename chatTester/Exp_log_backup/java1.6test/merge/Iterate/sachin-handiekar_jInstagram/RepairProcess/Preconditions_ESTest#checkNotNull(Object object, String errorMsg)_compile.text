@@ -1,0 +1,87 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java
+[GENERATED PATH] Preconditions_ESTest#checkNotNull(Object object, String errorMsg).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/comments/MediaCommentsFeed_ESTest.java:[37,59] diamond operator is not supported in -source 1.6
+  (use -source 7 or higher to enable diamond operator)
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java
+[GENERATED PATH] Preconditions_ESTest#checkNotNull(Object object, String errorMsg).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[12,25] cannot find symbol
+  symbol:   class MockitoJUnitRunner
+  location: package org.mockito.junit
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java
+[GENERATED PATH] Preconditions_ESTest#checkNotNull(Object object, String errorMsg).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[27,1] illegal start of type
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[27,7] ';' expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[27,11] illegal start of type
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[27,17] ';' expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[27,22] <identifier> expected
+[INFO] 5 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java
+[GENERATED PATH] Preconditions_ESTest#checkNotNull(Object object, String errorMsg).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[28,1] illegal start of type
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[28,7] ';' expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[28,11] illegal start of type
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[28,17] ';' expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[28,22] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[33,12] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[36,9] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[39,9] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[39,52] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[39,54] illegal start of type
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[39,55] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[39,56] ';' expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[39,86] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[39,90] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[39,100] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[39,101] ';' expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[41,1] class, interface, or enum expected
+[INFO] 17 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java
+[GENERATED PATH] Preconditions_ESTest#checkNotNull(Object object, String errorMsg).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[29,1] illegal start of type
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[29,7] ';' expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[29,11] illegal start of type
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[29,17] ';' expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[29,22] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[35,8] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[38,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[41,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[45,1] class, interface, or enum expected
+[INFO] 9 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java
+[GENERATED PATH] Preconditions_ESTest#checkNotNull(Object object, String errorMsg).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[30,1] illegal start of type
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[30,7] ';' expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[30,11] illegal start of type
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[30,17] ';' expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[30,22] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[37,8] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[40,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[43,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/Preconditions_ESTest.java:[47,1] class, interface, or enum expected
+[INFO] 9 errors 
+####################
+

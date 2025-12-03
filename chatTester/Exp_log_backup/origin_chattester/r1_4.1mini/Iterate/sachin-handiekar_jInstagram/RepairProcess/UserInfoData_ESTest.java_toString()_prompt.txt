@@ -1,0 +1,156 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class UserInfoData {
+@SerializedName("bio")
+private String bio;@SerializedName("counts")
+private Counts counts;@SerializedName("first_name")
+private String firstName;@SerializedName("id")
+private String id;@SerializedName("last_name")
+private String lastName;@SerializedName("profile_picture")
+private String profilePicture;@SerializedName("username")
+private String username;@SerializedName("full_name")
+private String fullName;@SerializedName("website")
+private String website;@SerializedName("is_business")
+private boolean isBusiness;
+# Focal method
+@Override
+public String toString() {
+    return String.format("UserInfoData [bio=%s, counts=%s, first_name=%s, id=%s, last_name=%s, profile_picture=%s, username=%s, fullName=%s, website=%s, isBusiness=%b]", bio, counts, firstName, id, lastName, profilePicture, username, fullName, website, isBusiness);
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# UserInfoData class
+package org.jinstagram.entity.users.basicinfo;
+public class UserInfoData {
+public String getUsername();
+public void setUsername(String username);
+public String getId();
+public void setId(String id);
+public String getLastName();
+public void setLast_name(String last_name);
+public String getFirstName();
+public void setFirstName(String firstName);
+public String getProfilePicture();
+public void setProfilePicture(String profilePicture);
+public String getBio();
+public void setBio(String bio);
+public String getWebsite();
+public void setWebsite(String website);
+public Counts getCounts();
+public void setCounts(Counts counts);
+public String getFullName();
+public void setFullName(String fullName);
+public boolean isBusiness();
+public void setBusiness(boolean isBusiness);
+public String toString();
+}
+
+
+# Test Method
+    @Test
+    public void testToString() {
+        UserInfoData userInfo = new UserInfoData();
+
+         <Buggy Line>: bio has private access in org.jinstagram.entity.users.basicinfo.UserInfoData
+        userInfo.bio = "Sample bio";
+
+        Counts counts = new Counts();
+        userInfo.counts = counts;
+        userInfo.firstName = "John";
+        userInfo.id = "12345";
+        userInfo.lastName = "Doe";
+        userInfo.profilePicture = "http://example.com/pic.jpg";
+        userInfo.username = "johndoe";
+        userInfo.fullName = "John Doe";
+        userInfo.website = "http://example.com";
+        userInfo.isBusiness = true;
+        String expected = String.format(
+            "UserInfoData [bio=%s, counts=%s, first_name=%s, id=%s, last_name=%s, profile_picture=%s, username=%s, fullName=%s, website=%s, isBusiness=%b]",
+            "Sample bio", counts, "John", "12345", "Doe", "http://example.com/pic.jpg", "johndoe", "John Doe", "http://example.com", true);
+        assertEquals(expected, userInfo.toString());
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "UserInfoData" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "UserInfoData" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->0-->compileRepair
+
+# UserInfoData class
+package org.jinstagram.entity.users.basicinfo;
+public class UserInfoData {
+public String getUsername();
+public void setUsername(String username);
+public String getId();
+public void setId(String id);
+public String getLastName();
+public void setLast_name(String last_name);
+public String getFirstName();
+public void setFirstName(String firstName);
+public String getProfilePicture();
+public void setProfilePicture(String profilePicture);
+public String getBio();
+public void setBio(String bio);
+public String getWebsite();
+public void setWebsite(String website);
+public Counts getCounts();
+public void setCounts(Counts counts);
+public String getFullName();
+public void setFullName(String fullName);
+public boolean isBusiness();
+public void setBusiness(boolean isBusiness);
+public String toString();
+}
+
+
+# Test Method
+@Test
+public void testToString() {
+    UserInfoData userInfo = new UserInfoData();
+    userInfo.setBio("Sample bio");
+    Counts counts = new Counts();
+    userInfo.setCounts(counts);
+    userInfo.setFirstName("John");
+    userInfo.setId("12345");
+
+  <Buggy Line>: cannot find symbol method "setLastName(java.lang.String)" in UserInfoData
+    userInfo.setLastName("Doe");
+
+    userInfo.setProfilePicture("http://example.com/pic.jpg");
+    userInfo.setUsername("johndoe");
+    userInfo.setFullName("John Doe");
+    userInfo.setWebsite("http://example.com");
+    userInfo.setBusiness(true);
+    String expected = String.format(
+        "UserInfoData [bio=%s, counts=%s, first_name=%s, id=%s, last_name=%s, profile_picture=%s, username=%s, fullName=%s, website=%s, isBusiness=%b]",
+        "Sample bio", counts, "John", "12345", "Doe", "http://example.com/pic.jpg", "johndoe", "John Doe", "http://example.com", true);
+    assertEquals(expected, userInfo.toString());
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "UserInfoData" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "UserInfoData" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

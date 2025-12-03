@@ -1,0 +1,11 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaSqlDateFormatter_ESTest.java
+[GENERATED PATH] JavaSqlDateFormatter_ESTest#newFormatter().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaSqlDateFormatter_ESTest.java:[29,26] getPattern() in <anonymous com.zappos.json.format.JavaSqlDateFormatter_ESTest$1> cannot override getPattern() in com.zappos.json.format.AbstractValueFormatter
+  attempting to assign weaker access privileges; was public
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaSqlDateFormatter_ESTest.java:[42,26] getPattern() in <anonymous com.zappos.json.format.JavaSqlDateFormatter_ESTest$2> cannot override getPattern() in com.zappos.json.format.AbstractValueFormatter
+  attempting to assign weaker access privileges; was public
+[INFO] 2 errors 
+####################
+

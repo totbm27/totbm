@@ -1,0 +1,60 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class Caption {
+@SerializedName("id")
+private String id;
+# Focal method
+public void setId(String id) {
+    this.id = id;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# Caption class
+package org.jinstagram.entity.common;
+public class Caption {
+public String getCreatedTime();
+public void setCreatedTime(String createdTime);
+public String getText();
+public void setText(String text);
+public FromTagData getFrom();
+public void setFrom(FromTagData from);
+public String getId();
+public void setId(String id);
+public String toString();
+}
+
+
+# Test Method
+    @Test
+    public void testSetId() {
+        Caption caption = new Caption();
+        String id = "123";
+        caption.setId(id);
+
+       <Buggy Line>: id has private access in org.jinstagram.entity.common.Caption
+        assertEquals(id, caption.id);
+
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "Caption" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "Caption" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

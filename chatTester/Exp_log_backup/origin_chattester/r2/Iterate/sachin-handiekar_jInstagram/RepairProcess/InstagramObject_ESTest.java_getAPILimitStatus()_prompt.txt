@@ -1,0 +1,26 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testGetAPILimitStatus() {
+        InstagramObject instagramObject = Mockito.mock(InstagramObject.class);
+
+           <Buggy Line>: diamond operator is not supported in -source 1.6
+        Map<String, String> headers = new HashMap<>();
+
+        headers.put("X-Ratelimit-Limit", "5000");
+        headers.put("X-Ratelimit-Remaining", "3000");
+        Mockito.when(instagramObject.getHeaders()).thenReturn(headers);
+        int apiLimitStatus = instagramObject.getAPILimitStatus();
+        assertEquals(5000, apiLimitStatus);
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

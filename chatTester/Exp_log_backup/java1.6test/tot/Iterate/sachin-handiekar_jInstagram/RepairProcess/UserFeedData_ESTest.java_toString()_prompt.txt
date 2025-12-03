@@ -1,0 +1,28 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class UserFeedData {
+@SerializedName("id")
+private String id;@SerializedName("profile_picture")
+private String profilePictureUrl;@SerializedName("username")
+private String userName;@SerializedName("full_name")
+private String fullName;@SerializedName("website")
+private String website;@SerializedName("bio")
+private String bio;
+# Focal method
+@Override
+public String toString() {
+    return String.format("UserFeedData [id=%s, profilePictureUrl=%s, userName=%s, fullName=%s, website=%s, bio=%s]", id, profilePictureUrl, userName, fullName, website, bio);
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be compatible with Java compiler version 1.6, and the generated code should be enclosed within ``` ```.
+
+########
+

@@ -1,0 +1,52 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java
+[GENERATED PATH] InstagramSubscription_ESTest#toString().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/InstagramObject_ESTest.java:[45,55] diamond operator is not supported in -source 1.6
+  (use -source 7 or higher to enable diamond operator)
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java
+[GENERATED PATH] InstagramSubscription_ESTest#toString().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java:[34,5] cannot find symbol
+  symbol:   variable Assert
+  location: class org.jinstagram.realtime.InstagramSubscription_ESTest
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java
+[GENERATED PATH] InstagramSubscription_ESTest#toString().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java:[30,45] cannot find symbol
+  symbol:   variable USER
+  location: class org.jinstagram.realtime.SubscriptionType
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java:[41,9] cannot find symbol
+  symbol:   variable Assert
+  location: class org.jinstagram.realtime.InstagramSubscription_ESTest
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java
+[GENERATED PATH] InstagramSubscription_ESTest#toString().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java:[31,45] cannot find symbol
+  symbol:   variable USER
+  location: class org.jinstagram.realtime.SubscriptionType
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java
+[GENERATED PATH] InstagramSubscription_ESTest#toString().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java:[30,45] cannot find symbol
+  symbol:   variable USER
+  location: class org.jinstagram.realtime.SubscriptionType
+[INFO] 1 error
+####################
+

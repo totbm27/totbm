@@ -1,0 +1,50 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class Location {
+@SerializedName("id")
+private String id;@SerializedName("latitude")
+private double latitude;
+# Focal method
+public void setLatitude(double latitude) {
+    this.latitude = latitude;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testSetLatitude() throws NoSuchFieldException, IllegalAccessException {
+    Location location = new Location();
+    double expectedLatitude = 45.123456;
+    location.setLatitude(expectedLatitude);
+    Field latitudeField = Location.class.getDeclaredField("latitude");
+    latitudeField.setAccessible(true);
+    double actualLatitude = latitudeField.getDouble(location);
+
+         <Buggy Line>: no suitable method found for assertEquals(double,double,double,java.lang.String)
+    assertEquals(expectedLatitude, actualLatitude, 0.000001, "Latitude should be set correctly");
+
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "Assert" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "Assert" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

@@ -1,0 +1,83 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java
+[GENERATED PATH] RectangularTextContainer_ESTest#getTextElements().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[32,14] cannot find symbol
+  symbol:   class RectangleTextElement
+  location: class technology.tabula.RectangularTextContainer_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[34,9] cannot find symbol
+  symbol:   class RectangleTextElement
+  location: class technology.tabula.RectangularTextContainer_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[34,49] cannot find symbol
+  symbol:   class RectangleTextElement
+  location: class technology.tabula.RectangularTextContainer_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[35,9] cannot find symbol
+  symbol:   class RectangleTextElement
+  location: class technology.tabula.RectangularTextContainer_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[35,49] cannot find symbol
+  symbol:   class RectangleTextElement
+  location: class technology.tabula.RectangularTextContainer_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[40,34] cannot find symbol
+  symbol:   class RectangleTextElement
+  location: class technology.tabula.RectangularTextContainer_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[40,68] cannot infer type arguments for technology.tabula.RectangularTextContainer<>
+  reason: cannot infer type-variable(s) T
+    (actual and formal argument lists differ in length)
+[INFO] 7 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java
+[GENERATED PATH] RectangularTextContainer_ESTest#getTextElements().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[32,34] type argument java.lang.String is not within bounds of type-variable T
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[32,82] incompatible types: cannot infer type arguments for technology.tabula.RectangularTextContainer<>
+    reason: inference variable T has incompatible bounds
+      equality constraints: java.lang.String
+      upper bounds: technology.tabula.Rectangle,technology.tabula.HasText
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java
+[GENERATED PATH] RectangularTextContainer_ESTest#getTextElements().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[32,34] type argument java.lang.String is not within bounds of type-variable T
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[32,82] incompatible types: cannot infer type arguments for technology.tabula.RectangularTextContainer<>
+    reason: inference variable T has incompatible bounds
+      equality constraints: java.lang.String
+      upper bounds: technology.tabula.Rectangle,technology.tabula.HasText
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java
+[GENERATED PATH] RectangularTextContainer_ESTest#getTextElements().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[32,34] type argument java.lang.CharSequence is not within bounds of type-variable T
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[32,88] incompatible types: cannot infer type arguments for technology.tabula.RectangularTextContainer<>
+    reason: inference variable T has incompatible bounds
+      equality constraints: java.lang.CharSequence
+      upper bounds: technology.tabula.Rectangle,technology.tabula.HasText
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[38,35] incompatible types: java.util.List<java.lang.String> cannot be converted to java.util.List<java.lang.CharSequence>
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[39,56] incompatible types: cannot infer type arguments for java.util.ArrayList<>
+    reason: inference variable E has incompatible bounds
+      equality constraints: java.lang.String
+      lower bounds: java.lang.CharSequence
+[INFO] 4 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java
+[GENERATED PATH] RectangularTextContainer_ESTest#getTextElements().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[32,34] type argument java.lang.CharSequence is not within bounds of type-variable T
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[32,88] incompatible types: cannot infer type arguments for technology.tabula.RectangularTextContainer<>
+    reason: inference variable T has incompatible bounds
+      equality constraints: java.lang.CharSequence
+      upper bounds: technology.tabula.Rectangle,technology.tabula.HasText
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[38,35] incompatible types: java.util.List<java.lang.String> cannot be converted to java.util.List<java.lang.CharSequence>
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[39,68] incompatible types: java.util.List<java.lang.CharSequence> cannot be converted to java.util.List<java.lang.String>
+[INFO] 4 errors 
+####################
+

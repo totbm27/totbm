@@ -1,0 +1,137 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/JsonUtils_ESTest.java
+[GENERATED PATH] JsonUtils_ESTest#escape(ZapposJson zapposJson, CharSequence value, Writer writer).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/JsonUtils_ESTest.java:[47,9] cannot find symbol
+  symbol:   class MockZapposJson
+  location: class com.zappos.json.util.JsonUtils_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/JsonUtils_ESTest.java:[47,46] cannot find symbol
+  symbol:   class MockZapposJson
+  location: class com.zappos.json.util.JsonUtils_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/JsonUtils_ESTest.java:[63,9] cannot find symbol
+  symbol:   class MockZapposJson
+  location: class com.zappos.json.util.JsonUtils_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/JsonUtils_ESTest.java:[63,43] cannot find symbol
+  symbol:   class MockZapposJson
+  location: class com.zappos.json.util.JsonUtils_ESTest
+[INFO] 4 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/JsonUtils_ESTest.java
+[GENERATED PATH] JsonUtils_ESTest#escape(ZapposJson zapposJson, CharSequence value, Writer writer).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[88,68] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[89,65] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[94,64] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/JsonUtils_ESTest.java:[47,9] cannot find symbol
+  symbol:   class MockZapposJson
+  location: class com.zappos.json.util.JsonUtils_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/JsonUtils_ESTest.java:[47,46] cannot find symbol
+  symbol:   class MockZapposJson
+  location: class com.zappos.json.util.JsonUtils_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/JsonUtils_ESTest.java:[62,9] cannot find symbol
+  symbol:   class MockZapposJson
+  location: class com.zappos.json.util.JsonUtils_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/JsonUtils_ESTest.java:[62,43] cannot find symbol
+  symbol:   class MockZapposJson
+  location: class com.zappos.json.util.JsonUtils_ESTest
+[INFO] 7 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/JsonUtils_ESTest.java
+[GENERATED PATH] JsonUtils_ESTest#escape(ZapposJson zapposJson, CharSequence value, Writer writer).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[88,68] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[89,65] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[94,64] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/JsonUtils_ESTest.java:[56,26] incompatible types: MockZapposJson cannot be converted to com.zappos.json.ZapposJson
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/JsonUtils_ESTest.java:[71,26] incompatible types: MockZapposJson cannot be converted to com.zappos.json.ZapposJson
+[INFO] 5 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/JsonUtils_ESTest.java
+[GENERATED PATH] JsonUtils_ESTest#escape(ZapposJson zapposJson, CharSequence value, Writer writer).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[88,68] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[89,65] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[94,64] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/JsonUtils_ESTest.java:[44,13] method does not override or implement a method from a supertype
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/JsonUtils_ESTest.java:[65,13] method does not override or implement a method from a supertype
+[INFO] 5 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/JsonUtils_ESTest.java
+[GENERATED PATH] JsonUtils_ESTest#escape(ZapposJson zapposJson, CharSequence value, Writer writer).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[88,68] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[89,65] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[94,64] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/JsonUtils_ESTest.java:[46,35] cannot find symbol
+  symbol:   variable WriterConfig
+  location: class com.zappos.json.util.JsonUtils_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/JsonUtils_ESTest.java:[62,32] cannot find symbol
+  symbol:   variable WriterConfig
+  location: class com.zappos.json.util.JsonUtils_ESTest
+[INFO] 5 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/JsonUtils_ESTest.java
+[GENERATED PATH] JsonUtils_ESTest#escape(ZapposJson zapposJson, CharSequence value, Writer writer).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/JsonUtils_ESTest.java:[10,26] package org.mockito does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/JsonUtils_ESTest.java:[10,1] static import only from classes and interfaces
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/JsonUtils_ESTest.java:[11,26] package org.mockito does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/JsonUtils_ESTest.java:[11,1] static import only from classes and interfaces
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[88,68] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[89,65] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[94,64] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/JsonUtils_ESTest.java:[47,37] cannot find symbol
+  symbol:   method mock(java.lang.Class<com.zappos.json.ZapposJson>)
+  location: class com.zappos.json.util.JsonUtils_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/JsonUtils_ESTest.java:[112,36] cannot find symbol
+  symbol:   variable WriterConfig
+  location: class com.zappos.json.util.JsonUtils_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/JsonUtils_ESTest.java:[148,36] cannot find symbol
+  symbol:   variable WriterConfig
+  location: class com.zappos.json.util.JsonUtils_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/JsonUtils_ESTest.java:[186,36] cannot find symbol
+  symbol:   variable WriterConfig
+  location: class com.zappos.json.util.JsonUtils_ESTest
+[INFO] 11 errors 
+####################
+

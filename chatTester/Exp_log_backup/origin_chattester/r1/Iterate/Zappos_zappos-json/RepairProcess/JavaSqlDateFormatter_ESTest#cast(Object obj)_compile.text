@@ -1,0 +1,12 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaSqlDateFormatter_ESTest.java
+[GENERATED PATH] JavaSqlDateFormatter_ESTest#cast(Object obj).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaSqlDateFormatter_ESTest.java:[33,18] no suitable constructor found for Date(no arguments)
+    constructor java.sql.Date.Date(int,int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor java.sql.Date.Date(long) is not applicable
+      (actual and formal argument lists differ in length)
+[INFO] 1 error
+####################
+

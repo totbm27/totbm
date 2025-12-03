@@ -1,0 +1,58 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class ImageData {
+@SerializedName("width")
+private int imageWidth;
+# Focal method
+public void setImageWidth(int imageWidth) {
+    this.imageWidth = imageWidth;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# ImageData class
+package org.jinstagram.entity.common;
+public class ImageData {
+public String getImageUrl();
+public void setImageUrl(String imageUrl);
+public int getImageWidth();
+public void setImageWidth(int imageWidth);
+public int getImageHeight();
+public void setImageHeight(int imageHeight);
+public String toString();
+}
+
+
+# Test Method
+    @Test
+    public void testSetImageWidth() {
+        ImageData imageData = new ImageData();
+        int expectedWidth = 100;
+        imageData.setImageWidth(expectedWidth);
+
+       <Buggy Line>: imageWidth has private access in org.jinstagram.entity.common.ImageData
+        assertEquals(expectedWidth, imageData.imageWidth);
+
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "ImageData" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "ImageData" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

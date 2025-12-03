@@ -1,0 +1,31 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testSetCarouselMedia() {
+    MediaFeedData mediaFeedData = new MediaFeedData();
+
+      <Buggy Line>: diamond operator is not supported in -source 1.6
+    List<CarouselMedia> carouselMediaList = new LinkedList<>();
+
+    CarouselMedia media1 = new CarouselMedia();
+    CarouselMedia media2 = new CarouselMedia();
+    carouselMediaList.add(media1);
+    carouselMediaList.add(media2);
+    mediaFeedData.setCarouselMedia(carouselMediaList);
+    List<CarouselMedia> result = mediaFeedData.getCarouselMedia();
+    org.junit.Assert.assertNotNull(result);
+    org.junit.Assert.assertEquals(2, result.size());
+    org.junit.Assert.assertSame(media1, result.get(0));
+    org.junit.Assert.assertSame(media2, result.get(1));
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

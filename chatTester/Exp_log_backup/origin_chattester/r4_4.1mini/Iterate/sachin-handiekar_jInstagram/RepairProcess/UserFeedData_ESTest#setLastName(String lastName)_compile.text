@@ -1,0 +1,26 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/UserFeedData_ESTest.java
+[GENERATED PATH] UserFeedData_ESTest#setLastName(String lastName).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/UserFeedData_ESTest.java:[21,1] illegal start of type
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/UserFeedData_ESTest.java:[21,2] reached end of file while parsing
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/UserFeedData_ESTest.java:[22,1] reached end of file while parsing
+[INFO] 3 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/UserFeedData_ESTest.java
+[GENERATED PATH] UserFeedData_ESTest#setLastName(String lastName).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/UserFeedData_ESTest.java:[27,20] cannot find symbol
+  symbol:   method getLastName(org.jinstagram.entity.users.feed.UserFeedData)
+  location: class org.jinstagram.entity.users.feed.UserFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/UserFeedData_ESTest.java:[33,31] cannot find symbol
+  symbol:   method getLastName(org.jinstagram.entity.users.feed.UserFeedData)
+  location: class org.jinstagram.entity.users.feed.UserFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/UserFeedData_ESTest.java:[37,20] cannot find symbol
+  symbol:   method getLastName(org.jinstagram.entity.users.feed.UserFeedData)
+  location: class org.jinstagram.entity.users.feed.UserFeedData_ESTest
+[INFO] 3 errors 
+####################
+

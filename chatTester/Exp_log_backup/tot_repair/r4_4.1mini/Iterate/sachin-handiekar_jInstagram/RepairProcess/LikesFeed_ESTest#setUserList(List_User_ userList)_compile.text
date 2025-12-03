@@ -1,0 +1,53 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/likes/LikesFeed_ESTest.java
+[GENERATED PATH] LikesFeed_ESTest#setUserList(List<User> userList).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/likes/LikesFeed_ESTest.java:[27,45] diamond operator is not supported in -source 1.6
+  (use -source 7 or higher to enable diamond operator)
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/likes/LikesFeed_ESTest.java
+[GENERATED PATH] LikesFeed_ESTest#setUserList(List<User> userList).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/likes/LikesFeed_ESTest.java:[33,14] cannot find symbol
+  symbol:   method setUsername(java.lang.String)
+  location: variable user1 of type org.jinstagram.entity.common.User
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/likes/LikesFeed_ESTest.java:[36,14] cannot find symbol
+  symbol:   method setUsername(java.lang.String)
+  location: variable user2 of type org.jinstagram.entity.common.User
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/likes/LikesFeed_ESTest.java:[44,70] cannot find symbol
+  symbol:   method getUsername()
+  location: class org.jinstagram.entity.common.User
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/likes/LikesFeed_ESTest.java:[46,70] cannot find symbol
+  symbol:   method getUsername()
+  location: class org.jinstagram.entity.common.User
+[INFO] 4 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/likes/LikesFeed_ESTest.java
+[GENERATED PATH] LikesFeed_ESTest#setUserList(List<User> userList).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/likes/LikesFeed_ESTest.java:[42,9] cannot find symbol
+  symbol:   variable Assert
+  location: class org.jinstagram.entity.likes.LikesFeed_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/likes/LikesFeed_ESTest.java:[43,9] cannot find symbol
+  symbol:   variable Assert
+  location: class org.jinstagram.entity.likes.LikesFeed_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/likes/LikesFeed_ESTest.java:[44,9] cannot find symbol
+  symbol:   variable Assert
+  location: class org.jinstagram.entity.likes.LikesFeed_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/likes/LikesFeed_ESTest.java:[45,9] cannot find symbol
+  symbol:   variable Assert
+  location: class org.jinstagram.entity.likes.LikesFeed_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/likes/LikesFeed_ESTest.java:[46,9] cannot find symbol
+  symbol:   variable Assert
+  location: class org.jinstagram.entity.likes.LikesFeed_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/likes/LikesFeed_ESTest.java:[47,9] cannot find symbol
+  symbol:   variable Assert
+  location: class org.jinstagram.entity.likes.LikesFeed_ESTest
+[INFO] 6 errors 
+####################
+

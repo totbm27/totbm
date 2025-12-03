@@ -1,0 +1,112 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testToString() {
+        Comments comments = new Comments();
+
+          <Buggy Line>: diamond operator is not supported in -source 1.6
+        List<CommentData> commentDataList = new ArrayList<>();
+
+        commentDataList.add(new CommentData("User1", "Great post!"));
+        commentDataList.add(new CommentData("User2", "Nice photo!"));
+        comments.setComments(commentDataList);
+        comments.setCount(2);
+        String expected = "Comments [comments=[CommentData{user='User1', text='Great post!'}, CommentData{user='User2', text='Nice photo!'}], count=2]";
+        String actual = comments.toString();
+        assertEquals(expected, actual);
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# CommentData class
+package org.jinstagram.entity.comments;
+public class CommentData {
+public String getCreatedTime();
+public void setCreatedTime(String createdTime);
+public String getText();
+public void setText(String text);
+public FromTagData getCommentFrom();
+public void setCommentFrom(FromTagData commentFrom);
+public String getId();
+public void setId(String id);
+public String toString();
+}
+
+
+# Test Method
+    @Test
+    public void testToString() {
+        Comments comments = new Comments();
+        List<CommentData> commentDataList = new ArrayList<CommentData>();
+
+         <Buggy Line>: constructor CommentData in class org.jinstagram.entity.comments.CommentData cannot be applied to given types;
+        commentDataList.add(new CommentData("User1", "Great post!"));
+
+        commentDataList.add(new CommentData("User2", "Nice photo!"));
+        comments.setComments(commentDataList);
+        comments.setCount(2);
+        String expected = "Comments [comments=[CommentData{user='User1', text='Great post!'}, CommentData{user='User2', text='Nice photo!'}], count=2]";
+        String actual = comments.toString();
+        assertEquals(expected, actual);
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "CommentData" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "CommentData" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->0-->testRepair
+# Focal method (Cannot be modified)
+@Override
+public String toString() {
+    return String.format("Comments [comments=%s, count=%s]", comments, count);
+}
+
+# Method Intention
+The toString() method is intended to provide a clear, formatted string representation of the Comments object by including the values of its comments list and count fields, facilitating easy readability and debugging.
+
+# Test Method
+    @Test
+    public void testToString() {
+        Comments comments = new Comments();
+        List<CommentData> commentDataList = new ArrayList<CommentData>();
+        CommentData comment1 = new CommentData();
+        FromTagData user1 = new FromTagData();
+        user1.setUsername("User1");
+        comment1.setCommentFrom(user1);
+        comment1.setText("Great post!");
+        commentDataList.add(comment1);
+        CommentData comment2 = new CommentData();
+        FromTagData user2 = new FromTagData();
+        user2.setUsername("User2");
+        comment2.setCommentFrom(user2);
+        comment2.setText("Nice photo!");
+        commentDataList.add(comment2);
+        comments.setComments(commentDataList);
+        comments.setCount(2);
+        String expected = "Comments [comments=[CommentData{user='User1', text='Great post!'}, CommentData{user='User2', text='Nice photo!'}], count=2]";
+        String actual = comments.toString();
+       [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.junit.ComparisonFailure expected:<...omments=[CommentData[{user='User1', text='Great post!'}, CommentData{user='User2', text='Nice photo!'}]], count=2]> but was:<...omments=[CommentData[ [commentFrom=FromTagData [fullName=null, id=null, profilePicture=null, username=User1], createdTime=null, id=null, text=Great post!], CommentData [commentFrom=FromTagData [fullName=null, id=null, profilePicture=null, username=User2], createdTime=null, id=null, text=Nice photo!]]], count=2]> " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+

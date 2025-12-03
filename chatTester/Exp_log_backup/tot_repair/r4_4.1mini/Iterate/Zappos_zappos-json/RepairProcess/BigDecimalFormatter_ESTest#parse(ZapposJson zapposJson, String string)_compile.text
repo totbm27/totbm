@@ -1,0 +1,209 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java
+[GENERATED PATH] BigDecimalFormatter_ESTest#parse(ZapposJson zapposJson, String string).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java:[31,21] setPattern(java.lang.String) in <anonymous com.zappos.json.format.BigDecimalFormatter_ESTest$1> cannot implement setPattern(java.lang.String) in com.zappos.json.format.ValueFormatter
+  return type void is not compatible with com.zappos.json.format.ValueFormatter<java.math.BigDecimal>
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java:[28,26] getPattern() in <anonymous com.zappos.json.format.BigDecimalFormatter_ESTest$1> cannot override getPattern() in com.zappos.json.format.AbstractValueFormatter
+  attempting to assign weaker access privileges; was public
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java
+[GENERATED PATH] BigDecimalFormatter_ESTest#parse(ZapposJson zapposJson, String string).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[88,68] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[89,65] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[94,64] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java:[36,25] setPattern(java.lang.String) in <anonymous com.zappos.json.format.BigDecimalFormatter_ESTest$1> cannot implement setPattern(java.lang.String) in com.zappos.json.format.ValueFormatter
+  return type void is not compatible with com.zappos.json.format.ValueFormatter<java.math.BigDecimal>
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java:[31,30] getPattern() in <anonymous com.zappos.json.format.BigDecimalFormatter_ESTest$1> cannot override getPattern() in com.zappos.json.format.AbstractValueFormatter
+  attempting to assign weaker access privileges; was public
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java:[35,13] method does not override or implement a method from a supertype
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java:[43,9] cannot find symbol
+  symbol:   variable Assert
+  location: class com.zappos.json.format.BigDecimalFormatter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java:[47,9] cannot find symbol
+  symbol:   variable Assert
+  location: class com.zappos.json.format.BigDecimalFormatter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java:[51,9] cannot find symbol
+  symbol:   variable Assert
+  location: class com.zappos.json.format.BigDecimalFormatter_ESTest
+[INFO] 9 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java
+[GENERATED PATH] BigDecimalFormatter_ESTest#parse(ZapposJson zapposJson, String string).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[88,68] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[89,65] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[94,64] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java:[37,25] setPattern(java.lang.String) in <anonymous com.zappos.json.format.BigDecimalFormatter_ESTest$1> cannot implement setPattern(java.lang.String) in com.zappos.json.format.ValueFormatter
+  return type void is not compatible with com.zappos.json.format.ValueFormatter<java.math.BigDecimal>
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java:[33,30] getPattern() in <anonymous com.zappos.json.format.BigDecimalFormatter_ESTest$1> cannot override getPattern() in com.zappos.json.format.AbstractValueFormatter
+  attempting to assign weaker access privileges; was public
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java:[44,9] cannot find symbol
+  symbol:   variable Assert
+  location: class com.zappos.json.format.BigDecimalFormatter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java:[48,9] cannot find symbol
+  symbol:   variable Assert
+  location: class com.zappos.json.format.BigDecimalFormatter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java:[52,9] cannot find symbol
+  symbol:   variable Assert
+  location: class com.zappos.json.format.BigDecimalFormatter_ESTest
+[INFO] 8 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java
+[GENERATED PATH] BigDecimalFormatter_ESTest#parse(ZapposJson zapposJson, String string).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[88,68] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[89,65] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[94,64] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java:[39,25] setPattern(java.lang.String) in <anonymous com.zappos.json.format.BigDecimalFormatter_ESTest$1> cannot implement setPattern(java.lang.String) in com.zappos.json.format.ValueFormatter
+  return type void is not compatible with com.zappos.json.format.ValueFormatter<java.math.BigDecimal>
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java:[35,30] getPattern() in <anonymous com.zappos.json.format.BigDecimalFormatter_ESTest$1> cannot override getPattern() in com.zappos.json.format.AbstractValueFormatter
+  attempting to assign weaker access privileges; was public
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java:[46,9] cannot find symbol
+  symbol:   variable Assert
+  location: class com.zappos.json.format.BigDecimalFormatter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java:[49,9] cannot find symbol
+  symbol:   variable Assert
+  location: class com.zappos.json.format.BigDecimalFormatter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java:[52,9] cannot find symbol
+  symbol:   variable Assert
+  location: class com.zappos.json.format.BigDecimalFormatter_ESTest
+[INFO] 8 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java
+[GENERATED PATH] BigDecimalFormatter_ESTest#parse(ZapposJson zapposJson, String string).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[88,68] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[89,65] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[94,64] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java:[35,9] cannot find symbol
+  symbol:   class TestBigDecimalFormatter
+  location: class com.zappos.json.format.BigDecimalFormatter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java:[35,49] cannot find symbol
+  symbol:   class TestBigDecimalFormatter
+  location: class com.zappos.json.format.BigDecimalFormatter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java:[36,32] constructor ZapposJson in class com.zappos.json.ZapposJson cannot be applied to given types;
+  required: boolean
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[INFO] 6 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java
+[GENERATED PATH] BigDecimalFormatter_ESTest#parse(ZapposJson zapposJson, String string).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[88,68] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[89,65] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[94,64] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java:[38,9] cannot find symbol
+  symbol:   class TestBigDecimalFormatter
+  location: class com.zappos.json.format.BigDecimalFormatter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java:[38,49] cannot find symbol
+  symbol:   class TestBigDecimalFormatter
+  location: class com.zappos.json.format.BigDecimalFormatter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java:[39,32] constructor ZapposJson in class com.zappos.json.ZapposJson cannot be applied to given types;
+  required: boolean
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[INFO] 6 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java
+[GENERATED PATH] BigDecimalFormatter_ESTest#parse(ZapposJson zapposJson, String string).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[88,68] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[89,65] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[94,64] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java:[41,30] getPattern() in FormatterWithPattern cannot override getPattern() in com.zappos.json.format.AbstractValueFormatter
+  attempting to assign weaker access privileges; was public
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java:[46,27] constructor ZapposJson in class com.zappos.json.ZapposJson cannot be applied to given types;
+  required: boolean
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[INFO] 5 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java
+[GENERATED PATH] BigDecimalFormatter_ESTest#parse(ZapposJson zapposJson, String string).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[88,68] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[89,65] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[94,64] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java:[39,13] cannot find symbol
+  symbol: variable pattern
+[INFO] 4 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java
+[GENERATED PATH] BigDecimalFormatter_ESTest#parse(ZapposJson zapposJson, String string).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[88,68] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[89,65] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[94,64] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigDecimalFormatter_ESTest.java:[41,17] cannot find symbol
+  symbol: variable pattern
+[INFO] 4 errors 
+####################
+

@@ -1,0 +1,59 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testToString() {
+    LikesFeed likesFeed = new LikesFeed();
+    Meta meta = new Meta();
+    likesFeed.setMeta(meta);
+    User user1 = new User();
+    User user2 = new User();
+
+      <Buggy Line>: cannot find symbol method "of(org.jinstagram.entity.common.User,org.jinstagram.entity.common.User)" in List
+    List<User> userList = List.of(user1, user2);
+
+    likesFeed.setUserList(userList);
+    String expected = String.format("LikesFeed [meta=%s, userList=%s]", meta, userList);
+    org.junit.Assert.assertEquals(expected, likesFeed.toString());
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "List" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "List" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testToString() {
+    LikesFeed likesFeed = new LikesFeed();
+    Meta meta = new Meta();
+    likesFeed.setMeta(meta);
+    User user1 = new User();
+    User user2 = new User();
+
+      <Buggy Line>: diamond operator is not supported in -source 1.6
+    List<User> userList = new ArrayList<>();
+
+    userList.add(user1);
+    userList.add(user2);
+    likesFeed.setUserList(userList);
+    String expected = String.format("LikesFeed [meta=%s, userList=%s]", meta, userList);
+    org.junit.Assert.assertEquals(expected, likesFeed.toString());
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

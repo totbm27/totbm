@@ -1,0 +1,36 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testDecodeAndAppendEntries() {
+
+       <Buggy Line>: diamond operator is not supported in -source 1.6
+    Map<String, String> source = new HashMap<>();
+
+    source.put("key 1", "value/1");
+    source.put("key&2", "value 2");
+    source.put("key+3", "value+3");
+    Map<String, String> target = new HashMap<>();
+    target.put("existingKey", "existingValue");
+    MapUtils.decodeAndAppendEntries(source, target);
+    Map<String, String> expected = new HashMap<>();
+    expected.put("existingKey", "existingValue");
+    expected.put("key%201", "value%2F1");
+    expected.put("key%262", "value%202");
+    expected.put("key%2B3", "value%2B3");
+    for (Map.Entry<String, String> entry : expected.entrySet()) {
+        String actualValue = target.get(entry.getKey());
+        org.junit.Assert.assertNotNull("Missing key: " + entry.getKey(), actualValue);
+        org.junit.Assert.assertEquals("Value mismatch for key: " + entry.getKey(), entry.getValue(), actualValue);
+    }
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

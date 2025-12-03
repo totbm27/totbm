@@ -1,0 +1,63 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class Request {
+private String url;
+public Request(Verbs verb, String url) {
+    this.verb = verb;
+    this.url = url;
+    this.querystringParams = new HashMap<String, String>();
+    this.bodyParams = new HashMap<String, String>();
+    this.headers = new HashMap<String, String>();
+}
+# Focal method
+public String getSanitizedUrl() {
+    return url.replaceAll("\\?.*", "").replace("\\:\\d{4}", "");
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+public String getSanitizedUrl() {
+    return url.replaceAll("\\?.*", "").replace("\\:\\d{4}", "");
+}
+
+# Method Intention
+The getSanitizedUrl() method aims to return a cleaned version of the stored URL by removing any query string parameters (everything following a '?') and stripping out any port numbers formatted as a colon followed by exactly four digits.
+
+# Test Method
+@Test
+public void testGetSanitizedUrl() {
+    Verbs verb = Verbs.GET; 
+    String urlWithQueryAndPort = "http://example.com:8080/path?param=value";
+    String urlWithQueryOnly = "http://example.com/path?param=value";
+    String urlWithPortOnly = "http://example.com:8080/path";
+    String urlWithoutQueryOrPort = "http://example.com/path";
+    Request requestWithQueryAndPort = new Request(verb, urlWithQueryAndPort);
+    Request requestWithQueryOnly = new Request(verb, urlWithQueryOnly);
+    Request requestWithPortOnly = new Request(verb, urlWithPortOnly);
+    Request requestWithoutQueryOrPort = new Request(verb, urlWithoutQueryOrPort);
+    String sanitized1 = requestWithQueryAndPort.getSanitizedUrl();
+    String sanitized2 = requestWithQueryOnly.getSanitizedUrl();
+    String sanitized3 = requestWithPortOnly.getSanitizedUrl();
+    String sanitized4 = requestWithoutQueryOrPort.getSanitizedUrl();
+   [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.junit.ComparisonFailure expected:<http://example.com[]/path> but was:<http://example.com[:8080]/path> " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+

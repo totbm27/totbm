@@ -1,0 +1,30 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java
+[GENERATED PATH] Ruling_ESTest#collapseOrientedRulings(List<Ruling> lines).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[41,39] cannot find symbol
+  symbol:   variable YourClass
+  location: class technology.tabula.Ruling_ESTest
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java
+[GENERATED PATH] Ruling_ESTest#collapseOrientedRulings(List<Ruling> lines).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[42,31] cannot find symbol
+  symbol:   method collapseOrientedRulings(java.util.ArrayList<technology.tabula.Ruling>)
+  location: class technology.tabula.Ruling_ESTest
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java
+[GENERATED PATH] Ruling_ESTest#collapseOrientedRulings(List<Ruling> lines).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[46,31] cannot find symbol
+  symbol:   variable MyClass
+  location: class technology.tabula.Ruling_ESTest
+[INFO] 1 error
+####################
+

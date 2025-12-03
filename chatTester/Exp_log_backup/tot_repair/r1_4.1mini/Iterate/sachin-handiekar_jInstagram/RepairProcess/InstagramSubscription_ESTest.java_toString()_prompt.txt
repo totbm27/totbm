@@ -1,0 +1,73 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class InstagramSubscription {
+private final Map<String, String> params;
+public InstagramSubscription() {
+    this.params = new HashMap<String, String>();
+    this.params.put(Constants.CALLBACK_URL, OAuthConstants.OUT_OF_BAND);
+}
+# Focal method
+@Override
+public String toString() {
+    StringBuilder builder = new StringBuilder();
+    builder.append("InstagramSubscription [");
+    for (Map.Entry<String, String> entry : this.params.entrySet()) {
+        builder.append(entry.getKey()).append('=').append(entry.getValue()).append(',');
+    }
+    int lastIndexOfComma = builder.lastIndexOf(",");
+    builder.replace(lastIndexOfComma, lastIndexOfComma + 1, "");
+    builder.append("]");
+    return builder.toString();
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testToString_returnsCorrectStringRepresentation() {
+    InstagramSubscription subscription = new InstagramSubscription();
+    String result = subscription.toString();
+    try {
+        java.lang.reflect.Field paramsField = InstagramSubscription.class.getDeclaredField("params");
+        paramsField.setAccessible(true);
+        @SuppressWarnings("unchecked")
+        Map<String, String> params = (Map<String, String>) paramsField.get(subscription);
+        StringBuilder expectedBuilder = new StringBuilder();
+        expectedBuilder.append("InstagramSubscription [");
+        for (Map.Entry<String, String> entry : params.entrySet()) {
+            expectedBuilder.append(entry.getKey()).append('=').append(entry.getValue()).append(',');
+        }
+        int lastIndexOfComma = expectedBuilder.lastIndexOf(",");
+        expectedBuilder.replace(lastIndexOfComma, lastIndexOfComma + 1, "");
+        expectedBuilder.append("]");
+        String expected = expectedBuilder.toString();
+        assertEquals(expected, result);
+
+        <Buggy Line>: multi-catch statement is not supported in -source 1.6
+    } catch (NoSuchFieldException | IllegalAccessException e) {
+
+        throw new RuntimeException(e);
+    }
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

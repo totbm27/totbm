@@ -1,0 +1,137 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class TagMediaFeed {
+@SerializedName("data")
+private List<MediaFeedData> data;
+# Focal method
+public void setData(List<MediaFeedData> data) {
+    this.data = data;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testSetData() {
+    TagMediaFeed tagMediaFeed = new TagMediaFeed();
+
+      <Buggy Line>: diamond operator is not supported in -source 1.6
+    List<MediaFeedData> mediaFeedDataList = new ArrayList<>();
+
+    MediaFeedData mediaFeedData1 = new MediaFeedData();
+    MediaFeedData mediaFeedData2 = new MediaFeedData();
+    mediaFeedDataList.add(mediaFeedData1);
+    mediaFeedDataList.add(mediaFeedData2);
+    tagMediaFeed.setData(mediaFeedDataList);
+    assertEquals(mediaFeedDataList, tagMediaFeed.getData());
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->1-->compileRepair
+
+
+# Focal Method
+public class TagMediaFeed {
+@SerializedName("data")
+private List<MediaFeedData> data;
+# Focal method
+public void setData(List<MediaFeedData> data) {
+    this.data = data;
+}
+}
+
+# Method Intention
+The setData(List<MediaFeedData> data) method in the TagMediaFeed class is intended to set the list of MediaFeedData objects to the private data field, allowing for the updating or initialization of the data stored within the TagMediaFeed instance.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+3-->4-->1-->compileRepair
+
+
+# Focal Method
+public class TagMediaFeed {
+@SerializedName("data")
+private List<MediaFeedData> data;
+# Focal method
+public void setData(List<MediaFeedData> data) {
+    this.data = data;
+}
+}
+
+# Method Intention
+The setData(List<MediaFeedData> data) method in the TagMediaFeed class is intended to set the list of MediaFeedData objects to the private data field, allowing for the updating or initialization of the data within the TagMediaFeed instance.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+4-->5-->2-->compileRepair
+
+
+# Focal Method
+public class TagMediaFeed {
+@SerializedName("data")
+private List<MediaFeedData> data;
+# Focal method
+public void setData(List<MediaFeedData> data) {
+    this.data = data;
+}
+}
+
+# Method Intention
+The setData(List<MediaFeedData> data) method in the TagMediaFeed class is intended to set the list of MediaFeedData objects to the private data field, allowing for the updating and management of the media feed data within the class.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+5-->6-->3-->compileRepair
+
+
+# Focal Method
+public class TagMediaFeed {
+@SerializedName("data")
+private List<MediaFeedData> data;
+# Focal method
+public void setData(List<MediaFeedData> data) {
+    this.data = data;
+}
+}
+
+# Method Intention
+The setData(List<MediaFeedData> data) method in the TagMediaFeed class is intended to set the list of MediaFeedData objects to the private data field of the class, allowing for the updating and management of the media feed data within the TagMediaFeed instance.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+

@@ -1,0 +1,10 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Rectangle_ESTest.java
+[GENERATED PATH] Rectangle_ESTest#isLtrDominant().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Rectangle_ESTest.java:[36,9] cannot find symbol
+  symbol:   variable Assert
+  location: class technology.tabula.Rectangle_ESTest
+[INFO] 1 error
+####################
+

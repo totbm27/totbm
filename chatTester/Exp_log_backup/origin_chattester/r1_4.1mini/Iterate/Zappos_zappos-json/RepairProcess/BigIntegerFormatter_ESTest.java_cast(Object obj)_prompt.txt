@@ -1,0 +1,55 @@
+0-->1-->0-->testRepair
+# Focal Method
+@Override
+public BigInteger cast(Object obj) {
+    return BigInteger.class.cast(obj);
+}
+
+# Method Intention
+The cast(Object obj) method is intended to safely convert or cast the given object to a BigInteger type by leveraging Java's Class.cast() method, ensuring a ClassCastException is thrown if the object is not an instance of BigInteger.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention`. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```
+
+########
+
+1-->1-->0-->testRepair
+
+# BigIntegerFormatter class
+package com.zappos.json.format;
+public class BigIntegerFormatter {
+public BigInteger cast(Object obj);
+public String format(ZapposJson zapposJson, BigInteger object);
+public BigInteger parse(ZapposJson zapposJson, String string) throws Exception;
+public ValueFormatter<BigInteger> newInstance();
+}
+
+
+# Test Method
+    @Test
+    public void testCast() {
+        BigIntegerFormatter bigIntegerFormatter = new BigIntegerFormatter();
+        Object validInput = new BigInteger("12345");
+
+         <Buggy Line>: cannot find symbol variable "yourClass"
+        BigInteger result1 = bigIntegerFormatter.cast(validInput);
+
+        assertEquals(new BigInteger("12345"), result1);
+        Object invalidInput = "Not a BigInteger";
+        try {
+            BigInteger result2 = bigIntegerFormatter.cast(invalidInput);
+            assertEquals("Invalid input should throw ClassCastException", true, false);
+        } catch (ClassCastException e) {
+        }
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "BigIntegerFormatter" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "BigIntegerFormatter" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

@@ -1,0 +1,60 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaTimeInstantFormatter_ESTest.java
+[GENERATED PATH] JavaTimeInstantFormatter_ESTest#setPattern(String pattern).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaTimeInstantFormatter_ESTest.java:[38,50] cannot find symbol
+  symbol:   method getFormatter()
+  location: variable formatter of type com.zappos.json.format.JavaTimeInstantFormatter
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaTimeInstantFormatter_ESTest.java
+[GENERATED PATH] JavaTimeInstantFormatter_ESTest#setPattern(String pattern).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaTimeInstantFormatter_ESTest.java:[41,80] cannot find symbol
+  symbol:   method getFormatter()
+  location: interface com.zappos.json.format.ValueFormatter<java.time.Instant>
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaTimeInstantFormatter_ESTest.java
+[GENERATED PATH] JavaTimeInstantFormatter_ESTest#setPattern(String pattern).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaTimeInstantFormatter_ESTest.java:[43,80] cannot find symbol
+  symbol:   method getPattern()
+  location: interface com.zappos.json.format.ValueFormatter<java.time.Instant>
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaTimeInstantFormatter_ESTest.java
+[GENERATED PATH] JavaTimeInstantFormatter_ESTest#setPattern(String pattern).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaTimeInstantFormatter_ESTest.java:[47,46] cannot find symbol
+  symbol:   method getFormatter()
+  location: variable formatter of type com.zappos.json.format.JavaTimeInstantFormatter
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaTimeInstantFormatter_ESTest.java
+[GENERATED PATH] JavaTimeInstantFormatter_ESTest#setPattern(String pattern).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaTimeInstantFormatter_ESTest.java:[39,46] cannot find symbol
+  symbol:   method getFormatter()
+  location: variable formatter of type com.zappos.json.format.JavaTimeInstantFormatter
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaTimeInstantFormatter_ESTest.java
+[GENERATED PATH] JavaTimeInstantFormatter_ESTest#setPattern(String pattern).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaTimeInstantFormatter_ESTest.java:[43,44] cannot find symbol
+  symbol:   method getPattern()
+  location: variable expectedFormatter of type com.zappos.json.format.ValueFormatter<java.time.Instant>
+[INFO] 1 error
+####################
+

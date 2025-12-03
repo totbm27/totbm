@@ -1,0 +1,87 @@
+0-->1-->0-->compileRepair
+
+# JsonBeanIntrospector class
+package com.zappos.json;
+public class JsonBeanIntrospector {
+public JsonBeanIntrospector(ZapposJson jacinda);
+public List<JsonBeanAttribute> getMutators(Class<?> clazz);
+public List<JsonBeanAttribute> getAccessors(Class<?> clazz);
+}
+
+
+# Test Method
+@Test
+public void testRegisterWriter_createsAndCachesWriterInvoker() throws Exception {
+    ZapposJson zapposJson = new ZapposJson();
+
+      <Buggy Line>: constructor JsonBeanIntrospector in class com.zappos.json.JsonBeanIntrospector cannot be applied to given types;
+    JsonBeanIntrospector beanIntrospector = new JsonBeanIntrospector();
+
+    JsonWriterCodeGenerator generator = new JsonWriterCodeGenerator(zapposJson, beanIntrospector);
+    class TestClass {
+        public String field = "value";
+    }
+    JsonWriterInvoker firstInvoker = generator.registerWriter(TestClass.class);
+    JsonWriterInvoker secondInvoker = generator.registerWriter(TestClass.class);
+    org.junit.Assert.assertNotNull(firstInvoker);
+    org.junit.Assert.assertNotNull(secondInvoker);
+    org.junit.Assert.assertSame(firstInvoker, secondInvoker);
+    org.junit.Assert.assertEquals(TestClass.class, firstInvoker.getClazz());
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "JsonBeanIntrospector" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "JsonBeanIntrospector" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# JsonBeanIntrospector class
+package com.zappos.json;
+public class JsonBeanIntrospector {
+public JsonBeanIntrospector(ZapposJson jacinda);
+public List<JsonBeanAttribute> getMutators(Class<?> clazz);
+public List<JsonBeanAttribute> getAccessors(Class<?> clazz);
+}
+
+# JsonWriterInvoker class
+package com.zappos.json;
+public class JsonWriterInvoker {
+public JsonWriterInvoker(Class<?> dataClass, Object jsonWriter);
+public void writeJson(Object data, Writer writer);
+}
+
+
+# Test Method
+    @Test
+    public void testRegisterWriter_createsAndCachesWriterInvoker() throws Exception {
+        ZapposJson zapposJson = new ZapposJson();
+        JsonBeanIntrospector beanIntrospector = new JsonBeanIntrospector(zapposJson);
+        JsonWriterCodeGenerator generator = new JsonWriterCodeGenerator(zapposJson, beanIntrospector);
+        class TestClass {
+            public String field = "value";
+        }
+        JsonWriterInvoker firstInvoker = generator.registerWriter(TestClass.class);
+        JsonWriterInvoker secondInvoker = generator.registerWriter(TestClass.class);
+        assertNotNull(firstInvoker);
+        assertNotNull(secondInvoker);
+        assertSame(firstInvoker, secondInvoker);
+
+       <Buggy Line>: cannot find symbol method "getClazz()" in JsonWriterInvoker
+        assertEquals(TestClass.class, firstInvoker.getClazz());
+
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "JsonWriterInvoker" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "JsonWriterInvoker" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

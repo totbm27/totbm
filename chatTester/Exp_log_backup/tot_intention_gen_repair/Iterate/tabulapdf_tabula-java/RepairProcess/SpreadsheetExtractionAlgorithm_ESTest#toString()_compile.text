@@ -1,0 +1,103 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java
+[GENERATED PATH] SpreadsheetExtractionAlgorithm_ESTest#toString().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java:[32,5] cannot find symbol
+  symbol:   class PolygonVertex
+  location: class technology.tabula.extractors.SpreadsheetExtractionAlgorithm_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java:[32,32] cannot find symbol
+  symbol:   class PolygonVertex
+  location: class technology.tabula.extractors.SpreadsheetExtractionAlgorithm_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java:[32,50] cannot find symbol
+  symbol:   class Point
+  location: class technology.tabula.extractors.SpreadsheetExtractionAlgorithm_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java:[32,67] cannot find symbol
+  symbol:   class Direction
+  location: class technology.tabula.extractors.SpreadsheetExtractionAlgorithm_ESTest
+[INFO] 4 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java
+[GENERATED PATH] SpreadsheetExtractionAlgorithm_ESTest#toString().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java:[31,9] cannot find symbol
+  symbol:   class Point2D
+  location: class technology.tabula.extractors.SpreadsheetExtractionAlgorithm_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java:[31,40] package Point2D does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java:[32,9] cannot find symbol
+  symbol:   class Direction
+  location: class technology.tabula.extractors.SpreadsheetExtractionAlgorithm_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java:[32,35] cannot find symbol
+  symbol:   variable Direction
+  location: class technology.tabula.extractors.SpreadsheetExtractionAlgorithm_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java:[33,9] cannot find symbol
+  symbol:   class PolygonVertex
+  location: class technology.tabula.extractors.SpreadsheetExtractionAlgorithm_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java:[33,40] cannot find symbol
+  symbol:   class PolygonVertex
+  location: class technology.tabula.extractors.SpreadsheetExtractionAlgorithm_ESTest
+[INFO] 6 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java
+[GENERATED PATH] SpreadsheetExtractionAlgorithm_ESTest#toString().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java:[33,5] cannot find symbol
+  symbol:   class Direction
+  location: class technology.tabula.extractors.SpreadsheetExtractionAlgorithm_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java:[33,31] cannot find symbol
+  symbol:   variable Direction
+  location: class technology.tabula.extractors.SpreadsheetExtractionAlgorithm_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java:[35,5] cannot find symbol
+  symbol:   class PolygonVertex
+  location: class technology.tabula.extractors.SpreadsheetExtractionAlgorithm_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java:[35,36] cannot find symbol
+  symbol:   class PolygonVertex
+  location: class technology.tabula.extractors.SpreadsheetExtractionAlgorithm_ESTest
+[INFO] 4 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java
+[GENERATED PATH] SpreadsheetExtractionAlgorithm_ESTest#toString().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java:[31,9] cannot find symbol
+  symbol:   class Point2D
+  location: class technology.tabula.extractors.SpreadsheetExtractionAlgorithm_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java:[31,40] package Point2D does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java:[32,9] cannot find symbol
+  symbol:   class Direction
+  location: class technology.tabula.extractors.SpreadsheetExtractionAlgorithm_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java:[32,35] cannot find symbol
+  symbol:   variable Direction
+  location: class technology.tabula.extractors.SpreadsheetExtractionAlgorithm_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java:[33,9] cannot find symbol
+  symbol:   class PolygonVertex
+  location: class technology.tabula.extractors.SpreadsheetExtractionAlgorithm_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java:[33,40] cannot find symbol
+  symbol:   class PolygonVertex
+  location: class technology.tabula.extractors.SpreadsheetExtractionAlgorithm_ESTest
+[INFO] 6 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java
+[GENERATED PATH] SpreadsheetExtractionAlgorithm_ESTest#toString().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java:[34,5] cannot find symbol
+  symbol:   class Direction
+  location: class technology.tabula.extractors.SpreadsheetExtractionAlgorithm_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java:[34,31] cannot find symbol
+  symbol:   variable Direction
+  location: class technology.tabula.extractors.SpreadsheetExtractionAlgorithm_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java:[37,5] cannot find symbol
+  symbol:   class PolygonVertex
+  location: class technology.tabula.extractors.SpreadsheetExtractionAlgorithm_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java:[37,36] cannot find symbol
+  symbol:   class PolygonVertex
+  location: class technology.tabula.extractors.SpreadsheetExtractionAlgorithm_ESTest
+[INFO] 4 errors 
+####################
+

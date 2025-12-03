@@ -1,0 +1,16 @@
+0-->1-->0-->testRepair
+# Focal Method
+@Override
+public ValueFormatter<BigDecimal> newInstance() {
+    return new BigDecimalFormatter();
+}
+
+# Method Intention
+The newInstance() method in the BigDecimalFormatter class is intended to create and return a new instance of the BigDecimalFormatter class, which can be used as a ValueFormatter for BigDecimal objects.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention`. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```
+
+########
+

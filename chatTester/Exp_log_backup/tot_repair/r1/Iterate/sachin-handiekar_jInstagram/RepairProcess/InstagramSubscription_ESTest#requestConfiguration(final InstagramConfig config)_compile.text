@@ -1,0 +1,78 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java
+[GENERATED PATH] InstagramSubscription_ESTest#requestConfiguration(final InstagramConfig config).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/InstagramObject_ESTest.java:[45,55] diamond operator is not supported in -source 1.6
+  (use -source 7 or higher to enable diamond operator)
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java
+[GENERATED PATH] InstagramSubscription_ESTest#requestConfiguration(final InstagramConfig config).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java:[35,35] config has private access in org.jinstagram.realtime.InstagramSubscription
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java
+[GENERATED PATH] InstagramSubscription_ESTest#requestConfiguration(final InstagramConfig config).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java:[35,39] cannot find symbol
+  symbol:   method getConfig()
+  location: variable result of type org.jinstagram.realtime.InstagramSubscription
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java
+[GENERATED PATH] InstagramSubscription_ESTest#requestConfiguration(final InstagramConfig config).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java:[30,14] cannot find symbol
+  symbol:   method setClientId(java.lang.String)
+  location: variable newConfig of type org.jinstagram.InstagramConfig
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java:[31,14] cannot find symbol
+  symbol:   method setClientSecret(java.lang.String)
+  location: variable newConfig of type org.jinstagram.InstagramConfig
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java:[37,52] cannot find symbol
+  symbol:   method getConfig()
+  location: variable updatedSubscription of type org.jinstagram.realtime.InstagramSubscription
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java:[38,56] cannot find symbol
+  symbol:   method getConfig()
+  location: variable updatedSubscription of type org.jinstagram.realtime.InstagramSubscription
+[INFO] 4 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java
+[GENERATED PATH] InstagramSubscription_ESTest#requestConfiguration(final InstagramConfig config).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java:[30,18] cannot find symbol
+  symbol:   method setClientSecret(java.lang.String)
+  location: variable newConfig of type org.jinstagram.InstagramConfig
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java:[33,55] cannot find symbol
+  symbol:   method getConfig()
+  location: variable updatedSubscription of type org.jinstagram.realtime.InstagramSubscription
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java:[34,60] cannot find symbol
+  symbol:   method getConfig()
+  location: variable updatedSubscription of type org.jinstagram.realtime.InstagramSubscription
+[INFO] 3 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java
+[GENERATED PATH] InstagramSubscription_ESTest#requestConfiguration(final InstagramConfig config).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java:[29,18] cannot find symbol
+  symbol:   method setClientId(java.lang.String)
+  location: variable newConfig of type org.jinstagram.InstagramConfig
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java:[33,56] cannot find symbol
+  symbol:   method getConfig()
+  location: variable updatedSubscription of type org.jinstagram.realtime.InstagramSubscription
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/InstagramSubscription_ESTest.java:[34,60] cannot find symbol
+  symbol:   method getConfig()
+  location: variable updatedSubscription of type org.jinstagram.realtime.InstagramSubscription
+[INFO] 3 errors 
+####################
+

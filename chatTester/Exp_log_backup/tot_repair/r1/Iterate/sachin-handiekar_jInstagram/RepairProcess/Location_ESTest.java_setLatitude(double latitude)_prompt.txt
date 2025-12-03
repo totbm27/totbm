@@ -1,0 +1,61 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class Location {
+@SerializedName("id")
+private String id;@SerializedName("latitude")
+private double latitude;
+# Focal method
+public void setLatitude(double latitude) {
+    this.latitude = latitude;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# Location class
+package org.jinstagram.entity.common;
+public class Location {
+public double getLatitude();
+public void setLatitude(double latitude);
+public double getLongitude();
+public void setLongitude(double longitude);
+public String getId();
+public void setId(String id);
+public String getName();
+public void setName(String name);
+public String toString();
+}
+
+
+# Test Method
+@Test
+public void testSetLatitude() {
+Location location = new Location();
+double expectedLatitude = 37.7749;
+location.setLatitude(expectedLatitude);
+
+<Buggy Line>: latitude has private access in org.jinstagram.entity.common.Location
+assertEquals(expectedLatitude, location.latitude, 0);
+
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "Location" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "Location" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

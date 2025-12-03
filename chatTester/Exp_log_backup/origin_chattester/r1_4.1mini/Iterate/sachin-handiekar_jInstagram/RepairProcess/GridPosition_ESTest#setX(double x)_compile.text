@@ -1,0 +1,34 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/GridPosition_ESTest.java
+[GENERATED PATH] GridPosition_ESTest#setX(double x).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/comments/MediaCommentsFeed_ESTest.java:[37,59] diamond operator is not supported in -source 1.6
+  (use -source 7 or higher to enable diamond operator)
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/GridPosition_ESTest.java
+[GENERATED PATH] GridPosition_ESTest#setX(double x).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/GridPosition_ESTest.java:[29,41] x has private access in org.jinstagram.entity.common.GridPosition
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/GridPosition_ESTest.java:[29,9] no suitable method found for assertEquals(double,double,double,java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,float,float,float) is not applicable
+      (argument mismatch; double cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,double,double,double) is not applicable
+      (argument mismatch; double cannot be converted to java.lang.String)
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/GridPosition_ESTest.java
+[GENERATED PATH] GridPosition_ESTest#setX(double x).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/GridPosition_ESTest.java:[30,5] no suitable method found for assertEquals(double,double,double,java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,float,float,float) is not applicable
+      (argument mismatch; double cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,double,double,double) is not applicable
+      (argument mismatch; double cannot be converted to java.lang.String)
+[INFO] 1 error
+####################
+

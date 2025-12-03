@@ -1,0 +1,29 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/exceptions/InstagramException_ESTest.java
+[GENERATED PATH] InstagramException_ESTest#getErrorType().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/comments/MediaCommentsFeed_ESTest.java:[37,59] diamond operator is not supported in -source 1.6
+  (use -source 7 or higher to enable diamond operator)
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/MapUtils_ESTest.java:[29,51] diamond operator is not supported in -source 1.6
+  (use -source 7 or higher to enable diamond operator)
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/exceptions/InstagramException_ESTest.java
+[GENERATED PATH] InstagramException_ESTest#getErrorType().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/exceptions/InstagramException_ESTest.java:[26,45] reference to InstagramException is ambiguous
+  both constructor InstagramException(java.lang.String,java.util.Map<java.lang.String,java.lang.String>) in org.jinstagram.exceptions.InstagramException and constructor InstagramException(java.lang.String,java.lang.Exception) in org.jinstagram.exceptions.InstagramException match
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/exceptions/InstagramException_ESTest.java
+[GENERATED PATH] InstagramException_ESTest#getErrorType().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/exceptions/InstagramException_ESTest.java:[27,45] reference to InstagramException is ambiguous
+  both constructor InstagramException(java.lang.String,java.util.Map<java.lang.String,java.lang.String>) in org.jinstagram.exceptions.InstagramException and constructor InstagramException(java.lang.String,java.lang.Exception) in org.jinstagram.exceptions.InstagramException match
+[INFO] 1 error
+####################
+

@@ -1,0 +1,75 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanAttribute_ESTest.java
+[GENERATED PATH] JsonBeanAttribute_ESTest#setEnumValue(EnumValue enumValue).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanAttribute_ESTest.java:[27,5] cannot find symbol
+  symbol:   class EnumValue
+  location: class com.zappos.json.JsonBeanAttribute_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanAttribute_ESTest.java:[27,35] cannot find symbol
+  symbol:   variable Value1
+  location: @interface com.zappos.json.annot.JsonEnum
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanAttribute_ESTest.java
+[GENERATED PATH] JsonBeanAttribute_ESTest#setEnumValue(EnumValue enumValue).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanAttribute_ESTest.java:[31,34] cannot find symbol
+  symbol:   variable Value1
+  location: @interface com.zappos.json.annot.JsonEnum
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanAttribute_ESTest.java:[33,57] incompatible types: com.zappos.json.annot.JsonEnum cannot be converted to com.zappos.json.annot.JsonEnum.EnumValue
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanAttribute_ESTest.java
+[GENERATED PATH] JsonBeanAttribute_ESTest#setEnumValue(EnumValue enumValue).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanAttribute_ESTest.java:[34,38] cannot find symbol
+  symbol:   variable ENUM_1
+  location: @interface com.zappos.json.annot.JsonEnum
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanAttribute_ESTest.java:[36,61] incompatible types: com.zappos.json.annot.JsonEnum cannot be converted to com.zappos.json.annot.JsonEnum.EnumValue
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanAttribute_ESTest.java:[37,9] cannot find symbol
+  symbol:   variable Assert
+  location: class com.zappos.json.JsonBeanAttribute_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanAttribute_ESTest.java:[38,9] cannot find symbol
+  symbol:   variable Assert
+  location: class com.zappos.json.JsonBeanAttribute_ESTest
+[INFO] 4 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanAttribute_ESTest.java
+[GENERATED PATH] JsonBeanAttribute_ESTest#setEnumValue(EnumValue enumValue).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanAttribute_ESTest.java:[35,38] cannot find symbol
+  symbol:   variable VALUE1
+  location: @interface com.zappos.json.annot.JsonEnum
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanAttribute_ESTest.java:[37,61] incompatible types: com.zappos.json.annot.JsonEnum cannot be converted to com.zappos.json.annot.JsonEnum.EnumValue
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanAttribute_ESTest.java:[38,9] cannot find symbol
+  symbol:   variable Assert
+  location: class com.zappos.json.JsonBeanAttribute_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanAttribute_ESTest.java:[39,9] cannot find symbol
+  symbol:   variable Assert
+  location: class com.zappos.json.JsonBeanAttribute_ESTest
+[INFO] 4 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanAttribute_ESTest.java
+[GENERATED PATH] JsonBeanAttribute_ESTest#setEnumValue(EnumValue enumValue).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanAttribute_ESTest.java:[37,38] cannot find symbol
+  symbol:   variable ENUM1
+  location: @interface com.zappos.json.annot.JsonEnum
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanAttribute_ESTest.java:[39,61] incompatible types: com.zappos.json.annot.JsonEnum cannot be converted to com.zappos.json.annot.JsonEnum.EnumValue
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanAttribute_ESTest.java:[40,9] cannot find symbol
+  symbol:   variable Assert
+  location: class com.zappos.json.JsonBeanAttribute_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanAttribute_ESTest.java:[41,9] cannot find symbol
+  symbol:   variable Assert
+  location: class com.zappos.json.JsonBeanAttribute_ESTest
+[INFO] 4 errors 
+####################
+

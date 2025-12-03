@@ -1,0 +1,85 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class MediaFeedData {
+@SerializedName("caption")
+private Caption caption;
+# Focal method
+public Caption getCaption() {
+    return caption;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testGetCaption() {
+        Caption expectedCaption = new Caption();
+        MediaFeedData mediaFeedData = new MediaFeedData();
+        try {
+            java.lang.reflect.Field captionField = MediaFeedData.class.getDeclaredField("caption");
+            captionField.setAccessible(true);
+            captionField.set(mediaFeedData, expectedCaption);
+
+            <Buggy Line>: multi-catch statement is not supported in -source 1.6
+        } catch (NoSuchFieldException | IllegalAccessException e) {
+
+            throw new RuntimeException(e);
+        }
+        Caption actualCaption = mediaFeedData.getCaption();
+        assertEquals(expectedCaption, actualCaption, "The getCaption method should return the caption field");
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->1-->compileRepair
+
+
+# Test Method
+@Test
+public void testGetCaption() {
+    Caption expectedCaption = new Caption();
+    MediaFeedData mediaFeedData = new MediaFeedData();
+    try {
+        java.lang.reflect.Field captionField = MediaFeedData.class.getDeclaredField("caption");
+        captionField.setAccessible(true);
+        captionField.set(mediaFeedData, expectedCaption);
+    } catch (NoSuchFieldException e) {
+        throw new RuntimeException(e);
+    } catch (IllegalAccessException e) {
+        throw new RuntimeException(e);
+    }
+    Caption actualCaption = mediaFeedData.getCaption();
+
+           <Buggy Line>: no suitable method found for assertEquals(org.jinstagram.entity.common.Caption,org.jinstagram.entity.common.Caption,java.lang.String)
+    assertEquals(expectedCaption, actualCaption, "The getCaption method should return the caption field");
+
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "Assert" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "Assert" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

@@ -1,0 +1,73 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/Strings_ESTest.java
+[GENERATED PATH] Strings_ESTest#format(String pattern, Object... args).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[88,68] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[89,65] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[94,64] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[INFO] 3 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/Strings_ESTest.java
+[GENERATED PATH] Strings_ESTest#format(String pattern, Object... args).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/Strings_ESTest.java:[68,59] lambda expressions are not supported in -source 1.7
+  (use -source 8 or higher to enable lambda expressions)
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/Strings_ESTest.java
+[GENERATED PATH] Strings_ESTest#format(String pattern, Object... args).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[88,68] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[89,65] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[94,64] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[INFO] 3 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/Strings_ESTest.java
+[GENERATED PATH] Strings_ESTest#format(String pattern, Object... args).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[88,68] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[89,65] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[94,64] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[INFO] 3 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/Strings_ESTest.java
+[GENERATED PATH] Strings_ESTest#format(String pattern, Object... args).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[88,68] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[89,65] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriterCodeGenerator_ESTest.java:[94,64] cannot find symbol
+  symbol:   variable clazz
+  location: class com.zappos.json.JsonWriterCodeGenerator_ESTest
+[INFO] 3 errors 
+####################
+

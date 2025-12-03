@@ -1,0 +1,116 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java
+[GENERATED PATH] RectangularTextContainer_ESTest#merge(RectangularTextContainer<T> other).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[30,34] type argument java.lang.String is not within bounds of type-variable T
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[30,83] incompatible types: cannot infer type arguments for technology.tabula.RectangularTextContainer<>
+    reason: inference variable T has incompatible bounds
+      equality constraints: java.lang.String
+      upper bounds: technology.tabula.Rectangle,technology.tabula.HasText
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[36,34] type argument java.lang.String is not within bounds of type-variable T
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[36,83] incompatible types: cannot infer type arguments for technology.tabula.RectangularTextContainer<>
+    reason: inference variable T has incompatible bounds
+      equality constraints: java.lang.String
+      upper bounds: technology.tabula.Rectangle,technology.tabula.HasText
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[43,34] type argument java.lang.String is not within bounds of type-variable T
+[INFO] 5 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java
+[GENERATED PATH] RectangularTextContainer_ESTest#merge(RectangularTextContainer<T> other).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[33,30] type argument java.lang.String is not within bounds of type-variable T
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[33,79] incompatible types: cannot infer type arguments for technology.tabula.RectangularTextContainer<>
+    reason: inference variable T has incompatible bounds
+      equality constraints: java.lang.String
+      upper bounds: technology.tabula.Rectangle,technology.tabula.HasText
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[39,30] type argument java.lang.String is not within bounds of type-variable T
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[39,79] incompatible types: cannot infer type arguments for technology.tabula.RectangularTextContainer<>
+    reason: inference variable T has incompatible bounds
+      equality constraints: java.lang.String
+      upper bounds: technology.tabula.Rectangle,technology.tabula.HasText
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[46,30] type argument java.lang.String is not within bounds of type-variable T
+[INFO] 5 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java
+[GENERATED PATH] RectangularTextContainer_ESTest#merge(RectangularTextContainer<T> other).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[35,30] type argument java.lang.String is not within bounds of type-variable T
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[35,79] incompatible types: cannot infer type arguments for technology.tabula.RectangularTextContainer<>
+    reason: inference variable T has incompatible bounds
+      equality constraints: java.lang.String
+      upper bounds: technology.tabula.Rectangle,technology.tabula.HasText
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[42,30] type argument java.lang.String is not within bounds of type-variable T
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[42,79] incompatible types: cannot infer type arguments for technology.tabula.RectangularTextContainer<>
+    reason: inference variable T has incompatible bounds
+      equality constraints: java.lang.String
+      upper bounds: technology.tabula.Rectangle,technology.tabula.HasText
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[49,30] type argument java.lang.String is not within bounds of type-variable T
+[INFO] 5 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java
+[GENERATED PATH] RectangularTextContainer_ESTest#merge(RectangularTextContainer<T> other).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[37,30] type argument java.lang.String is not within bounds of type-variable T
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[37,79] incompatible types: cannot infer type arguments for technology.tabula.RectangularTextContainer<>
+    reason: inference variable T has incompatible bounds
+      equality constraints: java.lang.String
+      upper bounds: technology.tabula.Rectangle,technology.tabula.HasText
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[38,30] type argument java.lang.String is not within bounds of type-variable T
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[38,79] incompatible types: cannot infer type arguments for technology.tabula.RectangularTextContainer<>
+    reason: inference variable T has incompatible bounds
+      equality constraints: java.lang.String
+      upper bounds: technology.tabula.Rectangle,technology.tabula.HasText
+[INFO] 4 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java
+[GENERATED PATH] RectangularTextContainer_ESTest#merge(RectangularTextContainer<T> other).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[39,30] type argument java.lang.Integer is not within bounds of type-variable T
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[39,80] incompatible types: cannot infer type arguments for technology.tabula.RectangularTextContainer<>
+    reason: inference variable T has incompatible bounds
+      equality constraints: java.lang.Integer
+      upper bounds: technology.tabula.Rectangle,technology.tabula.HasText
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[40,30] type argument java.lang.Integer is not within bounds of type-variable T
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[40,80] incompatible types: cannot infer type arguments for technology.tabula.RectangularTextContainer<>
+    reason: inference variable T has incompatible bounds
+      equality constraints: java.lang.Integer
+      upper bounds: technology.tabula.Rectangle,technology.tabula.HasText
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[41,33] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.Integer) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to java.lang.Integer)
+    method java.util.List.add(java.lang.Integer) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to java.lang.Integer)
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[42,33] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.Integer) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to java.lang.Integer)
+    method java.util.List.add(java.lang.Integer) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to java.lang.Integer)
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[45,30] type argument java.lang.Integer is not within bounds of type-variable T
+[INFO] 7 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java
+[GENERATED PATH] RectangularTextContainer_ESTest#merge(RectangularTextContainer<T> other).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[41,30] type argument java.lang.String is not within bounds of type-variable T
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[41,79] incompatible types: cannot infer type arguments for technology.tabula.RectangularTextContainer<>
+    reason: inference variable T has incompatible bounds
+      equality constraints: java.lang.String
+      upper bounds: technology.tabula.Rectangle,technology.tabula.HasText
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[44,30] type argument java.lang.String is not within bounds of type-variable T
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/RectangularTextContainer_ESTest.java:[44,79] incompatible types: cannot infer type arguments for technology.tabula.RectangularTextContainer<>
+    reason: inference variable T has incompatible bounds
+      equality constraints: java.lang.String
+      upper bounds: technology.tabula.Rectangle,technology.tabula.HasText
+[INFO] 4 errors 
+####################
+

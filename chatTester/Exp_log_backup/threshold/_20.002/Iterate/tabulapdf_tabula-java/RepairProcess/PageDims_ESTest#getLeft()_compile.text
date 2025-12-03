@@ -1,0 +1,11 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/PageDims_ESTest.java
+[GENERATED PATH] PageDims_ESTest#getLeft().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/PageDims_ESTest.java:[34,31] top has private access in technology.tabula.PageDims
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/PageDims_ESTest.java:[35,32] left has private access in technology.tabula.PageDims
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/PageDims_ESTest.java:[36,33] width has private access in technology.tabula.PageDims
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/PageDims_ESTest.java:[37,34] height has private access in technology.tabula.PageDims
+[INFO] 4 errors 
+####################
+

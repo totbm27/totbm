@@ -1,0 +1,50 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/auth/InstagramAuthService_ESTest.java
+[GENERATED PATH] InstagramAuthService_ESTest#proxy(Proxy requestProxy).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/auth/InstagramAuthService_ESTest.java:[39,35] multi-catch statement is not supported in -source 1.6
+  (use -source 7 or higher to enable multi-catch statement)
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/auth/InstagramAuthService_ESTest.java
+[GENERATED PATH] InstagramAuthService_ESTest#proxy(Proxy requestProxy).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/auth/InstagramAuthService_ESTest.java:[30,76] constructor MockInetAddress in class org.evosuite.runtime.mock.java.net.MockInetAddress cannot be applied to given types;
+  required: no arguments
+  found: java.lang.String
+  reason: actual and formal argument lists differ in length
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/auth/InstagramAuthService_ESTest.java
+[GENERATED PATH] InstagramAuthService_ESTest#proxy(Proxy requestProxy).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/auth/InstagramAuthService_ESTest.java:[33,50] no suitable constructor found for MockInetSocketAddress(org.evosuite.runtime.mock.java.net.MockInetAddress,int)
+    constructor org.evosuite.runtime.mock.java.net.MockInetSocketAddress.MockInetSocketAddress(java.net.InetAddress,int) is not applicable
+      (argument mismatch; org.evosuite.runtime.mock.java.net.MockInetAddress cannot be converted to java.net.InetAddress)
+    constructor org.evosuite.runtime.mock.java.net.MockInetSocketAddress.MockInetSocketAddress(java.lang.String,int) is not applicable
+      (argument mismatch; org.evosuite.runtime.mock.java.net.MockInetAddress cannot be converted to java.lang.String)
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/auth/InstagramAuthService_ESTest.java
+[GENERATED PATH] InstagramAuthService_ESTest#proxy(Proxy requestProxy).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/auth/InstagramAuthService_ESTest.java:[48,39] multi-catch statement is not supported in -source 1.6
+  (use -source 7 or higher to enable multi-catch statement)
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/auth/InstagramAuthService_ESTest.java
+[GENERATED PATH] InstagramAuthService_ESTest#proxy(Proxy requestProxy).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/auth/InstagramAuthService_ESTest.java:[50,35] multi-catch statement is not supported in -source 1.6
+  (use -source 7 or higher to enable multi-catch statement)
+[INFO] 1 error
+####################
+

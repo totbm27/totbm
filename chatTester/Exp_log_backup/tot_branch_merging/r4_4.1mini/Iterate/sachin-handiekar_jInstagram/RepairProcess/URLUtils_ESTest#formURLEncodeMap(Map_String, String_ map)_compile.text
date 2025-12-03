@@ -1,0 +1,30 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/URLUtils_ESTest.java
+[GENERATED PATH] URLUtils_ESTest#formURLEncodeMap(Map<String, String> map).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/URLUtils_ESTest.java:[29,13] cannot find symbol
+  symbol:   method formURLEncodeMap(<nulltype>)
+  location: class org.jinstagram.http.URLUtils_ESTest
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/URLUtils_ESTest.java
+[GENERATED PATH] URLUtils_ESTest#formURLEncodeMap(Map<String, String> map).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/URLUtils_ESTest.java:[31,13] cannot find symbol
+  symbol:   variable YourClassName
+  location: class org.jinstagram.http.URLUtils_ESTest
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/URLUtils_ESTest.java
+[GENERATED PATH] URLUtils_ESTest#formURLEncodeMap(Map<String, String> map).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/URLUtils_ESTest.java:[31,13] cannot find symbol
+  symbol:   method formURLEncodeMap(<nulltype>)
+  location: class org.jinstagram.http.URLUtils_ESTest
+[INFO] 1 error
+####################
+

@@ -1,0 +1,153 @@
+0-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+public static List<Ruling> cropRulingsToArea(List<Ruling> rulings, Rectangle2D area) {
+    ArrayList<Ruling> rv = new ArrayList<>();
+    for (Ruling r : rulings) {
+        if (r.intersects(area)) {
+            rv.add(r.intersect(area));
+        }
+    }
+    return rv;
+}
+
+# Method Intention
+The cropRulingsToArea method is intended to filter a list of Ruling objects based on whether they intersect with a specified Rectangle2D area, returning a new list containing only the Ruling objects that overlap with the given area.
+
+# Test Method
+    @Test
+    public void testCropRulingsToArea() {
+        Rectangle2D area = new Rectangle2D.Float(0, 0, 10, 10);
+        List<Ruling> rulings = new ArrayList<>();
+        Ruling ruling1 = new Ruling(0, 0, 5, 5);
+        Ruling ruling2 = new Ruling(3, 3, 7, 7);
+        Ruling ruling3 = new Ruling(12, 12, 3, 3);
+        rulings.add(ruling1);
+        rulings.add(ruling2);
+        rulings.add(ruling3);
+        List<Ruling> croppedRulings = Ruling.cropRulingsToArea(rulings, area);
+       [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.AssertionError " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method, and the generated code should be compatible with Java compiler version 1.6.
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->1-->0-->testRepair
+
+# Ruling class
+package technology.tabula;
+public class Ruling {
+public Ruling(float top, float left, float width, float height);
+public Ruling(Point2D p1, Point2D p2);
+public void normalize();
+public boolean vertical();
+public boolean horizontal();
+public boolean oblique();
+public float getPosition();
+public void setPosition(float v);
+public float getStart();
+public void setStart(float v);
+public float getEnd();
+public void setEnd(float v);
+public boolean perpendicularTo(Ruling other);
+public boolean colinear(Point2D point);
+public boolean nearlyIntersects(Ruling another);
+public boolean nearlyIntersects(Ruling another, int colinearOrParallelExpandAmount);
+public double length();
+public Ruling intersect(Rectangle2D clip);
+public Ruling expand(float amount);
+public Point2D intersectionPoint(Ruling other);
+public boolean equals(Object other);
+public float getTop();
+public void setTop(float v);
+public float getLeft();
+public void setLeft(float v);
+public float getBottom();
+public void setBottom(float v);
+public float getRight();
+public void setRight(float v);
+public float getWidth();
+public float getHeight();
+public double getAngle();
+public String toString();
+public static List<Ruling> cropRulingsToArea(List<Ruling> rulings, Rectangle2D area);
+public static Map<Point2D, Ruling[]> findIntersections(List<Ruling> horizontals, List<Ruling> verticals);
+public static List<Ruling> collapseOrientedRulings(List<Ruling> lines);
+public static List<Ruling> collapseOrientedRulings(List<Ruling> lines, int expandAmount);
+}
+
+
+# Test Method
+    @Test
+    public void testCropRulingsToArea() {
+        Rectangle2D area = new Rectangle2D.Float(0, 0, 10, 10);
+        List<Ruling> rulings = new ArrayList<>();
+        Ruling ruling1 = new Ruling(0, 0, 5, 5);
+        Ruling ruling2 = new Ruling(3, 3, 7, 7);
+        Ruling ruling3 = new Ruling(12, 12, 3, 3);
+        rulings.add(ruling1);
+        rulings.add(ruling2);
+        rulings.add(ruling3);
+        List<Ruling> croppedRulings = Ruling.cropRulingsToArea(rulings, area);
+
+<Buggy Line>: cannot find symbol method "cropRulingsToArea(java.util.List<technology.tabula.Ruling>,java.awt.geom.Rectangle2D)" in Ruling_ESTest
+        assertEquals(1, croppedRulings.size());
+
+        Ruling croppedRuling = croppedRulings.get(0);
+        assertEquals(3.0f, croppedRuling.getTop(), 0.01);
+        assertEquals(3.0f, croppedRuling.getLeft(), 0.01);
+        assertEquals(5.0f, croppedRuling.getWidth(), 0.01);
+        assertEquals(5.0f, croppedRuling.getHeight(), 0.01);
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "Ruling" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "Ruling" class  cannot be modified, and the generated code should be compatible with Java compiler version 1.6.
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->0-->testRepair
+# Focal method (Cannot be modified)
+public static List<Ruling> cropRulingsToArea(List<Ruling> rulings, Rectangle2D area) {
+    ArrayList<Ruling> rv = new ArrayList<>();
+    for (Ruling r : rulings) {
+        if (r.intersects(area)) {
+            rv.add(r.intersect(area));
+        }
+    }
+    return rv;
+}
+
+# Method Intention
+The cropRulingsToArea method is intended to filter a list of Ruling objects based on whether they intersect with a specified Rectangle2D area, returning a new list containing only the Ruling objects that overlap with the given area.
+
+# Test Method
+    @Test
+    public void testCropRulingsToArea() {
+        Rectangle2D area = new Rectangle2D.Float(0, 0, 10, 10);
+        List<Ruling> rulings = new ArrayList<>();
+        Ruling ruling1 = new Ruling(0, 0, 5, 5);
+        Ruling ruling2 = new Ruling(3, 3, 7, 7);
+        Ruling ruling3 = new Ruling(12, 12, 3, 3);
+        rulings.add(ruling1);
+        rulings.add(ruling2);
+        rulings.add(ruling3);
+        List<Ruling> croppedRulings = Ruling.cropRulingsToArea(rulings, area);
+        assertEquals(2, croppedRulings.size());
+        Ruling croppedRuling = croppedRulings.get(0);
+        [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.AssertionError " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method, and the generated code should be compatible with Java compiler version 1.6.
+The generated code should be enclosed within ``` ```.
+
+########
+

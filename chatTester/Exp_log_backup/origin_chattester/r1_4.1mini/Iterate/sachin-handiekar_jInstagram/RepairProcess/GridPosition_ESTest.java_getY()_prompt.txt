@@ -1,0 +1,60 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class GridPosition {
+@SerializedName("y")
+private double y;
+# Focal method
+public void setY(double y) {
+    this.y = y;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# GridPosition class
+package org.jinstagram.entity.common;
+public class GridPosition {
+public double getX();
+public void setX(double x);
+public double getY();
+public void setY(double y);
+}
+
+
+# Test Method
+    @Test
+    public void testSetY() {
+        GridPosition position = new GridPosition();
+        position.setY(10.5);
+
+        <Buggy Line>: y has private access in org.jinstagram.entity.common.GridPosition
+        assertEquals(10.5, position.y, 0.0001);
+
+        position.setY(0.0);
+        assertEquals(0.0, position.y, 0.0001);
+        position.setY(-7.25);
+        assertEquals(-7.25, position.y, 0.0001);
+        position.setY(1e6);
+        assertEquals(1e6, position.y, 0.0001);
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "GridPosition" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "GridPosition" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

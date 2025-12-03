@@ -1,0 +1,10 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/ProjectionProfile_ESTest.java
+[GENERATED PATH] ProjectionProfile_ESTest#getAutocorrelation(float() projection).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/ProjectionProfile_ESTest.java:[40,5] cannot find symbol
+  symbol:   variable Assert
+  location: class technology.tabula.ProjectionProfile_ESTest
+[INFO] 1 error
+####################
+

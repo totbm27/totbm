@@ -1,0 +1,42 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/basicinfo/Counts_ESTest.java
+[GENERATED PATH] Counts_ESTest#getFollows().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/comments/MediaCommentsFeed_ESTest.java:[37,59] diamond operator is not supported in -source 1.6
+  (use -source 7 or higher to enable diamond operator)
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/basicinfo/Counts_ESTest.java
+[GENERATED PATH] Counts_ESTest#getFollows().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/basicinfo/Counts_ESTest.java:[35,39] multi-catch statement is not supported in -source 1.6
+  (use -source 7 or higher to enable multi-catch statement)
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/basicinfo/Counts_ESTest.java
+[GENERATED PATH] Counts_ESTest#getFollows().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/basicinfo/Counts_ESTest.java:[31,36] incompatible types: java.lang.Object cannot be converted to int
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/basicinfo/Counts_ESTest.java
+[GENERATED PATH] Counts_ESTest#getFollows().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/basicinfo/Counts_ESTest.java:[32,26] cannot find symbol
+  symbol:   method getFollowsValue(org.jinstagram.entity.users.basicinfo.Counts)
+  location: class org.jinstagram.entity.users.basicinfo.Counts_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/basicinfo/Counts_ESTest.java:[36,25] cannot find symbol
+  symbol:   method getFollowsValue(org.jinstagram.entity.users.basicinfo.Counts)
+  location: class org.jinstagram.entity.users.basicinfo.Counts_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/basicinfo/Counts_ESTest.java:[40,26] cannot find symbol
+  symbol:   method getFollowsValue(org.jinstagram.entity.users.basicinfo.Counts)
+  location: class org.jinstagram.entity.users.basicinfo.Counts_ESTest
+[INFO] 3 errors 
+####################
+

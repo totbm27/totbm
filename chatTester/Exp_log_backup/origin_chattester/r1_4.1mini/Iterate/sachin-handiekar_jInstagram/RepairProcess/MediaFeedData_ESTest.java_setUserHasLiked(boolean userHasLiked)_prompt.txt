@@ -1,0 +1,55 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class MediaFeedData {
+@SerializedName("id")
+private String id;@SerializedName("user")
+private User user;@SerializedName("user_has_liked")
+private boolean userHasLiked;
+# Focal method
+public void setUserHasLiked(boolean userHasLiked) {
+    this.userHasLiked = userHasLiked;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testSetUserHasLiked() {
+        MediaFeedData mediaFeedData = new MediaFeedData();
+        try {
+            java.lang.reflect.Field field = MediaFeedData.class.getDeclaredField("userHasLiked");
+            field.setAccessible(true);
+            assertFalse(field.getBoolean(mediaFeedData));
+            mediaFeedData.setUserHasLiked(true);
+            assertTrue(field.getBoolean(mediaFeedData));
+            mediaFeedData.setUserHasLiked(false);
+            assertFalse(field.getBoolean(mediaFeedData));
+
+            <Buggy Line>: multi-catch statement is not supported in -source 1.6
+        } catch (NoSuchFieldException | IllegalAccessException e) {
+
+            fail("Reflection failed: " + e.getMessage());
+        }
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

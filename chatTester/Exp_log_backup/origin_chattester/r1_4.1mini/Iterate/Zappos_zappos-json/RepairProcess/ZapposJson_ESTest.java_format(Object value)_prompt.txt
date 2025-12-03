@@ -1,0 +1,88 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testFormat() {
+        ZapposJson zapposJson = ZapposJson.getInstance();
+        Date date = new Date();
+        String formattedDate = zapposJson.format(date);
+        assertEquals(date.toString(), formattedDate);
+
+          <Buggy Line>: cannot find symbol class "BigDecimal"
+        BigDecimal bigDecimal = new BigDecimal("123.456");
+
+        String formattedBigDecimal = zapposJson.format(bigDecimal);
+        assertEquals(bigDecimal.toString(), formattedBigDecimal);
+        CustomObject customObject = new CustomObject("test");
+        String formattedCustomObject = zapposJson.format(customObject);
+        assertEquals(customObject.toString(), formattedCustomObject);
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testFormat() {
+        ZapposJson zapposJson = ZapposJson.getInstance();
+        Date date = new Date();
+        String formattedDate = zapposJson.format(date);
+        assertEquals(date.toString(), formattedDate);
+        BigDecimal bigDecimal = new BigDecimal("123.456");
+        String formattedBigDecimal = zapposJson.format(bigDecimal);
+        assertEquals(bigDecimal.toString(), formattedBigDecimal);
+
+          <Buggy Line>: cannot find symbol class "CustomObject"
+        CustomObject customObject = new CustomObject("test");
+
+        String formattedCustomObject = zapposJson.format(customObject);
+        assertEquals(customObject.toString(), formattedCustomObject);
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->0-->testRepair
+# Focal method (Cannot be modified)
+public String format(Object value) {
+    ValueFormatter<Object> valueFormatter = VALUE_FORMATTERS.get(value.getClass());
+    if (valueFormatter != null) {
+        return valueFormatter.format(this, value);
+    } else {
+        return value.toString();
+    }
+}
+
+# Method Intention
+The format(Object value) method is designed to convert a given object into its corresponding JSON-compatible string representation by looking up and applying a specific ValueFormatter based on the object's class, or defaulting to the object's toString() method if no formatter is registered.
+
+# Test Method
+@Test
+public void testFormat() {
+    ZapposJson zapposJson = ZapposJson.getInstance();
+    Date date = new Date();
+    String formattedDate = zapposJson.format(date);
+   [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.junit.ComparisonFailure expected:<[Tue Jul 15 08:22:44 GMT 202]5> but was:<[175256776490]5> " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+

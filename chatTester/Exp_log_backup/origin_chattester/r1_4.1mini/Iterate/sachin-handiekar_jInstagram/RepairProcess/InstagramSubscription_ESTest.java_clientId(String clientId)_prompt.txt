@@ -1,0 +1,190 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class InstagramSubscription {
+private final Map<String, String> params;
+public InstagramSubscription() {
+    this.params = new HashMap<String, String>();
+    this.params.put(Constants.CALLBACK_URL, OAuthConstants.OUT_OF_BAND);
+}
+# Focal method
+public InstagramSubscription clientId(String clientId) {
+    Preconditions.checkEmptyString(clientId, "Invalid 'clientId' key");
+    this.params.put(Constants.CLIENT_ID, clientId);
+    return this;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testClientId_validAndInvalid() {
+        InstagramSubscription subscription = new InstagramSubscription();
+        String validClientId = "validClientId123";
+        InstagramSubscription returnedSubscription = subscription.clientId(validClientId);
+        assertSame(subscription, returnedSubscription, "The method should return the same InstagramSubscription instance");
+        try {
+            java.lang.reflect.Field paramsField = InstagramSubscription.class.getDeclaredField("params");
+            paramsField.setAccessible(true);
+            @SuppressWarnings("unchecked")
+            Map<String, String> params = (Map<String, String>) paramsField.get(subscription);
+            assertEquals(validClientId, params.get(Constants.CLIENT_ID), "The clientId should be set in params map");
+
+            <Buggy Line>: multi-catch statement is not supported in -source 1.6
+        } catch (NoSuchFieldException | IllegalAccessException e) {
+
+            fail("Reflection failed to access params field: " + e.getMessage());
+        }
+        IllegalArgumentException thrown = assertThrows(IllegalArgumentException.class, () -> {
+            subscription.clientId("");
+        });
+        assertEquals("Invalid 'clientId' key", thrown.getMessage());
+        thrown = assertThrows(IllegalArgumentException.class, () -> {
+            subscription.clientId(null);
+        });
+        assertEquals("Invalid 'clientId' key", thrown.getMessage());
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testClientId_validAndInvalid() {
+    InstagramSubscription subscription = new InstagramSubscription();
+    String validClientId = "validClientId123";
+    InstagramSubscription returnedSubscription = subscription.clientId(validClientId);
+    assertSame(subscription, returnedSubscription, "The method should return the same InstagramSubscription instance");
+    try {
+        java.lang.reflect.Field paramsField = InstagramSubscription.class.getDeclaredField("params");
+        paramsField.setAccessible(true);
+        @SuppressWarnings("unchecked")
+        Map<String, String> params = (Map<String, String>) paramsField.get(subscription);
+        assertEquals(validClientId, params.get(Constants.CLIENT_ID), "The clientId should be set in params map");
+    } catch (NoSuchFieldException e) {
+        fail("Reflection failed to access params field: " + e.getMessage());
+    } catch (IllegalAccessException e) {
+        fail("Reflection failed to access params field: " + e.getMessage());
+    }
+
+        <Buggy Line>: lambda expressions are not supported in -source 1.6
+    IllegalArgumentException thrown = assertThrows(IllegalArgumentException.class, () -> {
+
+        subscription.clientId("");
+    });
+    assertEquals("Invalid 'clientId' key", thrown.getMessage());
+    thrown = assertThrows(IllegalArgumentException.class, () -> {
+        subscription.clientId(null);
+    });
+    assertEquals("Invalid 'clientId' key", thrown.getMessage());
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+3-->4-->1-->compileRepair
+
+
+# Focal Method
+public class InstagramSubscription {
+private final Map<String, String> params;
+public InstagramSubscription() {
+    this.params = new HashMap<String, String>();
+    this.params.put(Constants.CALLBACK_URL, OAuthConstants.OUT_OF_BAND);
+}
+# Focal method
+public InstagramSubscription clientId(String clientId) {
+    Preconditions.checkEmptyString(clientId, "Invalid 'clientId' key");
+    this.params.put(Constants.CLIENT_ID, clientId);
+    return this;
+}
+}
+
+# Method Intention
+The clientId(String clientId) method is designed to validate that the provided clientId string is not empty and then store it in the subscription parameters map under the CLIENT_ID key, enabling method chaining by returning the current InstagramSubscription instance.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+4-->5-->2-->compileRepair
+
+
+# Focal Method
+public class InstagramSubscription {
+private final Map<String, String> params;
+public InstagramSubscription() {
+    this.params = new HashMap<String, String>();
+    this.params.put(Constants.CALLBACK_URL, OAuthConstants.OUT_OF_BAND);
+}
+# Focal method
+public InstagramSubscription clientId(String clientId) {
+    Preconditions.checkEmptyString(clientId, "Invalid 'clientId' key");
+    this.params.put(Constants.CLIENT_ID, clientId);
+    return this;
+}
+}
+
+# Method Intention
+The clientId(String clientId) method is designed to validate that the provided clientId string is not empty and then store it in the internal parameters map under the CLIENT_ID key, enabling method chaining by returning the current InstagramSubscription instance.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+5-->6-->3-->compileRepair
+
+
+# Focal Method
+public class InstagramSubscription {
+private final Map<String, String> params;
+public InstagramSubscription() {
+    this.params = new HashMap<String, String>();
+    this.params.put(Constants.CALLBACK_URL, OAuthConstants.OUT_OF_BAND);
+}
+# Focal method
+public InstagramSubscription clientId(String clientId) {
+    Preconditions.checkEmptyString(clientId, "Invalid 'clientId' key");
+    this.params.put(Constants.CLIENT_ID, clientId);
+    return this;
+}
+}
+
+# Method Intention
+The clientId(String clientId) method is designed to validate that the provided clientId string is not empty and then store it in the internal parameters map under the CLIENT_ID key, enabling method chaining by returning the current InstagramSubscription instance.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+

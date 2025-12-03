@@ -1,0 +1,127 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testWriteArray() throws Exception {
+    ZapposJson zapposJson = new ZapposJson() {
+        @Override
+
+              <Buggy Line>: toJson(java.lang.Object,java.io.Writer) in <anonymous com.zappos.json.JsonWriter_ESTest$1> cannot override toJson(java.lang.Object,java.io.Writer) in com.zappos.json.ZapposJson
+        public void toJson(Object obj, Writer writer) throws IOException {
+
+            writer.write("\"" + obj.toString() + "\"");
+        }
+    };
+    CharArrayWriter writer = new CharArrayWriter();
+    Object[] values = new Object[] { "apple", 123, true };
+    JsonWriter.writeArray(zapposJson, values, writer);
+    String expected = "[\"apple\",\"123\",\"true\"]";
+    String actual = writer.toString();
+    org.junit.Assert.assertEquals(expected, actual);
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testWriteArray() throws Exception {
+        ZapposJson zapposJson = new ZapposJson() {
+            @Override
+
+                  <Buggy Line>: toJson(java.lang.Object,java.io.Writer) in <anonymous com.zappos.json.JsonWriter_ESTest$1> cannot override toJson(java.lang.Object,java.io.Writer) in com.zappos.json.ZapposJson
+            public void toJson(Object obj, Writer writer) throws IOException {
+
+                writer.write("\"" + obj.toString() + "\"");
+            }
+        };
+        CharArrayWriter writer = new CharArrayWriter();
+        Object[] values = new Object[] { "apple", 123, true };
+        JsonWriter.writeArray(zapposJson, values, writer);
+        String expected = "[\"apple\",\"123\",\"true\"]";
+        String actual = writer.toString();
+        Assert.assertEquals(expected, actual);
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->0-->compileRepair
+
+# JsonWriter class
+package com.zappos.json;
+public class JsonWriter {
+public static final String CONST_NULL = "null";
+public static final char CONST_DOUBLE_QUOTE = '"';
+public static final char CONST_COMMA = ',';
+public static final char CONST_COLON = ':';
+public static final char CONST_OPEN_OBJECT = '{';
+public static final char CONST_CLOSE_OBJECT = '}';
+public static final char CONST_OPEN_ARRAY = '[';
+public static final char CONST_CLOSE_ARRAY = ']';
+public JsonWriter(ZapposJson jacinda);
+public static void writeString(ZapposJson zapposJson, String value, Writer writer) throws IOException;
+public static void writeBoolean(ZapposJson zapposJson, Boolean value, Writer writer) throws IOException;
+public static void writeNumber(ZapposJson zapposJson, Number value, Writer writer) throws IOException;
+public static void writeEnum(ZapposJson zapposJson, Enum<?> value, Writer writer) throws IOException;
+public static void writeIterable(ZapposJson zapposJson, Iterable<?> iterable, Writer writer) throws IOException;
+public static void writeMap(ZapposJson zapposJson, Map<?, ?> map, Writer writer) throws IOException;
+public static void writeArray(ZapposJson zapposJson, Object[] values, Writer writer) throws IOException;
+public static void writeBase64String(ZapposJson zapposJson, byte[] value, Writer writer) throws IOException;
+public static void writeArray(char[] values, Writer writer) throws IOException;
+public static void writeArray(boolean[] values, Writer writer) throws IOException;
+public static void writeArray(short[] values, Writer writer) throws IOException;
+public static void writeArray(int[] values, Writer writer) throws IOException;
+public static void writeArray(long[] values, Writer writer) throws IOException;
+public static void writeArray(float[] values, Writer writer) throws IOException;
+public static void writeArray(double[] values, Writer writer) throws IOException;
+}
+
+
+# Test Method
+    @Test
+    public void testWriteArray() throws Exception {
+        ZapposJson zapposJson = new ZapposJson() {
+            @Override
+            public void toJson(Object obj, Writer writer) {
+                try {
+                    writer.write("\"" + obj.toString() + "\"");
+                } catch (Exception e) {
+                    throw new RuntimeException(e);
+                }
+            }
+        };
+        CharArrayWriter writer = new CharArrayWriter();
+        Object[] values = new Object[] { "apple", 123, true };
+        JsonWriter.writeArray(zapposJson, values, writer);
+        String expected = "[\"apple\",\"123\",\"true\"]";
+        String actual = writer.toString();
+
+       <Buggy Line>: cannot find symbol variable "Assert"
+        Assert.assertEquals(expected, actual);
+
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "JsonWriter" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "JsonWriter" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

@@ -1,0 +1,54 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java
+[GENERATED PATH] SpreadsheetExtractionAlgorithm_ESTest#findSpreadsheetsFromCells(List<? extends Rectangle> cells).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java:[39,14] no suitable method found for add(java.awt.geom.Rectangle2D.Double)
+    method java.util.Collection.add(technology.tabula.Rectangle) is not applicable
+      (argument mismatch; java.awt.geom.Rectangle2D.Double cannot be converted to technology.tabula.Rectangle)
+    method java.util.List.add(technology.tabula.Rectangle) is not applicable
+      (argument mismatch; java.awt.geom.Rectangle2D.Double cannot be converted to technology.tabula.Rectangle)
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java:[40,14] no suitable method found for add(java.awt.geom.Rectangle2D.Double)
+    method java.util.Collection.add(technology.tabula.Rectangle) is not applicable
+      (argument mismatch; java.awt.geom.Rectangle2D.Double cannot be converted to technology.tabula.Rectangle)
+    method java.util.List.add(technology.tabula.Rectangle) is not applicable
+      (argument mismatch; java.awt.geom.Rectangle2D.Double cannot be converted to technology.tabula.Rectangle)
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java:[41,14] no suitable method found for add(java.awt.geom.Rectangle2D.Double)
+    method java.util.Collection.add(technology.tabula.Rectangle) is not applicable
+      (argument mismatch; java.awt.geom.Rectangle2D.Double cannot be converted to technology.tabula.Rectangle)
+    method java.util.List.add(technology.tabula.Rectangle) is not applicable
+      (argument mismatch; java.awt.geom.Rectangle2D.Double cannot be converted to technology.tabula.Rectangle)
+[INFO] 3 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java
+[GENERATED PATH] SpreadsheetExtractionAlgorithm_ESTest#findSpreadsheetsFromCells(List<? extends Rectangle> cells).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java:[38,93] incompatible types: java.util.List<java.awt.geom.Rectangle2D> cannot be converted to java.util.List<? extends technology.tabula.Rectangle>
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java
+[GENERATED PATH] SpreadsheetExtractionAlgorithm_ESTest#findSpreadsheetsFromCells(List<? extends Rectangle> cells).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java:[39,97] incompatible types: java.util.List<java.awt.geom.Rectangle2D> cannot be converted to java.util.List<? extends technology.tabula.Rectangle>
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java
+[GENERATED PATH] SpreadsheetExtractionAlgorithm_ESTest#findSpreadsheetsFromCells(List<? extends Rectangle> cells).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java:[38,93] incompatible types: java.util.List<java.awt.geom.Rectangle2D> cannot be converted to java.util.List<? extends technology.tabula.Rectangle>
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java
+[GENERATED PATH] SpreadsheetExtractionAlgorithm_ESTest#findSpreadsheetsFromCells(List<? extends Rectangle> cells).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm_ESTest.java:[39,115] incompatible types: java.util.List<java.awt.geom.Rectangle2D> cannot be converted to java.util.List<? extends technology.tabula.Rectangle>
+[INFO] 1 error
+####################
+

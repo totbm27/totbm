@@ -1,0 +1,20 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java
+[GENERATED PATH] JsonWriter_ESTest#writeMap(ZapposJson zapposJson, Map<?, ?> map, Writer writer).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[51,21] toJson(java.lang.Object,java.io.Writer) in <anonymous com.zappos.json.JsonWriter_ESTest$1> cannot override toJson(java.lang.Object,java.io.Writer) in com.zappos.json.ZapposJson
+  overridden method does not throw java.io.IOException
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java
+[GENERATED PATH] JsonWriter_ESTest#writeMap(ZapposJson zapposJson, Map<?, ?> map, Writer writer).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[59,43] unreported exception java.io.IOException; must be caught or declared to be thrown
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[61,44] unreported exception java.io.IOException; must be caught or declared to be thrown
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[63,43] unreported exception java.io.IOException; must be caught or declared to be thrown
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[65,43] unreported exception java.io.IOException; must be caught or declared to be thrown
+[INFO] 4 errors 
+####################
+

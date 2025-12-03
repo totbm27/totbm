@@ -1,0 +1,59 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/relationships/RelationshipFeed_ESTest.java
+[GENERATED PATH] RelationshipFeed_ESTest#toString().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/relationships/RelationshipFeed_ESTest.java:[25,9] cannot find symbol
+  symbol:   method setSomeField(java.lang.String)
+  location: variable data of type org.jinstagram.entity.relationships.RelationshipData
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/relationships/RelationshipFeed_ESTest.java
+[GENERATED PATH] RelationshipFeed_ESTest#toString().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/relationships/RelationshipFeed_ESTest.java:[37,9] cannot find symbol
+  symbol:   variable Assert
+  location: class org.jinstagram.entity.relationships.RelationshipFeed_ESTest
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/relationships/RelationshipFeed_ESTest.java
+[GENERATED PATH] RelationshipFeed_ESTest#toString().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/relationships/RelationshipFeed_ESTest.java:[8,43] cannot find symbol
+  symbol:   class Meta
+  location: package org.jinstagram.entity.relationships
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/relationships/RelationshipFeed_ESTest.java:[37,9] cannot find symbol
+  symbol:   variable Assert
+  location: class org.jinstagram.entity.relationships.RelationshipFeed_ESTest
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/relationships/RelationshipFeed_ESTest.java
+[GENERATED PATH] RelationshipFeed_ESTest#toString().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/relationships/RelationshipFeed_ESTest.java:[8,29] cannot find symbol
+  symbol:   class Meta
+  location: package org.jinstagram.entity
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/relationships/RelationshipFeed_ESTest.java:[9,43] cannot find symbol
+  symbol:   class Meta
+  location: package org.jinstagram.entity.relationships
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/relationships/RelationshipFeed_ESTest.java
+[GENERATED PATH] RelationshipFeed_ESTest#toString().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/relationships/RelationshipFeed_ESTest.java:[9,29] cannot find symbol
+  symbol:   class Meta
+  location: package org.jinstagram.entity
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/relationships/RelationshipFeed_ESTest.java:[10,43] cannot find symbol
+  symbol:   class Meta
+  location: package org.jinstagram.entity.relationships
+[INFO] 2 errors 
+####################
+

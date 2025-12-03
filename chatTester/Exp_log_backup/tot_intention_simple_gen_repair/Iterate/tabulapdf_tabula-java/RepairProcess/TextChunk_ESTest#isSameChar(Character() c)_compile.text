@@ -1,0 +1,27 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/TextChunk_ESTest.java
+[GENERATED PATH] TextChunk_ESTest#isSameChar(Character() c).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/TextChunk_ESTest.java:[34,30] cannot find symbol
+  symbol:   method createTextChunkFromString(java.lang.String)
+  location: class technology.tabula.TextChunk_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/TextChunk_ESTest.java:[46,32] cannot find symbol
+  symbol:   method createTextChunkFromString(java.lang.String)
+  location: class technology.tabula.TextChunk_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/TextChunk_ESTest.java:[52,30] cannot find symbol
+  symbol:   method createTextChunkFromString(java.lang.String)
+  location: class technology.tabula.TextChunk_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/TextChunk_ESTest.java:[62,21] reference to isSameChar is ambiguous
+  both method isSameChar(java.lang.Character) in technology.tabula.TextChunk and method isSameChar(java.lang.Character[]) in technology.tabula.TextChunk match
+[INFO] 4 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/TextChunk_ESTest.java
+[GENERATED PATH] TextChunk_ESTest#isSameChar(Character() c).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/TextChunk_ESTest.java:[51,17] reference to isSameChar is ambiguous
+  both method isSameChar(java.lang.Character) in technology.tabula.TextChunk and method isSameChar(java.lang.Character[]) in technology.tabula.TextChunk match
+[INFO] 1 error
+####################
+

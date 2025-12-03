@@ -1,0 +1,21 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Rectangle_ESTest.java
+[GENERATED PATH] Rectangle_ESTest#isLtrDominant().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Rectangle_ESTest.java:[32,45] cannot find symbol
+  symbol:   method getTopLeft()
+  location: variable rectangle1 of type technology.tabula.Rectangle
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Rectangle_ESTest.java:[32,78] cannot find symbol
+  symbol:   method getBottomRight()
+  location: variable rectangle1 of type technology.tabula.Rectangle
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Rectangle_ESTest.java
+[GENERATED PATH] Rectangle_ESTest#isLtrDominant().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Rectangle_ESTest.java:[33,55] incompatible types: possible lossy conversion from double to float
+[INFO] 1 error
+####################
+

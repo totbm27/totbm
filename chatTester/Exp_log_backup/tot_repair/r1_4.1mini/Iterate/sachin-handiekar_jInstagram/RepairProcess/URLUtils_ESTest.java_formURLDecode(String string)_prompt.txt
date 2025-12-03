@@ -1,0 +1,64 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class URLUtils {
+private static final String UTF_8 = "UTF-8";private static final String ERROR_MSG = String.format("Cannot find specified encoding: %s", UTF_8);
+# Focal method
+public static String formURLDecode(String string) {
+    Preconditions.checkNotNull(string, "Cannot decode null string");
+    try {
+        return URLDecoder.decode(string, UTF_8);
+    } catch (UnsupportedEncodingException uee) {
+        throw new IllegalStateException(ERROR_MSG, uee);
+    }
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# URLUtils class
+package org.jinstagram.http;
+public class URLUtils {
+public static String encodeURIComponent(String s);
+public static String decodeURIComponent(String s);
+public static String formURLEncodeMap(Map<String, String> map);
+public static String percentEncode(String string);
+public static String formURLEncode(String string);
+public static String formURLDecode(String string);
+public static String appendParametersToQueryString(String url, Map<String, String> params);
+public static String concatSortedPercentEncodedParams(Map<String, String> params);
+public static Map<String, String> queryStringToMap(String queryString);
+}
+
+
+# Test Method
+@Test
+public void testFormURLDecode() throws Exception {
+    String original = "This is a test! 100% encoding & decoding.";
+
+      <Buggy Line>: cannot find symbol variable "URLEncoder"
+    String encoded = URLEncoder.encode(original, "UTF-8");
+
+    String decoded = URLUtils.formURLDecode(encoded);
+    assertEquals(original, decoded);
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "URLUtils" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "URLUtils" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

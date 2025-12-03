@@ -1,0 +1,109 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java
+[GENERATED PATH] JsonBeanIntrospector_ESTest#getAccessors(Class<?> clazz).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[28,12] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[30,5] class, interface, or enum expected
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java
+[GENERATED PATH] JsonBeanIntrospector_ESTest#getAccessors(Class<?> clazz).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[28,8] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[32,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[44,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[44,82] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[47,5] invalid method declaration; return type required
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[47,28] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[47,30] illegal start of type
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[48,5] invalid method declaration; return type required
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[48,34] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[48,35] ';' expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[48,36] illegal start of type
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[48,37] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[48,74] ';' expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[52,28] lambda expressions are not supported in -source 1.7
+  (use -source 8 or higher to enable lambda expressions)
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[58,5] invalid method declaration; return type required
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[58,23] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[58,25] illegal start of type
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[59,5] invalid method declaration; return type required
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[59,22] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[59,24] illegal start of type
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[60,5] invalid method declaration; return type required
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[60,25] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[60,27] illegal start of type
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[68,5] invalid method declaration; return type required
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[68,27] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[68,29] illegal start of type
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[69,5] invalid method declaration; return type required
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[69,26] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[69,28] illegal start of type
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[71,1] class, interface, or enum expected
+[INFO] 30 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java
+[GENERATED PATH] JsonBeanIntrospector_ESTest#getAccessors(Class<?> clazz).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[28,12] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[31,9] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[32,9] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[32,42] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[38,9] invalid method declaration; return type required
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[38,29] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[38,31] illegal start of type
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[39,9] invalid method declaration; return type required
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[39,22] illegal start of type
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[39,36] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[39,37] ';' expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[39,38] illegal start of type
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[39,39] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[39,72] ';' expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[41,1] class, interface, or enum expected
+[INFO] 15 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java
+[GENERATED PATH] JsonBeanIntrospector_ESTest#getAccessors(Class<?> clazz).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[28,12] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[32,9] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[53,9] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[53,83] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[56,9] invalid method declaration; return type required
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[56,32] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[56,34] illegal start of type
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[57,9] invalid method declaration; return type required
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[57,38] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[57,39] ';' expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[57,40] illegal start of type
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[57,41] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[57,81] ';' expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[61,32] lambda expressions are not supported in -source 1.7
+  (use -source 8 or higher to enable lambda expressions)
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[65,9] invalid method declaration; return type required
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[65,30] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[65,32] illegal start of type
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[66,9] invalid method declaration; return type required
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[66,29] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[66,31] illegal start of type
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[71,9] invalid method declaration; return type required
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[71,30] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[71,32] illegal start of type
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[73,1] class, interface, or enum expected
+[INFO] 24 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java
+[GENERATED PATH] JsonBeanIntrospector_ESTest#getAccessors(Class<?> clazz).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonBeanIntrospector_ESTest.java:[28,16] class, interface, or enum expected
+[INFO] 1 error
+####################
+

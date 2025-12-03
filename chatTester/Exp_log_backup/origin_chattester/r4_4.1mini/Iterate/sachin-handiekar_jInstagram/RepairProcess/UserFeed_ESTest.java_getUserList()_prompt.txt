@@ -1,0 +1,26 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testGetUserList() {
+    UserFeed userFeed = new UserFeed();
+
+      <Buggy Line>: diamond operator is not supported in -source 1.6
+    List<UserFeedData> expectedList = new LinkedList<>();
+
+    UserFeedData userData = new UserFeedData();
+    expectedList.add(userData);
+    userFeed.setUserList(expectedList);
+    List<UserFeedData> actualList = userFeed.getUserList();
+    org.junit.Assert.assertEquals(expectedList, actualList);
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

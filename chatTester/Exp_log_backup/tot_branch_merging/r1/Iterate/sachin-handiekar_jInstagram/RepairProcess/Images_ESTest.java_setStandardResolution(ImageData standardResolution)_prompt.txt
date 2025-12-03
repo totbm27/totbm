@@ -1,0 +1,22 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class Images {
+@SerializedName("standard_resolution")
+private ImageData standardResolution;
+# Focal method
+public void setStandardResolution(ImageData standardResolution) {
+    this.standardResolution = standardResolution;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+

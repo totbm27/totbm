@@ -1,0 +1,20 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class Preconditions {
+# Focal method
+public static void checkBothNotNull(Object object1, Object object2, String errorMsg) {
+    check(!(object1 == null && object2 == null), errorMsg);
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be compatible with Java compiler version 1.6, and the generated code should be enclosed within ``` ```.
+
+########
+

@@ -1,0 +1,131 @@
+0-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+public static List<Line> groupByLines(List<TextChunk> textChunks) {
+    List<Line> lines = new ArrayList<>();
+    if (textChunks.size() == 0) {
+        return lines;
+    }
+    float bbwidth = Rectangle.boundingBoxOf(textChunks).width;
+    Line l = new Line();
+    l.addTextChunk(textChunks.get(0));
+    textChunks.remove(0);
+    lines.add(l);
+    Line last = lines.get(lines.size() - 1);
+    for (TextChunk te : textChunks) {
+        if (last.verticalOverlapRatio(te) < 0.1) {
+            if (last.width / bbwidth > 0.9 && TextChunk.allSameChar(last.getTextElements())) {
+                lines.remove(lines.size() - 1);
+            }
+            lines.add(new Line());
+            last = lines.get(lines.size() - 1);
+        }
+        last.addTextChunk(te);
+    }
+    if (last.width / bbwidth > 0.9 && TextChunk.allSameChar(last.getTextElements())) {
+        lines.remove(lines.size() - 1);
+    }
+    List<Line> rv = new ArrayList<>(lines.size());
+    for (Line line : lines) {
+        rv.add(Line.removeRepeatedCharacters(line, ' ', 3));
+    }
+    return rv;
+}
+
+# Method Intention
+The groupByLines method aims to organize a list of TextChunks into lines based on their vertical overlap ratio and character similarity, while also removing lines with a width that exceeds 90% of the bounding box width and containing text elements with the same characters.
+
+# Test Method
+@Test
+public void testGroupByLines() {
+    List<TextChunk> textChunks = new ArrayList<>();
+    TextChunk chunk1 = new TextChunk(10, 20, 30, 40);
+    TextChunk chunk2 = new TextChunk(15, 25, 35, 45);
+    TextChunk chunk3 = new TextChunk(100, 200, 300, 400);
+    textChunks.add(chunk1);
+    textChunks.add(chunk2);
+    textChunks.add(chunk3);
+    List<Line> result = TextChunk.groupByLines(textChunks);
+    assertNotNull(result);
+    assertEquals(2, result.size()); 
+    Line line1 = result.get(0);
+    Line line2 = result.get(1);
+          [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.Error Unresolved compilation problems: 
+ The method getTextChunks() is undefined for the type Line
+ The method getTextChunks() is undefined for the type Line
+ The method getTextChunks() is undefined for the type Line
+ The method getTextChunks() is undefined for the type Line
+ The method getTextChunks() is undefined for the type Line
+ " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+public static List<Line> groupByLines(List<TextChunk> textChunks) {
+    List<Line> lines = new ArrayList<>();
+    if (textChunks.size() == 0) {
+        return lines;
+    }
+    float bbwidth = Rectangle.boundingBoxOf(textChunks).width;
+    Line l = new Line();
+    l.addTextChunk(textChunks.get(0));
+    textChunks.remove(0);
+    lines.add(l);
+    Line last = lines.get(lines.size() - 1);
+    for (TextChunk te : textChunks) {
+        if (last.verticalOverlapRatio(te) < 0.1) {
+            if (last.width / bbwidth > 0.9 && TextChunk.allSameChar(last.getTextElements())) {
+                lines.remove(lines.size() - 1);
+            }
+            lines.add(new Line());
+            last = lines.get(lines.size() - 1);
+        }
+        last.addTextChunk(te);
+    }
+    if (last.width / bbwidth > 0.9 && TextChunk.allSameChar(last.getTextElements())) {
+        lines.remove(lines.size() - 1);
+    }
+    List<Line> rv = new ArrayList<>(lines.size());
+    for (Line line : lines) {
+        rv.add(Line.removeRepeatedCharacters(line, ' ', 3));
+    }
+    return rv;
+}
+
+# Method Intention
+The groupByLines method aims to organize a list of TextChunks into lines based on their vertical overlap ratio, width relative to the bounding box, and similarity of characters within each line, while also removing repeated characters and spaces.
+
+# Test Method
+@Test
+public void testGroupByLines() {
+    List<TextChunk> textChunks = new ArrayList<>();
+    TextChunk chunk1 = new TextChunk(10, 20, 30, 40);
+    TextChunk chunk2 = new TextChunk(15, 25, 35, 45);
+    TextChunk chunk3 = new TextChunk(100, 200, 300, 400);
+    textChunks.add(chunk1);
+    textChunks.add(chunk2);
+    textChunks.add(chunk3);
+    List<Line> result = TextChunk.groupByLines(textChunks);
+    assertNotNull(result);
+    assertEquals(2, result.size()); 
+    Line line1 = result.get(0);
+    Line line2 = result.get(1);
+   [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.Error Unresolved compilation problems: 
+ The method getTextChunks() is undefined for the type Line
+ The method getTextChunks() is undefined for the type Line
+ " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+

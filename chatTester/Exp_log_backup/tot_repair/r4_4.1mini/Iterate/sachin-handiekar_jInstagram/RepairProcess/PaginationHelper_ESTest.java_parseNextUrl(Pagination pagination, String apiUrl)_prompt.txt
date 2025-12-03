@@ -1,0 +1,55 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testParseNextUrl_validNextUrl_returnsPage() {
+    Pagination pagination = new Pagination();
+    String apiUrl = "https://api.instagram.com/v1/media/";
+    String nextUrl = "https://api.instagram.com/v1/media/search?max_id=12345&count=10";
+    pagination.setNextUrl(nextUrl);
+
+      <Buggy Line>: cannot find symbol class "Page"
+    Page page = PaginationHelper.parseNextUrl(pagination, apiUrl);
+
+    org.junit.Assert.assertEquals("search", page.getMethodName());
+    org.junit.Assert.assertEquals("12345", page.getParams().get("max_id"));
+    org.junit.Assert.assertEquals("10", page.getParams().get("count"));
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testParseNextUrl_validNextUrl_returnsPage() {
+        Pagination pagination = new Pagination();
+        String apiUrl = "https://api.instagram.com/v1/media/";
+        String nextUrl = "https://api.instagram.com/v1/media/search?max_id=12345&count=10";
+        pagination.setNextUrl(nextUrl);
+        PaginationHelper.Page page = PaginationHelper.parseNextUrl(pagination, apiUrl);
+        assertEquals("search", page.getMethodName());
+
+       <Buggy Line>: cannot find symbol method "getParams()" in Page
+        assertEquals("12345", page.getParams().get("max_id"));
+
+        assertEquals("10", page.getParams().get("count"));
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "Page" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "Page" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

@@ -1,0 +1,69 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class User {
+@SerializedName("id")
+private String id;@SerializedName("username")
+private String userName;
+# Focal method
+public void setUserName(String userName) {
+    this.userName = userName;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# User class
+package org.jinstagram.entity.common;
+public class User {
+public String getUserName();
+public void setUserName(String userName);
+public String getFullName();
+public void setFullName(String fullName);
+public String getProfilePictureUrl();
+public void setProfilePictureUrl(String profilePictureUrl);
+public String getBio();
+public void setBio(String bio);
+public String getWebsiteUrl();
+public void setWebsiteUrl(String websiteUrl);
+public String getId();
+public void setId(String id);
+public String toString();
+}
+
+
+# Test Method
+    @Test
+    public void testSetUserName() {
+        User user = new User();
+        String username = "testUser";
+        user.setUserName(username);
+
+       <Buggy Line>: userName has private access in org.jinstagram.entity.common.User
+        assertEquals(username, user.userName);
+
+        user.setUserName("");
+        assertEquals("", user.userName);
+        user.setUserName(null);
+        assertNull(user.userName);
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "User" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "User" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

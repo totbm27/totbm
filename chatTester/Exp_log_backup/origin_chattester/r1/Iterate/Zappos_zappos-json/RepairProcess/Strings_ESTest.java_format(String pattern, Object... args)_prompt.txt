@@ -1,0 +1,39 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class Strings {
+private static final char PLACEHOLDER = '@';
+# Focal method
+public static String format(String pattern, Object... args) {
+    if (args == null)
+        return pattern;
+    StringBuilder str = new StringBuilder(pattern.length() + 50);
+    int idx = -1;
+    int i = 0;
+    int p = 0;
+    while ((idx = pattern.indexOf(PLACEHOLDER, p)) != -1) {
+        str.append(pattern.substring(p, idx));
+        Object arg = args[i];
+        if (arg == null) {
+            str.append(JsonWriter.CONST_NULL);
+        } else {
+            str.append(args[i].toString());
+        }
+        i++;
+        p = idx + 1;
+    }
+    str.append(pattern.substring(p));
+    return str.toString();
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+

@@ -1,0 +1,85 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Request_ESTest.java
+[GENERATED PATH] Request_ESTest#addBody(HttpURLConnection conn, byte() content).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Request_ESTest.java:[32,38] cannot find symbol
+  symbol:   class IOException
+  location: class org.jinstagram.http.Request_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Request_ESTest.java:[34,34] reference to mock is ambiguous
+  both method <T>mock(java.lang.Class<T>) in org.evosuite.shaded.org.mockito.Mockito and method <T>mock(java.lang.Class<T>) in org.mockito.Mockito match
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Request_ESTest.java:[35,9] cannot find symbol
+  symbol:   class ByteArrayOutputStream
+  location: class org.jinstagram.http.Request_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Request_ESTest.java:[35,50] cannot find symbol
+  symbol:   class ByteArrayOutputStream
+  location: class org.jinstagram.http.Request_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Request_ESTest.java:[36,9] reference to when is ambiguous
+  both method <T>when(T) in org.evosuite.shaded.org.mockito.Mockito and method <T>when(T) in org.mockito.Mockito match
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Request_ESTest.java:[46,9] reference to verify is ambiguous
+  both method <T>verify(T) in org.evosuite.shaded.org.mockito.Mockito and method <T>verify(T) in org.mockito.Mockito match
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Request_ESTest.java:[47,9] reference to verify is ambiguous
+  both method <T>verify(T) in org.evosuite.shaded.org.mockito.Mockito and method <T>verify(T) in org.mockito.Mockito match
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/InstagramConfig_ESTest.java:[22,34] cannot find symbol
+  symbol:   variable Constants
+  location: class org.jinstagram.InstagramConfig_ESTest
+[INFO] 8 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Request_ESTest.java
+[GENERATED PATH] Request_ESTest#addBody(HttpURLConnection conn, byte() content).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Request_ESTest.java:[39,30] reference to mock is ambiguous
+  both method <T>mock(java.lang.Class<T>) in org.evosuite.shaded.org.mockito.Mockito and method <T>mock(java.lang.Class<T>) in org.mockito.Mockito match
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Request_ESTest.java:[47,44] CONTENT_LENGTH has private access in org.jinstagram.http.Request
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Request_ESTest.java:[47,5] reference to verify is ambiguous
+  both method <T>verify(T) in org.evosuite.shaded.org.mockito.Mockito and method <T>verify(T) in org.mockito.Mockito match
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Request_ESTest.java:[48,5] reference to verify is ambiguous
+  both method <T>verify(T) in org.evosuite.shaded.org.mockito.Mockito and method <T>verify(T) in org.mockito.Mockito match
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Request_ESTest.java:[49,5] reference to verify is ambiguous
+  both method <T>verify(T) in org.evosuite.shaded.org.mockito.Mockito and method <T>verify(T) in org.mockito.Mockito match
+[INFO] 5 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Request_ESTest.java
+[GENERATED PATH] Request_ESTest#addBody(HttpURLConnection conn, byte() content).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Request_ESTest.java:[46,44] CONTENT_LENGTH has private access in org.jinstagram.http.Request
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Request_ESTest.java
+[GENERATED PATH] Request_ESTest#addBody(HttpURLConnection conn, byte() content).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Request_ESTest.java:[48,23] constructor Request in class org.jinstagram.http.Request cannot be applied to given types;
+  required: org.jinstagram.http.Verbs,java.lang.String
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Request_ESTest.java:[51,37] reference to eq is ambiguous
+  both method <T>eq(T) in org.evosuite.shaded.org.mockito.Mockito and method <T>eq(T) in org.mockito.Mockito match
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Request_ESTest.java:[51,59] reference to eq is ambiguous
+  both method <T>eq(T) in org.evosuite.shaded.org.mockito.Mockito and method <T>eq(T) in org.mockito.Mockito match
+[INFO] 3 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Request_ESTest.java
+[GENERATED PATH] Request_ESTest#addBody(HttpURLConnection conn, byte() content).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Request_ESTest.java:[46,8] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Request_ESTest.java:[48,58] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Request_ESTest.java:[52,5] illegal start of type
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Request_ESTest.java:[52,8] ';' expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Request_ESTest.java:[53,9] invalid method declaration; return type required
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Request_ESTest.java:[53,21] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Request_ESTest.java:[53,30] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Request_ESTest.java:[54,7] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Request_ESTest.java:[56,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Request_ESTest.java:[60,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Request_ESTest.java:[61,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Request_ESTest.java:[62,1] class, interface, or enum expected
+[INFO] 12 errors 
+####################
+

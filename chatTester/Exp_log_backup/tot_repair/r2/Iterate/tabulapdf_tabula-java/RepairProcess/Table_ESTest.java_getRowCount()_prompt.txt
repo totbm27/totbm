@@ -1,0 +1,47 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testGetRowCount() {
+
+          <Buggy Line>: incompatible types: java.lang.String cannot be converted to technology.tabula.extractors.ExtractionAlgorithm
+        Table table = new Table("extractionMethod");
+
+        int expectedRowCount = 0;
+        int actualRowCount = table.getRowCount();
+        assertEquals(expectedRowCount, actualRowCount);
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testGetRowCount() {
+
+                <Buggy Line>: technology.tabula.extractors.ExtractionAlgorithm is abstract; cannot be instantiated
+        ExtractionAlgorithm extractionAlgorithm = new ExtractionAlgorithm(); 
+
+        Table table = new Table(extractionAlgorithm); 
+        int expectedRowCount = 0;
+        int actualRowCount = table.getRowCount();
+        assertEquals(expectedRowCount, actualRowCount);
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

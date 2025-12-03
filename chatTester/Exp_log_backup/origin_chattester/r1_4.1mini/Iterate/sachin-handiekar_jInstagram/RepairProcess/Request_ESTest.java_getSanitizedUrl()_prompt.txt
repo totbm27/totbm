@@ -1,0 +1,143 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class Request {
+private String url;
+public Request(Verbs verb, String url) {
+    this.verb = verb;
+    this.url = url;
+    this.querystringParams = new HashMap<String, String>();
+    this.bodyParams = new HashMap<String, String>();
+    this.headers = new HashMap<String, String>();
+}
+# Focal method
+public String getSanitizedUrl() {
+    return url.replaceAll("\\?.*", "").replace("\\:\\d{4}", "");
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+public String getSanitizedUrl() {
+    return url.replaceAll("\\?.*", "").replace("\\:\\d{4}", "");
+}
+
+# Method Intention
+The getSanitizedUrl() method aims to return a cleaned version of the stored URL by removing any query string parameters (everything following a '?') and stripping out any port number specified as a colon followed by exactly four digits.
+
+# Test Method
+    @Test
+    public void testGetSanitizedUrl() {
+        Request request1 = new Request(Verbs.GET, "http://example.com:8080/path?param=value");
+       [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.junit.ComparisonFailure expected:<http://example.com[]/path> but was:<http://example.com[:8080]/path> " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->0-->testRepair
+# Focal method (Cannot be modified)
+public String getSanitizedUrl() {
+    return url.replaceAll("\\?.*", "").replace("\\:\\d{4}", "");
+}
+
+# Method Intention
+The getSanitizedUrl() method aims to return a cleaned version of the stored URL by removing any query string parameters (everything following a '?') and stripping out any port numbers formatted as a colon followed by exactly four digits.
+
+# Test Method
+@Test
+public void testGetSanitizedUrl() {
+    Request request1 = new Request(Verbs.GET, "http://example.com:8080/path?param=value");
+   [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.junit.ComparisonFailure expected:<http://example.com[]/path> but was:<http://example.com[:8080]/path> " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+3-->3-->0-->testRepair
+# Focal method (Cannot be modified)
+public String getSanitizedUrl() {
+    return url.replaceAll("\\?.*", "").replace("\\:\\d{4}", "");
+}
+
+# Method Intention
+The getSanitizedUrl() method aims to return a cleaned version of the stored URL by removing any query string parameters (everything following a '?') and stripping out any port number specified as a colon followed by exactly four digits.
+
+# Test Method
+@Test
+public void testGetSanitizedUrl() {
+    Request request1 = new Request(Verbs.GET, "http://example.com:8080/path?param=value");
+   [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.junit.ComparisonFailure expected:<http://example.com[]/path> but was:<http://example.com[:8080]/path> " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+4-->5-->0-->testRepair
+# Focal method (Cannot be modified)
+public String getSanitizedUrl() {
+    return url.replaceAll("\\?.*", "").replace("\\:\\d{4}", "");
+}
+
+# Method Intention
+The getSanitizedUrl() method aims to return a cleaned version of the stored URL by removing any query string parameters (everything following a '?') and stripping out any port numbers formatted as a colon followed by exactly four digits.
+
+# Test Method
+@Test
+public void testGetSanitizedUrl() {
+    Request request1 = new Request(Verbs.GET, "http://example.com:8080/path?param=value");
+   [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.junit.ComparisonFailure expected:<http://example.com[]/path> but was:<http://example.com[:8080]/path> " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+5-->5-->0-->testRepair
+# Focal method (Cannot be modified)
+public String getSanitizedUrl() {
+    return url.replaceAll("\\?.*", "").replace("\\:\\d{4}", "");
+}
+
+# Method Intention
+The getSanitizedUrl() method aims to return a cleaned version of the stored URL by removing any query string parameters (everything following a '?') and stripping out any port number specified as a colon followed by exactly four digits.
+
+# Test Method
+@Test
+public void testGetSanitizedUrl() {
+    Request request1 = new Request(Verbs.GET, "http://example.com:8080/path?param=value");
+   [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.junit.ComparisonFailure expected:<http://example.com[]/path> but was:<http://example.com[:8080]/path> " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+

@@ -1,0 +1,129 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java
+[GENERATED PATH] JsonWriter_ESTest#writeIterable(ZapposJson zapposJson, Iterable<?> iterable, Writer writer).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[9,26] package org.mockito does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[46,37] cannot find symbol
+  symbol:   variable Arrays
+  location: class com.zappos.json.JsonWriter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[57,55] incompatible types: java.lang.Object cannot be converted to java.io.Writer
+[INFO] 3 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java
+[GENERATED PATH] JsonWriter_ESTest#writeIterable(ZapposJson zapposJson, Iterable<?> iterable, Writer writer).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[13,26] package org.mockito does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[49,9] cannot find symbol
+  symbol:   variable zapposJson
+  location: class com.zappos.json.JsonWriter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[50,9] cannot find symbol
+  symbol:   variable stringWriter
+  location: class com.zappos.json.JsonWriter_ESTest
+[INFO] 3 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java
+[GENERATED PATH] JsonWriter_ESTest#writeIterable(ZapposJson zapposJson, Iterable<?> iterable, Writer writer).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[14,26] package org.mockito does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[51,9] cannot find symbol
+  symbol:   variable zapposJson
+  location: class com.zappos.json.JsonWriter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[52,9] cannot find symbol
+  symbol:   variable writer
+  location: class com.zappos.json.JsonWriter_ESTest
+[INFO] 3 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java
+[GENERATED PATH] JsonWriter_ESTest#writeIterable(ZapposJson zapposJson, Iterable<?> iterable, Writer writer).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[8,19] package org.mockito does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[9,19] package org.mockito does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[16,26] package org.mockito does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[59,34] cannot find symbol
+  symbol:   variable zapposJsonMock
+  location: class com.zappos.json.JsonWriter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[64,65] cannot find symbol
+  symbol:   variable Mockito
+  location: class com.zappos.json.JsonWriter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[64,80] cannot find symbol
+  symbol:   variable Mockito
+  location: class com.zappos.json.JsonWriter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[64,24] cannot find symbol
+  symbol:   variable zapposJsonMock
+  location: class com.zappos.json.JsonWriter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[64,40] cannot find symbol
+  symbol:   variable Mockito
+  location: class com.zappos.json.JsonWriter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[64,9] cannot find symbol
+  symbol:   variable Mockito
+  location: class com.zappos.json.JsonWriter_ESTest
+[INFO] 9 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java
+[GENERATED PATH] JsonWriter_ESTest#writeIterable(ZapposJson zapposJson, Iterable<?> iterable, Writer writer).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[9,19] package org.mockito does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[10,19] package org.mockito does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[17,26] package org.mockito does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[59,34] cannot find symbol
+  symbol:   variable mockZapposJson
+  location: class com.zappos.json.JsonWriter_ESTest
+[INFO] 4 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java
+[GENERATED PATH] JsonWriter_ESTest#writeIterable(ZapposJson zapposJson, Iterable<?> iterable, Writer writer).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[10,19] package org.mockito does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[11,19] package org.mockito does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[18,26] package org.mockito does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[61,34] cannot find symbol
+  symbol:   variable mockZapposJson
+  location: class com.zappos.json.JsonWriter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[66,65] cannot find symbol
+  symbol:   variable Mockito
+  location: class com.zappos.json.JsonWriter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[66,80] cannot find symbol
+  symbol:   variable Mockito
+  location: class com.zappos.json.JsonWriter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[66,24] cannot find symbol
+  symbol:   variable mockZapposJson
+  location: class com.zappos.json.JsonWriter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[66,40] cannot find symbol
+  symbol:   variable Mockito
+  location: class com.zappos.json.JsonWriter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[66,9] cannot find symbol
+  symbol:   variable Mockito
+  location: class com.zappos.json.JsonWriter_ESTest
+[INFO] 9 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java
+[GENERATED PATH] JsonWriter_ESTest#writeIterable(ZapposJson zapposJson, Iterable<?> iterable, Writer writer).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[10,19] package org.mockito does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[11,19] package org.mockito does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[12,19] package org.mockito does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[19,26] package org.mockito does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[60,9] cannot find symbol
+  symbol:   variable MockitoAnnotations
+  location: class com.zappos.json.JsonWriter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[61,9] cannot find symbol
+  symbol:   variable jsonWriter
+  location: class com.zappos.json.JsonWriter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[61,37] cannot find symbol
+  symbol:   variable mockZapposJson
+  location: class com.zappos.json.JsonWriter_ESTest
+[INFO] 7 errors 
+####################
+

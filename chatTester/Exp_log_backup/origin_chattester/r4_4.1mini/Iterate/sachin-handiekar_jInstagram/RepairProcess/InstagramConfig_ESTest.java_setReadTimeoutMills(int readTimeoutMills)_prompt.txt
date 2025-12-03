@@ -1,0 +1,30 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testSetReadTimeoutMills() {
+    InstagramConfig config = new InstagramConfig();
+    int timeout = 5000;
+    config.setReadTimeoutMills(timeout);
+    try {
+        java.lang.reflect.Field field = InstagramConfig.class.getDeclaredField("readTimeoutMills");
+        field.setAccessible(true);
+        int actualTimeout = field.getInt(config);
+        org.junit.Assert.assertEquals(timeout, actualTimeout);
+
+        <Buggy Line>: multi-catch statement is not supported in -source 1.6
+    } catch (NoSuchFieldException | IllegalAccessException e) {
+
+        org.junit.Assert.fail("Reflection failed: " + e.getMessage());
+    }
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

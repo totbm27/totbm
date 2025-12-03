@@ -1,0 +1,31 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java
+[GENERATED PATH] JsonWriter_ESTest#writeArray(ZapposJson zapposJson, Object() values, Writer writer).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[45,21] toJson(java.lang.Object,java.io.Writer) in <anonymous com.zappos.json.JsonWriter_ESTest$1> cannot override toJson(java.lang.Object,java.io.Writer) in com.zappos.json.ZapposJson
+  overridden method does not throw java.io.IOException
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java
+[GENERATED PATH] JsonWriter_ESTest#writeArray(ZapposJson zapposJson, Object() values, Writer writer).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[47,25] toJson(java.lang.Object,java.io.Writer) in <anonymous com.zappos.json.JsonWriter_ESTest$1> cannot override toJson(java.lang.Object,java.io.Writer) in com.zappos.json.ZapposJson
+  overridden method does not throw java.io.IOException
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[56,9] cannot find symbol
+  symbol:   variable Assert
+  location: class com.zappos.json.JsonWriter_ESTest
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java
+[GENERATED PATH] JsonWriter_ESTest#writeArray(ZapposJson zapposJson, Object() values, Writer writer).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[62,9] cannot find symbol
+  symbol:   variable Assert
+  location: class com.zappos.json.JsonWriter_ESTest
+[INFO] 1 error
+####################
+

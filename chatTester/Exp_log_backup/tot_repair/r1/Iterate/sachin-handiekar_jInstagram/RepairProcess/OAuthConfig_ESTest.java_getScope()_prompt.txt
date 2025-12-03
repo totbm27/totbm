@@ -1,0 +1,86 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class OAuthConfig {
+private final String scope;
+public OAuthConfig(String key, String secret) {
+    this(key, secret, null, null);
+}public OAuthConfig(String key, String secret, String callback, String scope) {
+    this(key, secret, callback, scope, null);
+}public OAuthConfig(String key, String secret, String callback, String scope, String display) {
+    this.apiKey = key;
+    this.apiSecret = secret;
+    this.callback = (callback != null) ? callback : OAuthConstants.OUT_OF_BAND;
+    this.scope = scope;
+    this.display = display;
+}
+# Focal method
+public String getScope() {
+    return scope;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testGetScope_ReturnsNull_WhenScopeIsNotSet() {
+
+        <Buggy Line>: no suitable constructor found for OAuthConfig(java.lang.String,java.lang.String,java.lang.String)
+    OAuthConfig oAuthConfig = new OAuthConfig("key123", "secret456", "http://callback-url");
+
+    String actualScope = oAuthConfig.getScope();
+    assertEquals(null, actualScope);
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->1-->compileRepair
+
+
+# Focal Method
+public class OAuthConfig {
+private final String scope;
+public OAuthConfig(String key, String secret) {
+    this(key, secret, null, null);
+}public OAuthConfig(String key, String secret, String callback, String scope) {
+    this(key, secret, callback, scope, null);
+}public OAuthConfig(String key, String secret, String callback, String scope, String display) {
+    this.apiKey = key;
+    this.apiSecret = secret;
+    this.callback = (callback != null) ? callback : OAuthConstants.OUT_OF_BAND;
+    this.scope = scope;
+    this.display = display;
+}
+# Focal method
+public String getScope() {
+    return scope;
+}
+}
+
+# Method Intention
+The getScope() method in the OAuthConfig class is intended to provide access to the scope attribute of an OAuth configuration object, allowing external components to retrieve and utilize the scope value set during the object's instantiation.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+

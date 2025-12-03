@@ -1,0 +1,223 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java
+[GENERATED PATH] BasicExtractionAlgorithm_ESTest#columnPositions(List<Line> lines).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[30,13] no suitable constructor found for TextChunk(java.lang.String,float,float,float,float)
+    constructor technology.tabula.TextChunk.TextChunk(float,float,float,float) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor technology.tabula.TextChunk.TextChunk(technology.tabula.TextElement) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor technology.tabula.TextChunk.TextChunk(java.util.List<technology.tabula.TextElement>) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[42,18] constructor Line in class technology.tabula.Line cannot be applied to given types;
+  required: no arguments
+  found: java.util.List<technology.tabula.TextChunk>
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[55,18] constructor Line in class technology.tabula.Line cannot be applied to given types;
+  required: no arguments
+  found: java.util.List<technology.tabula.TextChunk>
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[62,18] constructor Line in class technology.tabula.Line cannot be applied to given types;
+  required: no arguments
+  found: java.util.List<technology.tabula.TextChunk>
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[68,18] constructor Line in class technology.tabula.Line cannot be applied to given types;
+  required: no arguments
+  found: java.util.List<technology.tabula.TextChunk>
+  reason: actual and formal argument lists differ in length
+[INFO] 5 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java
+[GENERATED PATH] BasicExtractionAlgorithm_ESTest#columnPositions(List<Line> lines).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[32,13] no suitable constructor found for TextChunk(java.lang.String,float,float,float,float)
+    constructor technology.tabula.TextChunk.TextChunk(float,float,float,float) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor technology.tabula.TextChunk.TextChunk(technology.tabula.TextElement) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor technology.tabula.TextChunk.TextChunk(java.util.List<technology.tabula.TextElement>) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[40,18] constructor Line in class technology.tabula.Line cannot be applied to given types;
+  required: no arguments
+  found: java.util.List<technology.tabula.TextChunk>
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[46,18] constructor Line in class technology.tabula.Line cannot be applied to given types;
+  required: no arguments
+  found: java.util.List<technology.tabula.TextChunk>
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[50,18] constructor Line in class technology.tabula.Line cannot be applied to given types;
+  required: no arguments
+  found: java.util.List<technology.tabula.TextChunk>
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[54,18] constructor Line in class technology.tabula.Line cannot be applied to given types;
+  required: no arguments
+  found: java.util.List<technology.tabula.TextChunk>
+  reason: actual and formal argument lists differ in length
+[INFO] 5 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java
+[GENERATED PATH] BasicExtractionAlgorithm_ESTest#columnPositions(List<Line> lines).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[34,13] no suitable constructor found for TextChunk(java.lang.String,float,float,float,float)
+    constructor technology.tabula.TextChunk.TextChunk(float,float,float,float) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor technology.tabula.TextChunk.TextChunk(technology.tabula.TextElement) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor technology.tabula.TextChunk.TextChunk(java.util.List<technology.tabula.TextElement>) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[42,18] constructor Line in class technology.tabula.Line cannot be applied to given types;
+  required: no arguments
+  found: java.util.List<technology.tabula.TextChunk>
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[48,18] constructor Line in class technology.tabula.Line cannot be applied to given types;
+  required: no arguments
+  found: java.util.List<technology.tabula.TextChunk>
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[52,18] constructor Line in class technology.tabula.Line cannot be applied to given types;
+  required: no arguments
+  found: java.util.List<technology.tabula.TextChunk>
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[56,18] constructor Line in class technology.tabula.Line cannot be applied to given types;
+  required: no arguments
+  found: java.util.List<technology.tabula.TextChunk>
+  reason: actual and formal argument lists differ in length
+[INFO] 5 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java
+[GENERATED PATH] BasicExtractionAlgorithm_ESTest#columnPositions(List<Line> lines).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[36,30] no suitable constructor found for TextChunk(int,int)
+    constructor technology.tabula.TextChunk.TextChunk(float,float,float,float) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor technology.tabula.TextChunk.TextChunk(technology.tabula.TextElement) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor technology.tabula.TextChunk.TextChunk(java.util.List<technology.tabula.TextElement>) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[37,30] no suitable constructor found for TextChunk(int,int)
+    constructor technology.tabula.TextChunk.TextChunk(float,float,float,float) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor technology.tabula.TextChunk.TextChunk(technology.tabula.TextElement) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor technology.tabula.TextChunk.TextChunk(java.util.List<technology.tabula.TextElement>) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[40,30] no suitable constructor found for TextChunk(int,int)
+    constructor technology.tabula.TextChunk.TextChunk(float,float,float,float) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor technology.tabula.TextChunk.TextChunk(technology.tabula.TextElement) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor technology.tabula.TextChunk.TextChunk(java.util.List<technology.tabula.TextElement>) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[41,30] no suitable constructor found for TextChunk(int,int)
+    constructor technology.tabula.TextChunk.TextChunk(float,float,float,float) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor technology.tabula.TextChunk.TextChunk(technology.tabula.TextElement) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor technology.tabula.TextChunk.TextChunk(java.util.List<technology.tabula.TextElement>) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[50,9] reference to assertEquals is ambiguous
+  both method assertEquals(double,double) in org.junit.Assert and method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[51,9] reference to assertEquals is ambiguous
+  both method assertEquals(double,double) in org.junit.Assert and method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[52,9] reference to assertEquals is ambiguous
+  both method assertEquals(double,double) in org.junit.Assert and method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[53,9] reference to assertEquals is ambiguous
+  both method assertEquals(double,double) in org.junit.Assert and method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert match
+[INFO] 8 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java
+[GENERATED PATH] BasicExtractionAlgorithm_ESTest#columnPositions(List<Line> lines).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[38,30] no suitable constructor found for TextChunk(int,int)
+    constructor technology.tabula.TextChunk.TextChunk(float,float,float,float) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor technology.tabula.TextChunk.TextChunk(technology.tabula.TextElement) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor technology.tabula.TextChunk.TextChunk(java.util.List<technology.tabula.TextElement>) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[39,30] no suitable constructor found for TextChunk(int,int)
+    constructor technology.tabula.TextChunk.TextChunk(float,float,float,float) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor technology.tabula.TextChunk.TextChunk(technology.tabula.TextElement) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor technology.tabula.TextChunk.TextChunk(java.util.List<technology.tabula.TextElement>) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[42,30] no suitable constructor found for TextChunk(int,int)
+    constructor technology.tabula.TextChunk.TextChunk(float,float,float,float) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor technology.tabula.TextChunk.TextChunk(technology.tabula.TextElement) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor technology.tabula.TextChunk.TextChunk(java.util.List<technology.tabula.TextElement>) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[43,30] no suitable constructor found for TextChunk(int,int)
+    constructor technology.tabula.TextChunk.TextChunk(float,float,float,float) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor technology.tabula.TextChunk.TextChunk(technology.tabula.TextElement) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor technology.tabula.TextChunk.TextChunk(java.util.List<technology.tabula.TextElement>) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[53,9] reference to assertEquals is ambiguous
+  both method assertEquals(double,double) in org.junit.Assert and method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[54,9] reference to assertEquals is ambiguous
+  both method assertEquals(double,double) in org.junit.Assert and method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert match
+[INFO] 6 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java
+[GENERATED PATH] BasicExtractionAlgorithm_ESTest#columnPositions(List<Line> lines).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[40,14] cannot find symbol
+  symbol:   method addTextElement(technology.tabula.TextChunk)
+  location: variable line1 of type technology.tabula.Line
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[41,14] cannot find symbol
+  symbol:   method addTextElement(technology.tabula.TextChunk)
+  location: variable line1 of type technology.tabula.Line
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[45,14] cannot find symbol
+  symbol:   method addTextElement(technology.tabula.TextChunk)
+  location: variable line2 of type technology.tabula.Line
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[46,14] cannot find symbol
+  symbol:   method addTextElement(technology.tabula.TextChunk)
+  location: variable line2 of type technology.tabula.Line
+[INFO] 4 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java
+[GENERATED PATH] BasicExtractionAlgorithm_ESTest#columnPositions(List<Line> lines).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[61,5] cannot find symbol
+  symbol:   variable Assert
+  location: class technology.tabula.extractors.BasicExtractionAlgorithm_ESTest
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java
+[GENERATED PATH] BasicExtractionAlgorithm_ESTest#columnPositions(List<Line> lines).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[33,8] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[36,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[37,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[38,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[39,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[41,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[42,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[43,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[44,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[47,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[50,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[51,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[52,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[53,5] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/extractors/BasicExtractionAlgorithm_ESTest.java:[54,1] class, interface, or enum expected
+[INFO] 15 errors 
+####################
+

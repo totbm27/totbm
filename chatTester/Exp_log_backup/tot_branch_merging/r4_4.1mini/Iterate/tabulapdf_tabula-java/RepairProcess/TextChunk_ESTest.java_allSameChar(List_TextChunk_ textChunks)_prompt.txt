@@ -1,0 +1,76 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testAllSameChar() {
+    class DummyTextElement extends TextElement {
+        String text;
+        DummyTextElement(String text) {
+
+             <Buggy Line>: no suitable constructor found for TextElement(int,int,int,int)
+            super(0, 0, 0, 0);
+
+            this.text = text;
+        }
+        @Override
+        public String getText() {
+            return text;
+        }
+    }
+    class TestTextChunk extends TextChunk {
+        private final String text;
+        TestTextChunk(String text) {
+            super(0, 0, 0, 0);
+            this.text = text;
+        }
+        @Override
+        public String getText() {
+            return text;
+        }
+        @Override
+        public boolean isSameChar(Character c) {
+            if (text.isEmpty()) return false;
+            return text.charAt(0) == c;
+        }
+    }
+    List<TextChunk> emptyList = new ArrayList<>();
+    assert !TextChunk.allSameChar(emptyList);
+    List<TextChunk> singleList = new ArrayList<>();
+    singleList.add(new TestTextChunk("a"));
+    assert !TextChunk.allSameChar(singleList);
+    List<TextChunk> allEmpty = new ArrayList<>();
+    allEmpty.add(new TestTextChunk(""));
+    allEmpty.add(new TestTextChunk(""));
+    assert !TextChunk.allSameChar(allEmpty);
+    List<TextChunk> firstNonEmptyRestEmpty = new ArrayList<>();
+    firstNonEmptyRestEmpty.add(new TestTextChunk("a"));
+    firstNonEmptyRestEmpty.add(new TestTextChunk(""));
+    firstNonEmptyRestEmpty.add(new TestTextChunk(""));
+    assert !TextChunk.allSameChar(firstNonEmptyRestEmpty);
+    List<TextChunk> allSameChar = new ArrayList<>();
+    allSameChar.add(new TestTextChunk("apple"));
+    allSameChar.add(new TestTextChunk("aardvark"));
+    allSameChar.add(new TestTextChunk("ant"));
+    assert TextChunk.allSameChar(allSameChar);
+    List<TextChunk> differentStartChar = new ArrayList<>();
+    differentStartChar.add(new TestTextChunk("apple"));
+    differentStartChar.add(new TestTextChunk("banana"));
+    differentStartChar.add(new TestTextChunk("ant"));
+    assert !TextChunk.allSameChar(differentStartChar);
+    List<TextChunk> mixedEmptyNonEmpty = new ArrayList<>();
+    mixedEmptyNonEmpty.add(new TestTextChunk(""));
+    mixedEmptyNonEmpty.add(new TestTextChunk("cat"));
+    mixedEmptyNonEmpty.add(new TestTextChunk(""));
+    mixedEmptyNonEmpty.add(new TestTextChunk("car"));
+    assert TextChunk.allSameChar(mixedEmptyNonEmpty);
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

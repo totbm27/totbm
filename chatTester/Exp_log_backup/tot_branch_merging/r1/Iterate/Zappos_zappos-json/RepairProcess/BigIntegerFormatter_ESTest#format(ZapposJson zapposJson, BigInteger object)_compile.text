@@ -1,0 +1,55 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigIntegerFormatter_ESTest.java
+[GENERATED PATH] BigIntegerFormatter_ESTest#format(ZapposJson zapposJson, BigInteger object).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigIntegerFormatter_ESTest.java:[28,33] constructor ZapposJson in class com.zappos.json.ZapposJson cannot be applied to given types;
+  required: boolean
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigIntegerFormatter_ESTest.java
+[GENERATED PATH] BigIntegerFormatter_ESTest#format(ZapposJson zapposJson, BigInteger object).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigIntegerFormatter_ESTest.java:[34,29] constructor ZapposJson in class com.zappos.json.ZapposJson cannot be applied to given types;
+  required: boolean
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigIntegerFormatter_ESTest.java
+[GENERATED PATH] BigIntegerFormatter_ESTest#format(ZapposJson zapposJson, BigInteger object).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigIntegerFormatter_ESTest.java:[37,39] method format in class com.zappos.json.format.BigIntegerFormatter cannot be applied to given types;
+  required: com.zappos.json.ZapposJson,java.math.BigInteger
+  found: java.math.BigInteger
+  reason: actual and formal argument lists differ in length
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigIntegerFormatter_ESTest.java
+[GENERATED PATH] BigIntegerFormatter_ESTest#format(ZapposJson zapposJson, BigInteger object).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigIntegerFormatter_ESTest.java:[31,29] constructor ZapposJson in class com.zappos.json.ZapposJson cannot be applied to given types;
+  required: boolean
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigIntegerFormatter_ESTest.java
+[GENERATED PATH] BigIntegerFormatter_ESTest#format(ZapposJson zapposJson, BigInteger object).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigIntegerFormatter_ESTest.java:[31,29] constructor ZapposJson in class com.zappos.json.ZapposJson cannot be applied to given types;
+  required: boolean
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[INFO] 1 error
+####################
+

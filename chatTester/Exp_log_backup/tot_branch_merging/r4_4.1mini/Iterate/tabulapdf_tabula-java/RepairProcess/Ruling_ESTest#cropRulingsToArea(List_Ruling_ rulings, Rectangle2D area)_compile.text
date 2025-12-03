@@ -1,0 +1,11 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java
+[GENERATED PATH] Ruling_ESTest#cropRulingsToArea(List<Ruling> rulings, Rectangle2D area).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[27,5] cannot find symbol
+  symbol:   class Rectangle2D
+  location: class technology.tabula.Ruling_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[27,39] package Rectangle2D does not exist
+[INFO] 2 errors 
+####################
+

@@ -1,0 +1,358 @@
+0-->1-->0-->compileRepair
+
+# User class
+package org.jinstagram.entity.common;
+public class User {
+public String getUserName();
+public void setUserName(String userName);
+public String getFullName();
+public void setFullName(String fullName);
+public String getProfilePictureUrl();
+public void setProfilePictureUrl(String profilePictureUrl);
+public String getBio();
+public void setBio(String bio);
+public String getWebsiteUrl();
+public void setWebsiteUrl(String websiteUrl);
+public String getId();
+public void setId(String id);
+public String toString();
+}
+
+
+# Test Method
+@Test
+public void testToString() {
+    Likes likes = new Likes();
+    likes.setCount(3);
+    User user1 = new User();
+
+  <Buggy Line>: cannot find symbol method "setUsername(java.lang.String)" in User
+    user1.setUsername("alice");
+
+    User user2 = new User();
+    user2.setUsername("bob");
+    List<User> userList = List.of(user1, user2);
+    likes.setLikesUserList(userList);
+    String expected = String.format("Likes [count=%s, likesUserList=%s]", 3, userList);
+    String actual = likes.toString();
+    org.junit.Assert.assertEquals(expected, actual);
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "User" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "User" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# User class
+package org.jinstagram.entity.common;
+public class User {
+public String getUserName();
+public void setUserName(String userName);
+public String getFullName();
+public void setFullName(String fullName);
+public String getProfilePictureUrl();
+public void setProfilePictureUrl(String profilePictureUrl);
+public String getBio();
+public void setBio(String bio);
+public String getWebsiteUrl();
+public void setWebsiteUrl(String websiteUrl);
+public String getId();
+public void setId(String id);
+public String toString();
+}
+
+
+# Test Method
+@Test
+public void testToString() {
+    Likes likes = new Likes();
+    likes.setCount(3);
+    User user1 = new User();
+    user1.setUserName("alice");
+    User user2 = new User();
+    user2.setUserName("bob");
+
+      <Buggy Line>: cannot find symbol method "of(org.jinstagram.entity.common.User,org.jinstagram.entity.common.User)" in List
+    List<User> userList = List.of(user1, user2);
+
+    likes.setLikesUserList(userList);
+    String expected = String.format("Likes [count=%s, likesUserList=%s]", 3, userList);
+    String actual = likes.toString();
+    Assert.assertEquals(expected, actual);
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "List" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "List" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->0-->compileRepair
+
+# User class
+package org.jinstagram.entity.common;
+public class User {
+public String getUserName();
+public void setUserName(String userName);
+public String getFullName();
+public void setFullName(String fullName);
+public String getProfilePictureUrl();
+public void setProfilePictureUrl(String profilePictureUrl);
+public String getBio();
+public void setBio(String bio);
+public String getWebsiteUrl();
+public void setWebsiteUrl(String websiteUrl);
+public String getId();
+public void setId(String id);
+public String toString();
+}
+
+
+# Test Method
+    @Test
+    public void testToString() {
+        Likes likes = new Likes();
+        likes.setCount(3);
+        User user1 = new User();
+        user1.setUserName("alice");
+        User user2 = new User();
+        user2.setUserName("bob");
+
+          <Buggy Line>: diamond operator is not supported in -source 1.6
+        List<User> userList = new ArrayList<>();
+
+        userList.add(user1);
+        userList.add(user2);
+        likes.setLikesUserList(userList);
+        String expected = String.format("Likes [count=%s, likesUserList=%s]", 3, userList);
+        String actual = likes.toString();
+        Assert.assertEquals(expected, actual);
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+3-->4-->1-->compileRepair
+
+# User class
+package org.jinstagram.entity.common;
+public class User {
+public String getUserName();
+public void setUserName(String userName);
+public String getFullName();
+public void setFullName(String fullName);
+public String getProfilePictureUrl();
+public void setProfilePictureUrl(String profilePictureUrl);
+public String getBio();
+public void setBio(String bio);
+public String getWebsiteUrl();
+public void setWebsiteUrl(String websiteUrl);
+public String getId();
+public void setId(String id);
+public String toString();
+}
+
+
+# Focal Method
+public class Likes {
+@SerializedName("count")
+private int count;@SerializedName("data")
+private List<User> likesUserList;
+# Focal method
+@Override
+public String toString() {
+    return String.format("Likes [count=%s, likesUserList=%s]", count, likesUserList);
+}
+}
+
+# Method Intention
+The toString() method is intended to provide a readable string representation of the Likes object by formatting and returning its count and the list of users who liked, facilitating easy debugging and logging.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+4-->5-->2-->compileRepair
+
+# User class
+package org.jinstagram.entity.common;
+public class User {
+public String getUserName();
+public void setUserName(String userName);
+public String getFullName();
+public void setFullName(String fullName);
+public String getProfilePictureUrl();
+public void setProfilePictureUrl(String profilePictureUrl);
+public String getBio();
+public void setBio(String bio);
+public String getWebsiteUrl();
+public void setWebsiteUrl(String websiteUrl);
+public String getId();
+public void setId(String id);
+public String toString();
+}
+
+
+# Focal Method
+public class Likes {
+@SerializedName("count")
+private int count;@SerializedName("data")
+private List<User> likesUserList;
+# Focal method
+@Override
+public String toString() {
+    return String.format("Likes [count=%s, likesUserList=%s]", count, likesUserList);
+}
+}
+
+# Method Intention
+The toString() method is intended to provide a clear, formatted string representation of the Likes object by displaying its count value and the contents of its likesUserList, facilitating easy readability and debugging.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+5-->6-->2-->compileRepair
+
+# User class
+package org.jinstagram.entity.common;
+public class User {
+public String getUserName();
+public void setUserName(String userName);
+public String getFullName();
+public void setFullName(String fullName);
+public String getProfilePictureUrl();
+public void setProfilePictureUrl(String profilePictureUrl);
+public String getBio();
+public void setBio(String bio);
+public String getWebsiteUrl();
+public void setWebsiteUrl(String websiteUrl);
+public String getId();
+public void setId(String id);
+public String toString();
+}
+
+
+# Focal Method
+public class Likes {
+@SerializedName("count")
+private int count;@SerializedName("data")
+private List<User> likesUserList;
+# Focal method
+@Override
+public String toString() {
+    return String.format("Likes [count=%s, likesUserList=%s]", count, likesUserList);
+}
+}
+
+# Method Intention
+The toString() method is intended to provide a clear, human-readable string representation of the Likes object by formatting and displaying its count and the list of users who liked, facilitating easy debugging and logging.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+6-->7-->3-->compileRepair
+
+# User class
+package org.jinstagram.entity.common;
+public class User {
+public String getUserName();
+public void setUserName(String userName);
+public String getFullName();
+public void setFullName(String fullName);
+public String getProfilePictureUrl();
+public void setProfilePictureUrl(String profilePictureUrl);
+public String getBio();
+public void setBio(String bio);
+public String getWebsiteUrl();
+public void setWebsiteUrl(String websiteUrl);
+public String getId();
+public void setId(String id);
+public String toString();
+}
+
+
+# Focal Method
+public class Likes {
+@SerializedName("count")
+private int count;@SerializedName("data")
+private List<User> likesUserList;
+# Focal method
+@Override
+public String toString() {
+    return String.format("Likes [count=%s, likesUserList=%s]", count, likesUserList);
+}
+}
+
+# Method Intention
+The toString() method is intended to provide a readable string representation of the Likes object by formatting and returning its count and the list of users who liked, facilitating easy debugging and logging.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+7-->8-->3-->compileRepair
+
+# User class
+package org.jinstagram.entity.common;
+public class User {
+public String getUserName();
+public void setUserName(String userName);
+public String getFullName();
+public void setFullName(String fullName);
+public String getProfilePictureUrl();
+public void setProfilePictureUrl(String profilePictureUrl);
+public String getBio();
+public void setBio(String bio);
+public String getWebsiteUrl();
+public void setWebsiteUrl(String websiteUrl);
+public String getId();
+public void setId(String id);
+public String toString();
+}
+
+
+# Focal Method
+public class Likes {
+@SerializedName("count")
+private int count;@SerializedName("data")
+private List<User> likesUserList;
+# Focal method
+@Override
+public String toString() {
+    return String.format("Likes [count=%s, likesUserList=%s]", count, likesUserList);
+}
+}
+
+# Method Intention
+The toString() method is intended to provide a human-readable string representation of the Likes object by formatting and returning its count and the list of users who liked, facilitating easy debugging and logging.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+

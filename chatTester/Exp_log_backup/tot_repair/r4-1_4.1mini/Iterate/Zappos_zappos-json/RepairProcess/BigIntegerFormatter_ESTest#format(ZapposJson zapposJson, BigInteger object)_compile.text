@@ -1,0 +1,61 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigIntegerFormatter_ESTest.java
+[GENERATED PATH] BigIntegerFormatter_ESTest#format(ZapposJson zapposJson, BigInteger object).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigIntegerFormatter_ESTest.java:[31,21] setPattern(java.lang.String) in <anonymous com.zappos.json.format.BigIntegerFormatter_ESTest$1> cannot implement setPattern(java.lang.String) in com.zappos.json.format.ValueFormatter
+  return type void is not compatible with com.zappos.json.format.ValueFormatter<java.math.BigInteger>
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigIntegerFormatter_ESTest.java:[41,29] constructor ZapposJson in class com.zappos.json.ZapposJson cannot be applied to given types;
+  required: boolean
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigIntegerFormatter_ESTest.java
+[GENERATED PATH] BigIntegerFormatter_ESTest#format(ZapposJson zapposJson, BigInteger object).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigIntegerFormatter_ESTest.java:[36,25] setPattern(java.lang.String) in <anonymous com.zappos.json.format.BigIntegerFormatter_ESTest$1> cannot implement setPattern(java.lang.String) in com.zappos.json.format.ValueFormatter
+  return type void is not compatible with com.zappos.json.format.ValueFormatter<java.math.BigInteger>
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigIntegerFormatter_ESTest.java:[35,13] method does not override or implement a method from a supertype
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigIntegerFormatter_ESTest.java:[45,33] constructor ZapposJson in class com.zappos.json.ZapposJson cannot be applied to given types;
+  required: boolean
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[INFO] 3 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigIntegerFormatter_ESTest.java
+[GENERATED PATH] BigIntegerFormatter_ESTest#format(ZapposJson zapposJson, BigInteger object).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigIntegerFormatter_ESTest.java:[37,25] setPattern(java.lang.String) in <anonymous com.zappos.json.format.BigIntegerFormatter_ESTest$1> cannot implement setPattern(java.lang.String) in com.zappos.json.format.ValueFormatter
+  return type void is not compatible with com.zappos.json.format.ValueFormatter<java.math.BigInteger>
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigIntegerFormatter_ESTest.java:[47,33] constructor ZapposJson in class com.zappos.json.ZapposJson cannot be applied to given types;
+  required: boolean
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigIntegerFormatter_ESTest.java
+[GENERATED PATH] BigIntegerFormatter_ESTest#format(ZapposJson zapposJson, BigInteger object).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigIntegerFormatter_ESTest.java:[31,9] interface not allowed here
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigIntegerFormatter_ESTest.java:[31,51] interface expected here
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigIntegerFormatter_ESTest.java:[38,13] method does not override or implement a method from a supertype
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigIntegerFormatter_ESTest.java:[47,13] method does not override or implement a method from a supertype
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigIntegerFormatter_ESTest.java:[53,33] constructor ZapposJson in class com.zappos.json.ZapposJson cannot be applied to given types;
+  required: boolean
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigIntegerFormatter_ESTest.java:[56,35] cannot find symbol
+  symbol:   method format(com.zappos.json.ZapposJson,java.math.BigInteger)
+  location: variable formatter of type FormatterWithSetPattern
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/BigIntegerFormatter_ESTest.java:[60,35] cannot find symbol
+  symbol:   method format(com.zappos.json.ZapposJson,java.math.BigInteger)
+  location: variable formatter of type FormatterWithSetPattern
+[INFO] 7 errors 
+####################
+

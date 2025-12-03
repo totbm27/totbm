@@ -1,0 +1,31 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testSetTagList() {
+    TagSearchFeed feed = new TagSearchFeed();
+
+      <Buggy Line>: diamond operator is not supported in -source 1.6
+    List<TagInfoData> sampleList = new LinkedList<>();
+
+    TagInfoData tag1 = new TagInfoData();
+    TagInfoData tag2 = new TagInfoData();
+    sampleList.add(tag1);
+    sampleList.add(tag2);
+    feed.setTagList(sampleList);
+    List<TagInfoData> resultList = feed.getTagList();
+    org.junit.Assert.assertNotNull(resultList);
+    org.junit.Assert.assertEquals(2, resultList.size());
+    org.junit.Assert.assertSame(tag1, resultList.get(0));
+    org.junit.Assert.assertSame(tag2, resultList.get(1));
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

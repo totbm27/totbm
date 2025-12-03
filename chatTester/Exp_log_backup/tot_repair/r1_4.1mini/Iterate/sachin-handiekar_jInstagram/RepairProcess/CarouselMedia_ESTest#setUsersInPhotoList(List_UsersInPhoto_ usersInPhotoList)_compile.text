@@ -1,0 +1,118 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/CarouselMedia_ESTest.java
+[GENERATED PATH] CarouselMedia_ESTest#setUsersInPhotoList(List<UsersInPhoto> usersInPhotoList).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/comments/MediaCommentsFeed_ESTest.java:[37,59] diamond operator is not supported in -source 1.6
+  (use -source 7 or higher to enable diamond operator)
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/CarouselMedia_ESTest.java:[34,62] diamond operator is not supported in -source 1.6
+  (use -source 7 or higher to enable diamond operator)
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/CarouselMedia_ESTest.java
+[GENERATED PATH] CarouselMedia_ESTest#setUsersInPhotoList(List<UsersInPhoto> usersInPhotoList).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/CarouselMedia_ESTest.java:[38,14] cannot find symbol
+  symbol:   method setUsername(java.lang.String)
+  location: variable user1 of type org.jinstagram.entity.common.UsersInPhoto
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/CarouselMedia_ESTest.java:[40,14] cannot find symbol
+  symbol:   method setUsername(java.lang.String)
+  location: variable user2 of type org.jinstagram.entity.common.UsersInPhoto
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/CarouselMedia_ESTest.java:[47,49] cannot find symbol
+  symbol:   method getUsername()
+  location: class org.jinstagram.entity.common.UsersInPhoto
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/CarouselMedia_ESTest.java:[47,97] cannot find symbol
+  symbol:   method getUsername()
+  location: class org.jinstagram.entity.common.UsersInPhoto
+[INFO] 4 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/CarouselMedia_ESTest.java
+[GENERATED PATH] CarouselMedia_ESTest#setUsersInPhotoList(List<UsersInPhoto> usersInPhotoList).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/CarouselMedia_ESTest.java:[37,62] diamond operator is not supported in -source 1.6
+  (use -source 7 or higher to enable diamond operator)
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/CarouselMedia_ESTest.java
+[GENERATED PATH] CarouselMedia_ESTest#setUsersInPhotoList(List<UsersInPhoto> usersInPhotoList).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/CarouselMedia_ESTest.java:[8,35] cannot find symbol
+  symbol:   class User
+  location: package org.jinstagram.entity.users
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/CarouselMedia_ESTest.java:[9,35] cannot find symbol
+  symbol:   class CarouselMedia
+  location: package org.jinstagram.entity.media
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/CarouselMedia_ESTest.java:[43,9] cannot find symbol
+  symbol:   class User
+  location: class org.jinstagram.entity.users.feed.CarouselMedia_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/CarouselMedia_ESTest.java:[43,23] cannot find symbol
+  symbol:   class User
+  location: class org.jinstagram.entity.users.feed.CarouselMedia_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/CarouselMedia_ESTest.java:[48,9] cannot find symbol
+  symbol:   class User
+  location: class org.jinstagram.entity.users.feed.CarouselMedia_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/CarouselMedia_ESTest.java:[48,23] cannot find symbol
+  symbol:   class User
+  location: class org.jinstagram.entity.users.feed.CarouselMedia_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/CarouselMedia_ESTest.java:[62,59] cannot find symbol
+  symbol:   method getUsername()
+  location: class org.jinstagram.entity.common.User
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/CarouselMedia_ESTest.java:[63,68] cannot find symbol
+  symbol:   method getUsername()
+  location: class org.jinstagram.entity.common.User
+[INFO] 8 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/CarouselMedia_ESTest.java
+[GENERATED PATH] CarouselMedia_ESTest#setUsersInPhotoList(List<UsersInPhoto> usersInPhotoList).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/CarouselMedia_ESTest.java:[69,57] diamond operator is not supported in -source 1.6
+  (use -source 7 or higher to enable diamond operator)
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/CarouselMedia_ESTest.java
+[GENERATED PATH] CarouselMedia_ESTest#setUsersInPhotoList(List<UsersInPhoto> usersInPhotoList).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/CarouselMedia_ESTest.java:[12,35] cannot find symbol
+  symbol:   class User
+  location: package org.jinstagram.entity.users
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/CarouselMedia_ESTest.java:[13,35] cannot find symbol
+  symbol:   class CarouselMedia
+  location: package org.jinstagram.entity.media
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/CarouselMedia_ESTest.java:[44,17] cannot find symbol
+  symbol: variable user
+[INFO] 3 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/CarouselMedia_ESTest.java
+[GENERATED PATH] CarouselMedia_ESTest#setUsersInPhotoList(List<UsersInPhoto> usersInPhotoList).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/CarouselMedia_ESTest.java:[73,61] diamond operator is not supported in -source 1.6
+  (use -source 7 or higher to enable diamond operator)
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/CarouselMedia_ESTest.java
+[GENERATED PATH] CarouselMedia_ESTest#setUsersInPhotoList(List<UsersInPhoto> usersInPhotoList).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/CarouselMedia_ESTest.java:[14,35] cannot find symbol
+  symbol:   class User
+  location: package org.jinstagram.entity.users
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/CarouselMedia_ESTest.java:[15,35] cannot find symbol
+  symbol:   class CarouselMedia
+  location: package org.jinstagram.entity.media
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/CarouselMedia_ESTest.java:[48,17] cannot find symbol
+  symbol: variable user
+[INFO] 3 errors 
+####################
+

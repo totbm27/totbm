@@ -1,0 +1,26 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class URLUtils {
+# Focal method
+public static String encodeURIComponent(String s) {
+    String result = null;
+    try {
+        result = URLEncoder.encode(s, "UTF-8").replaceAll("\\+", "%20").replaceAll("\\%21", "!").replaceAll("\\%27", "'").replaceAll("\\%28", "(").replaceAll("\\%29", ")").replaceAll("\\%7E", "~");
+    } catch (UnsupportedEncodingException e) {
+        result = s;
+    }
+    return result;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+

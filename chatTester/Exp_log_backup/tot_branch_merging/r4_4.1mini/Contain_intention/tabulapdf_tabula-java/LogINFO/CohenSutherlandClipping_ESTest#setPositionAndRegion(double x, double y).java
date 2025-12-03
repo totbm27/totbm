@@ -1,0 +1,300 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java
+########## Compile INFO ##########
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ----------------------< technology.tabula:tabula >----------------------
+[INFO] Building Tabula 1.0.6-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ tabula ---
+[INFO] Deleting /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ tabula ---
+[INFO] skip non existing resourceDirectory /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ tabula ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 36 source files to /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/target/classes
+[INFO] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/main/java/technology/tabula/RectangleSpatialIndex.java: Some input files use or override a deprecated API.
+[INFO] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/main/java/technology/tabula/RectangleSpatialIndex.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/main/java/technology/tabula/Table.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/main/java/technology/tabula/Table.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ tabula ---
+[INFO] Copying 334 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ tabula ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/target/test-classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[35,29] cannot find symbol
+  symbol:   class Point
+  location: class technology.tabula.CohenSutherlandClipping_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[36,23] Illegal static declaration in inner class TestPoint
+  modifier 'static' is only allowed in constant variable declarations
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[36,35] Illegal static declaration in inner class TestPoint
+  modifier 'static' is only allowed in constant variable declarations
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[36,48] Illegal static declaration in inner class TestPoint
+  modifier 'static' is only allowed in constant variable declarations
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[36,60] Illegal static declaration in inner class TestPoint
+  modifier 'static' is only allowed in constant variable declarations
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[42,9] method does not override or implement a method from a supertype
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[44,17] cannot find symbol
+  symbol: variable x
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[45,17] cannot find symbol
+  symbol: variable y
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[46,13] cannot find symbol
+  symbol:   variable region
+  location: class TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[48,17] cannot find symbol
+  symbol:   variable region
+  location: class TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[50,17] cannot find symbol
+  symbol:   variable region
+  location: class TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[59,13] cannot find symbol
+  symbol:   variable x
+  location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[60,13] cannot find symbol
+  symbol:   variable y
+  location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[61,13] cannot find symbol
+  symbol:   variable region
+  location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[65,13] cannot find symbol
+  symbol:   variable x
+  location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[66,13] cannot find symbol
+  symbol:   variable y
+  location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[67,14] cannot find symbol
+  symbol:   variable region
+  location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[68,14] cannot find symbol
+  symbol:   variable region
+  location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[69,14] cannot find symbol
+  symbol:   variable region
+  location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[73,13] cannot find symbol
+  symbol:   variable x
+  location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[74,13] cannot find symbol
+  symbol:   variable y
+  location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[75,14] cannot find symbol
+  symbol:   variable region
+  location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[76,14] cannot find symbol
+  symbol:   variable region
+  location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[77,14] cannot find symbol
+  symbol:   variable region
+  location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[81,13] cannot find symbol
+  symbol:   variable x
+  location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[82,13] cannot find symbol
+  symbol:   variable y
+  location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[83,14] cannot find symbol
+  symbol:   variable region
+  location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[83,42] cannot find symbol
+  symbol:   variable region
+  location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[83,68] cannot find symbol
+  symbol:   variable region
+  location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[84,14] cannot find symbol
+  symbol:   variable region
+  location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[88,13] cannot find symbol
+  symbol:   variable x
+  location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[89,13] cannot find symbol
+  symbol:   variable y
+  location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[90,14] cannot find symbol
+  symbol:   variable region
+  location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[90,42] cannot find symbol
+  symbol:   variable region
+  location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[90,68] cannot find symbol
+  symbol:   variable region
+  location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[91,14] cannot find symbol
+  symbol:   variable region
+  location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[95,13] cannot find symbol
+  symbol:   variable x
+  location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[96,13] cannot find symbol
+  symbol:   variable y
+  location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[97,14] cannot find symbol
+  symbol:   variable region
+  location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[98,14] cannot find symbol
+  symbol:   variable region
+  location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[102,13] cannot find symbol
+  symbol:   variable x
+  location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[103,13] cannot find symbol
+  symbol:   variable y
+  location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[104,14] cannot find symbol
+  symbol:   variable region
+  location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[105,14] cannot find symbol
+  symbol:   variable region
+  location: variable p of type TestPoint
+[INFO] 44 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.896 s
+[INFO] Finished at: 2025-07-09T23:00:28+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:testCompile (default-testCompile) on project tabula: Compilation failure: Compilation failure: 
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[35,29] cannot find symbol
+[ERROR]   symbol:   class Point
+[ERROR]   location: class technology.tabula.CohenSutherlandClipping_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[36,23] Illegal static declaration in inner class TestPoint
+[ERROR]   modifier 'static' is only allowed in constant variable declarations
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[36,35] Illegal static declaration in inner class TestPoint
+[ERROR]   modifier 'static' is only allowed in constant variable declarations
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[36,48] Illegal static declaration in inner class TestPoint
+[ERROR]   modifier 'static' is only allowed in constant variable declarations
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[36,60] Illegal static declaration in inner class TestPoint
+[ERROR]   modifier 'static' is only allowed in constant variable declarations
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[42,9] method does not override or implement a method from a supertype
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[44,17] cannot find symbol
+[ERROR]   symbol: variable x
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[45,17] cannot find symbol
+[ERROR]   symbol: variable y
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[46,13] cannot find symbol
+[ERROR]   symbol:   variable region
+[ERROR]   location: class TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[48,17] cannot find symbol
+[ERROR]   symbol:   variable region
+[ERROR]   location: class TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[50,17] cannot find symbol
+[ERROR]   symbol:   variable region
+[ERROR]   location: class TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[59,13] cannot find symbol
+[ERROR]   symbol:   variable x
+[ERROR]   location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[60,13] cannot find symbol
+[ERROR]   symbol:   variable y
+[ERROR]   location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[61,13] cannot find symbol
+[ERROR]   symbol:   variable region
+[ERROR]   location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[65,13] cannot find symbol
+[ERROR]   symbol:   variable x
+[ERROR]   location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[66,13] cannot find symbol
+[ERROR]   symbol:   variable y
+[ERROR]   location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[67,14] cannot find symbol
+[ERROR]   symbol:   variable region
+[ERROR]   location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[68,14] cannot find symbol
+[ERROR]   symbol:   variable region
+[ERROR]   location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[69,14] cannot find symbol
+[ERROR]   symbol:   variable region
+[ERROR]   location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[73,13] cannot find symbol
+[ERROR]   symbol:   variable x
+[ERROR]   location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[74,13] cannot find symbol
+[ERROR]   symbol:   variable y
+[ERROR]   location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[75,14] cannot find symbol
+[ERROR]   symbol:   variable region
+[ERROR]   location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[76,14] cannot find symbol
+[ERROR]   symbol:   variable region
+[ERROR]   location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[77,14] cannot find symbol
+[ERROR]   symbol:   variable region
+[ERROR]   location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[81,13] cannot find symbol
+[ERROR]   symbol:   variable x
+[ERROR]   location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[82,13] cannot find symbol
+[ERROR]   symbol:   variable y
+[ERROR]   location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[83,14] cannot find symbol
+[ERROR]   symbol:   variable region
+[ERROR]   location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[83,42] cannot find symbol
+[ERROR]   symbol:   variable region
+[ERROR]   location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[83,68] cannot find symbol
+[ERROR]   symbol:   variable region
+[ERROR]   location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[84,14] cannot find symbol
+[ERROR]   symbol:   variable region
+[ERROR]   location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[88,13] cannot find symbol
+[ERROR]   symbol:   variable x
+[ERROR]   location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[89,13] cannot find symbol
+[ERROR]   symbol:   variable y
+[ERROR]   location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[90,14] cannot find symbol
+[ERROR]   symbol:   variable region
+[ERROR]   location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[90,42] cannot find symbol
+[ERROR]   symbol:   variable region
+[ERROR]   location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[90,68] cannot find symbol
+[ERROR]   symbol:   variable region
+[ERROR]   location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[91,14] cannot find symbol
+[ERROR]   symbol:   variable region
+[ERROR]   location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[95,13] cannot find symbol
+[ERROR]   symbol:   variable x
+[ERROR]   location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[96,13] cannot find symbol
+[ERROR]   symbol:   variable y
+[ERROR]   location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[97,14] cannot find symbol
+[ERROR]   symbol:   variable region
+[ERROR]   location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[98,14] cannot find symbol
+[ERROR]   symbol:   variable region
+[ERROR]   location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[102,13] cannot find symbol
+[ERROR]   symbol:   variable x
+[ERROR]   location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[103,13] cannot find symbol
+[ERROR]   symbol:   variable y
+[ERROR]   location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[104,14] cannot find symbol
+[ERROR]   symbol:   variable region
+[ERROR]   location: variable p of type TestPoint
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[105,14] cannot find symbol
+[ERROR]   symbol:   variable region
+[ERROR]   location: variable p of type TestPoint
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Picked up JAVA_TOOL_OPTIONS: -Duser.language=en -Duser.country=US

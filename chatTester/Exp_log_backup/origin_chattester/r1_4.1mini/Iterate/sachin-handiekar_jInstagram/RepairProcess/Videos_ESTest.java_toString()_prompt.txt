@@ -1,0 +1,128 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class Videos {
+@SerializedName("low_resolution")
+private VideoData lowResolution;@SerializedName("standard_resolution")
+private VideoData standardResolution;
+# Focal method
+@Override
+public String toString() {
+    return String.format("Videos [lowResolution=%s, standardResolution=%s]", lowResolution, standardResolution);
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# VideoData class
+package org.jinstagram.entity.common;
+public class VideoData {
+public String getUrl();
+public void setUrl(String url);
+public int getWidth();
+public void setWidth(int width);
+public int getHeight();
+public void setHeight(int height);
+public String toString();
+}
+
+
+# Test Method
+    @Test
+    public void testToString() {
+
+            <Buggy Line>: constructor VideoData in class org.jinstagram.entity.common.VideoData cannot be applied to given types;
+        VideoData lowRes = new VideoData("lowUrl", 320, 240);
+
+        VideoData standardRes = new VideoData("standardUrl", 640, 480);
+        Videos videos = new Videos();
+        setField(videos, "lowResolution", lowRes);
+        setField(videos, "standardResolution", standardRes);
+        String expected = String.format("Videos [lowResolution=%s, standardResolution=%s]", lowRes, standardRes);
+        assertEquals(expected, videos.toString());
+        Videos videosNull = new Videos();
+        setField(videosNull, "lowResolution", null);
+        setField(videosNull, "standardResolution", null);
+        String expectedNull = "Videos [lowResolution=null, standardResolution=null]";
+        assertEquals(expectedNull, videosNull.toString());
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "VideoData" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "VideoData" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->0-->compileRepair
+
+# VideoData class
+package org.jinstagram.entity.common;
+public class VideoData {
+public String getUrl();
+public void setUrl(String url);
+public int getWidth();
+public void setWidth(int width);
+public int getHeight();
+public void setHeight(int height);
+public String toString();
+}
+
+# Videos class
+package org.jinstagram.entity.common;
+public class Videos {
+public VideoData getLowResolution();
+public void setLowResolution(VideoData lowResolution);
+public VideoData getStandardResolution();
+public void setStandardResolution(VideoData standardResolution);
+public String toString();
+}
+
+
+# Test Method
+@Test
+public void testToString() {
+    VideoData lowRes = new VideoData();
+    lowRes.setUrl("lowUrl");
+    lowRes.setWidth(320);
+    lowRes.setHeight(240);
+    VideoData standardRes = new VideoData();
+    standardRes.setUrl("standardUrl");
+    standardRes.setWidth(640);
+    standardRes.setHeight(480);
+    Videos videos = new Videos();
+
+    <Buggy Line>: cannot find symbol method "setField(org.jinstagram.entity.common.Videos,java.lang.String,org.jinstagram.entity.common.VideoData)" in Videos_ESTest
+    setField(videos, "lowResolution", lowRes);
+
+    setField(videos, "standardResolution", standardRes);
+    String expected = String.format("Videos [lowResolution=%s, standardResolution=%s]", lowRes, standardRes);
+    assertEquals(expected, videos.toString());
+    Videos videosNull = new Videos();
+    setField(videosNull, "lowResolution", null);
+    setField(videosNull, "standardResolution", null);
+    String expectedNull = "Videos [lowResolution=null, standardResolution=null]";
+    assertEquals(expectedNull, videosNull.toString());
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "Videos" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "Videos" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

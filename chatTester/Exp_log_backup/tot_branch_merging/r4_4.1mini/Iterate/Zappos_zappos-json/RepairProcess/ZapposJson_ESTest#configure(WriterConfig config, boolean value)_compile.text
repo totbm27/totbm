@@ -1,0 +1,172 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java
+[GENERATED PATH] ZapposJson_ESTest#configure(WriterConfig config, boolean value).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[41,5] cannot find symbol
+  symbol:   class WriterConfig
+  location: class com.zappos.json.ZapposJson_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[41,27] cannot find symbol
+  symbol:   variable WriterConfig
+  location: class com.zappos.json.ZapposJson_ESTest
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java
+[GENERATED PATH] ZapposJson_ESTest#configure(WriterConfig config, boolean value).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[43,19] cannot find symbol
+  symbol:   class Flag
+  location: class com.zappos.json.ZapposJson
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[43,44] cannot find symbol
+  symbol:   variable Flag
+  location: class com.zappos.json.ZapposJson
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java
+[GENERATED PATH] ZapposJson_ESTest#configure(WriterConfig config, boolean value).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[45,35] cannot find symbol
+  symbol:   variable SOME_OPTION
+  location: class com.zappos.json.ZapposJson
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[47,42] no suitable method found for is(java.lang.String)
+    method com.zappos.json.ZapposJson.is(com.zappos.json.JsonConfig.ReaderConfig) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to com.zappos.json.JsonConfig.ReaderConfig)
+    method com.zappos.json.ZapposJson.is(com.zappos.json.JsonConfig.WriterConfig) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to com.zappos.json.JsonConfig.WriterConfig)
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[48,19] no suitable method found for configure(java.lang.String,boolean)
+    method com.zappos.json.ZapposJson.configure(com.zappos.json.JsonConfig.ReaderConfig,boolean) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to com.zappos.json.JsonConfig.ReaderConfig)
+    method com.zappos.json.ZapposJson.configure(com.zappos.json.JsonConfig.WriterConfig,boolean) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to com.zappos.json.JsonConfig.WriterConfig)
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[49,39] no suitable method found for is(java.lang.String)
+    method com.zappos.json.ZapposJson.is(com.zappos.json.JsonConfig.ReaderConfig) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to com.zappos.json.JsonConfig.ReaderConfig)
+    method com.zappos.json.ZapposJson.is(com.zappos.json.JsonConfig.WriterConfig) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to com.zappos.json.JsonConfig.WriterConfig)
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[50,19] no suitable method found for configure(java.lang.String,boolean)
+    method com.zappos.json.ZapposJson.configure(com.zappos.json.JsonConfig.ReaderConfig,boolean) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to com.zappos.json.JsonConfig.ReaderConfig)
+    method com.zappos.json.ZapposJson.configure(com.zappos.json.JsonConfig.WriterConfig,boolean) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to com.zappos.json.JsonConfig.WriterConfig)
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[51,40] no suitable method found for is(java.lang.String)
+    method com.zappos.json.ZapposJson.is(com.zappos.json.JsonConfig.ReaderConfig) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to com.zappos.json.JsonConfig.ReaderConfig)
+    method com.zappos.json.ZapposJson.is(com.zappos.json.JsonConfig.WriterConfig) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to com.zappos.json.JsonConfig.WriterConfig)
+[INFO] 6 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java
+[GENERATED PATH] ZapposJson_ESTest#configure(WriterConfig config, boolean value).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[47,9] cannot find symbol
+  symbol:   class WriterConfig
+  location: class com.zappos.json.ZapposJson_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[47,31] cannot find symbol
+  symbol:   variable WriterConfig
+  location: class com.zappos.json.ZapposJson_ESTest
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java
+[GENERATED PATH] ZapposJson_ESTest#configure(WriterConfig config, boolean value).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[10,23] cannot find symbol
+  symbol:   class WriterConfig
+  location: package com.zappos.json
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[51,5] cannot find symbol
+  symbol:   class WriterConfig
+  location: class com.zappos.json.ZapposJson_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[51,27] cannot find symbol
+  symbol:   variable WriterConfig
+  location: class com.zappos.json.ZapposJson_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[68,19] incompatible types: boolean[] cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[69,29] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[82,19] incompatible types: boolean[] cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[83,30] incompatible types: boolean cannot be converted to java.lang.String
+[INFO] 7 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java
+[GENERATED PATH] ZapposJson_ESTest#configure(WriterConfig config, boolean value).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[11,23] cannot find symbol
+  symbol:   class WriterConfig
+  location: package com.zappos.json
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[51,5] cannot find symbol
+  symbol:   class WriterConfig
+  location: class com.zappos.json.ZapposJson_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[51,27] cannot find symbol
+  symbol:   variable WriterConfig
+  location: class com.zappos.json.ZapposJson_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[59,17] incompatible types: boolean cannot be converted to java.lang.String
+[INFO] 4 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java
+[GENERATED PATH] ZapposJson_ESTest#configure(WriterConfig config, boolean value).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[12,23] cannot find symbol
+  symbol:   class WriterConfig
+  location: package com.zappos.json
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[50,40] cannot find symbol
+  symbol:   class WriterConfig
+  location: class com.zappos.json.ZapposJson_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[51,9] cannot find symbol
+  symbol:   variable WRITER_CONFIGS
+  location: class com.zappos.json.ZapposJson_ESTest
+[INFO] 3 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java
+[GENERATED PATH] ZapposJson_ESTest#configure(WriterConfig config, boolean value).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[13,23] cannot find symbol
+  symbol:   class WriterConfig
+  location: package com.zappos.json
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[55,9] cannot find symbol
+  symbol:   class WriterConfig
+  location: class com.zappos.json.ZapposJson_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[55,31] cannot find symbol
+  symbol:   variable WriterConfig
+  location: class com.zappos.json.ZapposJson_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[71,13] no suitable method found for assertEquals(boolean,boolean,java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,java.lang.Object[],java.lang.Object[]) is not applicable
+      (argument mismatch; boolean cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(float,float,float) is not applicable
+      (argument mismatch; boolean cannot be converted to float)
+    method org.junit.Assert.assertEquals(double,double,double) is not applicable
+      (argument mismatch; boolean cannot be converted to double)
+    method org.junit.Assert.assertEquals(java.lang.String,double,double) is not applicable
+      (argument mismatch; boolean cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,long,long) is not applicable
+      (argument mismatch; boolean cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,java.lang.Object,java.lang.Object) is not applicable
+      (argument mismatch; boolean cannot be converted to java.lang.String)
+[INFO] 4 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java
+[GENERATED PATH] ZapposJson_ESTest#configure(WriterConfig config, boolean value).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[14,23] cannot find symbol
+  symbol:   class WriterConfig
+  location: package com.zappos.json
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[57,9] cannot find symbol
+  symbol:   class WriterConfig
+  location: class com.zappos.json.ZapposJson_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[57,31] cannot find symbol
+  symbol:   variable WriterConfig
+  location: class com.zappos.json.ZapposJson_ESTest
+[INFO] 3 errors 
+####################
+

@@ -1,0 +1,187 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java
+[GENERATED PATH] JavaDateFormatter_ESTest#parse(ZapposJson zapposJson, String string).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java:[33,21] setPattern(java.lang.String) in <anonymous com.zappos.json.format.JavaDateFormatter_ESTest$1> cannot implement setPattern(java.lang.String) in com.zappos.json.format.ValueFormatter
+  return type void is not compatible with com.zappos.json.format.ValueFormatter<java.util.Date>
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java:[46,5] cannot find symbol
+  symbol:   class SimpleDateFormat
+  location: class com.zappos.json.format.JavaDateFormatter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java:[46,32] cannot find symbol
+  symbol:   class SimpleDateFormat
+  location: class com.zappos.json.format.JavaDateFormatter_ESTest
+[INFO] 3 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java
+[GENERATED PATH] JavaDateFormatter_ESTest#parse(ZapposJson zapposJson, String string).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java:[38,25] setPattern(java.lang.String) in <anonymous com.zappos.json.format.JavaDateFormatter_ESTest$1> cannot implement setPattern(java.lang.String) in com.zappos.json.format.ValueFormatter
+  return type void is not compatible with com.zappos.json.format.ValueFormatter<java.util.Date>
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java
+[GENERATED PATH] JavaDateFormatter_ESTest#parse(ZapposJson zapposJson, String string).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java:[41,25] setPattern(java.lang.String) in <anonymous com.zappos.json.format.JavaDateFormatter_ESTest$1> cannot implement setPattern(java.lang.String) in com.zappos.json.format.ValueFormatter
+  return type void is not compatible with com.zappos.json.format.ValueFormatter<java.util.Date>
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java:[40,13] method does not override or implement a method from a supertype
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java
+[GENERATED PATH] JavaDateFormatter_ESTest#parse(ZapposJson zapposJson, String string).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java:[36,9] cannot find symbol
+  symbol:   class TestJavaDateFormatter
+  location: class com.zappos.json.format.JavaDateFormatter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java:[36,47] cannot find symbol
+  symbol:   class TestJavaDateFormatter
+  location: class com.zappos.json.format.JavaDateFormatter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java:[37,33] constructor ZapposJson in class com.zappos.json.ZapposJson cannot be applied to given types;
+  required: boolean
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[INFO] 3 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java
+[GENERATED PATH] JavaDateFormatter_ESTest#parse(ZapposJson zapposJson, String string).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java:[36,13] cannot find symbol
+  symbol: variable pattern
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java
+[GENERATED PATH] JavaDateFormatter_ESTest#parse(ZapposJson zapposJson, String string).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java:[39,33] constructor ZapposJson in class com.zappos.json.ZapposJson cannot be applied to given types;
+  required: boolean
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java:[43,9] cannot find symbol
+  symbol:   class TestJavaDateFormatter
+  location: class com.zappos.json.format.JavaDateFormatter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java:[43,58] cannot find symbol
+  symbol:   class TestJavaDateFormatter
+  location: class com.zappos.json.format.JavaDateFormatter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java:[49,9] cannot find symbol
+  symbol:   class TestJavaDateFormatter
+  location: class com.zappos.json.format.JavaDateFormatter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java:[49,61] cannot find symbol
+  symbol:   class TestJavaDateFormatter
+  location: class com.zappos.json.format.JavaDateFormatter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java:[59,9] no suitable method found for assertEquals(java.util.Date,java.util.Date,java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,java.lang.Object[],java.lang.Object[]) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(float,float,float) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to float)
+    method org.junit.Assert.assertEquals(double,double,double) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to double)
+    method org.junit.Assert.assertEquals(java.lang.String,double,double) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,long,long) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,java.lang.Object,java.lang.Object) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to java.lang.String)
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java:[60,9] no suitable method found for assertEquals(java.util.Date,java.util.Date,java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,java.lang.Object[],java.lang.Object[]) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(float,float,float) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to float)
+    method org.junit.Assert.assertEquals(double,double,double) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to double)
+    method org.junit.Assert.assertEquals(java.lang.String,double,double) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,long,long) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,java.lang.Object,java.lang.Object) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to java.lang.String)
+[INFO] 7 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java
+[GENERATED PATH] JavaDateFormatter_ESTest#parse(ZapposJson zapposJson, String string).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java:[43,9] cannot find symbol
+  symbol:   class TestJavaDateFormatter
+  location: class com.zappos.json.format.JavaDateFormatter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java:[43,58] cannot find symbol
+  symbol:   class TestJavaDateFormatter
+  location: class com.zappos.json.format.JavaDateFormatter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java:[48,9] cannot find symbol
+  symbol:   class TestJavaDateFormatter
+  location: class com.zappos.json.format.JavaDateFormatter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java:[48,61] cannot find symbol
+  symbol:   class TestJavaDateFormatter
+  location: class com.zappos.json.format.JavaDateFormatter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java:[56,9] no suitable method found for assertEquals(java.util.Date,java.util.Date,java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,java.lang.Object[],java.lang.Object[]) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(float,float,float) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to float)
+    method org.junit.Assert.assertEquals(double,double,double) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to double)
+    method org.junit.Assert.assertEquals(java.lang.String,double,double) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,long,long) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,java.lang.Object,java.lang.Object) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to java.lang.String)
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java:[57,9] no suitable method found for assertEquals(java.util.Date,java.util.Date,java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,java.lang.Object[],java.lang.Object[]) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(float,float,float) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to float)
+    method org.junit.Assert.assertEquals(double,double,double) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to double)
+    method org.junit.Assert.assertEquals(java.lang.String,double,double) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,long,long) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,java.lang.Object,java.lang.Object) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to java.lang.String)
+[INFO] 6 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java
+[GENERATED PATH] JavaDateFormatter_ESTest#parse(ZapposJson zapposJson, String string).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java:[71,5] no suitable method found for assertEquals(java.util.Date,java.util.Date,java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,java.lang.Object[],java.lang.Object[]) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(float,float,float) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to float)
+    method org.junit.Assert.assertEquals(double,double,double) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to double)
+    method org.junit.Assert.assertEquals(java.lang.String,double,double) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,long,long) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,java.lang.Object,java.lang.Object) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to java.lang.String)
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaDateFormatter_ESTest.java:[72,5] no suitable method found for assertEquals(java.util.Date,java.util.Date,java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,java.lang.Object[],java.lang.Object[]) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(float,float,float) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to float)
+    method org.junit.Assert.assertEquals(double,double,double) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to double)
+    method org.junit.Assert.assertEquals(java.lang.String,double,double) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,long,long) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,java.lang.Object,java.lang.Object) is not applicable
+      (argument mismatch; java.util.Date cannot be converted to java.lang.String)
+[INFO] 2 errors 
+####################
+

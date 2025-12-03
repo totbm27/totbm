@@ -1,0 +1,20 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/FromTagData_ESTest.java
+[GENERATED PATH] FromTagData_ESTest#setUsername(String username).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/comments/MediaCommentsFeed_ESTest.java:[37,59] diamond operator is not supported in -source 1.6
+  (use -source 7 or higher to enable diamond operator)
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/FromTagData_ESTest.java
+[GENERATED PATH] FromTagData_ESTest#setUsername(String username).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/FromTagData_ESTest.java:[27,31] username has private access in org.jinstagram.entity.common.FromTagData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/FromTagData_ESTest.java:[32,47] username has private access in org.jinstagram.entity.common.FromTagData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/FromTagData_ESTest.java:[37,46] username has private access in org.jinstagram.entity.common.FromTagData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/FromTagData_ESTest.java:[41,31] username has private access in org.jinstagram.entity.common.FromTagData
+[INFO] 4 errors 
+####################
+

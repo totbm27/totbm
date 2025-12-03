@@ -1,0 +1,69 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeed_ESTest.java
+[GENERATED PATH] MediaFeed_ESTest#getPagination().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/comments/MediaCommentsFeed_ESTest.java:[37,59] diamond operator is not supported in -source 1.6
+  (use -source 7 or higher to enable diamond operator)
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeed_ESTest.java
+[GENERATED PATH] MediaFeed_ESTest#getPagination().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeed_ESTest.java:[24,39] cannot find symbol
+  symbol: class MediaFeed_ESTest_scaffolding
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeed_ESTest.java:[29,5] cannot find symbol
+  symbol:   class TagMediaFeed
+  location: class org.jinstagram.entity.users.feed.MediaFeed_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeed_ESTest.java:[29,37] cannot find symbol
+  symbol:   class TagMediaFeed
+  location: class org.jinstagram.entity.users.feed.MediaFeed_ESTest
+[INFO] 3 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeed_ESTest.java
+[GENERATED PATH] MediaFeed_ESTest#getPagination().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeed_ESTest.java:[25,39] cannot find symbol
+  symbol: class MediaFeed_ESTest_scaffolding
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeed_ESTest.java:[32,5] cannot find symbol
+  symbol:   class TagMediaFeed
+  location: class org.jinstagram.entity.users.feed.MediaFeed_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeed_ESTest.java:[32,37] cannot find symbol
+  symbol:   class TagMediaFeed
+  location: class org.jinstagram.entity.users.feed.MediaFeed_ESTest
+[INFO] 3 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeed_ESTest.java
+[GENERATED PATH] MediaFeed_ESTest#getPagination().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeed_ESTest.java:[26,39] cannot find symbol
+  symbol: class MediaFeed_ESTest_scaffolding
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeed_ESTest.java:[33,5] cannot find symbol
+  symbol:   class TagMediaFeed
+  location: class org.jinstagram.entity.users.feed.MediaFeed_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeed_ESTest.java:[33,37] cannot find symbol
+  symbol:   class TagMediaFeed
+  location: class org.jinstagram.entity.users.feed.MediaFeed_ESTest
+[INFO] 3 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeed_ESTest.java
+[GENERATED PATH] MediaFeed_ESTest#getPagination().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeed_ESTest.java:[27,39] cannot find symbol
+  symbol: class MediaFeed_ESTest_scaffolding
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeed_ESTest.java:[35,5] cannot find symbol
+  symbol:   class TagMediaFeed
+  location: class org.jinstagram.entity.users.feed.MediaFeed_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeed_ESTest.java:[35,37] cannot find symbol
+  symbol:   class TagMediaFeed
+  location: class org.jinstagram.entity.users.feed.MediaFeed_ESTest
+[INFO] 3 errors 
+####################
+

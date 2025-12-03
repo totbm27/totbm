@@ -1,0 +1,37 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testSetLocationList() {
+    LocationSearchFeed feed = new LocationSearchFeed();
+
+      <Buggy Line>: diamond operator is not supported in -source 1.6
+    List<Location> locations = new LinkedList<>();
+
+    Location loc1 = new Location();
+    loc1.setId("1");
+    loc1.setName("Location One");
+    Location loc2 = new Location();
+    loc2.setId("2");
+    loc2.setName("Location Two");
+    locations.add(loc1);
+    locations.add(loc2);
+    feed.setLocationList(locations);
+    List<Location> result = feed.getLocationList();
+    org.junit.Assert.assertNotNull(result);
+    org.junit.Assert.assertEquals(2, result.size());
+    org.junit.Assert.assertEquals("1", result.get(0).getId());
+    org.junit.Assert.assertEquals("Location One", result.get(0).getName());
+    org.junit.Assert.assertEquals("2", result.get(1).getId());
+    org.junit.Assert.assertEquals("Location Two", result.get(1).getName());
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

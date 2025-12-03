@@ -1,0 +1,54 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class LocationInfo {
+@SerializedName("data")
+private Location locationData;
+# Focal method
+public void setLocationData(Location locationData) {
+    this.locationData = locationData;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# LocationInfo class
+package org.jinstagram.entity.locations;
+public class LocationInfo {
+public Location getLocationData();
+public void setLocationData(Location locationData);
+public String toString();
+}
+
+
+# Test Method
+@Test
+public void testSetLocationData() {
+    LocationInfo locationInfo = new LocationInfo();
+    Location location = new Location();
+    locationInfo.setLocationData(location);
+
+   <Buggy Line>: locationData has private access in org.jinstagram.entity.locations.LocationInfo
+    assertEquals(location, locationInfo.locationData);
+
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "LocationInfo" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "LocationInfo" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

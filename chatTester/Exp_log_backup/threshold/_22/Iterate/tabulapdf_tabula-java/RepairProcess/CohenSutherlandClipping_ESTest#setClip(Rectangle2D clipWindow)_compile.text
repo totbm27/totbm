@@ -1,0 +1,99 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java
+[GENERATED PATH] CohenSutherlandClipping_ESTest#setClip(Rectangle2D clipWindow).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[33,36] xMin has private access in technology.tabula.CohenSutherlandClipping
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[34,36] xMax has private access in technology.tabula.CohenSutherlandClipping
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[35,36] yMin has private access in technology.tabula.CohenSutherlandClipping
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[36,36] yMax has private access in technology.tabula.CohenSutherlandClipping
+[INFO] 4 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java
+[GENERATED PATH] CohenSutherlandClipping_ESTest#setClip(Rectangle2D clipWindow).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[33,27] cannot find symbol
+  symbol:   method getClipWindow()
+  location: variable clipping of type technology.tabula.CohenSutherlandClipping
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[34,27] cannot find symbol
+  symbol:   method getClipWindow()
+  location: variable clipping of type technology.tabula.CohenSutherlandClipping
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[34,61] cannot find symbol
+  symbol:   method getClipWindow()
+  location: variable clipping of type technology.tabula.CohenSutherlandClipping
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[35,27] cannot find symbol
+  symbol:   method getClipWindow()
+  location: variable clipping of type technology.tabula.CohenSutherlandClipping
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[36,27] cannot find symbol
+  symbol:   method getClipWindow()
+  location: variable clipping of type technology.tabula.CohenSutherlandClipping
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[36,61] cannot find symbol
+  symbol:   method getClipWindow()
+  location: variable clipping of type technology.tabula.CohenSutherlandClipping
+[INFO] 6 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java
+[GENERATED PATH] CohenSutherlandClipping_ESTest#setClip(Rectangle2D clipWindow).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[36,32] cannot find symbol
+  symbol:   method getXMin()
+  location: variable clipping of type technology.tabula.CohenSutherlandClipping
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[37,32] cannot find symbol
+  symbol:   method getXMax()
+  location: variable clipping of type technology.tabula.CohenSutherlandClipping
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[38,32] cannot find symbol
+  symbol:   method getYMin()
+  location: variable clipping of type technology.tabula.CohenSutherlandClipping
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[39,32] cannot find symbol
+  symbol:   method getYMax()
+  location: variable clipping of type technology.tabula.CohenSutherlandClipping
+[INFO] 4 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java
+[GENERATED PATH] CohenSutherlandClipping_ESTest#setClip(Rectangle2D clipWindow).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[35,32] cannot find symbol
+  symbol:   method getXMin()
+  location: variable clipping of type technology.tabula.CohenSutherlandClipping
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[36,32] cannot find symbol
+  symbol:   method getXMax()
+  location: variable clipping of type technology.tabula.CohenSutherlandClipping
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[37,32] cannot find symbol
+  symbol:   method getYMin()
+  location: variable clipping of type technology.tabula.CohenSutherlandClipping
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[38,32] cannot find symbol
+  symbol:   method getYMax()
+  location: variable clipping of type technology.tabula.CohenSutherlandClipping
+[INFO] 4 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java
+[GENERATED PATH] CohenSutherlandClipping_ESTest#setClip(Rectangle2D clipWindow).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[36,32] cannot find symbol
+  symbol:   method getClipWindow()
+  location: variable clipping of type technology.tabula.CohenSutherlandClipping
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[37,32] cannot find symbol
+  symbol:   method getClipWindow()
+  location: variable clipping of type technology.tabula.CohenSutherlandClipping
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[37,66] cannot find symbol
+  symbol:   method getClipWindow()
+  location: variable clipping of type technology.tabula.CohenSutherlandClipping
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[38,32] cannot find symbol
+  symbol:   method getClipWindow()
+  location: variable clipping of type technology.tabula.CohenSutherlandClipping
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[39,32] cannot find symbol
+  symbol:   method getClipWindow()
+  location: variable clipping of type technology.tabula.CohenSutherlandClipping
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/CohenSutherlandClipping_ESTest.java:[39,66] cannot find symbol
+  symbol:   method getClipWindow()
+  location: variable clipping of type technology.tabula.CohenSutherlandClipping
+[INFO] 6 errors 
+####################
+

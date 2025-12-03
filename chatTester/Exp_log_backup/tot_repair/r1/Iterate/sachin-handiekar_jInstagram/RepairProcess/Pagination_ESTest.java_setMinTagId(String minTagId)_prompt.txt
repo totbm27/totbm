@@ -1,0 +1,22 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class Pagination {
+@SerializedName("min_tag_id")
+private String minTagId;
+# Focal method
+public void setMinTagId(String minTagId) {
+    this.minTagId = minTagId;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+

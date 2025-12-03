@@ -1,0 +1,66 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class CarouselMedia {
+@SerializedName("type")
+private String type;
+# Focal method
+public void setType(String type) {
+    this.type = type;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# CarouselMedia class
+package org.jinstagram.entity.users.feed;
+public class CarouselMedia {
+public String getType();
+public void setType(String type);
+public Images getImages();
+public void setImages(Images images);
+public Videos getVideos();
+public void setVideos(Videos videos);
+public List<UsersInPhoto> getUsersInPhotoList();
+public void setUsersInPhotoList(List<UsersInPhoto> usersInPhotoList);
+public String toString();
+}
+
+
+# Test Method
+    @Test
+    public void testSetType() {
+        CarouselMedia carouselMedia = new CarouselMedia();
+        String type1 = "image";
+        carouselMedia.setType(type1);
+
+       <Buggy Line>: cannot find symbol method "getTypeValue(org.jinstagram.entity.users.feed.CarouselMedia)" in CarouselMedia_ESTest
+        assertEquals(type1, getTypeValue(carouselMedia));
+
+        String type2 = "";
+        carouselMedia.setType(type2);
+        assertEquals(type2, getTypeValue(carouselMedia));
+        String type3 = null;
+        carouselMedia.setType(type3);
+        assertNull(getTypeValue(carouselMedia));
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "CarouselMedia" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "CarouselMedia" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

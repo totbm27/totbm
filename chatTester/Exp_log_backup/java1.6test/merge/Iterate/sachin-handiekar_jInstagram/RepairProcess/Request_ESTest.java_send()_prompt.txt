@@ -1,0 +1,56 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testSend() {
+        Verbs verb = Verbs.GET;
+        String url = "https://example.com/api";
+        Request request = new Request(verb, url);
+        try {
+            Response response = request.send();
+            assertNotNull(response);
+
+          <Buggy Line>: cannot find symbol class "IOException"
+        } catch (IOException e) {
+
+            fail("IOException occurred during send()");
+        }
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair, and the generated code should be compatible with Java compiler version 1.6. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testSend() {
+        Verbs verb = Verbs.GET;
+        String url = "https://example.com/api";
+        Request request = new Request(verb, url);
+        try {
+            Response response = request.send();
+            assertNotNull(response);
+
+          <Buggy Line>: cannot find symbol class "IOException"
+        } catch (IOException e) {
+
+            fail("IOException occurred during send()");
+        }
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair, and the generated code should be compatible with Java compiler version 1.6. 
+The generated code should be enclosed within ``` ```.
+
+########
+

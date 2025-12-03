@@ -1,0 +1,415 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java
+[GENERATED PATH] MediaFeedData_ESTest#toString().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/comments/MediaCommentsFeed_ESTest.java:[37,59] diamond operator is not supported in -source 1.6
+  (use -source 7 or higher to enable diamond operator)
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java
+[GENERATED PATH] MediaFeedData_ESTest#toString().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[36,27] constructor Caption in class org.jinstagram.entity.common.Caption cannot be applied to given types;
+  required: no arguments
+  found: java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[37,29] constructor Comments in class org.jinstagram.entity.common.Comments cannot be applied to given types;
+  required: no arguments
+  found: int
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[41,25] constructor Images in class org.jinstagram.entity.common.Images cannot be applied to given types;
+  required: no arguments
+  found: java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[42,23] constructor Likes in class org.jinstagram.entity.common.Likes cannot be applied to given types;
+  required: no arguments
+  found: int
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[44,29] constructor Location in class org.jinstagram.entity.common.Location cannot be applied to given types;
+  required: no arguments
+  found: java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[48,21] constructor User in class org.jinstagram.entity.common.User cannot be applied to given types;
+  required: no arguments
+  found: java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[50,83] constructor UsersInPhoto in class org.jinstagram.entity.common.UsersInPhoto cannot be applied to given types;
+  required: no arguments
+  found: java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[58,9] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,org.jinstagram.entity.common.Caption)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[59,9] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,org.jinstagram.entity.common.Comments)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[60,9] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,java.lang.String)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[61,9] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,java.lang.String)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[62,9] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,java.lang.String)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[63,9] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,org.jinstagram.entity.common.Images)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[64,9] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,org.jinstagram.entity.common.Likes)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[65,9] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,java.lang.String)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[66,9] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,org.jinstagram.entity.common.Location)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[67,9] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,java.util.List<java.lang.String>)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[68,9] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,java.lang.String)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[69,9] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,org.jinstagram.entity.common.User)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[70,9] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,boolean)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[71,9] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,java.util.List<org.jinstagram.entity.common.UsersInPhoto>)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[INFO] 21 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java
+[GENERATED PATH] MediaFeedData_ESTest#toString().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[40,25] constructor Comments in class org.jinstagram.entity.common.Comments cannot be applied to given types;
+  required: no arguments
+  found: int
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[44,21] constructor Images in class org.jinstagram.entity.common.Images cannot be applied to given types;
+  required: no arguments
+  found: java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[45,19] constructor Likes in class org.jinstagram.entity.common.Likes cannot be applied to given types;
+  required: no arguments
+  found: int
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[47,25] constructor Location in class org.jinstagram.entity.common.Location cannot be applied to given types;
+  required: no arguments
+  found: java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[50,17] constructor User in class org.jinstagram.entity.common.User cannot be applied to given types;
+  required: no arguments
+  found: java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[52,79] constructor UsersInPhoto in class org.jinstagram.entity.common.UsersInPhoto cannot be applied to given types;
+  required: no arguments
+  found: java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[54,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,org.jinstagram.entity.common.Caption)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[55,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,org.jinstagram.entity.common.Comments)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[56,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,java.lang.String)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[57,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,java.lang.String)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[58,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,java.lang.String)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[59,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,org.jinstagram.entity.common.Images)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[60,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,org.jinstagram.entity.common.Likes)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[61,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,java.lang.String)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[62,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,org.jinstagram.entity.common.Location)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[63,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,java.util.List<java.lang.String>)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[64,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,java.lang.String)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[65,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,org.jinstagram.entity.common.User)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[66,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,boolean)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[67,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,java.util.List<org.jinstagram.entity.common.UsersInPhoto>)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[INFO] 20 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java
+[GENERATED PATH] MediaFeedData_ESTest#toString().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[48,21] constructor Images in class org.jinstagram.entity.common.Images cannot be applied to given types;
+  required: no arguments
+  found: java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[49,19] constructor Likes in class org.jinstagram.entity.common.Likes cannot be applied to given types;
+  required: no arguments
+  found: int
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[51,25] constructor Location in class org.jinstagram.entity.common.Location cannot be applied to given types;
+  required: no arguments
+  found: java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[54,17] constructor User in class org.jinstagram.entity.common.User cannot be applied to given types;
+  required: no arguments
+  found: java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[56,79] constructor UsersInPhoto in class org.jinstagram.entity.common.UsersInPhoto cannot be applied to given types;
+  required: no arguments
+  found: java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[58,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,org.jinstagram.entity.common.Caption)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[59,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,org.jinstagram.entity.common.Comments)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[60,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,java.lang.String)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[61,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,java.lang.String)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[62,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,java.lang.String)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[63,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,org.jinstagram.entity.common.Images)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[64,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,org.jinstagram.entity.common.Likes)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[65,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,java.lang.String)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[66,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,org.jinstagram.entity.common.Location)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[67,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,java.util.List<java.lang.String>)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[68,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,java.lang.String)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[69,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,org.jinstagram.entity.common.User)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[70,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,boolean)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[71,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,java.util.List<org.jinstagram.entity.common.UsersInPhoto>)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[INFO] 19 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java
+[GENERATED PATH] MediaFeedData_ESTest#toString().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[50,5] cannot find symbol
+  symbol:   class ImageData
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[50,35] cannot find symbol
+  symbol:   class ImageData
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[54,19] constructor Likes in class org.jinstagram.entity.common.Likes cannot be applied to given types;
+  required: no arguments
+  found: int
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[56,25] constructor Location in class org.jinstagram.entity.common.Location cannot be applied to given types;
+  required: no arguments
+  found: java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[59,17] constructor User in class org.jinstagram.entity.common.User cannot be applied to given types;
+  required: no arguments
+  found: java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[61,79] constructor UsersInPhoto in class org.jinstagram.entity.common.UsersInPhoto cannot be applied to given types;
+  required: no arguments
+  found: java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[63,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,org.jinstagram.entity.common.Caption)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[64,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,org.jinstagram.entity.common.Comments)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[65,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,java.lang.String)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[66,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,java.lang.String)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[67,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,java.lang.String)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[68,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,org.jinstagram.entity.common.Images)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[69,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,org.jinstagram.entity.common.Likes)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[70,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,java.lang.String)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[71,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,org.jinstagram.entity.common.Location)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[72,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,java.util.List<java.lang.String>)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[73,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,java.lang.String)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[74,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,org.jinstagram.entity.common.User)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[75,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,boolean)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[76,5] cannot find symbol
+  symbol:   method setField(org.jinstagram.entity.users.feed.MediaFeedData,java.lang.String,java.util.List<org.jinstagram.entity.common.UsersInPhoto>)
+  location: class org.jinstagram.entity.users.feed.MediaFeedData_ESTest
+[INFO] 20 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java
+[GENERATED PATH] MediaFeedData_ESTest#toString().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[51,30] cannot find symbol
+  symbol: class FromTagData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[52,43] cannot find symbol
+  symbol: class FromTagData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[57,22] caption has private access in org.jinstagram.entity.users.feed.MediaFeedData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[61,45] cannot find symbol
+  symbol: class CommentData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[62,62] cannot find symbol
+  symbol: class CommentData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[67,22] comments has private access in org.jinstagram.entity.users.feed.MediaFeedData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[70,22] createdTime has private access in org.jinstagram.entity.users.feed.MediaFeedData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[71,22] id has private access in org.jinstagram.entity.users.feed.MediaFeedData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[72,22] imageFilter has private access in org.jinstagram.entity.users.feed.MediaFeedData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[75,30] cannot find symbol
+  symbol: class ImageData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[76,52] cannot find symbol
+  symbol: class ImageData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[77,30] cannot find symbol
+  symbol: class ImageData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[78,48] cannot find symbol
+  symbol: class ImageData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[79,30] cannot find symbol
+  symbol: class ImageData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[80,57] cannot find symbol
+  symbol: class ImageData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[83,22] images has private access in org.jinstagram.entity.users.feed.MediaFeedData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[90,22] likes has private access in org.jinstagram.entity.users.feed.MediaFeedData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[92,22] link has private access in org.jinstagram.entity.users.feed.MediaFeedData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[96,22] location has private access in org.jinstagram.entity.users.feed.MediaFeedData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[98,22] tags has private access in org.jinstagram.entity.users.feed.MediaFeedData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[99,22] type has private access in org.jinstagram.entity.users.feed.MediaFeedData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[104,22] user has private access in org.jinstagram.entity.users.feed.MediaFeedData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[106,22] userHasLiked has private access in org.jinstagram.entity.users.feed.MediaFeedData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[111,22] usersInPhotoList has private access in org.jinstagram.entity.users.feed.MediaFeedData
+[INFO] 24 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java
+[GENERATED PATH] MediaFeedData_ESTest#toString().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[53,30] cannot find symbol
+  symbol: class FromTagData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[54,43] cannot find symbol
+  symbol: class FromTagData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[59,22] caption has private access in org.jinstagram.entity.users.feed.MediaFeedData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[63,45] cannot find symbol
+  symbol: class CommentData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[64,62] cannot find symbol
+  symbol: class CommentData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[69,22] comments has private access in org.jinstagram.entity.users.feed.MediaFeedData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[72,22] createdTime has private access in org.jinstagram.entity.users.feed.MediaFeedData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[73,22] id has private access in org.jinstagram.entity.users.feed.MediaFeedData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[74,22] imageFilter has private access in org.jinstagram.entity.users.feed.MediaFeedData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[77,30] cannot find symbol
+  symbol: class ImageData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[78,52] cannot find symbol
+  symbol: class ImageData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[79,30] cannot find symbol
+  symbol: class ImageData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[80,48] cannot find symbol
+  symbol: class ImageData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[81,30] cannot find symbol
+  symbol: class ImageData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[82,57] cannot find symbol
+  symbol: class ImageData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[85,22] images has private access in org.jinstagram.entity.users.feed.MediaFeedData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[92,22] likes has private access in org.jinstagram.entity.users.feed.MediaFeedData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[94,22] link has private access in org.jinstagram.entity.users.feed.MediaFeedData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[98,22] location has private access in org.jinstagram.entity.users.feed.MediaFeedData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[100,22] tags has private access in org.jinstagram.entity.users.feed.MediaFeedData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[101,22] type has private access in org.jinstagram.entity.users.feed.MediaFeedData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[106,22] user has private access in org.jinstagram.entity.users.feed.MediaFeedData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[108,22] userHasLiked has private access in org.jinstagram.entity.users.feed.MediaFeedData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[113,22] usersInPhotoList has private access in org.jinstagram.entity.users.feed.MediaFeedData
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[118,43] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[119,43] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[120,43] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[121,43] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[122,43] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[123,43] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[124,43] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[125,43] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[126,43] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[127,43] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[128,43] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[129,43] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[130,43] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[131,43] incompatible types: boolean cannot be converted to java.lang.String
+[INFO] 38 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java
+[GENERATED PATH] MediaFeedData_ESTest#toString().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[46,55] cannot find symbol
+  symbol: variable caption
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[47,58] cannot find symbol
+  symbol: variable comments
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java
+[GENERATED PATH] MediaFeedData_ESTest#toString().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[171,39] multi-catch statement is not supported in -source 1.6
+  (use -source 7 or higher to enable multi-catch statement)
+[INFO] 1 error
+####################
+

@@ -1,0 +1,10 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaTimeInstantFormatter_ESTest.java
+[GENERATED PATH] JavaTimeInstantFormatter_ESTest#setPattern(String pattern).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaTimeInstantFormatter_ESTest.java:[38,50] cannot find symbol
+  symbol:   method getFormatter()
+  location: variable formatter of type com.zappos.json.format.JavaTimeInstantFormatter
+[INFO] 1 error
+####################
+

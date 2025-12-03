@@ -1,0 +1,28 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class Request {
+private Map<String, String> headers;
+public Request(Verbs verb, String url) {
+    this.verb = verb;
+    this.url = url;
+    this.querystringParams = new HashMap<String, String>();
+    this.bodyParams = new HashMap<String, String>();
+    this.headers = new HashMap<String, String>();
+}
+# Focal method
+public Map<String, String> getHeaders() {
+    return headers;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be compatible with Java compiler version 1.6, and the generated code should be enclosed within ``` ```.
+
+########
+

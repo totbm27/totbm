@@ -1,0 +1,81 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testSetWebsiteUrl() {
+    User user = new User();
+    String testUrl = "https://example.com";
+    user.setWebsiteUrl(testUrl);
+    try {
+        java.lang.reflect.Field websiteField = User.class.getDeclaredField("websiteUrl");
+        websiteField.setAccessible(true);
+        String websiteValue = (String) websiteField.get(user);
+        org.junit.Assert.assertEquals(testUrl, websiteValue);
+
+        <Buggy Line>: multi-catch statement is not supported in -source 1.6
+    } catch (NoSuchFieldException | IllegalAccessException e) {
+
+        org.junit.Assert.fail("Reflection failed: " + e.getMessage());
+    }
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# User class
+package org.jinstagram.entity.common;
+public class User {
+public String getUserName();
+public void setUserName(String userName);
+public String getFullName();
+public void setFullName(String fullName);
+public String getProfilePictureUrl();
+public void setProfilePictureUrl(String profilePictureUrl);
+public String getBio();
+public void setBio(String bio);
+public String getWebsiteUrl();
+public void setWebsiteUrl(String websiteUrl);
+public String getId();
+public void setId(String id);
+public String toString();
+}
+
+
+# Test Method
+    @Test
+    public void testSetWebsiteUrl() {
+        User user = new User();
+        String testUrl = "https://example.com";
+        user.setWebsiteUrl(testUrl);
+        try {
+            Field websiteField = User.class.getDeclaredField("websiteUrl");
+            websiteField.setAccessible(true);
+            String websiteValue = (String) websiteField.get(user);
+
+           <Buggy Line>: cannot find symbol variable "Assert"
+            Assert.assertEquals(testUrl, websiteValue);
+
+        } catch (NoSuchFieldException e) {
+            Assert.fail("Reflection failed: " + e.getMessage());
+        } catch (IllegalAccessException e) {
+            Assert.fail("Reflection failed: " + e.getMessage());
+        }
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "User" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "User" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

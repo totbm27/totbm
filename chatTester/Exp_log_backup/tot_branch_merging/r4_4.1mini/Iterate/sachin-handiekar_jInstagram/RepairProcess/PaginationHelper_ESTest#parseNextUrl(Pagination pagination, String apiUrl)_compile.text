@@ -1,0 +1,72 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java
+[GENERATED PATH] PaginationHelper_ESTest#parseNextUrl(Pagination pagination, String apiUrl).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[32,5] cannot find symbol
+  symbol:   class Page
+  location: class org.jinstagram.utils.PaginationHelper_ESTest
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java
+[GENERATED PATH] PaginationHelper_ESTest#parseNextUrl(Pagination pagination, String apiUrl).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[32,9] cannot find symbol
+  symbol:   class Page
+  location: class org.jinstagram.utils.PaginationHelper_ESTest
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java
+[GENERATED PATH] PaginationHelper_ESTest#parseNextUrl(Pagination pagination, String apiUrl).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[8,13] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[8,20] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[8,21] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[9,13] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[9,20] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[9,21] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[10,13] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[10,20] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[10,21] class, interface, or enum expected
+[INFO] 9 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java
+[GENERATED PATH] PaginationHelper_ESTest#parseNextUrl(Pagination pagination, String apiUrl).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[9,13] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[9,20] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[9,21] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[10,13] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[10,20] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[10,21] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[11,13] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[11,20] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[11,21] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[64,72] lambda expressions are not supported in -source 1.6
+  (use -source 8 or higher to enable lambda expressions)
+[INFO] 10 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java
+[GENERATED PATH] PaginationHelper_ESTest#parseNextUrl(Pagination pagination, String apiUrl).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[10,13] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[10,20] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[10,21] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[11,13] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[11,20] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[11,21] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[12,13] <identifier> expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[12,20] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[12,21] class, interface, or enum expected
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[46,58] diamond operator is not supported in -source 1.6
+  (use -source 7 or higher to enable diamond operator)
+[INFO] 10 errors 
+####################
+

@@ -1,0 +1,101 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class Request {
+private Map<String, String> bodyParams;
+public Request(Verbs verb, String url) {
+    this.verb = verb;
+    this.url = url;
+    this.querystringParams = new HashMap<String, String>();
+    this.bodyParams = new HashMap<String, String>();
+    this.headers = new HashMap<String, String>();
+}
+# Focal method
+public void addBodyParameter(String key, String value) {
+    this.bodyParams.put(key, value);
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void addBodyParameter_ShouldAddKeyValuePairToBodyParams() {
+        Verbs verb = Verbs.POST;
+        String url = "http://example.com/api";
+        Request request = new Request(verb, url);
+        String key = "username";
+        String value = "testuser";
+        request.addBodyParameter(key, value);
+        Map<String, String> bodyParamsField;
+        try {
+            var bodyParamsFieldObj = Request.class.getDeclaredField("bodyParams");
+            bodyParamsFieldObj.setAccessible(true);
+            bodyParamsField = (Map<String, String>) bodyParamsFieldObj.get(request);
+
+            <Buggy Line>: multi-catch statement is not supported in -source 1.6
+        } catch (NoSuchFieldException | IllegalAccessException e) {
+
+            throw new RuntimeException(e);
+        }
+        assertEquals(1, bodyParamsField.size(), "Body params should contain exactly one entry");
+        assertEquals(value, bodyParamsField.get(key), "The value associated with the key should match the added value");
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->1-->compileRepair
+
+
+# Test Method
+    @Test
+    public void addBodyParameter_ShouldAddKeyValuePairToBodyParams() {
+        Verbs verb = Verbs.POST;
+        String url = "http://example.com/api";
+        Request request = new Request(verb, url);
+        String key = "username";
+        String value = "testuser";
+        request.addBodyParameter(key, value);
+        Map<String, String> bodyParamsField;
+        try {
+            Field bodyParamsFieldObj = Request.class.getDeclaredField("bodyParams");
+            bodyParamsFieldObj.setAccessible(true);
+            bodyParamsField = (Map<String, String>) bodyParamsFieldObj.get(request);
+        } catch (NoSuchFieldException e) {
+            throw new RuntimeException(e);
+        } catch (IllegalAccessException e) {
+            throw new RuntimeException(e);
+        }
+
+              <Buggy Line>: no suitable method found for assertEquals(int,int,java.lang.String)
+        assertEquals(1, bodyParamsField.size(), "Body params should contain exactly one entry");
+
+        assertEquals(value, bodyParamsField.get(key), "The value associated with the key should match the added value");
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "Assert" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "Assert" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

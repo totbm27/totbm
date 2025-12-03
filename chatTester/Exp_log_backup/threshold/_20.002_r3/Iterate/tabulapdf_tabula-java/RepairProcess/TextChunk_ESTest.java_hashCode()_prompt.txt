@@ -1,0 +1,29 @@
+0-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+@Override
+public int hashCode() {
+    final int prime = 31;
+    int result = super.hashCode();
+    result = prime * result + ((textElements == null) ? 0 : textElements.hashCode());
+    return result;
+}
+
+# Method Intention
+The overall intention of the hashCode() method in the TextChunk class is to calculate a hash code based on the hash codes of the superclass and the list of TextElement objects contained within the TextChunk instance, ensuring that objects with equal content produce the same hash code.
+
+# Test Method
+    @Test
+    public void testHashCode() {
+             [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.Error Unresolved compilation problems: 
+ The constructor TextElement(int, int, int, int) is undefined
+ The constructor TextElement(int, int, int, int) is undefined
+ " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method, and the generated code should be compatible with Java compiler version 1.6.
+The generated code should be enclosed within ``` ```.
+
+########
+

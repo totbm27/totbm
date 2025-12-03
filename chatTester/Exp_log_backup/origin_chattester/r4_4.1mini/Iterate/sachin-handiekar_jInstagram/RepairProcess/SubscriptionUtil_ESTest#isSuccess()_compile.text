@@ -1,0 +1,121 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/SubscriptionUtil_ESTest.java
+[GENERATED PATH] SubscriptionUtil_ESTest#isSuccess().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/SubscriptionUtil_ESTest.java:[22,5] cannot find symbol
+  symbol:   class VerificationResult
+  location: class org.jinstagram.realtime.SubscriptionUtil_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/SubscriptionUtil_ESTest.java:[22,41] cannot find symbol
+  symbol:   class VerificationResult
+  location: class org.jinstagram.realtime.SubscriptionUtil_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/SubscriptionUtil_ESTest.java:[27,5] cannot find symbol
+  symbol:   class VerificationResult
+  location: class org.jinstagram.realtime.SubscriptionUtil_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/SubscriptionUtil_ESTest.java:[27,42] cannot find symbol
+  symbol:   class VerificationResult
+  location: class org.jinstagram.realtime.SubscriptionUtil_ESTest
+[INFO] 4 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/SubscriptionUtil_ESTest.java
+[GENERATED PATH] SubscriptionUtil_ESTest#isSuccess().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/SubscriptionUtil_ESTest.java:[25,5] cannot find symbol
+  symbol:   class VerificationResult
+  location: class org.jinstagram.realtime.SubscriptionUtil_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/SubscriptionUtil_ESTest.java:[25,41] cannot find symbol
+  symbol:   class VerificationResult
+  location: class org.jinstagram.realtime.SubscriptionUtil_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/SubscriptionUtil_ESTest.java:[28,5] cannot find symbol
+  symbol:   class VerificationResult
+  location: class org.jinstagram.realtime.SubscriptionUtil_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/SubscriptionUtil_ESTest.java:[28,42] cannot find symbol
+  symbol:   class VerificationResult
+  location: class org.jinstagram.realtime.SubscriptionUtil_ESTest
+[INFO] 4 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/SubscriptionUtil_ESTest.java
+[GENERATED PATH] SubscriptionUtil_ESTest#isSuccess().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/SubscriptionUtil_ESTest.java:[27,5] cannot find symbol
+  symbol:   class VerificationResult
+  location: class org.jinstagram.realtime.SubscriptionUtil_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/SubscriptionUtil_ESTest.java:[27,41] cannot find symbol
+  symbol:   class VerificationResult
+  location: class org.jinstagram.realtime.SubscriptionUtil_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/SubscriptionUtil_ESTest.java:[30,5] cannot find symbol
+  symbol:   class VerificationResult
+  location: class org.jinstagram.realtime.SubscriptionUtil_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/SubscriptionUtil_ESTest.java:[30,42] cannot find symbol
+  symbol:   class VerificationResult
+  location: class org.jinstagram.realtime.SubscriptionUtil_ESTest
+[INFO] 4 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/SubscriptionUtil_ESTest.java
+[GENERATED PATH] SubscriptionUtil_ESTest#isSuccess().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/SubscriptionUtil_ESTest.java:[28,9] cannot find symbol
+  symbol:   class VerificationResult
+  location: class org.jinstagram.realtime.SubscriptionUtil_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/SubscriptionUtil_ESTest.java:[28,41] cannot find symbol
+  symbol:   class VerificationResult
+  location: class org.jinstagram.realtime.SubscriptionUtil_ESTest
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/SubscriptionUtil_ESTest.java
+[GENERATED PATH] SubscriptionUtil_ESTest#isSuccess().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/SubscriptionUtil_ESTest.java:[31,9] cannot find symbol
+  symbol:   class VerificationResult
+  location: class org.jinstagram.realtime.SubscriptionUtil_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/SubscriptionUtil_ESTest.java:[31,45] cannot find symbol
+  symbol:   class VerificationResult
+  location: class org.jinstagram.realtime.SubscriptionUtil_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/SubscriptionUtil_ESTest.java:[35,9] cannot find symbol
+  symbol:   class VerificationResult
+  location: class org.jinstagram.realtime.SubscriptionUtil_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/SubscriptionUtil_ESTest.java:[35,46] cannot find symbol
+  symbol:   class VerificationResult
+  location: class org.jinstagram.realtime.SubscriptionUtil_ESTest
+[INFO] 4 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/SubscriptionUtil_ESTest.java
+[GENERATED PATH] SubscriptionUtil_ESTest#isSuccess().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/SubscriptionUtil_ESTest.java:[32,9] cannot find symbol
+  symbol:   class VerificationResult
+  location: class org.jinstagram.realtime.SubscriptionUtil_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/SubscriptionUtil_ESTest.java:[32,41] cannot find symbol
+  symbol:   class VerificationResult
+  location: class org.jinstagram.realtime.SubscriptionUtil_ESTest
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/SubscriptionUtil_ESTest.java
+[GENERATED PATH] SubscriptionUtil_ESTest#isSuccess().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/SubscriptionUtil_ESTest.java:[35,9] cannot find symbol
+  symbol:   class VerificationResult
+  location: class org.jinstagram.realtime.SubscriptionUtil_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/SubscriptionUtil_ESTest.java:[35,45] cannot find symbol
+  symbol:   class VerificationResult
+  location: class org.jinstagram.realtime.SubscriptionUtil_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/SubscriptionUtil_ESTest.java:[39,9] cannot find symbol
+  symbol:   class VerificationResult
+  location: class org.jinstagram.realtime.SubscriptionUtil_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/realtime/SubscriptionUtil_ESTest.java:[39,46] cannot find symbol
+  symbol:   class VerificationResult
+  location: class org.jinstagram.realtime.SubscriptionUtil_ESTest
+[INFO] 4 errors 
+####################
+

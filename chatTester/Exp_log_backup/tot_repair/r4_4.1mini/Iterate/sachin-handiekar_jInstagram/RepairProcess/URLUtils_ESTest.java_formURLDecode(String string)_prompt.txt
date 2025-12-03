@@ -1,0 +1,240 @@
+0-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+public static String formURLDecode(String string) {
+    Preconditions.checkNotNull(string, "Cannot decode null string");
+    try {
+        return URLDecoder.decode(string, UTF_8);
+    } catch (UnsupportedEncodingException uee) {
+        throw new IllegalStateException(ERROR_MSG, uee);
+    }
+}
+
+# Method Intention
+The formURLDecode(String string) method is designed to safely decode a URL-encoded string using UTF-8 encoding, ensuring the input is not null and handling any unsupported encoding exceptions by throwing an illegal state exception with a clear error message.
+
+# Test Method
+@Test
+public void testFormURLDecode() {
+    String encoded = "Hello%20World%21";
+    String expected = "Hello World!";
+    String actual = URLUtils.formURLDecode(encoded);
+    org.junit.Assert.assertEquals(expected, actual);
+    String emptyEncoded = "";
+    String emptyDecoded = URLUtils.formURLDecode(emptyEncoded);
+    org.junit.Assert.assertEquals("", emptyDecoded);
+    String specialEncoded = "%40%23%24%25%5E%26*%28%29";
+    String specialExpected = "@#$%^&*()";
+    String specialActual = URLUtils.formURLDecode(specialEncoded);
+    org.junit.Assert.assertEquals(specialExpected, specialActual);
+    try {
+      [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException Cannot decode null string " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+public static String formURLDecode(String string) {
+    Preconditions.checkNotNull(string, "Cannot decode null string");
+    try {
+        return URLDecoder.decode(string, UTF_8);
+    } catch (UnsupportedEncodingException uee) {
+        throw new IllegalStateException(ERROR_MSG, uee);
+    }
+}
+
+# Method Intention
+The formURLDecode(String string) method is designed to safely decode a URL-encoded string using UTF-8 encoding, ensuring the input is not null and handling any unsupported encoding exceptions by throwing an illegal state exception with a clear error message.
+
+# Test Method
+    @Test
+    public void testFormURLDecode() {
+        String encoded = "Hello%20World%21";
+        String expected = "Hello World!";
+        String actual = URLUtils.formURLDecode(encoded);
+        assertEquals(expected, actual);
+        String emptyEncoded = "";
+        String emptyDecoded = URLUtils.formURLDecode(emptyEncoded);
+        assertEquals("", emptyDecoded);
+        String specialEncoded = "%40%23%24%25%5E%26*%28%29";
+        String specialExpected = "@#$%^&*()";
+        String specialActual = URLUtils.formURLDecode(specialEncoded);
+        assertEquals(specialExpected, specialActual);
+        try {
+          [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException Cannot decode null string " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->0-->testRepair
+
+
+# Test Method
+@Test
+public void testFormURLDecode() {
+    String encoded = "Hello%20World%21";
+    String expected = "Hello World!";
+    String actual = URLUtils.formURLDecode(encoded);
+    org.junit.Assert.assertEquals(expected, actual);
+    String emptyEncoded = "";
+    String emptyDecoded = URLUtils.formURLDecode(emptyEncoded);
+    org.junit.Assert.assertEquals("", emptyDecoded);
+    String specialEncoded = "%40%23%24%25%5E%26*%28%29";
+    String specialExpected = "@#$%^&*()";
+    String specialActual = URLUtils.formURLDecode(specialEncoded);
+    org.junit.Assert.assertEquals(specialExpected, specialActual);
+    try {
+        URLUtils.formURLDecode(null);
+
+       <Buggy Line>: lambda expressions are not supported in -source 1.6
+        org.junit.Assert.fail("Expected NullPointerException");
+
+    } catch (NullPointerException npe) {
+        org.junit.Assert.assertEquals("Cannot decode null string", npe.getMessage());
+    }
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+3-->3-->0-->testRepair
+# Focal method (Cannot be modified)
+public static String formURLDecode(String string) {
+    Preconditions.checkNotNull(string, "Cannot decode null string");
+    try {
+        return URLDecoder.decode(string, UTF_8);
+    } catch (UnsupportedEncodingException uee) {
+        throw new IllegalStateException(ERROR_MSG, uee);
+    }
+}
+
+# Method Intention
+The formURLDecode(String string) method is designed to safely decode a URL-encoded string using UTF-8 encoding, ensuring the input is not null and handling any unsupported encoding exceptions by throwing an illegal state exception with a clear error message.
+
+# Test Method
+    @Test
+    public void testFormURLDecode() {
+        String encoded = "Hello%20World%21";
+        String expected = "Hello World!";
+        String actual = URLUtils.formURLDecode(encoded);
+        assertEquals(expected, actual);
+        String emptyEncoded = "";
+        String emptyDecoded = URLUtils.formURLDecode(emptyEncoded);
+        assertEquals("", emptyDecoded);
+        String specialEncoded = "%40%23%24%25%5E%26*%28%29";
+        String specialExpected = "@#$%^&*()";
+        String specialActual = URLUtils.formURLDecode(specialEncoded);
+        assertEquals(specialExpected, specialActual);
+        try {
+          [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException Cannot decode null string " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+4-->5-->0-->testRepair
+
+
+# Test Method
+@Test
+public void testFormURLDecode() {
+    String encoded = "Hello%20World%21";
+    String expected = "Hello World!";
+    String actual = URLUtils.formURLDecode(encoded);
+    org.junit.Assert.assertEquals(expected, actual);
+    String emptyEncoded = "";
+    String emptyDecoded = URLUtils.formURLDecode(emptyEncoded);
+    org.junit.Assert.assertEquals("", emptyDecoded);
+    String specialEncoded = "%40%23%24%25%5E%26*%28%29";
+    String specialExpected = "@#$%^&*()";
+    String specialActual = URLUtils.formURLDecode(specialEncoded);
+    org.junit.Assert.assertEquals(specialExpected, specialActual);
+    try {
+        URLUtils.formURLDecode(null);
+
+       <Buggy Line>: lambda expressions are not supported in -source 1.6
+        org.junit.Assert.fail("Expected NullPointerException");
+
+    } catch (NullPointerException npe) {
+        org.junit.Assert.assertEquals("Cannot decode null string", npe.getMessage());
+    }
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+5-->5-->0-->testRepair
+
+# URLUtils class
+package org.jinstagram.http;
+public class URLUtils {
+public static String encodeURIComponent(String s);
+public static String decodeURIComponent(String s);
+public static String formURLEncodeMap(Map<String, String> map);
+public static String percentEncode(String string);
+public static String formURLEncode(String string);
+public static String formURLDecode(String string);
+public static String appendParametersToQueryString(String url, Map<String, String> params);
+public static String concatSortedPercentEncodedParams(Map<String, String> params);
+public static Map<String, String> queryStringToMap(String queryString);
+}
+
+
+# Test Method
+@Test
+public void testFormURLDecode() {
+    String encoded = "Hello%20World%21";
+    String expected = "Hello World!";
+    String actual = URLUtils.formURLDecode(encoded);
+    org.junit.Assert.assertEquals(expected, actual);
+
+       <Buggy Line>: cannot find symbol variable "Assert"
+    String emptyEncoded = "";
+
+    String emptyDecoded = URLUtils.formURLDecode(emptyEncoded);
+    org.junit.Assert.assertEquals("", emptyDecoded);
+    String specialEncoded = "%40%23%24%25%5E%26*%28%29";
+    String specialExpected = "@#$%^&*()";
+    String specialActual = URLUtils.formURLDecode(specialEncoded);
+    org.junit.Assert.assertEquals(specialExpected, specialActual);
+    try {
+        URLUtils.formURLDecode(null);
+        org.junit.Assert.fail("Expected NullPointerException");
+    } catch (NullPointerException npe) {
+        org.junit.Assert.assertEquals("Cannot decode null string", npe.getMessage());
+    }
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "URLUtils" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "URLUtils" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

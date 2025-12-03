@@ -1,0 +1,85 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class Strings {
+private static final char[] BIG_LETTERS = new char[26];private static final char[] SMALL_LETTERS = new char[26];private static final Random RANDOM = new Random();
+# Focal method
+public static String randomAlphabetic(int n) {
+    char[] c = new char[n];
+    for (int i = 0; i < n; i++) {
+        int j = RANDOM.nextInt(26);
+        c[i] = RANDOM.nextBoolean() ? BIG_LETTERS[j] : SMALL_LETTERS[j];
+    }
+    return new String(c);
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testRandomAlphabetic() {
+    int length = 100;
+    String result = Strings.randomAlphabetic(length);
+    assertNotNull(result, "Result should not be null");
+
+          <Buggy Line>: no suitable method found for assertEquals(int,int,java.lang.String)
+    assertEquals(length, result.length(), "Result length should match the input length");
+
+    for (int i = 0; i < length; i++) {
+        char ch = result.charAt(i);
+        boolean isUppercase = (ch >= 'A' && ch <= 'Z');
+        boolean isLowercase = (ch >= 'a' && ch <= 'z');
+        assertTrue(isUppercase || isLowercase, "Character at index " + i + " should be an alphabetic letter");
+    }
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "Assert" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "Assert" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testRandomAlphabetic() {
+        int length = 100;
+        String result = Strings.randomAlphabetic(length);
+        assertNotNull(result, "Result should not be null");
+        assertEquals(length, result.length());
+        for (int i = 0; i < length; i++) {
+            char ch = result.charAt(i);
+            boolean isUppercase = (ch >= 'A' && ch <= 'Z');
+            boolean isLowercase = (ch >= 'a' && ch <= 'z');
+
+                         <Buggy Line>: incompatible types: boolean cannot be converted to java.lang.String
+            assertTrue(isUppercase || isLowercase, "Character at index " + i + " should be an alphabetic letter");
+
+        }
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

@@ -1,0 +1,103 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class UserInfo {
+@SerializedName("data")
+private UserInfoData data;
+# Focal method
+@Override
+public String toString() {
+    return String.format("UserInfo [data=%s]", data);
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# UserInfoData class
+package org.jinstagram.entity.users.basicinfo;
+public class UserInfoData {
+public String getUsername();
+public void setUsername(String username);
+public String getId();
+public void setId(String id);
+public String getLastName();
+public void setLast_name(String last_name);
+public String getFirstName();
+public void setFirstName(String firstName);
+public String getProfilePicture();
+public void setProfilePicture(String profilePicture);
+public String getBio();
+public void setBio(String bio);
+public String getWebsite();
+public void setWebsite(String website);
+public Counts getCounts();
+public void setCounts(Counts counts);
+public String getFullName();
+public void setFullName(String fullName);
+public boolean isBusiness();
+public void setBusiness(boolean isBusiness);
+public String toString();
+}
+
+
+# Test Method
+@Test
+public void testToString_WhenCalled_ReturnsUserInfoWithSerializedData() {
+    UserInfoData userInfoData = new UserInfoData();
+
+   <Buggy Line>: cannot find symbol method "setInfo(java.lang.String)" in UserInfoData
+    userInfoData.setInfo("Sample Info");
+
+    UserInfo userInfo = new UserInfo();
+    userInfo.setData(userInfoData);
+    String result = userInfo.toString();
+    assertEquals("UserInfo [data=UserInfoData{info='Sample Info'}]", result);
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "UserInfoData" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "UserInfoData" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->0-->testRepair
+# Focal method (Cannot be modified)
+@Override
+public String toString() {
+    return String.format("UserInfo [data=%s]", data);
+}
+
+# Method Intention
+The intention of the toString() method in the UserInfo class is to provide a human-readable representation of the UserInfo object by returning a formatted string that includes the data field.
+
+# Test Method
+@Test
+public void testToString_WhenCalled_ReturnsUserInfoWithSerializedData() {
+    UserInfoData userInfoData = new UserInfoData();
+    userInfoData.setBio("Sample Info");
+    UserInfo userInfo = new UserInfo();
+    userInfo.setData(userInfoData);
+    String result = userInfo.toString();
+     [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.junit.ComparisonFailure expected:<...o [data=UserInfoData[{bio='Sample Info'}]]> but was:<...o [data=UserInfoData[ [bio=Sample Info, counts=null, first_name=null, id=null, last_name=null, profile_picture=null, username=null, fullName=null, website=null, isBusiness=false]]]> " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+

@@ -1,0 +1,244 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testFromJson() {
+        ZapposJson zapposJson = ZapposJson.getInstance();
+        String json = "{\"name\": \"John\", \"age\": 30}";
+        Reader reader = new StringReader(json);
+
+          <Buggy Line>: cannot find symbol class "MyClass"
+        MyClass myObject = zapposJson.fromJson(reader, MyClass.class);
+
+        assertNotNull(myObject);
+        assertEquals("John", myObject.getName());
+        assertEquals(30, myObject.getAge());
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testFromJson() {
+    ZapposJson zapposJson = ZapposJson.getInstance();
+    String json = "{\"name\": \"John\", \"age\": 30}";
+    Reader reader = new StringReader(json);
+
+      <Buggy Line>: cannot find symbol class "MyClass"
+    MyClass myObject = zapposJson.fromJson(reader, MyClass.class);
+
+    assertNotNull(myObject);
+    assertEquals("John", myObject.getName());
+    assertEquals(30, myObject.getAge());
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->1-->compileRepair
+
+
+# Focal Method
+public class ZapposJson {
+protected final Map<Class<?>, ValueFormatter<Object>> VALUE_FORMATTERS = new ConcurrentHashMap<>();private JsonReaderCodeGenerator readerCodeGenerator;
+protected ZapposJson() {
+    addValueFormatter(Date.class, new JavaDateFormatter());
+    addValueFormatter(java.sql.Date.class, new JavaSqlDateFormatter());
+    addValueFormatter(java.sql.Timestamp.class, new JavaTimestampFormatter());
+    addValueFormatter(java.math.BigInteger.class, new BigIntegerFormatter());
+    addValueFormatter(java.math.BigDecimal.class, new BigDecimalFormatter());
+    if (Reflections.classPresent("java.time.chrono.ChronoLocalDate")) {
+        ValueFormatter<LocalDate> localDateHandler = new JavaTimeLocalDateFormatter();
+        addValueFormatter(LocalDate.class, localDateHandler);
+        ValueFormatter<Instant> instantHandler = new JavaTimeInstantFormatter();
+        addValueFormatter(Instant.class, instantHandler);
+    }
+    jsonBeanIntrospector = new JsonBeanIntrospector(this);
+    writerCodeGenerator = new JsonWriterCodeGenerator(this, jsonBeanIntrospector);
+    readerCodeGenerator = new JsonReaderCodeGenerator(this, jsonBeanIntrospector);
+}protected ZapposJson(boolean debug) {
+    this();
+    this.debug = debug;
+}
+# Focal method
+@SuppressWarnings({ "unchecked", "rawtypes" })
+public <T> T fromJson(Reader reader, Class<T> targetClass) {
+    try {
+        ValueFormatter<?> formatter = VALUE_FORMATTERS.get(targetClass);
+        if (formatter != null) {
+            String s = Strings.fromReader(reader).trim();
+            return (T) formatter.parse(this, s);
+        } else if (targetClass == Boolean.class || targetClass == boolean.class) {
+            String s = Strings.fromReader(reader).trim();
+            return (T) Boolean.valueOf(s);
+        } else if (targetClass == String.class || targetClass == Character.class || targetClass == char.class) {
+            String s = Strings.fromReader(reader).trim();
+            if (s.charAt(0) != '"' || s.charAt(s.length() - 1) != '"') {
+                throw new IllegalArgumentException("Invalid string: " + s);
+            }
+            s = JsonUtils.unescape(this, s.subSequence(1, s.length() - 1));
+            if (targetClass == Character.class || targetClass == char.class) {
+                if (s.length() != 1) {
+                    throw new IllegalArgumentException("Invalid character: " + s);
+                }
+                return (T) new Character(s.charAt(0));
+            }
+            return (T) s;
+        } else if (Number.class.isAssignableFrom(targetClass) || targetClass.isPrimitive()) {
+            String s = Strings.fromReader(reader).trim();
+            if (targetClass == Byte.class || targetClass == byte.class) {
+                return (T) Byte.valueOf(s);
+            } else if (targetClass == Short.class || targetClass == short.class) {
+                return (T) Short.valueOf(s);
+            } else if (targetClass == Integer.class || targetClass == int.class) {
+                return (T) Integer.valueOf(s);
+            } else if (targetClass == Long.class || targetClass == long.class) {
+                return (T) Long.valueOf(s);
+            } else if (targetClass == Float.class || targetClass == float.class) {
+                return (T) Float.valueOf(s);
+            } else if (targetClass == Double.class || targetClass == double.class) {
+                return (T) Double.valueOf(s);
+            } else {
+                throw new IllegalArgumentException(targetClass.getName() + " is an unsupported type." + "You need a custom ValueFormatter for this type.");
+            }
+        } else if (targetClass.isEnum()) {
+            String s = Strings.fromReader(reader).trim();
+            return (T) Enum.valueOf((Class<? extends Enum>) targetClass, s);
+        } else if (Iterable.class.isAssignableFrom(targetClass) || Map.class.isAssignableFrom(targetClass)) {
+            throw new IllegalArgumentException(targetClass.getName() + " not support yet");
+        } else if (targetClass.isArray()) {
+            throw new IllegalArgumentException("Array type not support yet");
+        }
+        JsonReaderInvoker readerInvoker = readerCodeGenerator.getReader(targetClass);
+        if (readerInvoker == null) {
+            readerInvoker = readerCodeGenerator.registerReader(targetClass);
+        }
+        return readerInvoker.readJson(reader, targetClass);
+    } catch (JsonException e) {
+        throw e;
+    } catch (Exception e) {
+        throw new JsonException(e);
+    }
+}
+}
+
+# Method Intention
+The overall intention of the fromJson(Reader reader, Class<T> targetClass) method is to deserialize JSON data from a Reader into an object of the specified targetClass, handling various data types and formats by utilizing registered ValueFormatters and custom parsing logic, while also supporting enums, arrays, and other complex types through code generation and reflection.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+3-->4-->2-->compileRepair
+
+
+# Focal Method
+public class ZapposJson {
+protected final Map<Class<?>, ValueFormatter<Object>> VALUE_FORMATTERS = new ConcurrentHashMap<>();private JsonReaderCodeGenerator readerCodeGenerator;
+protected ZapposJson() {
+    addValueFormatter(Date.class, new JavaDateFormatter());
+    addValueFormatter(java.sql.Date.class, new JavaSqlDateFormatter());
+    addValueFormatter(java.sql.Timestamp.class, new JavaTimestampFormatter());
+    addValueFormatter(java.math.BigInteger.class, new BigIntegerFormatter());
+    addValueFormatter(java.math.BigDecimal.class, new BigDecimalFormatter());
+    if (Reflections.classPresent("java.time.chrono.ChronoLocalDate")) {
+        ValueFormatter<LocalDate> localDateHandler = new JavaTimeLocalDateFormatter();
+        addValueFormatter(LocalDate.class, localDateHandler);
+        ValueFormatter<Instant> instantHandler = new JavaTimeInstantFormatter();
+        addValueFormatter(Instant.class, instantHandler);
+    }
+    jsonBeanIntrospector = new JsonBeanIntrospector(this);
+    writerCodeGenerator = new JsonWriterCodeGenerator(this, jsonBeanIntrospector);
+    readerCodeGenerator = new JsonReaderCodeGenerator(this, jsonBeanIntrospector);
+}protected ZapposJson(boolean debug) {
+    this();
+    this.debug = debug;
+}
+# Focal method
+@SuppressWarnings({ "unchecked", "rawtypes" })
+public <T> T fromJson(Reader reader, Class<T> targetClass) {
+    try {
+        ValueFormatter<?> formatter = VALUE_FORMATTERS.get(targetClass);
+        if (formatter != null) {
+            String s = Strings.fromReader(reader).trim();
+            return (T) formatter.parse(this, s);
+        } else if (targetClass == Boolean.class || targetClass == boolean.class) {
+            String s = Strings.fromReader(reader).trim();
+            return (T) Boolean.valueOf(s);
+        } else if (targetClass == String.class || targetClass == Character.class || targetClass == char.class) {
+            String s = Strings.fromReader(reader).trim();
+            if (s.charAt(0) != '"' || s.charAt(s.length() - 1) != '"') {
+                throw new IllegalArgumentException("Invalid string: " + s);
+            }
+            s = JsonUtils.unescape(this, s.subSequence(1, s.length() - 1));
+            if (targetClass == Character.class || targetClass == char.class) {
+                if (s.length() != 1) {
+                    throw new IllegalArgumentException("Invalid character: " + s);
+                }
+                return (T) new Character(s.charAt(0));
+            }
+            return (T) s;
+        } else if (Number.class.isAssignableFrom(targetClass) || targetClass.isPrimitive()) {
+            String s = Strings.fromReader(reader).trim();
+            if (targetClass == Byte.class || targetClass == byte.class) {
+                return (T) Byte.valueOf(s);
+            } else if (targetClass == Short.class || targetClass == short.class) {
+                return (T) Short.valueOf(s);
+            } else if (targetClass == Integer.class || targetClass == int.class) {
+                return (T) Integer.valueOf(s);
+            } else if (targetClass == Long.class || targetClass == long.class) {
+                return (T) Long.valueOf(s);
+            } else if (targetClass == Float.class || targetClass == float.class) {
+                return (T) Float.valueOf(s);
+            } else if (targetClass == Double.class || targetClass == double.class) {
+                return (T) Double.valueOf(s);
+            } else {
+                throw new IllegalArgumentException(targetClass.getName() + " is an unsupported type." + "You need a custom ValueFormatter for this type.");
+            }
+        } else if (targetClass.isEnum()) {
+            String s = Strings.fromReader(reader).trim();
+            return (T) Enum.valueOf((Class<? extends Enum>) targetClass, s);
+        } else if (Iterable.class.isAssignableFrom(targetClass) || Map.class.isAssignableFrom(targetClass)) {
+            throw new IllegalArgumentException(targetClass.getName() + " not support yet");
+        } else if (targetClass.isArray()) {
+            throw new IllegalArgumentException("Array type not support yet");
+        }
+        JsonReaderInvoker readerInvoker = readerCodeGenerator.getReader(targetClass);
+        if (readerInvoker == null) {
+            readerInvoker = readerCodeGenerator.registerReader(targetClass);
+        }
+        return readerInvoker.readJson(reader, targetClass);
+    } catch (JsonException e) {
+        throw e;
+    } catch (Exception e) {
+        throw new JsonException(e);
+    }
+}
+}
+
+# Method Intention
+The overall intention of the fromJson(Reader reader, Class<T> targetClass) method is to deserialize JSON data from a Reader into an object of the specified targetClass, handling various data types and formats by utilizing registered ValueFormatters and custom parsing logic, while also supporting enums, arrays, and other complex types through code generation and reflection.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+

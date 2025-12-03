@@ -1,0 +1,419 @@
+0-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+public static Map<Point2D, Ruling[]> findIntersections(List<Ruling> horizontals, List<Ruling> verticals) {
+    class SortObject {
+
+        protected SOType type;
+
+        protected float position;
+
+        protected Ruling ruling;
+
+        public SortObject(SOType type, float position, Ruling ruling) {
+            this.type = type;
+            this.position = position;
+            this.ruling = ruling;
+        }
+    }
+    List<SortObject> sos = new ArrayList<>();
+    TreeMap<Ruling, Boolean> tree = new TreeMap<>(new Comparator<Ruling>() {
+
+        @Override
+        public int compare(Ruling o1, Ruling o2) {
+            return java.lang.Double.compare(o1.getTop(), o2.getTop());
+        }
+    });
+    TreeMap<Point2D, Ruling[]> rv = new TreeMap<>(new Comparator<Point2D>() {
+
+        @Override
+        public int compare(Point2D o1, Point2D o2) {
+            if (o1.getY() > o2.getY())
+                return 1;
+            if (o1.getY() < o2.getY())
+                return -1;
+            if (o1.getX() > o2.getX())
+                return 1;
+            if (o1.getX() < o2.getX())
+                return -1;
+            return 0;
+        }
+    });
+    for (Ruling h : horizontals) {
+        sos.add(new SortObject(SOType.HLEFT, h.getLeft() - PERPENDICULAR_PIXEL_EXPAND_AMOUNT, h));
+        sos.add(new SortObject(SOType.HRIGHT, h.getRight() + PERPENDICULAR_PIXEL_EXPAND_AMOUNT, h));
+    }
+    for (Ruling v : verticals) {
+        sos.add(new SortObject(SOType.VERTICAL, v.getLeft(), v));
+    }
+    Collections.sort(sos, new Comparator<SortObject>() {
+
+        @Override
+        public int compare(SortObject a, SortObject b) {
+            int rv;
+            if (Utils.feq(a.position, b.position)) {
+                if (a.type == SOType.VERTICAL && b.type == SOType.HLEFT) {
+                    rv = 1;
+                } else if (a.type == SOType.VERTICAL && b.type == SOType.HRIGHT) {
+                    rv = -1;
+                } else if (a.type == SOType.HLEFT && b.type == SOType.VERTICAL) {
+                    rv = -1;
+                } else if (a.type == SOType.HRIGHT && b.type == SOType.VERTICAL) {
+                    rv = 1;
+                } else {
+                    rv = java.lang.Double.compare(a.position, b.position);
+                }
+            } else {
+                return java.lang.Double.compare(a.position, b.position);
+            }
+            return rv;
+        }
+    });
+    for (SortObject so : sos) {
+        switch(so.type) {
+            case VERTICAL:
+                for (Map.Entry<Ruling, Boolean> h : tree.entrySet()) {
+                    Point2D i = h.getKey().intersectionPoint(so.ruling);
+                    if (i == null) {
+                        continue;
+                    }
+                    rv.put(i, new Ruling[] { h.getKey().expand(PERPENDICULAR_PIXEL_EXPAND_AMOUNT), so.ruling.expand(PERPENDICULAR_PIXEL_EXPAND_AMOUNT) });
+                }
+                break;
+            case HRIGHT:
+                tree.remove(so.ruling);
+                break;
+            case HLEFT:
+                tree.put(so.ruling, true);
+                break;
+        }
+    }
+    return rv;
+}
+
+# Method Intention
+The findIntersections method aims to identify and store the intersection points between horizontal and vertical rulings, expanding the rulings by a specified amount and organizing the results in a TreeMap for further processing.
+
+# Test Method
+@Test
+public void testFindIntersections() {
+    Ruling h1 = new Ruling(10f, 5f, 10f, 0f);
+    Ruling h2 = new Ruling(20f, 0f, 10f, 0f);
+    Ruling v1 = new Ruling(5f, 10f, 0f, 20f);
+    Ruling v2 = new Ruling(10f, 16f, 0f, 10f);
+    List<Ruling> horizontals = new LinkedList<>();
+    horizontals.add(h1);
+    horizontals.add(h2);
+    List<Ruling> verticals = new LinkedList<>();
+    verticals.add(v1);
+    verticals.add(v2);
+    Map<Point2D, Ruling[]> intersections = Ruling.findIntersections(horizontals, verticals);
+    Point2D expected1 = new Point2D.Float(10f, 10f);
+    Point2D expected2 = new Point2D.Float(10f, 20f);
+          [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.AssertionError " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->1-->0-->testRepair
+# Focal Method
+public static Map<Point2D, Ruling[]> findIntersections(List<Ruling> horizontals, List<Ruling> verticals) {
+    class SortObject {
+
+        protected SOType type;
+
+        protected float position;
+
+        protected Ruling ruling;
+
+        public SortObject(SOType type, float position, Ruling ruling) {
+            this.type = type;
+            this.position = position;
+            this.ruling = ruling;
+        }
+    }
+    List<SortObject> sos = new ArrayList<>();
+    TreeMap<Ruling, Boolean> tree = new TreeMap<>(new Comparator<Ruling>() {
+
+        @Override
+        public int compare(Ruling o1, Ruling o2) {
+            return java.lang.Double.compare(o1.getTop(), o2.getTop());
+        }
+    });
+    TreeMap<Point2D, Ruling[]> rv = new TreeMap<>(new Comparator<Point2D>() {
+
+        @Override
+        public int compare(Point2D o1, Point2D o2) {
+            if (o1.getY() > o2.getY())
+                return 1;
+            if (o1.getY() < o2.getY())
+                return -1;
+            if (o1.getX() > o2.getX())
+                return 1;
+            if (o1.getX() < o2.getX())
+                return -1;
+            return 0;
+        }
+    });
+    for (Ruling h : horizontals) {
+        sos.add(new SortObject(SOType.HLEFT, h.getLeft() - PERPENDICULAR_PIXEL_EXPAND_AMOUNT, h));
+        sos.add(new SortObject(SOType.HRIGHT, h.getRight() + PERPENDICULAR_PIXEL_EXPAND_AMOUNT, h));
+    }
+    for (Ruling v : verticals) {
+        sos.add(new SortObject(SOType.VERTICAL, v.getLeft(), v));
+    }
+    Collections.sort(sos, new Comparator<SortObject>() {
+
+        @Override
+        public int compare(SortObject a, SortObject b) {
+            int rv;
+            if (Utils.feq(a.position, b.position)) {
+                if (a.type == SOType.VERTICAL && b.type == SOType.HLEFT) {
+                    rv = 1;
+                } else if (a.type == SOType.VERTICAL && b.type == SOType.HRIGHT) {
+                    rv = -1;
+                } else if (a.type == SOType.HLEFT && b.type == SOType.VERTICAL) {
+                    rv = -1;
+                } else if (a.type == SOType.HRIGHT && b.type == SOType.VERTICAL) {
+                    rv = 1;
+                } else {
+                    rv = java.lang.Double.compare(a.position, b.position);
+                }
+            } else {
+                return java.lang.Double.compare(a.position, b.position);
+            }
+            return rv;
+        }
+    });
+    for (SortObject so : sos) {
+        switch(so.type) {
+            case VERTICAL:
+                for (Map.Entry<Ruling, Boolean> h : tree.entrySet()) {
+                    Point2D i = h.getKey().intersectionPoint(so.ruling);
+                    if (i == null) {
+                        continue;
+                    }
+                    rv.put(i, new Ruling[] { h.getKey().expand(PERPENDICULAR_PIXEL_EXPAND_AMOUNT), so.ruling.expand(PERPENDICULAR_PIXEL_EXPAND_AMOUNT) });
+                }
+                break;
+            case HRIGHT:
+                tree.remove(so.ruling);
+                break;
+            case HLEFT:
+                tree.put(so.ruling, true);
+                break;
+        }
+    }
+    return rv;
+}
+
+# Method Intention
+The findIntersections method aims to identify and store the intersections between horizontal and vertical rulings by creating a sorted list of ruling positions, checking for intersections, and expanding the rulings at the intersection points.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention`. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```
+
+########
+
+2-->3-->0-->testRepair
+
+
+# Test Method
+@Test
+public void testFindIntersections() {
+    Ruling h1 = new Ruling(10f, 5f, 10f, 0f);
+    Ruling h2 = new Ruling(20f, 0f, 10f, 0f);
+
+     <Buggy Line>: class, interface, or enum expected
+    Ruling v1 = new Ruling(5f, 10f, 0f, 20f);
+
+    Ruling v2 = new Ruling(10f, 16f, 0f, 10f);
+    List<Ruling> horizontals = new LinkedList<>();
+    horizontals.add(h1);
+    horizontals.add(h2);
+    List<Ruling> verticals = new LinkedList<>();
+    verticals.add(v1);
+    verticals.add(v2);
+    Map<Point2D, Ruling[]> intersections = Ruling.findIntersections(horizontals, verticals);
+    Point2D expected1 = new Point2D.Float(10f, 10f);
+    Point2D expected2 = new Point2D.Float(10f, 20f);
+    assertEquals("Intersection map should contain exactly 2 points", 2, intersections.size());
+    assertTrue("Intersection map should contain point (10,10)", intersections.containsKey(expected1));
+    assertTrue("Intersection map should contain point (10,20)", intersections.containsKey(expected2));
+    assertFalse("Intersection map should NOT contain point (16,10)", intersections.keySet().stream()
+            .anyMatch(p -> Math.abs(p.getX() - 16f) < 0.001 && Math.abs(p.getY() - 10f) < 0.001));
+    Ruling[] pair1 = intersections.get(expected1);
+    Ruling[] pair2 = intersections.get(expected2);
+    assertNotNull(pair1);
+    assertNotNull(pair2);
+    assertEquals(2, pair1.length);
+    assertEquals(2, pair2.length);
+    java.util.function.BiPredicate<Ruling[], Float> containsHorizontalAtY = (arr, y) -> {
+        for (Ruling r : arr) {
+            if (Math.abs(r.getTop() - y) < 0.001 && r.horizontal()) return true;
+        }
+        return false;
+    };
+    java.util.function.BiPredicate<Ruling[], Float> containsVerticalAtX = (arr, x) -> {
+        for (Ruling r : arr) {
+            if (Math.abs(r.getLeft() - x) < 0.001 && r.vertical()) return true;
+        }
+        return false;
+    };
+    assertTrue("Pair at (10,10) should contain horizontal ruling at y=10", containsHorizontalAtY.test(pair1, 10f));
+    assertTrue("Pair at (10,10) should contain vertical ruling at x=10", containsVerticalAtX.test(pair1, 10f));
+    assertTrue("Pair at (10,20) should contain horizontal ruling at y=20", containsHorizontalAtY.test(pair2, 20f));
+    assertTrue("Pair at (10,20) should contain vertical ruling at x=10", containsVerticalAtX.test(pair2, 10f));
+    for (Ruling[] pair : intersections.values()) {
+        for (Ruling r : pair) {
+            if (r.horizontal()) {
+                Ruling original = (Math.abs(r.getTop() - 10f) < 0.001) ? h1 : h2;
+                assertTrue("Expanded horizontal ruling left should be <= original left - 2",
+                        r.getLeft() <= original.getLeft() - 2f + 0.001);
+                assertTrue("Expanded horizontal ruling right should be >= original right + 2",
+                        r.getRight() >= original.getRight() + 2f - 0.001);
+            } else if (r.vertical()) {
+                Ruling original = (Math.abs(r.getLeft() - 10f) < 0.001) ? v1 : v2;
+                assertTrue("Expanded vertical ruling top should be <= original top - 2",
+                        r.getTop() <= original.getTop() - 2f + 0.001);
+                assertTrue("Expanded vertical ruling bottom should be >= original bottom + 2",
+                        r.getBottom() >= original.getBottom() + 2f - 0.001);
+            }
+        }
+    }
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+3-->3-->0-->testRepair
+# Focal method (Cannot be modified)
+public static Map<Point2D, Ruling[]> findIntersections(List<Ruling> horizontals, List<Ruling> verticals) {
+    class SortObject {
+
+        protected SOType type;
+
+        protected float position;
+
+        protected Ruling ruling;
+
+        public SortObject(SOType type, float position, Ruling ruling) {
+            this.type = type;
+            this.position = position;
+            this.ruling = ruling;
+        }
+    }
+    List<SortObject> sos = new ArrayList<>();
+    TreeMap<Ruling, Boolean> tree = new TreeMap<>(new Comparator<Ruling>() {
+
+        @Override
+        public int compare(Ruling o1, Ruling o2) {
+            return java.lang.Double.compare(o1.getTop(), o2.getTop());
+        }
+    });
+    TreeMap<Point2D, Ruling[]> rv = new TreeMap<>(new Comparator<Point2D>() {
+
+        @Override
+        public int compare(Point2D o1, Point2D o2) {
+            if (o1.getY() > o2.getY())
+                return 1;
+            if (o1.getY() < o2.getY())
+                return -1;
+            if (o1.getX() > o2.getX())
+                return 1;
+            if (o1.getX() < o2.getX())
+                return -1;
+            return 0;
+        }
+    });
+    for (Ruling h : horizontals) {
+        sos.add(new SortObject(SOType.HLEFT, h.getLeft() - PERPENDICULAR_PIXEL_EXPAND_AMOUNT, h));
+        sos.add(new SortObject(SOType.HRIGHT, h.getRight() + PERPENDICULAR_PIXEL_EXPAND_AMOUNT, h));
+    }
+    for (Ruling v : verticals) {
+        sos.add(new SortObject(SOType.VERTICAL, v.getLeft(), v));
+    }
+    Collections.sort(sos, new Comparator<SortObject>() {
+
+        @Override
+        public int compare(SortObject a, SortObject b) {
+            int rv;
+            if (Utils.feq(a.position, b.position)) {
+                if (a.type == SOType.VERTICAL && b.type == SOType.HLEFT) {
+                    rv = 1;
+                } else if (a.type == SOType.VERTICAL && b.type == SOType.HRIGHT) {
+                    rv = -1;
+                } else if (a.type == SOType.HLEFT && b.type == SOType.VERTICAL) {
+                    rv = -1;
+                } else if (a.type == SOType.HRIGHT && b.type == SOType.VERTICAL) {
+                    rv = 1;
+                } else {
+                    rv = java.lang.Double.compare(a.position, b.position);
+                }
+            } else {
+                return java.lang.Double.compare(a.position, b.position);
+            }
+            return rv;
+        }
+    });
+    for (SortObject so : sos) {
+        switch(so.type) {
+            case VERTICAL:
+                for (Map.Entry<Ruling, Boolean> h : tree.entrySet()) {
+                    Point2D i = h.getKey().intersectionPoint(so.ruling);
+                    if (i == null) {
+                        continue;
+                    }
+                    rv.put(i, new Ruling[] { h.getKey().expand(PERPENDICULAR_PIXEL_EXPAND_AMOUNT), so.ruling.expand(PERPENDICULAR_PIXEL_EXPAND_AMOUNT) });
+                }
+                break;
+            case HRIGHT:
+                tree.remove(so.ruling);
+                break;
+            case HLEFT:
+                tree.put(so.ruling, true);
+                break;
+        }
+    }
+    return rv;
+}
+
+# Method Intention
+The findIntersections method aims to identify and store the intersection points between horizontal and vertical rulings, expanding the rulings by a specified amount and organizing the results in a sorted map structure.
+
+# Test Method
+@Test
+public void testFindIntersections() {
+    Ruling h1 = new Ruling(10f, 5f, 10f, 0f);
+    Ruling h2 = new Ruling(20f, 0f, 10f, 0f);
+    Ruling v1 = new Ruling(5f, 10f, 0f, 20f);
+    Ruling v2 = new Ruling(10f, 16f, 0f, 10f);
+    List<Ruling> horizontals = new LinkedList<>();
+    horizontals.add(h1);
+    horizontals.add(h2);
+    List<Ruling> verticals = new LinkedList<>();
+    verticals.add(v1);
+    verticals.add(v2);
+    Map<Point2D, Ruling[]> intersections = Ruling.findIntersections(horizontals, verticals);
+    Point2D expected1 = new Point2D.Float(10f, 10f);
+    Point2D expected2 = new Point2D.Float(10f, 20f);
+          [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.AssertionError " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+

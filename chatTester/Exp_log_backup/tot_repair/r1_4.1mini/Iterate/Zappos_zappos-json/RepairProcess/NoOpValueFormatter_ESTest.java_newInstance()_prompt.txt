@@ -1,0 +1,63 @@
+0-->1-->0-->testRepair
+# Focal Method
+@Override
+public ValueFormatter<Object> newInstance() {
+    throw new UnsupportedOperationException("NoOp");
+}
+
+# Method Intention
+The newInstance() method is intentionally designed to prevent the creation of new instances by always throwing an UnsupportedOperationException with the message "NoOp," signaling that this operation is not supported or applicable for this class.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention`. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```
+
+########
+
+1-->1-->0-->testRepair
+
+
+# Focal Method
+public class NoOpValueFormatter {
+# Focal method
+@Override
+public ValueFormatter<Object> newInstance() {
+    throw new UnsupportedOperationException("NoOp");
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->0-->testRepair
+
+
+# Test Method
+    @Test
+    public void testNewInstanceThrowsUnsupportedOperationException() {
+        NoOpValueFormatter noOpValueFormatter = new NoOpValueFormatter();
+        try {
+            noOpValueFormatter.newInstance();
+            fail("Expected UnsupportedOperationException was not thrown");
+        } catch (UnsupportedOperationException e) {
+            assertEquals("NoOp", e.getMessage());
+
+      <Buggy Line>: method references are not supported in -source 1.7
+        }
+
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

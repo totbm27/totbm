@@ -1,0 +1,83 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testFormat_withPatternAndWithoutPattern() {
+    BigDecimalFormatter formatter = new BigDecimalFormatter() {
+        private String pattern;
+        @Override
+        public String getPattern() {
+            return pattern;
+        }
+
+          <Buggy Line>: setPattern(java.lang.String) in <anonymous com.zappos.json.format.BigDecimalFormatter_ESTest$1> cannot implement setPattern(java.lang.String) in com.zappos.json.format.ValueFormatter
+        public void setPattern(String pattern) {
+
+            this.pattern = pattern;
+        }
+        @Override
+        public String toJsonValue(ZapposJson zapposJson, String value) {
+            return "\"" + value + "\"";
+        }
+    };
+    ZapposJson zapposJson = new ZapposJson();
+    BigDecimal value = new BigDecimal("1234.5678");
+    ((BigDecimalFormatter)formatter).setPattern("#,##0.00");
+    String formattedWithPattern = formatter.format(zapposJson, value);
+    org.junit.Assert.assertEquals("\"1,234.57\"", formattedWithPattern);
+    ((BigDecimalFormatter)formatter).setPattern(null);
+    String formattedWithoutPattern = formatter.format(zapposJson, value);
+    org.junit.Assert.assertEquals(value.toString(), formattedWithoutPattern);
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testFormat_withPatternAndWithoutPattern() {
+        class TestBigDecimalFormatter extends BigDecimalFormatter {
+            private String pattern;
+            @Override
+            public String getPattern() {
+                return pattern;
+            }
+
+              <Buggy Line>: setPattern(java.lang.String) in TestBigDecimalFormatter cannot implement setPattern(java.lang.String) in com.zappos.json.format.ValueFormatter
+            public void setPattern(String pattern) {
+
+                this.pattern = pattern;
+            }
+            @Override
+            public String toJsonValue(ZapposJson zapposJson, String value) {
+                return "\"" + value + "\"";
+            }
+        }
+        TestBigDecimalFormatter formatter = new TestBigDecimalFormatter();
+        ZapposJson zapposJson = new ZapposJson();
+        BigDecimal value = new BigDecimal("1234.5678");
+        formatter.setPattern("#,##0.00");
+        String formattedWithPattern = formatter.format(zapposJson, value);
+        org.junit.Assert.assertEquals("\"1,234.57\"", formattedWithPattern);
+        formatter.setPattern(null);
+        String formattedWithoutPattern = formatter.format(zapposJson, value);
+        org.junit.Assert.assertEquals(value.toString(), formattedWithoutPattern);
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

@@ -1,0 +1,90 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class Strings {
+# Focal method
+public static boolean isNumber(String s) {
+    if (s == null || s.length() == 0)
+        return false;
+    if (!Character.isDigit(s.charAt(0)) && s.charAt(0) != '-')
+        return false;
+    int decimal = 0;
+    for (int i = 1; i < s.length(); i++) {
+        char c = s.charAt(i);
+        if (Character.isDigit(c))
+            continue;
+        if (c == '.') {
+            if (decimal == 1)
+                return false;
+            decimal++;
+            continue;
+        }
+        return false;
+    }
+    return true;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+public static boolean isNumber(String s) {
+    if (s == null || s.length() == 0)
+        return false;
+    if (!Character.isDigit(s.charAt(0)) && s.charAt(0) != '-')
+        return false;
+    int decimal = 0;
+    for (int i = 1; i < s.length(); i++) {
+        char c = s.charAt(i);
+        if (Character.isDigit(c))
+            continue;
+        if (c == '.') {
+            if (decimal == 1)
+                return false;
+            decimal++;
+            continue;
+        }
+        return false;
+    }
+    return true;
+}
+
+# Method Intention
+The isNumber(String s) method intends to determine whether a given string represents a valid numeric value in decimal notation, allowing for an optional leading minus sign and at most one decimal point, while ensuring all other characters are digits.
+
+# Test Method
+    @Test
+    public void testIsNumber() {
+        assertFalse(Strings.isNumber(null));
+        assertFalse(Strings.isNumber(""));
+        assertFalse(Strings.isNumber("a123"));
+        assertFalse(Strings.isNumber("+123"));  
+        assertTrue(Strings.isNumber("0"));
+        assertTrue(Strings.isNumber("123"));
+        assertTrue(Strings.isNumber("-123"));
+        assertTrue(Strings.isNumber("0.5"));
+        assertTrue(Strings.isNumber("-0.5"));
+        assertTrue(Strings.isNumber("123.456"));
+        assertFalse(Strings.isNumber("123.4.56"));
+        assertFalse(Strings.isNumber("-123.4.56"));
+        assertFalse(Strings.isNumber("12a34"));
+        assertFalse(Strings.isNumber("123-456"));
+      [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.AssertionError " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+

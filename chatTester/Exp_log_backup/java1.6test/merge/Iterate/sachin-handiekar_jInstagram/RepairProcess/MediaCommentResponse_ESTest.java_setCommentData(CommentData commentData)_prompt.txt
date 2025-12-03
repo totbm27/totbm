@@ -1,0 +1,61 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class MediaCommentResponse {
+@SerializedName("data")
+private CommentData commentData;
+# Focal method
+public void setCommentData(CommentData commentData) {
+    this.commentData = commentData;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be compatible with Java compiler version 1.6, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# CommentData class
+package org.jinstagram.entity.comments;
+public class CommentData {
+public String getCreatedTime();
+public void setCreatedTime(String createdTime);
+public String getText();
+public void setText(String text);
+public FromTagData getCommentFrom();
+public void setCommentFrom(FromTagData commentFrom);
+public String getId();
+public void setId(String id);
+public String toString();
+}
+
+
+# Test Method
+@Test
+public void testSetCommentData() {
+
+       <Buggy Line>: constructor CommentData in class org.jinstagram.entity.comments.CommentData cannot be applied to given types;
+    CommentData expectedCommentData = new CommentData("Test Comment");
+
+    MediaCommentResponse mediaCommentResponse = new MediaCommentResponse();
+    mediaCommentResponse.setCommentData(expectedCommentData);
+    CommentData actualCommentData = mediaCommentResponse.getCommentData();
+    assertEquals(expectedCommentData, actualCommentData);
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "CommentData" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "CommentData" class  cannot be modified, and the generated code should be compatible with Java compiler version 1.6.
+The generated code should be enclosed within ``` ```.
+
+########
+

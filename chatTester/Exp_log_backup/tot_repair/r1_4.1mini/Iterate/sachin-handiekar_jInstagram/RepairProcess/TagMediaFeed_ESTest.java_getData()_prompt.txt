@@ -1,0 +1,48 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testGetData() {
+        TagMediaFeed tagMediaFeed = mock(TagMediaFeed.class);
+
+          <Buggy Line>: diamond operator is not supported in -source 1.6
+        List<MediaFeedData> expectedData = new LinkedList<>();
+
+        expectedData.add(new MediaFeedData());
+        expectedData.add(new MediaFeedData());
+        when(tagMediaFeed.getData()).thenReturn(expectedData);
+        List<MediaFeedData> actualData = tagMediaFeed.getData();
+        assertEquals(expectedData, actualData);
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+public void setData(List<MediaFeedData> data) {
+    this.data = data;
+}
+
+# Method Intention
+The setData(List<MediaFeedData> data) method is intended to update or assign the internal list of MediaFeedData objects within the TagMediaFeed instance, effectively replacing its current data content with the provided list.
+
+# Test Method
+    @Test
+    public void testGetData() {
+         [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.IncompatibleClassChangeError Expected non-static field org.mockito.cglib.proxy.Enhancer.serialVersionUID " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+

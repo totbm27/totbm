@@ -1,0 +1,33 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class OembedInformation {
+@SerializedName("provider_url")
+private String providerUrl;@SerializedName("title")
+private String title;@SerializedName("url")
+private String url;@SerializedName("author_name")
+private String authorName;@SerializedName("height")
+private String height;@SerializedName("width")
+private String width;@SerializedName("media_id")
+private String mediaId;@SerializedName("version")
+private String version;@SerializedName("author_url")
+private String authorUrl;@SerializedName("provider_name")
+private String providerName;@SerializedName("type")
+private String type;
+# Focal method
+@Override
+public String toString() {
+    return "OembedInformation [" + (providerUrl != null ? "provider_url=" + providerUrl + ", " : "") + (title != null ? "title=" + title + ", " : "") + (url != null ? "url=" + url + ", " : "") + (authorName != null ? "author_name=" + authorName + ", " : "") + (height != null ? "height=" + height + ", " : "") + (width != null ? "width=" + width + ", " : "") + (version != null ? "version=" + version + ", " : "") + (authorUrl != null ? "author_url=" + authorUrl + ", " : "") + (providerName != null ? "provider_name=" + providerName + ", " : "") + (type != null ? "type=" + type + ", " : "") + (mediaId != null ? "mediaId=" + mediaId : "") + "]";
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+

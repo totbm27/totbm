@@ -1,0 +1,186 @@
+0-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+public String toJson(Object object) {
+    StringWriter writer = new StringWriter();
+    toJson(object, writer);
+    return writer.toString();
+}
+
+# Method Intention
+The toJson(Object object) method is designed to convert a given Java object into its JSON string representation by writing the serialized JSON data into a StringWriter and then returning the resulting JSON string.
+
+# Test Method
+@Test
+public void testToJson_withSimpleObject_returnsJsonString() {
+    ZapposJson zapposJson = ZapposJson.getInstance();
+    class Person {
+        public String name = "John";
+        public int age = 30;
+    }
+    Person person = new Person();
+    String json = zapposJson.toJson(person);
+  [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.AssertionError " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+public String toJson(Object object) {
+    StringWriter writer = new StringWriter();
+    toJson(object, writer);
+    return writer.toString();
+}
+
+# Method Intention
+The toJson(Object object) method is designed to convert a given Java object into its JSON string representation by writing the serialized JSON data into a StringWriter and then returning the resulting JSON string.
+
+# Test Method
+@Test
+public void testToJson_withSimpleObject_returnsJsonString() {
+    ZapposJson zapposJson = ZapposJson.getInstance();
+    class Person {
+        public String name = "John";
+        public int age = 30;
+    }
+    Person person = new Person();
+    String json = zapposJson.toJson(person);
+   [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.junit.ComparisonFailure expected:<{["name":"John","age":30]}> but was:<{[]}> " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->0-->testRepair
+# Focal method (Cannot be modified)
+public String toJson(Object object) {
+    StringWriter writer = new StringWriter();
+    toJson(object, writer);
+    return writer.toString();
+}
+
+# Method Intention
+The toJson(Object object) method is designed to convert a given Java object into its JSON string representation by writing the serialized JSON data into a StringWriter and then returning the resulting JSON string.
+
+# Test Method
+@Test
+public void testToJson_withSimpleObject_returnsJsonString() {
+    ZapposJson zapposJson = ZapposJson.getInstance();
+    class Person {
+        public String name = "John";
+        public int age = 30;
+    }
+    Person person = new Person();
+    String json = zapposJson.toJson(person);
+   [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.junit.ComparisonFailure expected:<{["name":"John","age":30]}> but was:<{[]}> " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+3-->3-->0-->testRepair
+# Focal method (Cannot be modified)
+public String toJson(Object object) {
+    StringWriter writer = new StringWriter();
+    toJson(object, writer);
+    return writer.toString();
+}
+
+# Method Intention
+The toJson(Object object) method is designed to convert a given Java object into its JSON string representation by writing the serialized JSON data into a StringWriter and then returning the resulting JSON string.
+
+# Test Method
+@Test
+public void testToJson_withSimpleObject_returnsJsonString() {
+    ZapposJson zapposJson = ZapposJson.getInstance();
+    class Person {
+        public String name = "John";
+        public int age = 30;
+    }
+    Person person = new Person();
+    String json = zapposJson.toJson(person);
+   [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.junit.ComparisonFailure expected:<{["name":"John","age":30]}> but was:<{[]}> " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+4-->5-->0-->testRepair
+# Focal method (Cannot be modified)
+public String toJson(Object object) {
+    StringWriter writer = new StringWriter();
+    toJson(object, writer);
+    return writer.toString();
+}
+
+# Method Intention
+The toJson(Object object) method is designed to convert a given Java object into its JSON string representation by writing the serialized JSON data into a StringWriter and then returning the resulting JSON string.
+
+# Test Method
+@Test
+public void testToJson_withSimpleObject_returnsJsonString() {
+    ZapposJson zapposJson = ZapposJson.getInstance();
+    class Person {
+        public String name = "John";
+        public int age = 30;
+    }
+    Person person = new Person();
+    String json = zapposJson.toJson(person);
+   [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.junit.ComparisonFailure expected:<{["name":"John","age":30]}> but was:<{[]}> " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+5-->5-->0-->testRepair
+# Focal method (Cannot be modified)
+public String toJson(Object object) {
+    StringWriter writer = new StringWriter();
+    toJson(object, writer);
+    return writer.toString();
+}
+
+# Method Intention
+The toJson(Object object) method is designed to convert a given Java object into its JSON string representation by writing the serialized JSON data into a StringWriter and then returning the resulting JSON string.
+
+# Test Method
+@Test
+public void testToJson_withSimpleObject_returnsJsonString() {
+    ZapposJson zapposJson = ZapposJson.getInstance();
+    class Person {
+        public String name = "John";
+        public int age = 30;
+    }
+    Person person = new Person();
+    String json = zapposJson.toJson(person);
+   [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.junit.ComparisonFailure expected:<{["name":"John","age":30]}> but was:<{[]}> " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+

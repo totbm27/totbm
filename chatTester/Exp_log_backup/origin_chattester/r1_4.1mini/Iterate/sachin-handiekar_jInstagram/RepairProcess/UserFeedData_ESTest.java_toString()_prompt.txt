@@ -1,0 +1,72 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class UserFeedData {
+@SerializedName("id")
+private String id;@SerializedName("profile_picture")
+private String profilePictureUrl;@SerializedName("username")
+private String userName;@SerializedName("full_name")
+private String fullName;@SerializedName("website")
+private String website;@SerializedName("bio")
+private String bio;
+# Focal method
+@Override
+public String toString() {
+    return String.format("UserFeedData [id=%s, profilePictureUrl=%s, userName=%s, fullName=%s, website=%s, bio=%s]", id, profilePictureUrl, userName, fullName, website, bio);
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testToString() {
+        UserFeedData userFeedData = new UserFeedData();
+        try {
+            java.lang.reflect.Field idField = UserFeedData.class.getDeclaredField("id");
+            idField.setAccessible(true);
+            idField.set(userFeedData, "123");
+            java.lang.reflect.Field profilePictureUrlField = UserFeedData.class.getDeclaredField("profilePictureUrl");
+            profilePictureUrlField.setAccessible(true);
+            profilePictureUrlField.set(userFeedData, "http://example.com/pic.jpg");
+            java.lang.reflect.Field userNameField = UserFeedData.class.getDeclaredField("userName");
+            userNameField.setAccessible(true);
+            userNameField.set(userFeedData, "johndoe");
+            java.lang.reflect.Field fullNameField = UserFeedData.class.getDeclaredField("fullName");
+            fullNameField.setAccessible(true);
+            fullNameField.set(userFeedData, "John Doe");
+            java.lang.reflect.Field websiteField = UserFeedData.class.getDeclaredField("website");
+            websiteField.setAccessible(true);
+            websiteField.set(userFeedData, "http://johndoe.com");
+            java.lang.reflect.Field bioField = UserFeedData.class.getDeclaredField("bio");
+            bioField.setAccessible(true);
+            bioField.set(userFeedData, "Bio text here");
+
+            <Buggy Line>: multi-catch statement is not supported in -source 1.6
+        } catch (NoSuchFieldException | IllegalAccessException e) {
+
+            throw new RuntimeException(e);
+        }
+        String expected = "UserFeedData [id=123, profilePictureUrl=http://example.com/pic.jpg, userName=johndoe, fullName=John Doe, website=http://johndoe.com, bio=Bio text here]";
+        assertEquals(expected, userFeedData.toString());
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

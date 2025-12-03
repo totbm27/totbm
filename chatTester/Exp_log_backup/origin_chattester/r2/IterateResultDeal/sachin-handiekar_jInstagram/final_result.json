@@ -1,0 +1,107 @@
+[
+  {
+    "original_path": "/Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/auth/InstagramAuthService_ESTest.java###test5",
+    "generated_path": "/Users/curtis/Github/Thesis/chatTester/ExperimentCode/IterateResultDeal/sachin-handiekar_jInstagram/GeneratedTest/InstagramAuthService_ESTest#proxy(Proxy requestProxy).java",
+    "IterateTimes": 0,
+    "Compile_result": 1,
+    "Test_result": 1
+  },
+  {
+    "original_path": "/Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/InstagramConfig_ESTest.java###test00",
+    "generated_path": "/Users/curtis/Github/Thesis/chatTester/ExperimentCode/IterateResultDeal/sachin-handiekar_jInstagram/GeneratedTest/InstagramConfig_ESTest#isRetryOnServerError().java",
+    "IterateTimes": 0,
+    "Compile_result": 1,
+    "Test_result": 1
+  },
+  {
+    "original_path": "/Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/InstagramConfig_ESTest.java###test00",
+    "generated_path": "/Users/curtis/Github/Thesis/chatTester/ExperimentCode/IterateResultDeal/sachin-handiekar_jInstagram/GeneratedTest/InstagramConfig_ESTest#setRetryOnServerError(boolean retryOnServerError).java",
+    "IterateTimes": 0,
+    "Compile_result": 1,
+    "Test_result": 1
+  },
+  {
+    "original_path": "/Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/InstagramConfig_ESTest.java###test01",
+    "generated_path": "/Users/curtis/Github/Thesis/chatTester/ExperimentCode/IterateResultDeal/sachin-handiekar_jInstagram/GeneratedTest/InstagramConfig_ESTest#isEnforceSignedRequest().java",
+    "IterateTimes": 0,
+    "Compile_result": 1,
+    "Test_result": 1
+  },
+  {
+    "original_path": "/Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/InstagramConfig_ESTest.java###test01",
+    "generated_path": "/Users/curtis/Github/Thesis/chatTester/ExperimentCode/IterateResultDeal/sachin-handiekar_jInstagram/GeneratedTest/InstagramConfig_ESTest#setEnforceSignedRequest(boolean enforceSignedRequest).java",
+    "IterateTimes": 0,
+    "Compile_result": 1,
+    "Test_result": 1
+  },
+  {
+    "original_path": "/Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/InstagramConfig_ESTest.java###test02",
+    "generated_path": "/Users/curtis/Github/Thesis/chatTester/ExperimentCode/IterateResultDeal/sachin-handiekar_jInstagram/GeneratedTest/InstagramConfig_ESTest#isConnectionKeepAlive().java",
+    "IterateTimes": 0,
+    "Compile_result": 1,
+    "Test_result": 1
+  },
+  {
+    "original_path": "/Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/InstagramConfig_ESTest.java###test02",
+    "generated_path": "/Users/curtis/Github/Thesis/chatTester/ExperimentCode/IterateResultDeal/sachin-handiekar_jInstagram/GeneratedTest/InstagramConfig_ESTest#setConnectionKeepAlive(boolean connectionKeepAlive).java",
+    "IterateTimes": 0,
+    "Compile_result": 1,
+    "Test_result": 1
+  },
+  {
+    "original_path": "/Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/InstagramConfig_ESTest.java###test04",
+    "generated_path": "/Users/curtis/Github/Thesis/chatTester/ExperimentCode/IterateResultDeal/sachin-handiekar_jInstagram/GeneratedTest/InstagramConfig_ESTest#getVersion().java",
+    "IterateTimes": 0,
+    "Compile_result": 1,
+    "Test_result": 1
+  },
+  {
+    "original_path": "/Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/InstagramConfig_ESTest.java###test04",
+    "generated_path": "/Users/curtis/Github/Thesis/chatTester/ExperimentCode/IterateResultDeal/sachin-handiekar_jInstagram/GeneratedTest/InstagramConfig_ESTest#getApiURL().java",
+    "IterateTimes": 0,
+    "Compile_result": 1,
+    "Test_result": 1
+  },
+  {
+    "original_path": "/Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/InstagramConfig_ESTest.java###test05",
+    "generated_path": "/Users/curtis/Github/Thesis/chatTester/ExperimentCode/IterateResultDeal/sachin-handiekar_jInstagram/GeneratedTest/InstagramConfig_ESTest#getReadTimeoutMills().java",
+    "IterateTimes": 0,
+    "Compile_result": 1,
+    "Test_result": 1
+  },
+  {
+    "original_path": "/Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/InstagramConfig_ESTest.java###test05",
+    "generated_path": "/Users/curtis/Github/Thesis/chatTester/ExperimentCode/IterateResultDeal/sachin-handiekar_jInstagram/GeneratedTest/InstagramConfig_ESTest#setReadTimeoutMills(int readTimeoutMills).java",
+    "IterateTimes": 0,
+    "Compile_result": 1,
+    "Test_result": 1
+  },
+  {
+    "original_path": "/Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/InstagramConfig_ESTest.java###test08",
+    "generated_path": "/Users/curtis/Github/Thesis/chatTester/ExperimentCode/IterateResultDeal/sachin-handiekar_jInstagram/GeneratedTest/InstagramConfig_ESTest#setConnectionTimeoutMills(int connectionTimeoutMills).java",
+    "IterateTimes": 0,
+    "Compile_result": 1,
+    "Test_result": 1
+  },
+  {
+    "original_path": "/Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/InstagramConfig_ESTest.java###test08",
+    "generated_path": "/Users/curtis/Github/Thesis/chatTester/ExperimentCode/IterateResultDeal/sachin-handiekar_jInstagram/GeneratedTest/InstagramConfig_ESTest#getConnectionTimeoutMills().java",
+    "IterateTimes": 0,
+    "Compile_result": 1,
+    "Test_result": 1
+  },
+  {
+    "original_path": "/Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/InstagramConfig_ESTest.java###test10",
+    "generated_path": "/Users/curtis/Github/Thesis/chatTester/ExperimentCode/IterateResultDeal/sachin-handiekar_jInstagram/GeneratedTest/InstagramConfig_ESTest#setBaseURI(String baseURI).java",
+    "IterateTimes": 0,
+    "Compile_result": 1,
+    "Test_result": 1
+  },
+  {
+    "original_path": "/Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/InstagramConfig_ESTest.java###test10",
+    "generated_path": "/Users/curtis/Github/Thesis/chatTester/ExperimentCode/IterateResultDeal/sachin-handiekar_jInstagram/GeneratedTest/InstagramConfig_ESTest#getBaseURI().java",
+    "IterateTimes": 0,
+    "Compile_result": 1,
+    "Test_result": 1
+  }
+]

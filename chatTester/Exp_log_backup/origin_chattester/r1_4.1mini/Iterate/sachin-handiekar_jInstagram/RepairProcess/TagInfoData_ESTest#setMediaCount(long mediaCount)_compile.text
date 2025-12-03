@@ -1,0 +1,25 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagInfoData_ESTest.java
+[GENERATED PATH] TagInfoData_ESTest#setMediaCount(long mediaCount).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/comments/MediaCommentsFeed_ESTest.java:[37,59] diamond operator is not supported in -source 1.6
+  (use -source 7 or higher to enable diamond operator)
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagInfoData_ESTest.java
+[GENERATED PATH] TagInfoData_ESTest#setMediaCount(long mediaCount).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagInfoData_ESTest.java:[28,30] cannot find symbol
+  symbol:   method getMediaCount(org.jinstagram.entity.tags.TagInfoData)
+  location: class org.jinstagram.entity.tags.TagInfoData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagInfoData_ESTest.java:[32,26] cannot find symbol
+  symbol:   method getMediaCount(org.jinstagram.entity.tags.TagInfoData)
+  location: class org.jinstagram.entity.tags.TagInfoData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagInfoData_ESTest.java:[36,27] cannot find symbol
+  symbol:   method getMediaCount(org.jinstagram.entity.tags.TagInfoData)
+  location: class org.jinstagram.entity.tags.TagInfoData_ESTest
+[INFO] 3 errors 
+####################
+

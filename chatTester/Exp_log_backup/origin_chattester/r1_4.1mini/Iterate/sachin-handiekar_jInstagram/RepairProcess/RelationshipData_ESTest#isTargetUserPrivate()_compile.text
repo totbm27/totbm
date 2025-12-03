@@ -1,0 +1,61 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/relationships/RelationshipData_ESTest.java
+[GENERATED PATH] RelationshipData_ESTest#isTargetUserPrivate().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/comments/MediaCommentsFeed_ESTest.java:[37,59] diamond operator is not supported in -source 1.6
+  (use -source 7 or higher to enable diamond operator)
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/relationships/RelationshipData_ESTest.java
+[GENERATED PATH] RelationshipData_ESTest#isTargetUserPrivate().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/relationships/RelationshipData_ESTest.java:[30,30] cannot find symbol
+  symbol:   method getTargetUserPrivateField(org.jinstagram.entity.relationships.RelationshipData)
+  location: class org.jinstagram.entity.relationships.RelationshipData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/relationships/RelationshipData_ESTest.java:[31,20] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/relationships/RelationshipData_ESTest.java:[35,22] cannot find symbol
+  symbol:   method getTargetUserPrivateField(org.jinstagram.entity.relationships.RelationshipData)
+  location: class org.jinstagram.entity.relationships.RelationshipData_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/relationships/RelationshipData_ESTest.java:[36,21] incompatible types: boolean cannot be converted to java.lang.String
+[INFO] 4 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/relationships/RelationshipData_ESTest.java
+[GENERATED PATH] RelationshipData_ESTest#isTargetUserPrivate().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/relationships/RelationshipData_ESTest.java:[32,16] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/relationships/RelationshipData_ESTest.java:[35,17] incompatible types: boolean cannot be converted to java.lang.String
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/relationships/RelationshipData_ESTest.java
+[GENERATED PATH] RelationshipData_ESTest#isTargetUserPrivate().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/relationships/RelationshipData_ESTest.java:[33,16] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/relationships/RelationshipData_ESTest.java:[37,17] incompatible types: boolean cannot be converted to java.lang.String
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/relationships/RelationshipData_ESTest.java
+[GENERATED PATH] RelationshipData_ESTest#isTargetUserPrivate().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/relationships/RelationshipData_ESTest.java:[35,56] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/relationships/RelationshipData_ESTest.java:[39,57] incompatible types: boolean cannot be converted to java.lang.String
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/relationships/RelationshipData_ESTest.java
+[GENERATED PATH] RelationshipData_ESTest#isTargetUserPrivate().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/relationships/RelationshipData_ESTest.java:[36,57] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/relationships/RelationshipData_ESTest.java:[40,56] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/relationships/RelationshipData_ESTest.java:[44,57] incompatible types: boolean cannot be converted to java.lang.String
+[INFO] 3 errors 
+####################
+

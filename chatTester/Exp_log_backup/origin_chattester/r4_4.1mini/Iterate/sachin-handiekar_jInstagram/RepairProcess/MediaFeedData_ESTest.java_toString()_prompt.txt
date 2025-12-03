@@ -1,0 +1,67 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testToString() {
+        MediaFeedData media = new MediaFeedData();
+        media.setCreatedTime("1234567890");
+        media.setId("mediaId123");
+        media.setImageFilter("Normal");
+        media.setLink("http://example.com/media/123");
+        media.setType("image");
+        media.setUserHasLiked(true);
+        media.setTags(Arrays.asList("tag1", "tag2"));
+
+      <Buggy Line>: incompatible types: java.util.List<java.lang.Object> cannot be converted to java.util.List<org.jinstagram.entity.common.UsersInPhoto>
+        media.setUsersInPhotoList(Collections.emptyList());
+
+        media.setCaption(new Caption() {
+            @Override
+            public String toString() {
+                return "CaptionTest";
+            }
+        });
+        media.setComments(new Comments() {
+            @Override
+            public String toString() {
+                return "CommentsTest";
+            }
+        });
+        media.setImages(new Images() {
+            @Override
+            public String toString() {
+                return "ImagesTest";
+            }
+        });
+        media.setLikes(new Likes() {
+            @Override
+            public String toString() {
+                return "LikesTest";
+            }
+        });
+        media.setLocation(new Location() {
+            @Override
+            public String toString() {
+                return "LocationTest";
+            }
+        });
+        media.setUser(new User() {
+            @Override
+            public String toString() {
+                return "UserTest";
+            }
+        });
+        String expected = "MediaFeedData [caption=CaptionTest, comments=CommentsTest, createdTime=1234567890, id=mediaId123, imageFilter=Normal, images=ImagesTest, likes=LikesTest, link=http://example.com/media/123, location=LocationTest, tags=[tag1, tag2], type=image, user=UserTest, userHasLiked=true, usersInPhoto=[]]";
+        String actual = media.toString();
+        assertEquals(expected, actual);
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

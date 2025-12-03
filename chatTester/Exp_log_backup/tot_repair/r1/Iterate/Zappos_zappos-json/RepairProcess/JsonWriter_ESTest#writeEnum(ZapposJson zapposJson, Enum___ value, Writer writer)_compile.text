@@ -1,0 +1,118 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java
+[GENERATED PATH] JsonWriter_ESTest#writeEnum(ZapposJson zapposJson, Enum<?> value, Writer writer).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[54,9] cannot find symbol
+  symbol:   class SampleEnum
+  location: class com.zappos.json.JsonWriter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[54,33] cannot find symbol
+  symbol:   variable SampleEnum
+  location: class com.zappos.json.JsonWriter_ESTest
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java
+[GENERATED PATH] JsonWriter_ESTest#writeEnum(ZapposJson zapposJson, Enum<?> value, Writer writer).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[53,9] cannot find symbol
+  symbol:   class SampleEnum
+  location: class com.zappos.json.JsonWriter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[53,33] cannot find symbol
+  symbol:   variable SampleEnum
+  location: class com.zappos.json.JsonWriter_ESTest
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java
+[GENERATED PATH] JsonWriter_ESTest#writeEnum(ZapposJson zapposJson, Enum<?> value, Writer writer).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[55,9] cannot find symbol
+  symbol:   class SampleEnum
+  location: class com.zappos.json.JsonWriter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[55,33] cannot find symbol
+  symbol:   variable SampleEnum
+  location: class com.zappos.json.JsonWriter_ESTest
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java
+[GENERATED PATH] JsonWriter_ESTest#writeEnum(ZapposJson zapposJson, Enum<?> value, Writer writer).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[57,10] cannot find symbol
+  symbol:   class SampleEnum
+  location: class com.zappos.json.JsonWriter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[57,34] cannot find symbol
+  symbol:   variable SampleEnum
+  location: class com.zappos.json.JsonWriter_ESTest
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java
+[GENERATED PATH] JsonWriter_ESTest#writeEnum(ZapposJson zapposJson, Enum<?> value, Writer writer).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[9,19] package org.mockito does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[10,19] package org.mockito does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[58,9] cannot find symbol
+  symbol:   variable MockitoAnnotations
+  location: class com.zappos.json.JsonWriter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[59,14] cannot find symbol
+  symbol:   class TestEnum
+  location: class com.zappos.json.JsonWriter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[59,35] cannot find symbol
+  symbol:   variable TestEnum
+  location: class com.zappos.json.JsonWriter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[63,30] cannot find symbol
+  symbol:   variable mockZapposJson
+  location: class com.zappos.json.JsonWriter_ESTest
+[INFO] 6 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java
+[GENERATED PATH] JsonWriter_ESTest#writeEnum(ZapposJson zapposJson, Enum<?> value, Writer writer).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[10,19] package org.mockito does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[11,19] package org.mockito does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[61,10] cannot find symbol
+  symbol:   class TestEnum
+  location: class com.zappos.json.JsonWriter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[61,31] cannot find symbol
+  symbol:   variable TestEnum
+  location: class com.zappos.json.JsonWriter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[68,5] cannot find symbol
+  symbol:   variable Assert
+  location: class com.zappos.json.JsonWriter_ESTest
+[INFO] 5 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java
+[GENERATED PATH] JsonWriter_ESTest#writeEnum(ZapposJson zapposJson, Enum<?> value, Writer writer).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[11,19] package org.mockito does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[12,19] package org.mockito does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[63,14] cannot find symbol
+  symbol:   class TestEnum
+  location: class com.zappos.json.JsonWriter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[63,35] cannot find symbol
+  symbol:   variable TestEnum
+  location: class com.zappos.json.JsonWriter_ESTest
+[INFO] 4 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java
+[GENERATED PATH] JsonWriter_ESTest#writeEnum(ZapposJson zapposJson, Enum<?> value, Writer writer).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[12,19] package org.mockito does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[13,19] package org.mockito does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[68,38] cannot find symbol
+  symbol:   variable TestEnum
+  location: class com.zappos.json.JsonWriter_ESTest
+[INFO] 3 errors 
+####################
+

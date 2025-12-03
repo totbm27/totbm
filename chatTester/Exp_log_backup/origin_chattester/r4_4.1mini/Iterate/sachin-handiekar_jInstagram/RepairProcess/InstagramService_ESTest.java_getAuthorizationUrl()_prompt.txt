@@ -1,0 +1,30 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testGetAuthorizationUrl() {
+    InstagramApi mockApi = new InstagramApi() {
+        @Override
+        public String getAuthorizationUrl(OAuthConfig config) {
+            return "https://api.instagram.com/oauth/authorize?client_id=" + config.getApiKey();
+        }
+    };
+
+        <Buggy Line>: no suitable constructor found for OAuthConfig(java.lang.String,java.lang.String,java.lang.String)
+    OAuthConfig config = new OAuthConfig("testApiKey", "testApiSecret", "http://localhost/callback");
+
+    InstagramService service = new InstagramService(mockApi, config);
+    String authorizationUrl = service.getAuthorizationUrl();
+    String expectedUrl = "https://api.instagram.com/oauth/authorize?client_id=testApiKey";
+    org.junit.Assert.assertEquals(expectedUrl, authorizationUrl);
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

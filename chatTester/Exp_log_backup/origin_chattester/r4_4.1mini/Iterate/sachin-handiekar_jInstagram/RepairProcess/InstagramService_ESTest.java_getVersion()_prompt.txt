@@ -1,0 +1,69 @@
+0-->1-->0-->compileRepair
+
+# InstagramApi class
+package org.jinstagram.auth;
+public class InstagramApi {
+public String getAccessTokenEndpoint();
+public Verbs getAccessTokenVerb();
+public String getAuthorizationUrl(OAuthConfig config);
+public AccessTokenExtractor getAccessTokenExtractor();
+public InstagramService createService(OAuthConfig config);
+}
+
+
+# Test Method
+@Test
+public void testGetVersion() {
+
+     <Buggy Line>: cannot find symbol method "instance()" in InstagramApi
+    InstagramApi api = InstagramApi.instance();
+
+    OAuthConfig config = new OAuthConfig("clientId", "clientSecret", "callback");
+    InstagramService service = new InstagramService(api, config);
+    String version = service.getVersion();
+    org.junit.Assert.assertEquals("1.0", version);
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "InstagramApi" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "InstagramApi" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# InstagramApi class
+package org.jinstagram.auth;
+public class InstagramApi {
+public String getAccessTokenEndpoint();
+public Verbs getAccessTokenVerb();
+public String getAuthorizationUrl(OAuthConfig config);
+public AccessTokenExtractor getAccessTokenExtractor();
+public InstagramService createService(OAuthConfig config);
+}
+
+
+# Test Method
+@Test
+public void testGetVersion() {
+    InstagramApi api = new InstagramApi();
+
+        <Buggy Line>: no suitable constructor found for OAuthConfig(java.lang.String,java.lang.String,java.lang.String)
+    OAuthConfig config = new OAuthConfig("clientId", "clientSecret", "callback");
+
+    InstagramService service = new InstagramService(api, config);
+    String version = service.getVersion();
+    org.junit.Assert.assertEquals("1.0", version);
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

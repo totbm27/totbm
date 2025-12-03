@@ -1,0 +1,245 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class PaginationHelper {
+# Focal method
+public static Page parseNextUrl(Pagination pagination, String apiUrl) {
+    if (StringUtils.isNotBlank(pagination.getNextUrl())) {
+        try {
+            String nextUrl = pagination.getNextUrl();
+            URL url = new URL(nextUrl);
+            Map<String, String> params = URLUtils.queryStringToMap(url.getQuery());
+            String methodName = StringUtils.substringBetween(nextUrl, apiUrl, "?");
+            return new Page(methodName, params);
+        } catch (MalformedURLException mue) {
+            throw new OAuthException("Malformed URL", mue);
+        }
+    }
+    throw new OAuthException("No nextUrl");
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be compatible with Java compiler version 1.6, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testParseNextUrl() {
+    Pagination pagination = new Pagination();
+    pagination.setNextUrl("https://example.com/api?page=2");
+
+       <Buggy Line>: diamond operator is not supported in -source 1.6
+    Map<String, String> params = new HashMap<>();
+
+    params.put("page", "2");
+    URLUtils urlUtils = mock(URLUtils.class);
+    when(urlUtils.queryStringToMap(anyString())).thenReturn(params);
+    Page page = PaginationHelper.parseNextUrl(pagination, "https://example.com/api");
+    assertEquals("api", page.getMethodName());
+    assertEquals(params, page.getParams());
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair, and the generated code should be compatible with Java compiler version 1.6. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->1-->compileRepair
+
+
+# Focal Method
+public class PaginationHelper {
+# Focal method
+public static Page parseNextUrl(Pagination pagination, String apiUrl) {
+    if (StringUtils.isNotBlank(pagination.getNextUrl())) {
+        try {
+            String nextUrl = pagination.getNextUrl();
+            URL url = new URL(nextUrl);
+            Map<String, String> params = URLUtils.queryStringToMap(url.getQuery());
+            String methodName = StringUtils.substringBetween(nextUrl, apiUrl, "?");
+            return new Page(methodName, params);
+        } catch (MalformedURLException mue) {
+            throw new OAuthException("Malformed URL", mue);
+        }
+    }
+    throw new OAuthException("No nextUrl");
+}
+}
+
+# Method Intention
+The parseNextUrl method aims to extract the method name and parameters from the next URL in a Pagination object, using the provided API URL as a reference point, and then create a new Page object with this extracted information.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be compatible with Java compiler version 1.6, and the generated code should be enclosed within ``` ```.
+
+########
+
+3-->4-->1-->compileRepair
+
+
+# Focal Method
+public class PaginationHelper {
+# Focal method
+public static Page parseNextUrl(Pagination pagination, String apiUrl) {
+    if (StringUtils.isNotBlank(pagination.getNextUrl())) {
+        try {
+            String nextUrl = pagination.getNextUrl();
+            URL url = new URL(nextUrl);
+            Map<String, String> params = URLUtils.queryStringToMap(url.getQuery());
+            String methodName = StringUtils.substringBetween(nextUrl, apiUrl, "?");
+            return new Page(methodName, params);
+        } catch (MalformedURLException mue) {
+            throw new OAuthException("Malformed URL", mue);
+        }
+    }
+    throw new OAuthException("No nextUrl");
+}
+}
+
+# Method Intention
+The parseNextUrl method aims to extract the method name and parameters from the next URL in a Pagination object, using the provided API URL as a reference point, and then create a new Page object with this extracted information.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be compatible with Java compiler version 1.6, and the generated code should be enclosed within ``` ```.
+
+########
+
+4-->5-->1-->compileRepair
+
+
+# Focal Method
+public class PaginationHelper {
+# Focal method
+public static Page parseNextUrl(Pagination pagination, String apiUrl) {
+    if (StringUtils.isNotBlank(pagination.getNextUrl())) {
+        try {
+            String nextUrl = pagination.getNextUrl();
+            URL url = new URL(nextUrl);
+            Map<String, String> params = URLUtils.queryStringToMap(url.getQuery());
+            String methodName = StringUtils.substringBetween(nextUrl, apiUrl, "?");
+            return new Page(methodName, params);
+        } catch (MalformedURLException mue) {
+            throw new OAuthException("Malformed URL", mue);
+        }
+    }
+    throw new OAuthException("No nextUrl");
+}
+}
+
+# Method Intention
+The parseNextUrl method aims to extract the method name and parameters from the next URL in a Pagination object, using the provided API URL as a reference point, and then create a new Page object with this extracted information.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be compatible with Java compiler version 1.6, and the generated code should be enclosed within ``` ```.
+
+########
+
+5-->6-->2-->compileRepair
+
+
+# Focal Method
+public class PaginationHelper {
+# Focal method
+public static Page parseNextUrl(Pagination pagination, String apiUrl) {
+    if (StringUtils.isNotBlank(pagination.getNextUrl())) {
+        try {
+            String nextUrl = pagination.getNextUrl();
+            URL url = new URL(nextUrl);
+            Map<String, String> params = URLUtils.queryStringToMap(url.getQuery());
+            String methodName = StringUtils.substringBetween(nextUrl, apiUrl, "?");
+            return new Page(methodName, params);
+        } catch (MalformedURLException mue) {
+            throw new OAuthException("Malformed URL", mue);
+        }
+    }
+    throw new OAuthException("No nextUrl");
+}
+}
+
+# Method Intention
+The parseNextUrl method aims to extract the method name and parameters from the next URL in a Pagination object, using the provided API URL as a reference point, and then create a new Page object with this extracted information.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be compatible with Java compiler version 1.6, and the generated code should be enclosed within ``` ```.
+
+########
+
+6-->7-->3-->compileRepair
+
+
+# Focal Method
+public class PaginationHelper {
+# Focal method
+public static Page parseNextUrl(Pagination pagination, String apiUrl) {
+    if (StringUtils.isNotBlank(pagination.getNextUrl())) {
+        try {
+            String nextUrl = pagination.getNextUrl();
+            URL url = new URL(nextUrl);
+            Map<String, String> params = URLUtils.queryStringToMap(url.getQuery());
+            String methodName = StringUtils.substringBetween(nextUrl, apiUrl, "?");
+            return new Page(methodName, params);
+        } catch (MalformedURLException mue) {
+            throw new OAuthException("Malformed URL", mue);
+        }
+    }
+    throw new OAuthException("No nextUrl");
+}
+}
+
+# Method Intention
+The parseNextUrl method aims to extract the method name and parameters from the next URL in a Pagination object, using the provided API URL as a reference point, and then create a new Page object with this extracted information.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be compatible with Java compiler version 1.6, and the generated code should be enclosed within ``` ```.
+
+########
+
+7-->8-->3-->compileRepair
+
+
+# Focal Method
+public class PaginationHelper {
+# Focal method
+public static Page parseNextUrl(Pagination pagination, String apiUrl) {
+    if (StringUtils.isNotBlank(pagination.getNextUrl())) {
+        try {
+            String nextUrl = pagination.getNextUrl();
+            URL url = new URL(nextUrl);
+            Map<String, String> params = URLUtils.queryStringToMap(url.getQuery());
+            String methodName = StringUtils.substringBetween(nextUrl, apiUrl, "?");
+            return new Page(methodName, params);
+        } catch (MalformedURLException mue) {
+            throw new OAuthException("Malformed URL", mue);
+        }
+    }
+    throw new OAuthException("No nextUrl");
+}
+}
+
+# Method Intention
+The parseNextUrl method aims to extract the method name and parameters from the next URL in a Pagination object, using the provided API URL as a reference point, and then create a new Page object with this extracted information.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be compatible with Java compiler version 1.6, and the generated code should be enclosed within ``` ```.
+
+########
+

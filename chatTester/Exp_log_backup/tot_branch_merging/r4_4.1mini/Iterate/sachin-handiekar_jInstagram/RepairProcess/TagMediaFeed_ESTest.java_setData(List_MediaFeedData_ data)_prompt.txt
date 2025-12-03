@@ -1,0 +1,69 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testSetData() {
+    TagMediaFeed tagMediaFeed = new TagMediaFeed();
+
+      <Buggy Line>: diamond operator is not supported in -source 1.6
+    List<MediaFeedData> mediaFeedDataList = new LinkedList<>();
+
+    mediaFeedDataList.add(new MediaFeedData());
+    mediaFeedDataList.add(new MediaFeedData());
+    tagMediaFeed.setData(mediaFeedDataList);
+    List<MediaFeedData> retrievedData = tagMediaFeed.getData();
+    org.junit.Assert.assertNotNull(retrievedData);
+    org.junit.Assert.assertEquals(2, retrievedData.size());
+    org.junit.Assert.assertSame(mediaFeedDataList, retrievedData);
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# TagMediaFeed class
+package org.jinstagram.entity.tags;
+public class TagMediaFeed {
+public Pagination getPagination();
+public void setPagination(Pagination pagination);
+public Meta getMeta();
+public void setMeta(Meta meta);
+public List<MediaFeedData> getData();
+public void setData(List<MediaFeedData> data);
+public String toString();
+}
+
+
+# Test Method
+    @Test
+    public void testSetData() {
+        TagMediaFeed tagMediaFeed = new TagMediaFeed();
+        List<MediaFeedData> mediaFeedDataList = new LinkedList<MediaFeedData>();
+        mediaFeedDataList.add(new MediaFeedData());
+        mediaFeedDataList.add(new MediaFeedData());
+        tagMediaFeed.setData(mediaFeedDataList);
+        List<MediaFeedData> retrievedData = tagMediaFeed.getData();
+
+      <Buggy Line>: cannot find symbol variable "Assert"
+        Assert.assertNotNull(retrievedData);
+
+        Assert.assertEquals(2, retrievedData.size());
+        Assert.assertSame(mediaFeedDataList, retrievedData);
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "TagMediaFeed" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "TagMediaFeed" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

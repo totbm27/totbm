@@ -1,0 +1,127 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class Request {
+private Map<String, String> querystringParams;private String url;
+public Request(Verbs verb, String url) {
+    this.verb = verb;
+    this.url = url;
+    this.querystringParams = new HashMap<String, String>();
+    this.bodyParams = new HashMap<String, String>();
+    this.headers = new HashMap<String, String>();
+}
+# Focal method
+public Map<String, String> getQueryStringParams() {
+    try {
+        Map<String, String> params = new HashMap<String, String>();
+        String queryString = new URL(url).getQuery();
+        params.putAll(URLUtils.queryStringToMap(queryString));
+        params.putAll(this.querystringParams);
+        return params;
+    } catch (MalformedURLException mue) {
+        throw new OAuthException("Malformed URL", mue);
+    }
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testGetQueryStringParams() {
+        Request request = new Request(Verbs.GET, "http://example.com/test?param1=value1&param2=value2");
+        request.getQueryStringParams().put("param3", "value3");
+
+           <Buggy Line>: diamond operator is not supported in -source 1.6
+        Map<String, String> expectedParams = new HashMap<>();
+
+        expectedParams.put("param1", "value1");
+        expectedParams.put("param2", "value2");
+        expectedParams.put("param3", "value3");
+        assertEquals(expectedParams, request.getQueryStringParams());
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->0-->testRepair
+# Focal method (Cannot be modified)
+public Map<String, String> getQueryStringParams() {
+    try {
+        Map<String, String> params = new HashMap<String, String>();
+        String queryString = new URL(url).getQuery();
+        params.putAll(URLUtils.queryStringToMap(queryString));
+        params.putAll(this.querystringParams);
+        return params;
+    } catch (MalformedURLException mue) {
+        throw new OAuthException("Malformed URL", mue);
+    }
+}
+
+# Method Intention
+The getQueryStringParams() method aims to extract query string parameters from the provided URL, merge them with any additional query string parameters stored in the Request object, and return a combined map of all query string parameters.
+
+# Test Method
+@Test
+public void testGetQueryStringParams() {
+    Request request = new Request(Verbs.GET, "http://example.com/test?param1=value1&param2=value2");
+    request.getQueryStringParams().put("param3", "value3");
+    Map<String, String> expectedParams = new HashMap<String, String>();
+    expectedParams.put("param1", "value1");
+    expectedParams.put("param2", "value2");
+    expectedParams.put("param3", "value3");
+   [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.AssertionError " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+3-->2-->0-->testRepair
+
+
+# Test Method
+    @Test
+    public void testGetQueryStringParams() {
+        Verbs verb = Verbs.GET;
+        String url = "https://example.com/api/resource?param1=value1&param2=value2";
+        Request request = new Request(verb, url);
+        request.addQuerystringParameter("param3", "value3");
+        Map<String, String> queryStringParams = request.getQueryStringParams();
+
+       <Buggy Line>: diamond operator is not supported in -source 1.6
+        assertNotNull(queryStringParams);
+
+        assertEquals(3, queryStringParams.size());
+        assertEquals("value1", queryStringParams.get("param1"));
+        assertEquals("value2", queryStringParams.get("param2"));
+        assertEquals("value3", queryStringParams.get("param3"));
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

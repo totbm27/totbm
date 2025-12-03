@@ -1,0 +1,181 @@
+0-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+@Override
+public String toString() {
+    StringBuilder sb = new StringBuilder();
+    String s = super.toString();
+    sb.append(s.substring(0, s.length() - 1));
+    sb.append(String.format(",text=%s]", this.getText() == null ? "null" : "\"" + this.getText() + "\""));
+    return sb.toString();
+}
+
+# Method Intention
+The toString() method aims to extend the string representation of the superclass by appending a formatted segment that includes the current object's text content—enclosed in quotes if non-null or represented as "null" otherwise—just before the closing bracket, thereby providing a more informative and descriptive output of the RectangularTextContainer instance.
+
+# Test Method
+    @Test
+    public void testToString() {
+        RectangularTextContainer rectangularTextContainer = new RectangularTextContainer(10.0f, 20.0f, 30.0f, 40.0f);
+       [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.Error Unresolved compilation problem: 
+ The method setText(String) is undefined for the type RectangularTextContainer
+ " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+@Override
+public String toString() {
+    StringBuilder sb = new StringBuilder();
+    String s = super.toString();
+    sb.append(s.substring(0, s.length() - 1));
+    sb.append(String.format(",text=%s]", this.getText() == null ? "null" : "\"" + this.getText() + "\""));
+    return sb.toString();
+}
+
+# Method Intention
+The toString() method aims to extend the string representation of the superclass by appending a formatted segment that includes the current object's text content—enclosed in quotes if non-null or represented as "null" otherwise—just before the closing bracket, thereby providing a more informative and descriptive output of the RectangularTextContainer instance.
+
+# Test Method
+@Test
+public void testToString() {
+    RectangularTextContainer rectangularTextContainer = new RectangularTextContainer(10.0f, 20.0f, 30.0f, 40.0f);
+    String expected = super.toString();
+     [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.UnsupportedOperationException None " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->0-->testRepair
+# Focal method (Cannot be modified)
+@Override
+public String toString() {
+    StringBuilder sb = new StringBuilder();
+    String s = super.toString();
+    sb.append(s.substring(0, s.length() - 1));
+    sb.append(String.format(",text=%s]", this.getText() == null ? "null" : "\"" + this.getText() + "\""));
+    return sb.toString();
+}
+
+# Method Intention
+The toString() method aims to extend the string representation of the superclass by appending a formatted segment that includes the current object's text content—enclosed in quotes if non-null or represented as "null" otherwise—just before the closing bracket, thereby providing a more informative and descriptive output of the RectangularTextContainer instance.
+
+# Test Method
+@Test
+public void testToString() {
+    RectangularTextContainer rectangularTextContainer = new RectangularTextContainer(10.0f, 20.0f, 30.0f, 40.0f);
+    String superString = rectangularTextContainer.getClass().getSuperclass().toString();
+    String expected = rectangularTextContainer.getClass().getSuperclass().toString();
+    String baseString = rectangularTextContainer.getClass().getSuperclass().toString();
+    String superToString = rectangularTextContainer.getClass().getSuperclass().getName() + "@" + Integer.toHexString(rectangularTextContainer.getClass().getSuperclass().hashCode());
+     [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.UnsupportedOperationException None " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+3-->3-->0-->testRepair
+# Focal method (Cannot be modified)
+@Override
+public String toString() {
+    StringBuilder sb = new StringBuilder();
+    String s = super.toString();
+    sb.append(s.substring(0, s.length() - 1));
+    sb.append(String.format(",text=%s]", this.getText() == null ? "null" : "\"" + this.getText() + "\""));
+    return sb.toString();
+}
+
+# Method Intention
+The toString() method aims to extend the string representation of the superclass by appending a formatted segment that includes the current object's text content—enclosed in quotes if non-null or represented as "null" otherwise—thereby providing a more detailed and descriptive output of the RectangularTextContainer instance.
+
+# Test Method
+@Test
+public void testToString() {
+    RectangularTextContainer rectangularTextContainer = new RectangularTextContainer(10.0f, 20.0f, 30.0f, 40.0f);
+    String superToString = rectangularTextContainer.getClass().getSuperclass().toString();
+    String superString = rectangularTextContainer.getClass().getSuperclass().toString();
+    String baseSuperToString = rectangularTextContainer.getClass().getSuperclass().getName() + "@" + Integer.toHexString(rectangularTextContainer.getClass().getSuperclass().hashCode());
+     [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.UnsupportedOperationException None " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+4-->5-->0-->testRepair
+# Focal method (Cannot be modified)
+@Override
+public String toString() {
+    StringBuilder sb = new StringBuilder();
+    String s = super.toString();
+    sb.append(s.substring(0, s.length() - 1));
+    sb.append(String.format(",text=%s]", this.getText() == null ? "null" : "\"" + this.getText() + "\""));
+    return sb.toString();
+}
+
+# Method Intention
+The toString() method aims to extend the string representation of the superclass by appending a formatted segment that includes the current object's text content—enclosed in quotes if non-null or represented as "null" otherwise—just before the closing bracket, thereby providing a more informative and descriptive output of the RectangularTextContainer instance.
+
+# Test Method
+@Test
+public void testToString() {
+    RectangularTextContainer rectangularTextContainer = new RectangularTextContainer(10.0f, 20.0f, 30.0f, 40.0f);
+    String superString = rectangularTextContainer.getClass().getSuperclass().toString();
+    String expectedStart = super.toString().substring(0, super.toString().length() - 1);
+    String expected = expectedStart + ",text=null]";
+   [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.UnsupportedOperationException None " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+5-->5-->0-->testRepair
+# Focal method (Cannot be modified)
+@Override
+public String toString() {
+    StringBuilder sb = new StringBuilder();
+    String s = super.toString();
+    sb.append(s.substring(0, s.length() - 1));
+    sb.append(String.format(",text=%s]", this.getText() == null ? "null" : "\"" + this.getText() + "\""));
+    return sb.toString();
+}
+
+# Method Intention
+The toString() method aims to extend the string representation of the superclass by appending a formatted segment that includes the current object's text content—enclosed in quotes if non-null or represented as "null" otherwise—thereby providing a more informative and descriptive output of the RectangularTextContainer instance.
+
+# Test Method
+@Test
+public void testToString() {
+    RectangularTextContainer rectangularTextContainer = new RectangularTextContainer(10.0f, 20.0f, 30.0f, 40.0f);
+     [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.UnsupportedOperationException None " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+

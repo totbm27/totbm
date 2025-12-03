@@ -1,0 +1,52 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class OembedInformation {
+@SerializedName("thumbnail_width")
+private int thumbnailWidth;
+# Focal method
+public void setThumbnailWidth(final int thumbnailWidth) {
+    this.thumbnailWidth = thumbnailWidth;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testSetThumbnailWidth() {
+    OembedInformation oembedInformation = new OembedInformation();
+    int expectedWidth = 150;
+    oembedInformation.setThumbnailWidth(expectedWidth);
+    try {
+        java.lang.reflect.Field field = OembedInformation.class.getDeclaredField("thumbnailWidth");
+        field.setAccessible(true);
+        int actualWidth = field.getInt(oembedInformation);
+        assertEquals(expectedWidth, actualWidth, "The thumbnailWidth should be set correctly.");
+
+        <Buggy Line>: multi-catch statement is not supported in -source 1.6
+    } catch (NoSuchFieldException | IllegalAccessException e) {
+
+        throw new RuntimeException("Reflection failed to access thumbnailWidth", e);
+    }
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

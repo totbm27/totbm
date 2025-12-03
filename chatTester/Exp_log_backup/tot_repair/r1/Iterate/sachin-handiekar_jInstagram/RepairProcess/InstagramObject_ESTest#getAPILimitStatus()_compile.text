@@ -1,0 +1,50 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/InstagramObject_ESTest.java
+[GENERATED PATH] InstagramObject_ESTest#getAPILimitStatus().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/InstagramObject_ESTest.java:[27,51] diamond operator is not supported in -source 1.6
+  (use -source 7 or higher to enable diamond operator)
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/InstagramObject_ESTest.java
+[GENERATED PATH] InstagramObject_ESTest#getAPILimitStatus().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/InstagramObject_ESTest.java:[35,43] no suitable method found for thenReturn(java.lang.String)
+    method org.mockito.stubbing.OngoingStubbing.thenReturn(java.util.Map<java.lang.String,java.lang.String>) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to java.util.Map<java.lang.String,java.lang.String>)
+    method org.mockito.stubbing.OngoingStubbing.thenReturn(java.util.Map<java.lang.String,java.lang.String>,java.util.Map<java.lang.String,java.lang.String>...) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to java.util.Map<java.lang.String,java.lang.String>)
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/InstagramObject_ESTest.java
+[GENERATED PATH] InstagramObject_ESTest#getAPILimitStatus().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/InstagramObject_ESTest.java:[29,51] diamond operator is not supported in -source 1.6
+  (use -source 7 or higher to enable diamond operator)
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/InstagramObject_ESTest.java
+[GENERATED PATH] InstagramObject_ESTest#getAPILimitStatus().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/InstagramObject_ESTest.java:[32,9] cannot find symbol
+  symbol:   class APILimitUtils
+  location: class org.jinstagram.InstagramObject_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/InstagramObject_ESTest.java:[32,44] cannot find symbol
+  symbol:   class APILimitUtils
+  location: class org.jinstagram.InstagramObject_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/InstagramObject_ESTest.java:[38,50] cannot find symbol
+  symbol:   class Headers
+  location: class org.jinstagram.InstagramObject_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/InstagramObject_ESTest.java:[41,43] org.jinstagram.InstagramObject is abstract; cannot be instantiated
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/InstagramObject_ESTest.java:[44,40] cannot find symbol
+  symbol:   class Headers
+  location: class org.jinstagram.InstagramObject_ESTest
+[INFO] 5 errors 
+####################
+

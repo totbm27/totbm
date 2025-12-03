@@ -1,0 +1,10 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaSqlDateFormatter_ESTest.java
+[GENERATED PATH] JavaSqlDateFormatter_ESTest#cast(Object obj).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaSqlDateFormatter_ESTest.java:[32,23] cannot find symbol
+  symbol:   variable yourClass
+  location: class com.zappos.json.format.JavaSqlDateFormatter_ESTest
+[INFO] 1 error
+####################
+

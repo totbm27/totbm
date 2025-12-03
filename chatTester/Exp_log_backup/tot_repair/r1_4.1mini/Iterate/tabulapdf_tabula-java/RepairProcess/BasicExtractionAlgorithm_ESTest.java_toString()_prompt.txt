@@ -1,0 +1,41 @@
+0-->1-->0-->testRepair
+# Focal Method
+@Override
+public String toString() {
+    return "stream";
+}
+
+# Method Intention
+The toString() method is intended to provide a simple, fixed textual representation of the BasicExtractionAlgorithm class by returning the string "stream" whenever the object is converted to a string.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention`. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```
+
+########
+
+1-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+@Override
+public String toString() {
+    return "stream";
+}
+
+# Method Intention
+The toString() method is intended to provide a simple, fixed textual representation of the BasicExtractionAlgorithm class by returning the string "stream" whenever the object is converted to a string.
+
+# Test Method
+@Test
+public void testToStringReturnsStream() {
+    BasicExtractionAlgorithm algorithm = new BasicExtractionAlgorithm();
+    String result = algorithm.toString();
+       [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.junit.ComparisonFailure stream expected:<[stream]> but was:<[toString() should return 'stream']> " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+

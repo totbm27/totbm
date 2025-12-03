@@ -1,0 +1,68 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java
+[GENERATED PATH] PaginationHelper_ESTest#getMethodName().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[25,46] diamond operator is not supported in -source 1.6
+  (use -source 7 or higher to enable diamond operator)
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java
+[GENERATED PATH] PaginationHelper_ESTest#getMethodName().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[31,9] cannot find symbol
+  symbol:   class Page
+  location: class org.jinstagram.utils.PaginationHelper_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[31,25] cannot find symbol
+  symbol:   class Page
+  location: class org.jinstagram.utils.PaginationHelper_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[33,9] cannot find symbol
+  symbol:   variable Assert
+  location: class org.jinstagram.utils.PaginationHelper_ESTest
+[INFO] 3 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java
+[GENERATED PATH] PaginationHelper_ESTest#getMethodName().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[32,9] cannot find symbol
+  symbol:   class Page
+  location: class org.jinstagram.utils.PaginationHelper_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[32,25] cannot find symbol
+  symbol:   class Page
+  location: class org.jinstagram.utils.PaginationHelper_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[35,9] cannot find symbol
+  symbol:   variable Assert
+  location: class org.jinstagram.utils.PaginationHelper_ESTest
+[INFO] 3 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java
+[GENERATED PATH] PaginationHelper_ESTest#getMethodName().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[33,46] diamond operator is not supported in -source 1.6
+  (use -source 7 or higher to enable diamond operator)
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java
+[GENERATED PATH] PaginationHelper_ESTest#getMethodName().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[35,46] diamond operator is not supported in -source 1.6
+  (use -source 7 or higher to enable diamond operator)
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java
+[GENERATED PATH] PaginationHelper_ESTest#getMethodName().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/utils/PaginationHelper_ESTest.java:[37,46] diamond operator is not supported in -source 1.6
+  (use -source 7 or higher to enable diamond operator)
+[INFO] 1 error
+####################
+

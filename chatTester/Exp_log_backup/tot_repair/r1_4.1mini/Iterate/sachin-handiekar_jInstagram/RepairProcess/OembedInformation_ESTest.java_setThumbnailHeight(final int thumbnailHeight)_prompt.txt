@@ -1,0 +1,52 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class OembedInformation {
+@SerializedName("thumbnail_height")
+private int thumbnailHeight;
+# Focal method
+public void setThumbnailHeight(final int thumbnailHeight) {
+    this.thumbnailHeight = thumbnailHeight;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testSetThumbnailHeight() {
+    OembedInformation oembedInformation = new OembedInformation();
+    int expectedHeight = 150;
+    oembedInformation.setThumbnailHeight(expectedHeight);
+    try {
+        java.lang.reflect.Field field = OembedInformation.class.getDeclaredField("thumbnailHeight");
+        field.setAccessible(true);
+        int actualHeight = field.getInt(oembedInformation);
+        assertEquals(expectedHeight, actualHeight);
+
+        <Buggy Line>: multi-catch statement is not supported in -source 1.6
+    } catch (NoSuchFieldException | IllegalAccessException e) {
+
+        throw new RuntimeException(e);
+    }
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

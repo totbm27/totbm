@@ -1,0 +1,60 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testGetErrorType() {
+    InstagramException ex1 = new InstagramException("Error message");
+    assert ex1.getErrorType() == null;
+
+        <Buggy Line>: reference to InstagramException is ambiguous
+    InstagramException ex2 = new InstagramException("Error message", null);
+
+    assert ex2.getErrorType() == null;
+    String expectedErrorType = "OAuthException";
+    InstagramException ex3 = new InstagramException(expectedErrorType, "Error message", null);
+    assert expectedErrorType.equals(ex3.getErrorType());
+    InstagramException ex4 = new InstagramException("Error message", new Exception());
+    assert ex4.getErrorType() == null;
+    InstagramException ex5 = new InstagramException("Error message", new Exception(), null);
+    assert ex5.getErrorType() == null;
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testGetErrorType() {
+        InstagramException ex1 = new InstagramException("Error message");
+        assert ex1.getErrorType() == null;
+
+             <Buggy Line>: no suitable constructor found for InstagramException(java.lang.String,java.lang.Throwable)
+        InstagramException ex2 = new InstagramException("Error message", (Throwable) null);
+
+        assert ex2.getErrorType() == null;
+        String expectedErrorType = "OAuthException";
+        InstagramException ex3 = new InstagramException(expectedErrorType, "Error message", null);
+        assert expectedErrorType.equals(ex3.getErrorType());
+        InstagramException ex4 = new InstagramException("Error message", new Exception());
+        assert ex4.getErrorType() == null;
+        InstagramException ex5 = new InstagramException("Error message", new Exception(), null);
+        assert ex5.getErrorType() == null;
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

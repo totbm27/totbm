@@ -1,0 +1,91 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class Request {
+private String payload = null;
+public Request(Verbs verb, String url) {
+    this.verb = verb;
+    this.url = url;
+    this.querystringParams = new HashMap<String, String>();
+    this.bodyParams = new HashMap<String, String>();
+    this.headers = new HashMap<String, String>();
+}
+# Focal method
+public void addPayload(String payload) {
+    this.payload = payload;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testAddPayload() {
+    Verbs verb = Verbs.GET; 
+    String url = "http://example.com";
+    Request request = new Request(verb, url);
+    String payload = "{\"key\": \"value\"}";
+    request.addPayload(payload);
+    try {
+        java.lang.reflect.Field payloadField = Request.class.getDeclaredField("payload");
+        payloadField.setAccessible(true);
+        String actualPayload = (String) payloadField.get(request);
+        assertEquals(payload, actualPayload, "Payload should be set correctly");
+
+        <Buggy Line>: multi-catch statement is not supported in -source 1.6
+    } catch (NoSuchFieldException | IllegalAccessException e) {
+
+        throw new RuntimeException("Failed to access payload field via reflection", e);
+    }
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->0-->testRepair
+# Focal method (Cannot be modified)
+public void addPayload(String payload) {
+    this.payload = payload;
+}
+
+# Method Intention
+The addPayload(String payload) method is intended to assign or update the content of the request's payload by storing the provided string data into the object's payload field, thereby setting the body content that will be sent with the request.
+
+# Test Method
+    @Test
+    public void testAddPayload() {
+        Verbs verb = Verbs.GET;
+        String url = "http://example.com";
+        Request request = new Request(verb, url);
+        String payload = "{\"key\": \"value\"}";
+        request.addPayload(payload);
+        try {
+            java.lang.reflect.Field payloadField = Request.class.getDeclaredField("payload");
+            payloadField.setAccessible(true);
+            String actualPayload = (String) payloadField.get(request);
+                [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.junit.ComparisonFailure {"key": "value"} expected:<[{"key": "value"}]> but was:<[Payload should be set correctly]> " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+

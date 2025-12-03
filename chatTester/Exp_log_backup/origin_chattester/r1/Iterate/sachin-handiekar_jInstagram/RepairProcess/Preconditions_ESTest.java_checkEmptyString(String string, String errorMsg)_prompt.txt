@@ -1,0 +1,45 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class Preconditions {
+# Focal method
+public static void checkEmptyString(String string, String errorMsg) {
+    check(StringUtils.isNotBlank(string), errorMsg);
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+public static void checkEmptyString(String string, String errorMsg) {
+    check(StringUtils.isNotBlank(string), errorMsg);
+}
+
+# Method Intention
+The checkEmptyString method is intended to validate that a given string is not empty or null, and if it is, throw an exception with the specified error message.
+
+# Test Method
+    @Test
+    public void testCheckEmptyString() {
+        String nonEmptyString = "Hello";
+        Preconditions.checkEmptyString(nonEmptyString, "Error message for non-empty string");
+        String emptyString = "";
+           [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException Error message for empty string " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+

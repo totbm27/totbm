@@ -1,0 +1,48 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testFormat_withPatternAndWithoutPattern() {
+    class TestJavaDateFormatter extends JavaDateFormatter {
+        private String pattern;
+        private String toJsonValueResult;
+
+          <Buggy Line>: setPattern(java.lang.String) in TestJavaDateFormatter cannot implement setPattern(java.lang.String) in com.zappos.json.format.ValueFormatter
+        public void setPattern(String pattern) {
+
+            this.pattern = pattern;
+        }
+        public void setToJsonValueResult(String toJsonValueResult) {
+            this.toJsonValueResult = toJsonValueResult;
+        }
+        @Override
+        protected String getPattern() {
+            return pattern;
+        }
+        @Override
+        protected String toJsonValue(ZapposJson zapposJson, String formattedDate) {
+            return toJsonValueResult != null ? toJsonValueResult : formattedDate;
+        }
+    }
+    ZapposJson dummyJson = new ZapposJson(); 
+    Date date = new Date(1672531200000L); 
+    TestJavaDateFormatter formatter = new TestJavaDateFormatter();
+    formatter.setPattern("yyyy-MM-dd");
+    String expectedFormatted = "2023-01-01";
+    formatter.setToJsonValueResult("\"" + expectedFormatted + "\""); 
+    String resultWithPattern = formatter.format(dummyJson, date);
+    org.junit.Assert.assertEquals("\"2023-01-01\"", resultWithPattern);
+    formatter.setPattern(null);
+    String resultWithoutPattern = formatter.format(dummyJson, date);
+    org.junit.Assert.assertEquals(String.valueOf(date.getTime()), resultWithoutPattern);
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

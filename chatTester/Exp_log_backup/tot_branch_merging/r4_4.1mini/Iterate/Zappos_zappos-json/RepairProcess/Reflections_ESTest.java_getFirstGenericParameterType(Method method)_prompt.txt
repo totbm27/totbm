@@ -1,0 +1,210 @@
+0-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+public static Class<?> getFirstGenericParameterType(Method method) {
+    Class<?>[] types = getGenericParameterTypes(method);
+    if (types != null && types.length > 0) {
+        return types[0];
+    }
+    return null;
+}
+
+# Method Intention
+The getFirstGenericParameterType(Method method) method aims to retrieve and return the Class object representing the first generic parameter type of the given method, or null if the method has no generic parameters.
+
+# Test Method
+@Test
+public void testGetFirstGenericParameterType() throws NoSuchMethodException {
+    class TestClass {
+        public void methodWithGenerics(java.util.List<String> list, Integer i) {}
+        public void methodWithoutGenerics(String s) {}
+        public void methodNoParams() {}
+    }
+    Method methodWithGenerics = TestClass.class.getMethod("methodWithGenerics", java.util.List.class, Integer.class);
+    Method methodWithoutGenerics = TestClass.class.getMethod("methodWithoutGenerics", String.class);
+    Method methodNoParams = TestClass.class.getMethod("methodNoParams");
+    Class<?> firstGenericType = Reflections.getFirstGenericParameterType(methodWithGenerics);
+     [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.AssertionError " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+public static Class<?> getFirstGenericParameterType(Method method) {
+    Class<?>[] types = getGenericParameterTypes(method);
+    if (types != null && types.length > 0) {
+        return types[0];
+    }
+    return null;
+}
+
+# Method Intention
+The getFirstGenericParameterType(Method method) method aims to retrieve and return the Class object representing the first generic parameter type of the given method, or null if the method has no generic parameters.
+
+# Test Method
+    @Test
+    public void testGetFirstGenericParameterType() throws NoSuchMethodException {
+        class TestClass {
+            public void methodWithGenerics(java.util.List<String> list, Integer i) {}
+            public void methodWithoutGenerics(String s) {}
+            public void methodNoParams() {}
+        }
+        Method methodWithGenerics = TestClass.class.getMethod("methodWithGenerics", java.util.List.class, Integer.class);
+        Method methodWithoutGenerics = TestClass.class.getMethod("methodWithoutGenerics", String.class);
+        Method methodNoParams = TestClass.class.getMethod("methodNoParams");
+        Class<?> firstGenericType = Reflections.getFirstGenericParameterType(methodWithGenerics);
+       [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.AssertionError " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->0-->testRepair
+# Focal method (Cannot be modified)
+public static Class<?> getFirstGenericParameterType(Method method) {
+    Class<?>[] types = getGenericParameterTypes(method);
+    if (types != null && types.length > 0) {
+        return types[0];
+    }
+    return null;
+}
+
+# Method Intention
+The getFirstGenericParameterType(Method method) method aims to retrieve and return the Class object representing the first generic parameter type of the given method, or null if the method has no generic parameters.
+
+# Test Method
+    @Test
+    public void testGetFirstGenericParameterType() throws NoSuchMethodException {
+        class TestClass {
+            public void methodWithGenerics(List<String> list, Integer i) {}
+            public void methodWithoutGenerics(String s) {}
+            public void methodNoParams() {}
+        }
+        Method methodWithGenerics = TestClass.class.getMethod("methodWithGenerics", List.class, Integer.class);
+        Method methodWithoutGenerics = TestClass.class.getMethod("methodWithoutGenerics", String.class);
+        Method methodNoParams = TestClass.class.getMethod("methodNoParams");
+        Class<?> firstGenericType = Reflections.getFirstGenericParameterType(methodWithGenerics);
+       [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.AssertionError " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+3-->3-->0-->testRepair
+# Focal method (Cannot be modified)
+public static Class<?> getFirstGenericParameterType(Method method) {
+    Class<?>[] types = getGenericParameterTypes(method);
+    if (types != null && types.length > 0) {
+        return types[0];
+    }
+    return null;
+}
+
+# Method Intention
+The getFirstGenericParameterType(Method method) method aims to retrieve and return the Class object representing the first generic parameter type of the given method, or null if the method has no generic parameters.
+
+# Test Method
+    @Test
+    public void testGetFirstGenericParameterType() throws NoSuchMethodException {
+        class TestClass {
+            public void methodWithGenerics(List<String> list, Integer i) {}
+            public void methodWithoutGenerics(String s) {}
+            public void methodNoParams() {}
+        }
+        Method methodWithGenerics = TestClass.class.getMethod("methodWithGenerics", List.class, Integer.class);
+        Method methodWithoutGenerics = TestClass.class.getMethod("methodWithoutGenerics", String.class);
+        Method methodNoParams = TestClass.class.getMethod("methodNoParams");
+        Class<?> firstGenericType = Reflections.getFirstGenericParameterType(methodWithGenerics);
+       [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.AssertionError " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+4-->5-->0-->testRepair
+# Focal method (Cannot be modified)
+public static Class<?> getFirstGenericParameterType(Method method) {
+    Class<?>[] types = getGenericParameterTypes(method);
+    if (types != null && types.length > 0) {
+        return types[0];
+    }
+    return null;
+}
+
+# Method Intention
+The getFirstGenericParameterType(Method method) method aims to retrieve and return the Class object representing the first generic parameter type of the given method, or null if the method has no generic parameters.
+
+# Test Method
+    @Test
+    public void testGetFirstGenericParameterType() throws NoSuchMethodException {
+        class TestClass {
+            public void methodWithGenerics(List<String> list, Integer i) {}
+            public void methodWithoutGenerics(String s) {}
+            public void methodNoParams() {}
+        }
+        Method methodWithGenerics = TestClass.class.getMethod("methodWithGenerics", List.class, Integer.class);
+        Method methodWithoutGenerics = TestClass.class.getMethod("methodWithoutGenerics", String.class);
+        Method methodNoParams = TestClass.class.getMethod("methodNoParams");
+        Class<?> firstGenericType = Reflections.getFirstGenericParameterType(methodWithGenerics);
+       [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.AssertionError " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+5-->5-->0-->testRepair
+# Focal method (Cannot be modified)
+public static Class<?> getFirstGenericParameterType(Method method) {
+    Class<?>[] types = getGenericParameterTypes(method);
+    if (types != null && types.length > 0) {
+        return types[0];
+    }
+    return null;
+}
+
+# Method Intention
+The getFirstGenericParameterType(Method method) method aims to retrieve and return the Class object representing the first generic parameter type of the given method, or null if the method has no generic parameters.
+
+# Test Method
+    @Test
+    public void testGetFirstGenericParameterType() throws NoSuchMethodException {
+        class TestClass {
+            public void methodWithGenerics(List<String> list, Integer i) {}
+            public void methodWithoutGenerics(String s) {}
+            public void methodNoParams() {}
+        }
+        Method methodWithGenerics = TestClass.class.getMethod("methodWithGenerics", List.class, Integer.class);
+        Method methodWithoutGenerics = TestClass.class.getMethod("methodWithoutGenerics", String.class);
+        Method methodNoParams = TestClass.class.getMethod("methodNoParams");
+        Class<?> firstGenericType = Reflections.getFirstGenericParameterType(methodWithGenerics);
+       [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.AssertionError " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+

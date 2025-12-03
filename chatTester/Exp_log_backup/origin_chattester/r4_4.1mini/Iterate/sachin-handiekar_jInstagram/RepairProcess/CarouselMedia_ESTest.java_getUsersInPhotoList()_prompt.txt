@@ -1,0 +1,30 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testGetUsersInPhotoList() {
+    CarouselMedia carouselMedia = new CarouselMedia();
+
+      <Buggy Line>: diamond operator is not supported in -source 1.6
+    List<UsersInPhoto> expectedList = new LinkedList<>();
+
+    UsersInPhoto user1 = new UsersInPhoto();
+    UsersInPhoto user2 = new UsersInPhoto();
+    expectedList.add(user1);
+    expectedList.add(user2);
+    carouselMedia.setUsersInPhotoList(expectedList);
+    List<UsersInPhoto> actualList = carouselMedia.getUsersInPhotoList();
+    org.junit.Assert.assertNotNull("The returned list should not be null", actualList);
+    org.junit.Assert.assertEquals("The returned list size should match the expected size", expectedList.size(), actualList.size());
+    org.junit.Assert.assertSame("The returned list should be the same instance as the one set", expectedList, actualList);
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

@@ -1,0 +1,70 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class SubscriptionResponseData {
+@SerializedName("type")
+private String type;@SerializedName("id")
+private String id;
+# Focal method
+public void setType(String type) {
+    this.type = type;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# SubscriptionResponseData class
+package org.jinstagram.realtime;
+public class SubscriptionResponseData {
+public String getObject();
+public void setObject(String object);
+public String getObjectId();
+public void setObjectId(String objectId);
+public String getAspect();
+public void setAspect(String aspect);
+public String getCallbackUrl();
+public void setCallbackUrl(String callbackUrl);
+public String getType();
+public void setType(String type);
+public String getId();
+public void setId(String id);
+}
+
+
+# Test Method
+    @Test
+    public void testSetType() {
+        SubscriptionResponseData data = new SubscriptionResponseData();
+        String typeValue = "premium";
+        data.setType(typeValue);
+
+       <Buggy Line>: cannot find symbol method "getTypeFieldValue(org.jinstagram.realtime.SubscriptionResponseData)" in SubscriptionResponseData_ESTest
+        assertEquals(typeValue, getTypeFieldValue(data));
+
+        typeValue = "";
+        data.setType(typeValue);
+        assertEquals(typeValue, getTypeFieldValue(data));
+        typeValue = null;
+        data.setType(typeValue);
+        assertNull(getTypeFieldValue(data));
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "SubscriptionResponseData" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "SubscriptionResponseData" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

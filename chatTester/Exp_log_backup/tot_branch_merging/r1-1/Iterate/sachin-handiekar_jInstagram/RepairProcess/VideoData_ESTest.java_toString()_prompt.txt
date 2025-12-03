@@ -1,0 +1,63 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class VideoData {
+@SerializedName("url")
+private String url;@SerializedName("width")
+private int width;@SerializedName("height")
+private int height;
+# Focal method
+@Override
+public String toString() {
+    return String.format("VideoData [videoWidth=%d, videoHeight=%d, videoUrl=%s]", width, height, url);
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# VideoData class
+package org.jinstagram.entity.common;
+public class VideoData {
+public String getUrl();
+public void setUrl(String url);
+public int getWidth();
+public void setWidth(int width);
+public int getHeight();
+public void setHeight(int height);
+public String toString();
+}
+
+
+# Test Method
+@Test
+public void testToStringMethod() {
+    VideoData videoData = new VideoData();
+
+    <Buggy Line>: url has private access in org.jinstagram.entity.common.VideoData
+    videoData.url = "https://example.com/video";
+
+    videoData.width = 1920;
+    videoData.height = 1080;
+    String result = videoData.toString();
+    assertEquals("VideoData [videoWidth=1920, videoHeight=1080, videoUrl=https://example.com/video]", result);
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "VideoData" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "VideoData" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

@@ -1,0 +1,61 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class MediaFeedData {
+@SerializedName("caption")
+private Caption caption;
+# Focal method
+public Caption getCaption() {
+    return caption;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# Caption class
+package org.jinstagram.entity.common;
+public class Caption {
+public String getCreatedTime();
+public void setCreatedTime(String createdTime);
+public String getText();
+public void setText(String text);
+public FromTagData getFrom();
+public void setFrom(FromTagData from);
+public String getId();
+public void setId(String id);
+public String toString();
+}
+
+
+# Test Method
+@Test
+public void testGetCaption() {
+
+       <Buggy Line>: constructor Caption in class org.jinstagram.entity.common.Caption cannot be applied to given types;
+    Caption expectedCaption = new Caption("Test Caption");
+
+    MediaFeedData mediaFeedData = new MediaFeedData();
+    mediaFeedData.setCaption(expectedCaption);
+    Caption actualCaption = mediaFeedData.getCaption();
+    assertEquals(expectedCaption, actualCaption);
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "Caption" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "Caption" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

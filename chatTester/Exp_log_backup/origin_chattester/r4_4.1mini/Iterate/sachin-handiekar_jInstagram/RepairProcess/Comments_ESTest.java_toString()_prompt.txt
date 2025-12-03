@@ -1,0 +1,32 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testToString() {
+    Comments commentsObj = new Comments();
+
+      <Buggy Line>: diamond operator is not supported in -source 1.6
+    List<CommentData> commentList = new ArrayList<>();
+
+    CommentData comment1 = new CommentData();
+    comment1.setText("First comment");
+    CommentData comment2 = new CommentData();
+    comment2.setText("Second comment");
+    commentList.add(comment1);
+    commentList.add(comment2);
+    commentsObj.setComments(commentList);
+    commentsObj.setCount(commentList.size());
+    String expected = String.format("Comments [comments=%s, count=%s]", commentList, commentList.size());
+    String actual = commentsObj.toString();
+    org.junit.Assert.assertEquals(expected, actual);
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

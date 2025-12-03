@@ -1,0 +1,115 @@
+0-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+public static List<Line> groupByLines(List<TextChunk> textChunks) {
+    List<Line> lines = new ArrayList<>();
+    if (textChunks.size() == 0) {
+        return lines;
+    }
+    float bbwidth = Rectangle.boundingBoxOf(textChunks).width;
+    Line l = new Line();
+    l.addTextChunk(textChunks.get(0));
+    textChunks.remove(0);
+    lines.add(l);
+    Line last = lines.get(lines.size() - 1);
+    for (TextChunk te : textChunks) {
+        if (last.verticalOverlapRatio(te) < 0.1) {
+            if (last.width / bbwidth > 0.9 && TextChunk.allSameChar(last.getTextElements())) {
+                lines.remove(lines.size() - 1);
+            }
+            lines.add(new Line());
+            last = lines.get(lines.size() - 1);
+        }
+        last.addTextChunk(te);
+    }
+    if (last.width / bbwidth > 0.9 && TextChunk.allSameChar(last.getTextElements())) {
+        lines.remove(lines.size() - 1);
+    }
+    List<Line> rv = new ArrayList<>(lines.size());
+    for (Line line : lines) {
+        rv.add(Line.removeRepeatedCharacters(line, ' ', 3));
+    }
+    return rv;
+}
+
+# Method Intention
+The groupByLines method aims to organize a list of TextChunks into lines based on their vertical overlap ratio and character consistency, while also removing lines with a width that exceeds 90% of the bounding box width and containing text elements with the same characters.
+
+# Test Method
+@Test
+public void testGroupByLines() {
+    List<TextChunk> textChunks = new ArrayList<>();
+    TextChunk chunk1 = new TextChunk(10, 20, 30, 40);
+    TextChunk chunk2 = new TextChunk(15, 25, 35, 45);
+    TextChunk chunk3 = new TextChunk(100, 200, 300, 400);
+    textChunks.add(chunk1);
+    textChunks.add(chunk2);
+    textChunks.add(chunk3);
+    List<Line> result = TextChunk.groupByLines(textChunks);
+    assertNotNull(result);
+    assertEquals(2, result.size()); 
+    Line line1 = result.get(0);
+    Line line2 = result.get(1);
+          [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.Error Unresolved compilation problems: 
+ The method getTextChunks() is undefined for the type Line
+ The method getTextChunks() is undefined for the type Line
+ The method getTextChunks() is undefined for the type Line
+ The method getTextChunks() is undefined for the type Line
+ The method getTextChunks() is undefined for the type Line
+ " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->1-->0-->testRepair
+
+# Line class
+package technology.tabula;
+public class Line {
+public static final Character[] WHITE_SPACE_CHARS = { ' ', '\t', '\r', '\n', '\f' };
+public List<TextChunk> getTextElements();
+public void setTextElements(List<TextChunk> textChunks);
+public void addTextChunk(int i, TextChunk textChunk);
+public void addTextChunk(TextChunk textChunk);
+public String toString();
+}
+
+
+# Test Method
+@Test
+public void testGroupByLines() {
+    List<TextChunk> textChunks = new ArrayList<>();
+    TextChunk chunk1 = new TextChunk(10, 20, 30, 40);
+    TextChunk chunk2 = new TextChunk(15, 25, 35, 45);
+    TextChunk chunk3 = new TextChunk(100, 200, 300, 400);
+    textChunks.add(chunk1);
+    textChunks.add(chunk2);
+    textChunks.add(chunk3);
+    List<Line> result = TextChunk.groupByLines(textChunks);
+    assertNotNull(result);
+    assertEquals(2, result.size()); 
+    Line line1 = result.get(0);
+    Line line2 = result.get(1);
+    assertEquals(2, line1.getTextChunks().size()); 
+    assertTrue(line1.getTextChunks().contains(chunk1));
+    assertTrue(line1.getTextChunks().contains(chunk2));
+
+<Buggy Line>: cannot find symbol method "getTextChunks()" in Line
+    assertEquals(1, line2.getTextChunks().size()); 
+
+    assertTrue(line2.getTextChunks().contains(chunk3));
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "Line" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "Line" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

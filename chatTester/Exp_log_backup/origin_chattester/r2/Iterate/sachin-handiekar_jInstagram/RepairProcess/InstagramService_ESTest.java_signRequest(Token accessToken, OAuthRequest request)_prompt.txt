@@ -1,0 +1,120 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class InstagramService {
+public InstagramService(InstagramApi api, OAuthConfig config) {
+    this.api = api;
+    this.config = config;
+}
+# Focal method
+public void signRequest(Token accessToken, OAuthRequest request) {
+    request.addQuerystringParameter(OAuthConstants.ACCESS_TOKEN, accessToken.getToken());
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Focal Method
+public class InstagramService {
+public InstagramService(InstagramApi api, OAuthConfig config) {
+    this.api = api;
+    this.config = config;
+}
+# Focal method
+public void signRequest(Token accessToken, OAuthRequest request) {
+    request.addQuerystringParameter(OAuthConstants.ACCESS_TOKEN, accessToken.getToken());
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->1-->compileRepair
+
+
+# Focal Method
+public class InstagramService {
+public InstagramService(InstagramApi api, OAuthConfig config) {
+    this.api = api;
+    this.config = config;
+}
+# Focal method
+public void signRequest(Token accessToken, OAuthRequest request) {
+    request.addQuerystringParameter(OAuthConstants.ACCESS_TOKEN, accessToken.getToken());
+}
+}
+
+# Method Intention
+The signRequest method in the InstagramService class is intended to add the access token to the OAuth request in order to authenticate and authorize the user for accessing Instagram API resources.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+3-->4-->2-->compileRepair
+
+
+# Focal Method
+public class InstagramService {
+public InstagramService(InstagramApi api, OAuthConfig config) {
+    this.api = api;
+    this.config = config;
+}
+# Focal method
+public void signRequest(Token accessToken, OAuthRequest request) {
+    request.addQuerystringParameter(OAuthConstants.ACCESS_TOKEN, accessToken.getToken());
+}
+}
+
+# Method Intention
+The signRequest method in the InstagramService class is intended to add the access token to the OAuth request in order to authenticate and authorize the user for accessing Instagram API resources.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+4-->5-->3-->compileRepair
+
+
+# Focal Method
+public class InstagramService {
+public InstagramService(InstagramApi api, OAuthConfig config) {
+    this.api = api;
+    this.config = config;
+}
+# Focal method
+public void signRequest(Token accessToken, OAuthRequest request) {
+    request.addQuerystringParameter(OAuthConstants.ACCESS_TOKEN, accessToken.getToken());
+}
+}
+
+# Method Intention
+The signRequest method in the InstagramService class is intended to add the access token to the OAuth request in order to authenticate and authorize the user for accessing Instagram API resources.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+

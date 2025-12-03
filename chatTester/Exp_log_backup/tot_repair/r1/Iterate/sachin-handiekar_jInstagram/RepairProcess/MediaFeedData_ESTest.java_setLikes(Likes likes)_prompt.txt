@@ -1,0 +1,88 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class MediaFeedData {
+@SerializedName("id")
+private String id;@SerializedName("likes")
+private Likes likes;
+# Focal method
+public void setLikes(Likes likes) {
+    this.likes = likes;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# MediaFeedData class
+package org.jinstagram.entity.users.feed;
+public class MediaFeedData {
+public static final String TYPE_IMAGE = "image";
+public static final String TYPE_VIDEO = "video";
+public static final String TYPE_CAROUSEL = "carousel";
+public Location getLocation();
+public void setLocation(Location location);
+public Comments getComments();
+public void setComments(Comments comments);
+public Caption getCaption();
+public void setCaption(Caption caption);
+public String getLink();
+public void setLink(String link);
+public Likes getLikes();
+public void setLikes(Likes likes);
+public String getCreatedTime();
+public void setCreatedTime(String createdTime);
+public Images getImages();
+public void setImages(Images images);
+public String getImageFilter();
+public void setImageFilter(String imageFilter);
+public String getId();
+public void setId(String id);
+public User getUser();
+public void setUser(User user);
+public boolean isUserHasLiked();
+public void setUserHasLiked(boolean userHasLiked);
+public List<String> getTags();
+public void setTags(List<String> tags);
+public String getType();
+public void setType(String type);
+public Videos getVideos();
+public void setVideos(Videos videos);
+public List<UsersInPhoto> getUsersInPhotoList();
+public void setUsersInPhotoList(List<UsersInPhoto> usersInPhotoList);
+public List<CarouselMedia> getCarouselMedia();
+public void setCarouselMedia(List<CarouselMedia> carouselMedia);
+public String toString();
+}
+
+
+# Test Method
+@Test
+public void testSetLikes() {
+    MediaFeedData mediaFeedData = new MediaFeedData();
+    Likes expectedLikes = new Likes();
+    mediaFeedData.setLikes(expectedLikes);
+
+   <Buggy Line>: likes has private access in org.jinstagram.entity.users.feed.MediaFeedData
+    assertEquals(expectedLikes, mediaFeedData.likes);
+
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "MediaFeedData" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "MediaFeedData" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

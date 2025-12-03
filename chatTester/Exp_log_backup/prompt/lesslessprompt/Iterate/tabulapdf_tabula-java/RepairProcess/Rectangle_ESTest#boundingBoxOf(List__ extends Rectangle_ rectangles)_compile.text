@@ -1,0 +1,23 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Rectangle_ESTest.java
+[GENERATED PATH] Rectangle_ESTest#boundingBoxOf(List<? extends Rectangle> rectangles).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Rectangle_ESTest.java:[24,1] a type with the same simple name is already defined by the single-type-import of java.awt.Rectangle
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Rectangle_ESTest.java:[45,38] cannot find symbol
+  symbol:   method boundingBoxOf(java.util.List<java.awt.Rectangle>)
+  location: class java.awt.Rectangle
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Rectangle_ESTest.java:[48,5] cannot find symbol
+  symbol:   variable Assert
+  location: class technology.tabula.Rectangle_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Rectangle_ESTest.java:[49,5] cannot find symbol
+  symbol:   variable Assert
+  location: class technology.tabula.Rectangle_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Rectangle_ESTest.java:[50,5] cannot find symbol
+  symbol:   variable Assert
+  location: class technology.tabula.Rectangle_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Rectangle_ESTest.java:[51,5] cannot find symbol
+  symbol:   variable Assert
+  location: class technology.tabula.Rectangle_ESTest
+[INFO] 6 errors 
+####################
+

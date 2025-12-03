@@ -1,0 +1,21 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/exceptions/InstagramException_ESTest.java
+[GENERATED PATH] InstagramException_ESTest#getErrorType().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/exceptions/InstagramException_ESTest.java:[27,30] reference to InstagramException is ambiguous
+  both constructor InstagramException(java.lang.String,java.util.Map<java.lang.String,java.lang.String>) in org.jinstagram.exceptions.InstagramException and constructor InstagramException(java.lang.String,java.lang.Exception) in org.jinstagram.exceptions.InstagramException match
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/exceptions/InstagramException_ESTest.java
+[GENERATED PATH] InstagramException_ESTest#getErrorType().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/exceptions/InstagramException_ESTest.java:[28,34] no suitable constructor found for InstagramException(java.lang.String,java.lang.Throwable)
+    constructor org.jinstagram.exceptions.InstagramException.InstagramException(java.lang.String,java.util.Map<java.lang.String,java.lang.String>) is not applicable
+      (argument mismatch; java.lang.Throwable cannot be converted to java.util.Map<java.lang.String,java.lang.String>)
+    constructor org.jinstagram.exceptions.InstagramException.InstagramException(java.lang.String,java.lang.Exception) is not applicable
+      (argument mismatch; java.lang.Throwable cannot be converted to java.lang.Exception)
+[INFO] 1 error
+####################
+

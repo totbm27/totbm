@@ -1,0 +1,124 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class MediaCommentResponse {
+@SerializedName("data")
+private CommentData commentData;
+# Focal method
+public void setCommentData(CommentData commentData) {
+    this.commentData = commentData;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be compatible with Java compiler version 1.6, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# MediaCommentResponse class
+package org.jinstagram.entity.comments;
+public class MediaCommentResponse {
+public CommentData getCommentData();
+public void setCommentData(CommentData commentData);
+public Meta getMeta();
+public void setMeta(Meta meta);
+public String toString();
+}
+
+
+# Test Method
+@Test
+public void testSetCommentData() {
+    MediaCommentResponse mediaCommentResponse = new MediaCommentResponse();
+    CommentData commentData = new CommentData();
+    mediaCommentResponse.setCommentData(commentData);
+
+   <Buggy Line>: cannot find symbol variable "Assert"
+    Assert.assertEquals(commentData, mediaCommentResponse.getCommentData());
+
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "MediaCommentResponse" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "MediaCommentResponse" class  cannot be modified, and the generated code should be compatible with Java compiler version 1.6.
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->1-->compileRepair
+
+# MediaCommentResponse class
+package org.jinstagram.entity.comments;
+public class MediaCommentResponse {
+public CommentData getCommentData();
+public void setCommentData(CommentData commentData);
+public Meta getMeta();
+public void setMeta(Meta meta);
+public String toString();
+}
+
+
+# Test Method
+@Test
+public void testSetCommentData() {
+    MediaCommentResponse mediaCommentResponse = new MediaCommentResponse();
+    CommentData commentData = new CommentData();
+    mediaCommentResponse.setCommentData(commentData);
+
+   <Buggy Line>: cannot find symbol variable "Assert"
+    Assert.assertEquals(commentData, mediaCommentResponse.getCommentData());
+
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "MediaCommentResponse" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "MediaCommentResponse" class  cannot be modified, and the generated code should be compatible with Java compiler version 1.6.
+The generated code should be enclosed within ``` ```.
+
+########
+
+3-->4-->2-->compileRepair
+
+# MediaCommentResponse class
+package org.jinstagram.entity.comments;
+public class MediaCommentResponse {
+public CommentData getCommentData();
+public void setCommentData(CommentData commentData);
+public Meta getMeta();
+public void setMeta(Meta meta);
+public String toString();
+}
+
+
+# Test Method
+    @Test
+    public void testSetCommentData() {
+        MediaCommentResponse mediaCommentResponse = new MediaCommentResponse();
+        CommentData commentData = new CommentData();
+        mediaCommentResponse.setCommentData(commentData);
+
+       <Buggy Line>: cannot find symbol variable "Assert"
+        Assert.assertEquals(commentData, mediaCommentResponse.getCommentData());
+
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "MediaCommentResponse" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "MediaCommentResponse" class  cannot be modified, and the generated code should be compatible with Java compiler version 1.6.
+The generated code should be enclosed within ``` ```.
+
+########
+

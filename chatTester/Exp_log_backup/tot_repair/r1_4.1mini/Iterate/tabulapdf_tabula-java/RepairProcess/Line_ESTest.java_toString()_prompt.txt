@@ -1,0 +1,35 @@
+0-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+@Override
+public String toString() {
+    StringBuilder sb = new StringBuilder();
+    String s = super.toString();
+    sb.append(s, 0, s.length() - 1);
+    sb.append(",chunks=");
+    for (TextChunk te : this.textChunks) {
+        sb.append("'" + te.getText() + "', ");
+    }
+    sb.append(']');
+    return sb.toString();
+}
+
+# Method Intention
+The toString() method aims to create a string representation of the Line object by extending the default superclass string (excluding its closing bracket) with a detailed listing of the text content from each TextChunk in the textChunks list, formatted as a comma-separated sequence of quoted text segments enclosed within square brackets.
+
+# Test Method
+    @Test
+    public void testToString() {
+        Line line = new Line();
+          [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.Error Unresolved compilation problems: 
+ The constructor TextChunk(String) is undefined
+ The constructor TextChunk(String) is undefined
+ " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+

@@ -1,0 +1,46 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testGetCode() {
+        String expectedCode = "sample code";
+
+            <Buggy Line>: cannot find symbol class "PathAndCode"
+        PathAndCode pathAndCode = new PathAndCode("sample path", expectedCode);
+
+        String actualCode = pathAndCode.getCode();
+        assertEquals(expectedCode, actualCode);
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testGetCode() {
+    String expectedCode = "sample code";
+
+        <Buggy Line>: cannot find symbol class "PathAndCode"
+    PathAndCode pathAndCode = new PathAndCode("sample path", expectedCode);
+
+    String actualCode = pathAndCode.getCode();
+    assertEquals(expectedCode, actualCode);
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

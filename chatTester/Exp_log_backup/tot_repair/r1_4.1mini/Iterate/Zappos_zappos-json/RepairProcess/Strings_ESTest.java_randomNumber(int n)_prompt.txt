@@ -1,0 +1,73 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class Strings {
+private static final char[] NUMBERS = new char[10];private static final Random RANDOM = new Random();
+# Focal method
+public static String randomNumber(int n) {
+    char[] c = new char[n];
+    for (int i = 0; i < n; i++) {
+        c[i] = NUMBERS[RANDOM.nextInt(10)];
+    }
+    return new String(c);
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testRandomNumberZeroLength() {
+    int length = 0;
+    String result = Strings.randomNumber(length);
+    assertNotNull(result, "Result should not be null even if length is zero");
+
+             <Buggy Line>: no suitable method found for assertEquals(int,int,java.lang.String)
+    assertEquals(0, result.length(), "Result length should be zero when requested length is zero");
+
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "Assert" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "Assert" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->1-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testRandomNumberZeroLength() {
+        int length = 0;
+        String result = Strings.randomNumber(length);
+        assertNotNull(result, "Result should not be null even if length is zero");
+
+                 <Buggy Line>: no suitable method found for assertEquals(java.lang.Integer,java.lang.Integer,java.lang.String)
+        assertEquals(Integer.valueOf(0), Integer.valueOf(result.length()), "Result length should be zero when requested length is zero");
+
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "Assert" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "Assert" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

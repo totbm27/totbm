@@ -1,0 +1,51 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class ObjectArray {
+transient Object[] elementData;private int size;
+# Focal method
+public Object[] toArray() {
+    return Arrays.copyOf(elementData, size);
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+public Object[] toArray() {
+    return Arrays.copyOf(elementData, size);
+}
+
+# Method Intention
+The toArray() method intends to create and return a new array containing a copy of the current elements stored in the internal elementData array up to the number of valid elements indicated by size, effectively providing a snapshot of the stored objects without exposing the original internal array.
+
+# Test Method
+    @Test
+    public void testToArray() {
+        ObjectArray objArray = new ObjectArray();
+        try {
+            java.lang.reflect.Field elementDataField = ObjectArray.class.getDeclaredField("elementData");
+            elementDataField.setAccessible(true);
+            java.lang.reflect.Field sizeField = ObjectArray.class.getDeclaredField("size");
+            sizeField.setAccessible(true);
+            elementDataField.set(objArray, null);
+            sizeField.setInt(objArray, 0);
+             [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.NullPointerException None " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+

@@ -1,0 +1,24 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java
+[GENERATED PATH] JsonWriter_ESTest#writeMap(ZapposJson zapposJson, Map<?, ?> map, Writer writer).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[8,16] package org.json does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[9,16] package org.json does not exist
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[54,48] cannot find symbol
+  symbol:   class JSONException
+  location: class com.zappos.json.JsonWriter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[63,5] cannot find symbol
+  symbol:   class JSONObject
+  location: class com.zappos.json.JsonWriter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[63,34] cannot find symbol
+  symbol:   class JSONObject
+  location: class com.zappos.json.JsonWriter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[64,5] cannot find symbol
+  symbol:   class JSONObject
+  location: class com.zappos.json.JsonWriter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/JsonWriter_ESTest.java:[64,32] cannot find symbol
+  symbol:   class JSONObject
+  location: class com.zappos.json.JsonWriter_ESTest
+[INFO] 7 errors 
+####################
+

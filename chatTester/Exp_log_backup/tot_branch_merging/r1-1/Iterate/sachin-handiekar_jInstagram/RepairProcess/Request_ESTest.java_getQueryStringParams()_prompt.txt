@@ -1,0 +1,97 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class Request {
+private Map<String, String> querystringParams;private String url;
+public Request(Verbs verb, String url) {
+    this.verb = verb;
+    this.url = url;
+    this.querystringParams = new HashMap<String, String>();
+    this.bodyParams = new HashMap<String, String>();
+    this.headers = new HashMap<String, String>();
+}
+# Focal method
+public Map<String, String> getQueryStringParams() {
+    try {
+        Map<String, String> params = new HashMap<String, String>();
+        String queryString = new URL(url).getQuery();
+        params.putAll(URLUtils.queryStringToMap(queryString));
+        params.putAll(this.querystringParams);
+        return params;
+    } catch (MalformedURLException mue) {
+        throw new OAuthException("Malformed URL", mue);
+    }
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testGetQueryStringParams() {
+    Request request = new Request(Verbs.GET, "http://example.com?param1=value1&param2=value2");
+
+       <Buggy Line>: diamond operator is not supported in -source 1.6
+    Map<String, String> expectedParams = new HashMap<>();
+
+    expectedParams.put("param1", "value1");
+    expectedParams.put("param2", "value2");
+    Map<String, String> params = request.getQueryStringParams();
+    assertEquals(expectedParams, params);
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->1-->compileRepair
+
+
+# Focal Method
+public class Request {
+private Map<String, String> querystringParams;private String url;
+public Request(Verbs verb, String url) {
+    this.verb = verb;
+    this.url = url;
+    this.querystringParams = new HashMap<String, String>();
+    this.bodyParams = new HashMap<String, String>();
+    this.headers = new HashMap<String, String>();
+}
+# Focal method
+public Map<String, String> getQueryStringParams() {
+    try {
+        Map<String, String> params = new HashMap<String, String>();
+        String queryString = new URL(url).getQuery();
+        params.putAll(URLUtils.queryStringToMap(queryString));
+        params.putAll(this.querystringParams);
+        return params;
+    } catch (MalformedURLException mue) {
+        throw new OAuthException("Malformed URL", mue);
+    }
+}
+}
+
+# Method Intention
+The getQueryStringParams() method aims to extract query string parameters from the URL provided in the Request object, merge them with any additional query string parameters stored in the object, and return a combined map of all query string parameters.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+

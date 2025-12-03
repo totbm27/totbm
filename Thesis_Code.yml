@@ -1,0 +1,19 @@
+name: Thesis_Code
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python==3.12.2
+  - python-dotenv
+  - openai
+  - tiktoken
+  - bs4
+  - lxml
+  - frozenlist
+  - async-timeout
+  - aiohttp
+  - yarl
+  - backoff
+  - aiosignal
+  - attrs
+  - multidict

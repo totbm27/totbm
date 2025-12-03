@@ -1,0 +1,52 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagSearchFeed_ESTest.java
+[GENERATED PATH] TagSearchFeed_ESTest#getMeta().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/comments/MediaCommentsFeed_ESTest.java:[37,59] diamond operator is not supported in -source 1.6
+  (use -source 7 or higher to enable diamond operator)
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagSearchFeed_ESTest.java
+[GENERATED PATH] TagSearchFeed_ESTest#getMeta().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagSearchFeed_ESTest.java:[36,22] cannot find symbol
+  symbol:   method getMetaFieldValue(org.jinstagram.entity.tags.TagSearchFeed)
+  location: class org.jinstagram.entity.tags.TagSearchFeed_ESTest
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagSearchFeed_ESTest.java
+[GENERATED PATH] TagSearchFeed_ESTest#getMeta().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagSearchFeed_ESTest.java:[7,34] cannot find symbol
+  symbol:   class Meta
+  location: package org.jinstagram.entity.tags
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagSearchFeed_ESTest.java:[34,20] incompatible types: org.jinstagram.entity.common.Meta cannot be converted to java.lang.String
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagSearchFeed_ESTest.java
+[GENERATED PATH] TagSearchFeed_ESTest#getMeta().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagSearchFeed_ESTest.java:[8,34] cannot find symbol
+  symbol:   class Meta
+  location: package org.jinstagram.entity.tags
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagSearchFeed_ESTest.java:[40,16] incompatible types: org.jinstagram.entity.common.Meta cannot be converted to java.lang.String
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagSearchFeed_ESTest.java
+[GENERATED PATH] TagSearchFeed_ESTest#getMeta().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagSearchFeed_ESTest.java:[9,34] cannot find symbol
+  symbol:   class Meta
+  location: package org.jinstagram.entity.tags
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/tags/TagSearchFeed_ESTest.java:[42,16] incompatible types: org.jinstagram.entity.common.Meta cannot be converted to java.lang.String
+[INFO] 2 errors 
+####################
+

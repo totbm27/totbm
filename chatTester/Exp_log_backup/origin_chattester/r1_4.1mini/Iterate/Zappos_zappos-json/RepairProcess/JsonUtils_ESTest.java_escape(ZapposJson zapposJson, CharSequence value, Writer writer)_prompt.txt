@@ -1,0 +1,282 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class JsonUtils {
+private static final String[] REPLACEMENT_CHARS;private static final String[] HTML_SAFE_REPLACEMENT_CHARS;
+# Focal method
+public static void escape(ZapposJson zapposJson, CharSequence value, Writer writer) throws IOException {
+    String[] replacements = (zapposJson.is(WriterConfig.WRITE_HTML_SAFE)) ? HTML_SAFE_REPLACEMENT_CHARS : REPLACEMENT_CHARS;
+    int last = 0;
+    int length = value.length();
+    for (int i = 0; i < length; i++) {
+        char c = value.charAt(i);
+        String replacement;
+        if (c < 128) {
+            replacement = replacements[c];
+            if (replacement == null) {
+                continue;
+            }
+        } else if (c == '\u2028') {
+            replacement = "\\u2028";
+        } else if (c == '\u2029') {
+            replacement = "\\u2029";
+        } else {
+            continue;
+        }
+        if (last < i) {
+            writer.write(value.toString(), last, i - last);
+        }
+        writer.write(replacement);
+        last = i + 1;
+    }
+    if (last < length) {
+        writer.write(value.toString(), last, length - last);
+    }
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Focal Method
+public class JsonUtils {
+private static final String[] REPLACEMENT_CHARS;private static final String[] HTML_SAFE_REPLACEMENT_CHARS;
+# Focal method
+public static void escape(ZapposJson zapposJson, CharSequence value, Writer writer) throws IOException {
+    String[] replacements = (zapposJson.is(WriterConfig.WRITE_HTML_SAFE)) ? HTML_SAFE_REPLACEMENT_CHARS : REPLACEMENT_CHARS;
+    int last = 0;
+    int length = value.length();
+    for (int i = 0; i < length; i++) {
+        char c = value.charAt(i);
+        String replacement;
+        if (c < 128) {
+            replacement = replacements[c];
+            if (replacement == null) {
+                continue;
+            }
+        } else if (c == '\u2028') {
+            replacement = "\\u2028";
+        } else if (c == '\u2029') {
+            replacement = "\\u2029";
+        } else {
+            continue;
+        }
+        if (last < i) {
+            writer.write(value.toString(), last, i - last);
+        }
+        writer.write(replacement);
+        last = i + 1;
+    }
+    if (last < length) {
+        writer.write(value.toString(), last, length - last);
+    }
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->1-->compileRepair
+
+
+# Focal Method
+public class JsonUtils {
+private static final String[] REPLACEMENT_CHARS;private static final String[] HTML_SAFE_REPLACEMENT_CHARS;
+# Focal method
+public static void escape(ZapposJson zapposJson, CharSequence value, Writer writer) throws IOException {
+    String[] replacements = (zapposJson.is(WriterConfig.WRITE_HTML_SAFE)) ? HTML_SAFE_REPLACEMENT_CHARS : REPLACEMENT_CHARS;
+    int last = 0;
+    int length = value.length();
+    for (int i = 0; i < length; i++) {
+        char c = value.charAt(i);
+        String replacement;
+        if (c < 128) {
+            replacement = replacements[c];
+            if (replacement == null) {
+                continue;
+            }
+        } else if (c == '\u2028') {
+            replacement = "\\u2028";
+        } else if (c == '\u2029') {
+            replacement = "\\u2029";
+        } else {
+            continue;
+        }
+        if (last < i) {
+            writer.write(value.toString(), last, i - last);
+        }
+        writer.write(replacement);
+        last = i + 1;
+    }
+    if (last < length) {
+        writer.write(value.toString(), last, length - last);
+    }
+}
+}
+
+# Method Intention
+The escape method is designed to process a given character sequence by scanning each character and writing it to the provided Writer while replacing certain characters—such as control characters, HTML-sensitive characters, and specific Unicode line separators—with their corresponding escaped string representations based on the configuration of the ZapposJson instance, thereby ensuring the output is safely encoded for JSON or HTML contexts.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+3-->4-->2-->compileRepair
+
+
+# Focal Method
+public class JsonUtils {
+private static final String[] REPLACEMENT_CHARS;private static final String[] HTML_SAFE_REPLACEMENT_CHARS;
+# Focal method
+public static void escape(ZapposJson zapposJson, CharSequence value, Writer writer) throws IOException {
+    String[] replacements = (zapposJson.is(WriterConfig.WRITE_HTML_SAFE)) ? HTML_SAFE_REPLACEMENT_CHARS : REPLACEMENT_CHARS;
+    int last = 0;
+    int length = value.length();
+    for (int i = 0; i < length; i++) {
+        char c = value.charAt(i);
+        String replacement;
+        if (c < 128) {
+            replacement = replacements[c];
+            if (replacement == null) {
+                continue;
+            }
+        } else if (c == '\u2028') {
+            replacement = "\\u2028";
+        } else if (c == '\u2029') {
+            replacement = "\\u2029";
+        } else {
+            continue;
+        }
+        if (last < i) {
+            writer.write(value.toString(), last, i - last);
+        }
+        writer.write(replacement);
+        last = i + 1;
+    }
+    if (last < length) {
+        writer.write(value.toString(), last, length - last);
+    }
+}
+}
+
+# Method Intention
+The escape method is designed to process a given character sequence by scanning each character and writing it to the provided Writer while replacing certain characters—such as control characters, HTML-sensitive characters, and specific Unicode line separators—with their corresponding escaped string representations, thereby ensuring the output is safe for JSON serialization and optionally HTML-safe based on the configuration of the provided ZapposJson instance.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+4-->5-->3-->compileRepair
+
+
+# Focal Method
+public class JsonUtils {
+private static final String[] REPLACEMENT_CHARS;private static final String[] HTML_SAFE_REPLACEMENT_CHARS;
+# Focal method
+public static void escape(ZapposJson zapposJson, CharSequence value, Writer writer) throws IOException {
+    String[] replacements = (zapposJson.is(WriterConfig.WRITE_HTML_SAFE)) ? HTML_SAFE_REPLACEMENT_CHARS : REPLACEMENT_CHARS;
+    int last = 0;
+    int length = value.length();
+    for (int i = 0; i < length; i++) {
+        char c = value.charAt(i);
+        String replacement;
+        if (c < 128) {
+            replacement = replacements[c];
+            if (replacement == null) {
+                continue;
+            }
+        } else if (c == '\u2028') {
+            replacement = "\\u2028";
+        } else if (c == '\u2029') {
+            replacement = "\\u2029";
+        } else {
+            continue;
+        }
+        if (last < i) {
+            writer.write(value.toString(), last, i - last);
+        }
+        writer.write(replacement);
+        last = i + 1;
+    }
+    if (last < length) {
+        writer.write(value.toString(), last, length - last);
+    }
+}
+}
+
+# Method Intention
+The escape method is designed to process a given character sequence by scanning each character and writing it to the provided Writer while replacing certain characters—such as control characters, HTML-sensitive characters, and specific Unicode line separators—with their corresponding escaped string representations based on the configuration of the ZapposJson instance, thereby ensuring the output is safely encoded for JSON or HTML contexts.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+5-->6-->3-->compileRepair
+
+
+# Focal Method
+public class JsonUtils {
+private static final String[] REPLACEMENT_CHARS;private static final String[] HTML_SAFE_REPLACEMENT_CHARS;
+# Focal method
+public static void escape(ZapposJson zapposJson, CharSequence value, Writer writer) throws IOException {
+    String[] replacements = (zapposJson.is(WriterConfig.WRITE_HTML_SAFE)) ? HTML_SAFE_REPLACEMENT_CHARS : REPLACEMENT_CHARS;
+    int last = 0;
+    int length = value.length();
+    for (int i = 0; i < length; i++) {
+        char c = value.charAt(i);
+        String replacement;
+        if (c < 128) {
+            replacement = replacements[c];
+            if (replacement == null) {
+                continue;
+            }
+        } else if (c == '\u2028') {
+            replacement = "\\u2028";
+        } else if (c == '\u2029') {
+            replacement = "\\u2029";
+        } else {
+            continue;
+        }
+        if (last < i) {
+            writer.write(value.toString(), last, i - last);
+        }
+        writer.write(replacement);
+        last = i + 1;
+    }
+    if (last < length) {
+        writer.write(value.toString(), last, length - last);
+    }
+}
+}
+
+# Method Intention
+The escape method is designed to process a given character sequence by scanning each character and writing it to the provided Writer while replacing certain characters—based on whether HTML-safe escaping is enabled in the ZapposJson configuration—with their corresponding escape sequences to ensure the output is safely encoded for JSON contexts, particularly handling special ASCII characters and Unicode line terminators.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+

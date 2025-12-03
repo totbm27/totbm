@@ -1,0 +1,63 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class Request {
+private Map<String, String> querystringParams;
+public Request(Verbs verb, String url) {
+    this.verb = verb;
+    this.url = url;
+    this.querystringParams = new HashMap<String, String>();
+    this.bodyParams = new HashMap<String, String>();
+    this.headers = new HashMap<String, String>();
+}
+# Focal method
+public void addQuerystringParameter(String key, String value) {
+    this.querystringParams.put(key, value);
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testAddQuerystringParameter_AddsKeyValuePairSuccessfully() {
+        Verbs verb = Verbs.GET;
+        String url = "http://example.com";
+        Request request = new Request(verb, url);
+        String key = "param1";
+        String value = "value1";
+        request.addQuerystringParameter(key, value);
+        try {
+            java.lang.reflect.Field field = Request.class.getDeclaredField("querystringParams");
+            field.setAccessible(true);
+            Map<String, String> queryParams = (Map<String, String>) field.get(request);
+            assertNotNull(queryParams);
+            assertEquals(1, queryParams.size());
+            assertEquals(value, queryParams.get(key));
+
+            <Buggy Line>: multi-catch statement is not supported in -source 1.6
+        } catch (NoSuchFieldException | IllegalAccessException e) {
+
+            fail("Reflection failed to access querystringParams: " + e.getMessage());
+        }
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

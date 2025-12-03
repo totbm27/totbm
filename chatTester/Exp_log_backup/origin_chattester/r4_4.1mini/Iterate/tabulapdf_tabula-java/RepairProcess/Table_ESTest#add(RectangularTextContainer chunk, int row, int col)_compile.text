@@ -1,0 +1,150 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java
+[GENERATED PATH] Table_ESTest#add(RectangularTextContainer chunk, int row, int col).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[27,68] <anonymous technology.tabula.Table_ESTest$1> is not abstract and does not override abstract method extract(technology.tabula.Page) in technology.tabula.extractors.ExtractionAlgorithm
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[37,39] constructor RectangularTextContainer in class technology.tabula.RectangularTextContainer<T> cannot be applied to given types;
+  required: float,float,float,float
+  found: java.awt.geom.Rectangle2D
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[38,11] cannot find symbol
+  symbol:   method setText(java.lang.String)
+  location: variable chunk1 of type technology.tabula.RectangularTextContainer
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[54,39] constructor RectangularTextContainer in class technology.tabula.RectangularTextContainer<T> cannot be applied to given types;
+  required: float,float,float,float
+  found: java.awt.geom.Rectangle2D
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[55,11] cannot find symbol
+  symbol:   method setText(java.lang.String)
+  location: variable chunk2 of type technology.tabula.RectangularTextContainer
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[69,39] constructor RectangularTextContainer in class technology.tabula.RectangularTextContainer<T> cannot be applied to given types;
+  required: float,float,float,float
+  found: java.awt.geom.Rectangle2D
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[70,11] cannot find symbol
+  symbol:   method setText(java.lang.String)
+  location: variable chunk3 of type technology.tabula.RectangularTextContainer
+[INFO] 7 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java
+[GENERATED PATH] Table_ESTest#add(RectangularTextContainer chunk, int row, int col).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[42,39] constructor RectangularTextContainer in class technology.tabula.RectangularTextContainer<T> cannot be applied to given types;
+  required: float,float,float,float
+  found: java.awt.geom.Rectangle2D
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[43,11] cannot find symbol
+  symbol:   method setText(java.lang.String)
+  location: variable chunk1 of type technology.tabula.RectangularTextContainer
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[51,39] constructor RectangularTextContainer in class technology.tabula.RectangularTextContainer<T> cannot be applied to given types;
+  required: float,float,float,float
+  found: java.awt.geom.Rectangle2D
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[52,11] cannot find symbol
+  symbol:   method setText(java.lang.String)
+  location: variable chunk2 of type technology.tabula.RectangularTextContainer
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[60,39] constructor RectangularTextContainer in class technology.tabula.RectangularTextContainer<T> cannot be applied to given types;
+  required: float,float,float,float
+  found: java.awt.geom.Rectangle2D
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[61,11] cannot find symbol
+  symbol:   method setText(java.lang.String)
+  location: variable chunk3 of type technology.tabula.RectangularTextContainer
+[INFO] 6 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java
+[GENERATED PATH] Table_ESTest#add(RectangularTextContainer chunk, int row, int col).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[47,39] constructor RectangularTextContainer in class technology.tabula.RectangularTextContainer<T> cannot be applied to given types;
+  required: float,float,float,float
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[66,21] method setText(java.lang.String) is already defined in class <anonymous technology.tabula.Table_ESTest$2>
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[58,9] method does not override or implement a method from a supertype
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[69,11] cannot find symbol
+  symbol:   method setText(java.lang.String)
+  location: variable chunk1 of type technology.tabula.RectangularTextContainer
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[78,39] constructor RectangularTextContainer in class technology.tabula.RectangularTextContainer<T> cannot be applied to given types;
+  required: float,float,float,float
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[97,21] method setText(java.lang.String) is already defined in class <anonymous technology.tabula.Table_ESTest$3>
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[89,9] method does not override or implement a method from a supertype
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[100,11] cannot find symbol
+  symbol:   method setText(java.lang.String)
+  location: variable chunk2 of type technology.tabula.RectangularTextContainer
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[109,39] constructor RectangularTextContainer in class technology.tabula.RectangularTextContainer<T> cannot be applied to given types;
+  required: float,float,float,float
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[128,21] method setText(java.lang.String) is already defined in class <anonymous technology.tabula.Table_ESTest$4>
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[120,9] method does not override or implement a method from a supertype
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[131,11] cannot find symbol
+  symbol:   method setText(java.lang.String)
+  location: variable chunk3 of type technology.tabula.RectangularTextContainer
+[INFO] 12 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java
+[GENERATED PATH] Table_ESTest#add(RectangularTextContainer chunk, int row, int col).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[46,30] type argument java.lang.Object is not within bounds of type-variable T
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[46,76] type argument java.lang.Object is not within bounds of type-variable T
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[46,47] constructor RectangularTextContainer in class technology.tabula.RectangularTextContainer<T> cannot be applied to given types;
+  required: float,float,float,float
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[58,9] method does not override or implement a method from a supertype
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[63,80] type argument java.lang.Object is not within bounds of type-variable T
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[63,41] type argument java.lang.Object is not within bounds of type-variable T
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[67,11] cannot find symbol
+  symbol:   method setText(java.lang.String)
+  location: variable chunk1 of type technology.tabula.RectangularTextContainer<java.lang.Object>
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[75,30] type argument java.lang.Object is not within bounds of type-variable T
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[75,76] type argument java.lang.Object is not within bounds of type-variable T
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[75,47] constructor RectangularTextContainer in class technology.tabula.RectangularTextContainer<T> cannot be applied to given types;
+  required: float,float,float,float
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[86,9] method does not override or implement a method from a supertype
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[91,80] type argument java.lang.Object is not within bounds of type-variable T
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[91,41] type argument java.lang.Object is not within bounds of type-variable T
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[95,11] cannot find symbol
+  symbol:   method setText(java.lang.String)
+  location: variable chunk2 of type technology.tabula.RectangularTextContainer<java.lang.Object>
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[103,30] type argument java.lang.Object is not within bounds of type-variable T
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[103,76] type argument java.lang.Object is not within bounds of type-variable T
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[103,47] constructor RectangularTextContainer in class technology.tabula.RectangularTextContainer<T> cannot be applied to given types;
+  required: float,float,float,float
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[114,9] method does not override or implement a method from a supertype
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[119,80] type argument java.lang.Object is not within bounds of type-variable T
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[119,41] type argument java.lang.Object is not within bounds of type-variable T
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[123,11] cannot find symbol
+  symbol:   method setText(java.lang.String)
+  location: variable chunk3 of type technology.tabula.RectangularTextContainer<java.lang.Object>
+[INFO] 21 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java
+[GENERATED PATH] Table_ESTest#add(RectangularTextContainer chunk, int row, int col).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[36,33] incompatible types: java.lang.String cannot be converted to technology.tabula.extractors.ExtractionAlgorithm
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java
+[GENERATED PATH] Table_ESTest#add(RectangularTextContainer chunk, int row, int col).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[38,33] incompatible types: java.lang.String cannot be converted to technology.tabula.extractors.ExtractionAlgorithm
+[INFO] 1 error
+####################
+

@@ -1,0 +1,42 @@
+0-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+@Override
+public String getText(boolean useLineReturns) {
+    if (this.textElements.size() == 0) {
+        return "";
+    }
+    StringBuilder sb = new StringBuilder();
+    this.textElements.sort(Rectangle.ILL_DEFINED_ORDER);
+    double curTop = this.textElements.get(0).getTop();
+    for (TextChunk tc : this.textElements) {
+        if (useLineReturns && tc.getTop() > curTop) {
+            sb.append('\r');
+        }
+        sb.append(tc.getText());
+        curTop = tc.getTop();
+    }
+    return sb.toString().trim();
+}
+
+# Method Intention
+The getText(boolean useLineReturns) method aims to concatenate the textual content of all text elements within the cell, ordered by their vertical position, optionally inserting line breaks between text chunks that appear on different lines, and returning the resulting combined string with leading and trailing whitespace removed.
+
+# Test Method
+    @Test
+    public void testGetTextWithLineReturns() {
+        Cell cell = new Cell(0, 0, 100, 50);
+         [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.Error Unresolved compilation problems: 
+ The method addTextElement(TextChunk) is undefined for the type Cell
+ The constructor TextChunk(String, int, int) is undefined
+ The method addTextElement(TextChunk) is undefined for the type Cell
+ The constructor TextChunk(String, int, int) is undefined
+ " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+

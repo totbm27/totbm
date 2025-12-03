@@ -1,0 +1,72 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class Pagination {
+@SerializedName("next_max_id")
+private String nextMaxId;
+# Focal method
+public void setNextMaxId(String nextMaxId) {
+    this.nextMaxId = nextMaxId;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# Pagination class
+package org.jinstagram.entity.common;
+public class Pagination {
+public String getNextUrl();
+public void setNextUrl(String nextUrl);
+public String getNextMaxId();
+public void setNextMaxId(String nextMaxId);
+public String getNextMinId();
+public void setNextMinId(String nextMinId);
+public String getMinTagId();
+public void setMinTagId(String minTagId);
+public String getNextMaxTagId();
+public void setNextMaxTagId(String nextMaxTagId);
+public String getNextCursor();
+public void setNextCursor(String nextCursor);
+public String getDepreciationWarning();
+public void setDepreciationWarning(String depreciationWarning);
+public boolean hasNextPage();
+public String toString();
+}
+
+
+# Test Method
+    @Test
+    public void testSetNextMaxId() {
+        Pagination pagination = new Pagination();
+        String testId = "12345";
+        pagination.setNextMaxId(testId);
+
+       <Buggy Line>: cannot find symbol method "getNextMaxId(org.jinstagram.entity.common.Pagination)" in Pagination_ESTest
+        assertEquals(testId, getNextMaxId(pagination));
+
+        String emptyId = "";
+        pagination.setNextMaxId(emptyId);
+        assertEquals(emptyId, getNextMaxId(pagination));
+        pagination.setNextMaxId(null);
+        assertNull(getNextMaxId(pagination));
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "Pagination" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "Pagination" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

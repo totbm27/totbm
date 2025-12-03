@@ -1,0 +1,53 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java
+[GENERATED PATH] Ruling_ESTest#cropRulingsToArea(List<Ruling> rulings, Rectangle2D area).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[27,5] cannot find symbol
+  symbol:   class Rectangle2D
+  location: class technology.tabula.Ruling_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[27,39] package Rectangle2D does not exist
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java
+[GENERATED PATH] Ruling_ESTest#cropRulingsToArea(List<Ruling> rulings, Rectangle2D area).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[53,28] cannot find symbol
+  symbol:   method getDx()
+  location: variable r0 of type technology.tabula.Ruling
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[54,27] cannot find symbol
+  symbol:   method getDy()
+  location: variable r0 of type technology.tabula.Ruling
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[60,27] cannot find symbol
+  symbol:   method getDx()
+  location: variable r1 of type technology.tabula.Ruling
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[61,27] cannot find symbol
+  symbol:   method getDy()
+  location: variable r1 of type technology.tabula.Ruling
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[68,28] cannot find symbol
+  symbol:   method getDx()
+  location: variable r2 of type technology.tabula.Ruling
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[69,27] cannot find symbol
+  symbol:   method getDy()
+  location: variable r2 of type technology.tabula.Ruling
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[76,27] cannot find symbol
+  symbol:   method getDx()
+  location: variable r3 of type technology.tabula.Ruling
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[77,28] cannot find symbol
+  symbol:   method getDy()
+  location: variable r3 of type technology.tabula.Ruling
+[INFO] 8 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java
+[GENERATED PATH] Ruling_ESTest#cropRulingsToArea(List<Ruling> rulings, Rectangle2D area).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[29,9] cannot find symbol
+  symbol:   class Rectangle2D
+  location: class technology.tabula.Ruling_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[29,43] package Rectangle2D does not exist
+[INFO] 2 errors 
+####################
+

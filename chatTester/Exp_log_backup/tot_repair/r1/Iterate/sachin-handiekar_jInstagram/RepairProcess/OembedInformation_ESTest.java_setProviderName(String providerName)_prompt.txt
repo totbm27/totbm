@@ -1,0 +1,82 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class OembedInformation {
+@SerializedName("provider_name")
+private String providerName;
+# Focal method
+public void setProviderName(String providerName) {
+    this.providerName = providerName;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# OembedInformation class
+package org.jinstagram.entity.oembed;
+public class OembedInformation {
+public String getProviderUrl();
+public void setProviderUrl(String providerUrl);
+public String getTitle();
+public void setTitle(String title);
+public String getUrl();
+public void setUrl(String url);
+public String getAuthorName();
+public void setAuthorName(String authorName);
+public String getHeight();
+public void setHeight(String height);
+public String getWidth();
+public void setWidth(String width);
+public String getVersion();
+public void setVersion(String version);
+public String getAuthorUrl();
+public void setAuthorUrl(String authorUrl);
+public String getProviderName();
+public void setProviderName(String providerName);
+public String getType();
+public void setType(String type);
+public String getMediaId();
+public void setMediaId(String mediaId);
+public String getHtml();
+public void setHtml(final String html);
+public String getThumbnailUrl();
+public void setThumbnailUrl(final String thumbnailUrl);
+public int getThumbnailWidth();
+public void setThumbnailWidth(final int thumbnailWidth);
+public int getThumbnailHeight();
+public void setThumbnailHeight(final int thumbnailHeight);
+public String toString();
+}
+
+
+# Test Method
+@Test
+public void testSetProviderName() {
+    OembedInformation oembedInformation = new OembedInformation();
+    String providerName = "Test Provider";
+    oembedInformation.setProviderName(providerName);
+
+   <Buggy Line>: providerName has private access in org.jinstagram.entity.oembed.OembedInformation
+    assertEquals(providerName, oembedInformation.providerName);
+
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "OembedInformation" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "OembedInformation" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

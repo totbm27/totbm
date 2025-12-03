@@ -1,0 +1,23 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class UserInfoData {
+@SerializedName("id")
+private String id;@SerializedName("is_business")
+private boolean isBusiness;
+# Focal method
+public void setBusiness(boolean isBusiness) {
+    this.isBusiness = isBusiness;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be compatible with Java compiler version 1.6, and the generated code should be enclosed within ``` ```.
+
+########
+

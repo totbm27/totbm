@@ -1,0 +1,25 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/User_ESTest.java
+[GENERATED PATH] User_ESTest#getFullName().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/comments/MediaCommentsFeed_ESTest.java:[37,59] diamond operator is not supported in -source 1.6
+  (use -source 7 or higher to enable diamond operator)
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/User_ESTest.java
+[GENERATED PATH] User_ESTest#getFullName().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/User_ESTest.java:[29,28] cannot find symbol
+  symbol:   method getFieldValue(org.jinstagram.entity.common.User,java.lang.String)
+  location: class org.jinstagram.entity.common.User_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/User_ESTest.java:[33,26] cannot find symbol
+  symbol:   method getFieldValue(org.jinstagram.entity.common.User,java.lang.String)
+  location: class org.jinstagram.entity.common.User_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/User_ESTest.java:[37,20] cannot find symbol
+  symbol:   method getFieldValue(org.jinstagram.entity.common.User,java.lang.String)
+  location: class org.jinstagram.entity.common.User_ESTest
+[INFO] 3 errors 
+####################
+

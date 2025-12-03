@@ -1,0 +1,53 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class User {
+@SerializedName("full_name")
+private String fullName;@SerializedName("id")
+private String id;
+# Focal method
+public void setFullName(String fullName) {
+    this.fullName = fullName;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testSetFullName() {
+        User user = new User();
+        String expectedFullName = "John Doe";
+        user.setFullName(expectedFullName);
+        try {
+            java.lang.reflect.Field field = User.class.getDeclaredField("fullName");
+            field.setAccessible(true);
+            String actualFullName = (String) field.get(user);
+            assertEquals(expectedFullName, actualFullName);
+
+            <Buggy Line>: multi-catch statement is not supported in -source 1.6
+        } catch (NoSuchFieldException | IllegalAccessException e) {
+
+            throw new RuntimeException(e);
+        }
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

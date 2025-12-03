@@ -1,0 +1,68 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testSetPattern_ShouldUpdateFormatterAndReturnThis() {
+    JavaTimeInstantFormatter formatter = new JavaTimeInstantFormatter();
+    String pattern = "yyyy-MM-dd'T'HH:mm:ss.SSSXXX";
+    ValueFormatter<Instant> returned = formatter.setPattern(pattern);
+    org.junit.Assert.assertSame(formatter, returned);
+    try {
+        java.lang.reflect.Field field = JavaTimeInstantFormatter.class.getDeclaredField("formatter");
+        field.setAccessible(true);
+
+          <Buggy Line>: cannot find symbol class "DateTimeFormatter"
+        DateTimeFormatter internalFormatter = (DateTimeFormatter) field.get(formatter);
+
+        org.junit.Assert.assertNotNull("Formatter should not be null after setPattern", internalFormatter);
+        org.junit.Assert.assertEquals("Pattern should match", pattern, internalFormatter.toString().replace("'", ""));
+        org.junit.Assert.assertEquals("Zone should be system default", 
+            java.time.ZoneId.systemDefault(), internalFormatter.getZone());
+    } catch (NoSuchFieldException | IllegalAccessException e) {
+        org.junit.Assert.fail("Reflection failed: " + e.getMessage());
+    }
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+@Override
+public ValueFormatter<Instant> setPattern(String pattern) {
+    super.setPattern(pattern);
+    formatter = DateTimeFormatter.ofPattern(pattern).withZone(ZoneId.systemDefault());
+    return this;
+}
+
+# Method Intention
+The setPattern(String pattern) method is designed to configure the formatter by setting a new date-time pattern string, initializing a DateTimeFormatter with that pattern and the system's default time zone, and returning the current instance to allow method chaining.
+
+# Test Method
+    @Test
+    public void testSetPattern_ShouldUpdateFormatterAndReturnThis() {
+        JavaTimeInstantFormatter formatter = new JavaTimeInstantFormatter();
+        String pattern = "yyyy-MM-dd'T'HH:mm:ss.SSSXXX";
+        ValueFormatter<Instant> returned = formatter.setPattern(pattern);
+        assertSame(formatter, returned);
+        try {
+            Field field = JavaTimeInstantFormatter.class.getDeclaredField("formatter");
+            field.setAccessible(true);
+            DateTimeFormatter internalFormatter = (DateTimeFormatter) field.get(formatter);
+            assertNotNull("Formatter should not be null after setPattern", internalFormatter);
+               [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.junit.ComparisonFailure Pattern should match expected:<[yyyy-MM-dd'T'HH:mm:ss.SSSXXX]> but was:<[Value(YearOfEra,4,19,EXCEEDS_PAD)-Value(MonthOfYear,2)-Value(DayOfMonth,2)TValue(HourOfDay,2):Value(MinuteOfHour,2):Value(SecondOfMinute,2).Fraction(NanoOfSecond,3,3)Offset(+HH:MM,Z)]> " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+

@@ -1,0 +1,26 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/UsersInPhoto_ESTest.java
+[GENERATED PATH] UsersInPhoto_ESTest#setPosition(GridPosition position).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/UsersInPhoto_ESTest.java:[31,9] cannot find symbol
+  symbol:   variable Assert
+  location: class org.jinstagram.entity.common.UsersInPhoto_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/UsersInPhoto_ESTest.java:[32,9] cannot find symbol
+  symbol:   variable Assert
+  location: class org.jinstagram.entity.common.UsersInPhoto_ESTest
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/UsersInPhoto_ESTest.java
+[GENERATED PATH] UsersInPhoto_ESTest#setPosition(GridPosition position).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/UsersInPhoto_ESTest.java:[33,9] cannot find symbol
+  symbol:   variable Assert
+  location: class org.jinstagram.entity.common.UsersInPhoto_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/common/UsersInPhoto_ESTest.java:[34,9] cannot find symbol
+  symbol:   variable Assert
+  location: class org.jinstagram.entity.common.UsersInPhoto_ESTest
+[INFO] 2 errors 
+####################
+

@@ -1,0 +1,82 @@
+0-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+@Override
+public String toString() {
+    StringBuilder sb = new StringBuilder();
+    String s = super.toString();
+    sb.append(s.substring(0, s.length() - 1));
+    sb.append(String.format(Locale.US, ",bottom=%f,right=%f]", this.getBottom(), this.getRight()));
+    return sb.toString();
+}
+
+# Method Intention
+The toString() method is intended to provide a string representation of the Rectangle object that extends the default superclass string by appending the rectangle's bottom and right coordinate values in a formatted manner, thereby giving a more complete description of the rectangle's position and size.
+
+# Test Method
+@Test
+public void testToString() {
+    float top = 10f;
+    float left = 20f;
+    float width = 30f;
+    float height = 40f;
+    Rectangle rect = new Rectangle(top, left, width, height);
+    String str = rect.toString();
+    float expectedBottom = top + height;
+    float expectedRight = left + width;
+    String expectedSuffix = String.format(",bottom=%f,right=%f]", expectedBottom, expectedRight);
+    assertTrue("toString should end with bottom and right coordinates",
+            str.endsWith(expectedSuffix));
+    int lastBracketIndex = str.lastIndexOf(']');
+    assertTrue("toString should contain '[' before the suffix", lastBracketIndex > 0);
+    String prefix = str.substring(0, lastBracketIndex);
+        [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.AssertionError " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+@Override
+public String toString() {
+    StringBuilder sb = new StringBuilder();
+    String s = super.toString();
+    sb.append(s.substring(0, s.length() - 1));
+    sb.append(String.format(Locale.US, ",bottom=%f,right=%f]", this.getBottom(), this.getRight()));
+    return sb.toString();
+}
+
+# Method Intention
+The toString() method is intended to provide a string representation of the Rectangle object that extends the default superclass string by appending the rectangle's bottom and right coordinate values in a formatted manner, thereby giving a more complete description of the rectangle's position and size.
+
+# Test Method
+@Test
+public void testToString() {
+    float top = 10f;
+    float left = 20f;
+    float width = 30f;
+    float height = 40f;
+    Rectangle rect = new Rectangle(top, left, width, height);
+    String str = rect.toString();
+    float expectedBottom = top + height;
+    float expectedRight = left + width;
+    String expectedSuffix = String.format(",bottom=%f,right=%f]", expectedBottom, expectedRight);
+    assertTrue("toString should end with bottom and right coordinates",
+            str.endsWith(expectedSuffix));
+    int lastBracketIndex = str.lastIndexOf(']');
+    assertTrue("toString should contain '[' before the suffix", lastBracketIndex > 0);
+    String prefix = str.substring(0, lastBracketIndex);
+             [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.AssertionError " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+

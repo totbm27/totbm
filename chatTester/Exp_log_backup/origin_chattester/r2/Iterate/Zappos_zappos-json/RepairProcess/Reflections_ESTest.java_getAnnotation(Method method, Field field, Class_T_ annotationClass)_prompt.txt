@@ -1,0 +1,48 @@
+0-->1-->0-->compileRepair
+
+# Reflections class
+package com.zappos.json.util;
+public  final class Reflections {
+public static boolean classPresent(String className);
+public static Field getField(Class<?> clazz, String fieldName) throws NoSuchFieldException;
+public static boolean hasAnnotation(Field field, Class<? extends Annotation> annotationClass);
+public static boolean hasAnnotation(Method method, Class<? extends Annotation> annotationClass);
+public static boolean hasAnnotation(Method method, Field field, Class<? extends Annotation> annotationClass);
+public static T getAnnotation(Method method, Field field, Class<T> annotationClass);
+public static Class<?> getFirstGenericParameterType(Method method);
+public static Class<?> getSecondGenericParameterType(Method method);
+public static Class<?>[] getGenericParameterTypes(Method method);
+public static Class<?> getFirstGenericType(Field field);
+public static Class<?> getSecondGenericType(Field field);
+public static Class<?>[] getGenericTypes(Field field);
+}
+
+
+# Test Method
+    @Test
+    public void testGetAnnotation() throws NoSuchFieldException {
+
+         <Buggy Line>: cannot find symbol method "mock(java.lang.Class<java.lang.reflect.Method>)" in Reflections_ESTest
+        Method mockMethod = mock(Method.class);
+
+        Field mockField = mock(Field.class);
+        TestAnnotation testAnnotation = mock(TestAnnotation.class);
+        when(mockMethod.getAnnotation(TestAnnotation.class)).thenReturn(testAnnotation);
+        when(mockField.getAnnotation(TestAnnotation.class)).thenReturn(null);
+        TestAnnotation result1 = Reflections.getAnnotation(mockMethod, mockField, TestAnnotation.class);
+        TestAnnotation result2 = Reflections.getAnnotation(null, mockField, TestAnnotation.class);
+        TestAnnotation result3 = Reflections.getAnnotation(mockMethod, null, TestAnnotation.class);
+        assertEquals(testAnnotation, result1);
+        assertNull(result2);
+        assertEquals(testAnnotation, result3);
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "Reflections" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "Reflections" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

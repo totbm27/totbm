@@ -1,0 +1,58 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class Images {
+@SerializedName("standard_resolution")
+private ImageData standardResolution;
+# Focal method
+public void setStandardResolution(ImageData standardResolution) {
+    this.standardResolution = standardResolution;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be compatible with Java compiler version 1.6, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# Images class
+package org.jinstagram.entity.common;
+public class Images {
+public ImageData getLowResolution();
+public void setLowResolution(ImageData lowResolution);
+public ImageData getThumbnail();
+public void setThumbnail(ImageData thumbnail);
+public ImageData getStandardResolution();
+public void setStandardResolution(ImageData standardResolution);
+public String toString();
+}
+
+
+# Test Method
+    @Test
+    public void testSetStandardResolution() {
+        Images images = new Images();
+        ImageData imageData = new ImageData();
+        images.setStandardResolution(imageData);
+
+       <Buggy Line>: standardResolution has private access in org.jinstagram.entity.common.Images
+        assertEquals(imageData, images.standardResolution);
+
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "Images" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "Images" class  cannot be modified, and the generated code should be compatible with Java compiler version 1.6.
+The generated code should be enclosed within ``` ```.
+
+########
+

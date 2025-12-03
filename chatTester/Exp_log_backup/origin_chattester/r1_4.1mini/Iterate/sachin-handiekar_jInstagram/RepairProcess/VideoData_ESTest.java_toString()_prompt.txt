@@ -1,0 +1,81 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class VideoData {
+@SerializedName("url")
+private String url;@SerializedName("width")
+private int width;@SerializedName("height")
+private int height;
+# Focal method
+@Override
+public String toString() {
+    return String.format("VideoData [videoWidth=%d, videoHeight=%d, videoUrl=%s]", width, height, url);
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testToString() {
+        VideoData videoData = new VideoData();
+        try {
+            java.lang.reflect.Field urlField = VideoData.class.getDeclaredField("url");
+            urlField.setAccessible(true);
+            urlField.set(videoData, "http://example.com/video.mp4");
+            java.lang.reflect.Field widthField = VideoData.class.getDeclaredField("width");
+            widthField.setAccessible(true);
+            widthField.setInt(videoData, 1920);
+            java.lang.reflect.Field heightField = VideoData.class.getDeclaredField("height");
+            heightField.setAccessible(true);
+            heightField.setInt(videoData, 1080);
+
+            <Buggy Line>: multi-catch statement is not supported in -source 1.6
+        } catch (NoSuchFieldException | IllegalAccessException e) {
+
+            throw new RuntimeException(e);
+        }
+        String expected = "VideoData [videoWidth=1920, videoHeight=1080, videoUrl=http://example.com/video.mp4]";
+        assertEquals(expected, videoData.toString());
+        try {
+            java.lang.reflect.Field urlField = VideoData.class.getDeclaredField("url");
+            urlField.setAccessible(true);
+            urlField.set(videoData, null);
+        } catch (NoSuchFieldException | IllegalAccessException e) {
+            throw new RuntimeException(e);
+        }
+        expected = "VideoData [videoWidth=1920, videoHeight=1080, videoUrl=null]";
+        assertEquals(expected, videoData.toString());
+        try {
+            java.lang.reflect.Field widthField = VideoData.class.getDeclaredField("width");
+            widthField.setAccessible(true);
+            widthField.setInt(videoData, 0);
+            java.lang.reflect.Field heightField = VideoData.class.getDeclaredField("height");
+            heightField.setAccessible(true);
+            heightField.setInt(videoData, 0);
+        } catch (NoSuchFieldException | IllegalAccessException e) {
+            throw new RuntimeException(e);
+        }
+        expected = "VideoData [videoWidth=0, videoHeight=0, videoUrl=null]";
+        assertEquals(expected, videoData.toString());
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

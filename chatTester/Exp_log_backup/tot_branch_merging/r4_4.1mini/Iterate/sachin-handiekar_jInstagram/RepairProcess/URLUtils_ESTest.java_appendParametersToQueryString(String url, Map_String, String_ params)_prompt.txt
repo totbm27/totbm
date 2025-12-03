@@ -1,0 +1,138 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testAppendParametersToQueryString() {
+    String baseUrl = "http://example.com/path";
+
+       <Buggy Line>: diamond operator is not supported in -source 1.6
+    Map<String, String> params = new HashMap<>();
+
+    params.put("key1", "value1");
+    params.put("key2", "value 2"); 
+    String result = URLUtils.appendParametersToQueryString(baseUrl, params);
+    assert result.startsWith(baseUrl + "?");
+    assert result.contains("key1=value1");
+    assert result.contains("key2=value%202") || result.contains("key2=value+2"); 
+    String urlWithQuery = "http://example.com/path?existing=param";
+    Map<String, String> moreParams = new HashMap<>();
+    moreParams.put("newkey", "newvalue");
+    String result2 = URLUtils.appendParametersToQueryString(urlWithQuery, moreParams);
+    assert result2.startsWith(urlWithQuery + "&");
+    assert result2.contains("newkey=newvalue");
+    String unchanged = URLUtils.appendParametersToQueryString(baseUrl, new HashMap<>());
+    assert unchanged.equals(baseUrl);
+    boolean threw = false;
+    try {
+        URLUtils.appendParametersToQueryString(null, params);
+    } catch (NullPointerException e) {
+        threw = true;
+    }
+    assert threw;
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+public static String appendParametersToQueryString(String url, Map<String, String> params) {
+    Preconditions.checkNotNull(url, "Cannot append to null URL");
+    String queryString = URLUtils.formURLEncodeMap(params);
+    if (queryString.equals(EMPTY_STRING)) {
+        return url;
+    } else {
+        url += (url.indexOf(QUERY_STRING_SEPARATOR) != -1) ? PARAM_SEPARATOR : QUERY_STRING_SEPARATOR;
+        url += queryString;
+        return url;
+    }
+}
+
+# Method Intention
+The appendParametersToQueryString method is designed to safely add a set of URL-encoded query parameters from the given map to an existing URL string, correctly handling whether the URL already contains a query string by appending either a '?' or '&' as appropriate, and returning the original URL unchanged if the parameters map is empty.
+
+# Test Method
+    @Test
+    public void testAppendParametersToQueryString() {
+        String baseUrl = "http://example.com/path";
+        Map<String, String> params = new HashMap<String, String>();
+        params.put("key1", "value1");
+        params.put("key2", "value 2"); 
+        String result = URLUtils.appendParametersToQueryString(baseUrl, params);
+        assert result.startsWith(baseUrl + "?");
+        assert result.contains("key1=value1");
+        assert result.contains("key2=value%202") || result.contains("key2=value+2"); 
+        String urlWithQuery = "http://example.com/path?existing=param";
+        Map<String, String> moreParams = new HashMap<String, String>();
+        moreParams.put("newkey", "newvalue");
+        String result2 = URLUtils.appendParametersToQueryString(urlWithQuery, moreParams);
+        assert result2.startsWith(urlWithQuery + "&");
+        assert result2.contains("newkey=newvalue");
+        String unchanged = URLUtils.appendParametersToQueryString(baseUrl, new HashMap<String, String>());
+        assert unchanged.equals(baseUrl);
+        boolean threw = false;
+        try {
+           [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException Cannot append to null URL " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->0-->testRepair
+# Focal method (Cannot be modified)
+public static String appendParametersToQueryString(String url, Map<String, String> params) {
+    Preconditions.checkNotNull(url, "Cannot append to null URL");
+    String queryString = URLUtils.formURLEncodeMap(params);
+    if (queryString.equals(EMPTY_STRING)) {
+        return url;
+    } else {
+        url += (url.indexOf(QUERY_STRING_SEPARATOR) != -1) ? PARAM_SEPARATOR : QUERY_STRING_SEPARATOR;
+        url += queryString;
+        return url;
+    }
+}
+
+# Method Intention
+The appendParametersToQueryString method is designed to take a base URL and a map of key-value parameter pairs, encode these parameters into a URL query string format, and then append them appropriately to the original URL—adding either a '?' or '&' as needed—returning the resulting URL with the new query parameters appended.
+
+# Test Method
+    @Test
+    public void testAppendParametersToQueryString() {
+        String baseUrl = "http://example.com/path";
+        Map<String, String> params = new HashMap<String, String>();
+        params.put("key1", "value1");
+        params.put("key2", "value 2"); 
+        String result = URLUtils.appendParametersToQueryString(baseUrl, params);
+        assert result.startsWith(baseUrl + "?");
+        assert result.contains("key1=value1");
+        assert result.contains("key2=value%202") || result.contains("key2=value+2"); 
+        String urlWithQuery = "http://example.com/path?existing=param";
+        Map<String, String> moreParams = new HashMap<String, String>();
+        moreParams.put("newkey", "newvalue");
+        String result2 = URLUtils.appendParametersToQueryString(urlWithQuery, moreParams);
+        assert result2.startsWith(urlWithQuery + "&");
+        assert result2.contains("newkey=newvalue");
+        String unchanged = URLUtils.appendParametersToQueryString(baseUrl, new HashMap<String, String>());
+        assert unchanged.equals(baseUrl);
+        boolean threw = false;
+        try {
+           [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException Cannot append to null URL " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+

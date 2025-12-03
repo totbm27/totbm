@@ -1,0 +1,42 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testSetTags() {
+    MediaFeedData mediaFeedData = new MediaFeedData();
+
+      <Buggy Line>: diamond operator is not supported in -source 1.6
+    List<String> initialTags = new LinkedList<>();
+
+    initialTags.add("nature");
+    initialTags.add("sunset");
+    mediaFeedData.setTags(initialTags);
+    List<String> retrievedTags = mediaFeedData.getTags();
+    org.junit.Assert.assertNotNull(retrievedTags);
+    org.junit.Assert.assertEquals(2, retrievedTags.size());
+    org.junit.Assert.assertTrue(retrievedTags.contains("nature"));
+    org.junit.Assert.assertTrue(retrievedTags.contains("sunset"));
+    List<String> newTags = new LinkedList<>();
+    newTags.add("travel");
+    newTags.add("adventure");
+    newTags.add("photography");
+    mediaFeedData.setTags(newTags);
+    retrievedTags = mediaFeedData.getTags();
+    org.junit.Assert.assertNotNull(retrievedTags);
+    org.junit.Assert.assertEquals(3, retrievedTags.size());
+    org.junit.Assert.assertTrue(retrievedTags.contains("travel"));
+    org.junit.Assert.assertTrue(retrievedTags.contains("adventure"));
+    org.junit.Assert.assertTrue(retrievedTags.contains("photography"));
+    mediaFeedData.setTags(null);
+    org.junit.Assert.assertNull(mediaFeedData.getTags());
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

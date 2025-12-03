@@ -1,0 +1,185 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testGetFormatterClass() {
+    JsonBeanAttribute attribute = new JsonBeanAttribute();
+    assertNull(attribute.getFormatterClass());
+    attribute.setFormatterClass(JavaDateFormatter.class);
+    assertEquals(JavaDateFormatter.class, attribute.getFormatterClass());
+
+  <Buggy Line>: incompatible types: java.lang.Class<com.zappos.json.format.ValueFormatter> cannot be converted to java.lang.Class<? extends com.zappos.json.format.ValueFormatter<?>>
+    attribute.setFormatterClass(ValueFormatter.class);
+
+    assertEquals(ValueFormatter.class, attribute.getFormatterClass());
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Focal Method
+public class JsonBeanAttribute {
+private Method method;private Field field;
+public JsonBeanAttribute() {
+}public JsonBeanAttribute(Method method, Field field, String attributeKey) {
+    this.method = method;
+    this.field = field;
+    this.attributeKey = attributeKey;
+    this.jsonKey = attributeKey;
+}
+# Focal method
+@Override
+public String toString() {
+    if (field != null) {
+        return field.getName();
+    }
+    return method.getName();
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->1-->compileRepair
+
+
+# Focal Method
+public class JsonBeanAttribute {
+private Method method;private Field field;
+public JsonBeanAttribute() {
+}public JsonBeanAttribute(Method method, Field field, String attributeKey) {
+    this.method = method;
+    this.field = field;
+    this.attributeKey = attributeKey;
+    this.jsonKey = attributeKey;
+}
+# Focal method
+@Override
+public String toString() {
+    if (field != null) {
+        return field.getName();
+    }
+    return method.getName();
+}
+}
+
+# Method Intention
+The toString() method is designed to return a string representation of the JsonBeanAttribute object by providing the name of the associated field if it exists, or otherwise the name of the associated method, effectively identifying the attribute by its underlying member name.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+3-->4-->1-->compileRepair
+
+
+# Focal Method
+public class JsonBeanAttribute {
+private Method method;private Field field;
+public JsonBeanAttribute() {
+}public JsonBeanAttribute(Method method, Field field, String attributeKey) {
+    this.method = method;
+    this.field = field;
+    this.attributeKey = attributeKey;
+    this.jsonKey = attributeKey;
+}
+# Focal method
+@Override
+public String toString() {
+    if (field != null) {
+        return field.getName();
+    }
+    return method.getName();
+}
+}
+
+# Method Intention
+The toString() method is designed to return a string representation of the JsonBeanAttribute object by providing the name of the associated field if it exists, or otherwise the name of the associated method, effectively identifying the attribute by its underlying member name.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+4-->5-->2-->compileRepair
+
+
+# Focal Method
+public class JsonBeanAttribute {
+private Method method;private Field field;
+public JsonBeanAttribute() {
+}public JsonBeanAttribute(Method method, Field field, String attributeKey) {
+    this.method = method;
+    this.field = field;
+    this.attributeKey = attributeKey;
+    this.jsonKey = attributeKey;
+}
+# Focal method
+@Override
+public String toString() {
+    if (field != null) {
+        return field.getName();
+    }
+    return method.getName();
+}
+}
+
+# Method Intention
+The toString() method is designed to return a string representation of the JsonBeanAttribute object by providing the name of the associated field if it exists, or otherwise the name of the associated method, effectively identifying the attribute by its underlying member name.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+5-->6-->3-->compileRepair
+
+
+# Focal Method
+public class JsonBeanAttribute {
+private Method method;private Field field;
+public JsonBeanAttribute() {
+}public JsonBeanAttribute(Method method, Field field, String attributeKey) {
+    this.method = method;
+    this.field = field;
+    this.attributeKey = attributeKey;
+    this.jsonKey = attributeKey;
+}
+# Focal method
+@Override
+public String toString() {
+    if (field != null) {
+        return field.getName();
+    }
+    return method.getName();
+}
+}
+
+# Method Intention
+The toString() method is designed to return a string representation of the JsonBeanAttribute object by providing the name of the associated field if it exists, or otherwise the name of the associated method, effectively identifying the attribute by its underlying member name.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+

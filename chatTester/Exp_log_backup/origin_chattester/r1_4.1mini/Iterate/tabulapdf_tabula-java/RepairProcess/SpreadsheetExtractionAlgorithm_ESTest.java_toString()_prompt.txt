@@ -1,0 +1,280 @@
+0-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+@Override
+public String toString() {
+    return String.format("%s[point=%s,direction=%s]", this.getClass().getName(), this.point.toString(), this.direction.toString());
+}
+
+# Method Intention
+The toString() method is intended to provide a clear, formatted string representation of a PolygonVertex object by including its class name along with the string representations of its point and direction fields, facilitating easy debugging and logging.
+
+# Test Method
+    @Test
+    public void testToString() {
+           [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.Error Unresolved compilation problems: 
+ Point2D cannot be resolved to a type
+ Point2D cannot be resolved to a type
+ Direction cannot be resolved to a type
+ Direction cannot be resolved to a variable
+ PolygonVertex cannot be resolved to a type
+ PolygonVertex cannot be resolved to a type
+ " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+@Override
+public String toString() {
+    return String.format("%s[point=%s,direction=%s]", this.getClass().getName(), this.point.toString(), this.direction.toString());
+}
+
+# Method Intention
+The toString() method is intended to provide a clear, formatted string representation of a PolygonVertex object by including its class name along with the string representations of its point and direction fields, facilitating easy debugging and logging.
+
+# Test Method
+@Test
+public void testToString() {
+    Object point = new Object() {
+        @Override
+        public String toString() {
+            return "pointValue";
+        }
+    };
+    Object direction = new Object() {
+        @Override
+        public String toString() {
+            return "directionValue";
+        }
+    };
+    Object polygonVertex = new Object() {
+        final Object pointField = point;
+        final Object directionField = direction;
+        public Object getPoint() {
+            return pointField;
+        }
+        public Object getDirection() {
+            return directionField;
+        }
+        @Override
+        public String toString() {
+            return String.format("%s[point=%s,direction=%s]", this.getClass().getName(), getPoint().toString(), getDirection().toString());
+        }
+    };
+    String expected = polygonVertex.getClass().getName() + "[point=pointValue,direction=directionValue]";
+   [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.junit.ComparisonFailure expected:<...ithm_ESTest$3[point=[pointValue,direction=directionValue]]> but was:<...ithm_ESTest$3[point=[technology.tabula.extractors.SpreadsheetExtractionAlgorithm_ESTest$1@0000000001,direction=technology.tabula.extractors.SpreadsheetExtractionAlgorithm_ESTest$2@0000000002]]> " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->0-->testRepair
+# Focal method (Cannot be modified)
+@Override
+public String toString() {
+    return String.format("%s[point=%s,direction=%s]", this.getClass().getName(), this.point.toString(), this.direction.toString());
+}
+
+# Method Intention
+The toString() method is intended to provide a clear, formatted string representation of a PolygonVertex object by including its class name along with the string representations of its point and direction fields, facilitating easy debugging and logging.
+
+# Test Method
+@Test
+public void testToString() {
+    Object point = new Object() {
+        @Override
+        public String toString() {
+            return "pointValue";
+        }
+    };
+    Object direction = new Object() {
+        @Override
+        public String toString() {
+            return "directionValue";
+        }
+    };
+    Object polygonVertex = new Object() {
+        final Object pointField = point;
+        final Object directionField = direction;
+        public Object getPoint() {
+            return pointField;
+        }
+        public Object getDirection() {
+            return directionField;
+        }
+        @Override
+        public String toString() {
+            return String.format("%s[point=%s,direction=%s]", this.getClass().getName(), getPoint().toString(), getDirection().toString());
+        }
+    };
+    String expected = polygonVertex.getClass().getName() + "[point=pointValue,direction=directionValue]";
+   [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.junit.ComparisonFailure expected:<...ithm_ESTest$3[point=[pointValue,direction=directionValue]]> but was:<...ithm_ESTest$3[point=[technology.tabula.extractors.SpreadsheetExtractionAlgorithm_ESTest$1@0000000001,direction=technology.tabula.extractors.SpreadsheetExtractionAlgorithm_ESTest$2@0000000002]]> " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+3-->3-->0-->testRepair
+# Focal method (Cannot be modified)
+@Override
+public String toString() {
+    return String.format("%s[point=%s,direction=%s]", this.getClass().getName(), this.point.toString(), this.direction.toString());
+}
+
+# Method Intention
+The toString() method is intended to provide a clear, formatted string representation of a PolygonVertex object by including its class name along with the string representations of its point and direction fields, facilitating easy debugging and logging.
+
+# Test Method
+@Test
+public void testToString() {
+    Object point = new Object() {
+        @Override
+        public String toString() {
+            return "pointValue";
+        }
+    };
+    Object direction = new Object() {
+        @Override
+        public String toString() {
+            return "directionValue";
+        }
+    };
+    Object polygonVertex = new Object() {
+        final Object pointField = point;
+        final Object directionField = direction;
+        public Object getPoint() {
+            return pointField;
+        }
+        public Object getDirection() {
+            return directionField;
+        }
+        @Override
+        public String toString() {
+            return String.format("%s[point=%s,direction=%s]", this.getClass().getName(), getPoint().toString(), getDirection().toString());
+        }
+    };
+    String expected = polygonVertex.getClass().getName() + "[point=pointValue,direction=directionValue]";
+   [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.junit.ComparisonFailure expected:<...ithm_ESTest$3[point=[pointValue,direction=directionValue]]> but was:<...ithm_ESTest$3[point=[technology.tabula.extractors.SpreadsheetExtractionAlgorithm_ESTest$1@0000000001,direction=technology.tabula.extractors.SpreadsheetExtractionAlgorithm_ESTest$2@0000000002]]> " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+4-->5-->0-->testRepair
+# Focal method (Cannot be modified)
+@Override
+public String toString() {
+    return String.format("%s[point=%s,direction=%s]", this.getClass().getName(), this.point.toString(), this.direction.toString());
+}
+
+# Method Intention
+The toString() method is intended to provide a clear, formatted string representation of a PolygonVertex object by including its class name along with the string representations of its point and direction fields, facilitating easy debugging and logging.
+
+# Test Method
+@Test
+public void testToString() {
+    Object point = new Object() {
+        @Override
+        public String toString() {
+            return "pointValue";
+        }
+    };
+    Object direction = new Object() {
+        @Override
+        public String toString() {
+            return "directionValue";
+        }
+    };
+    Object polygonVertex = new Object() {
+        final Object pointField = point;
+        final Object directionField = direction;
+        public Object getPoint() {
+            return pointField;
+        }
+        public Object getDirection() {
+            return directionField;
+        }
+        @Override
+        public String toString() {
+            return String.format("%s[point=%s,direction=%s]", this.getClass().getName(), getPoint().toString(), getDirection().toString());
+        }
+    };
+    String expected = polygonVertex.getClass().getName() + "[point=pointValue,direction=directionValue]";
+   [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.junit.ComparisonFailure expected:<...ithm_ESTest$3[point=[pointValue,direction=directionValue]]> but was:<...ithm_ESTest$3[point=[technology.tabula.extractors.SpreadsheetExtractionAlgorithm_ESTest$1@0000000001,direction=technology.tabula.extractors.SpreadsheetExtractionAlgorithm_ESTest$2@0000000002]]> " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+5-->5-->0-->testRepair
+# Focal method (Cannot be modified)
+@Override
+public String toString() {
+    return String.format("%s[point=%s,direction=%s]", this.getClass().getName(), this.point.toString(), this.direction.toString());
+}
+
+# Method Intention
+The toString() method is intended to provide a clear, formatted string representation of a PolygonVertex object by including its class name along with the string representations of its point and direction fields, facilitating easy debugging and logging.
+
+# Test Method
+@Test
+public void testToString() {
+    Object point = new Object() {
+        @Override
+        public String toString() {
+            return "pointValue";
+        }
+    };
+    Object direction = new Object() {
+        @Override
+        public String toString() {
+            return "directionValue";
+        }
+    };
+    Object polygonVertex = new Object() {
+        final Object pointField = point;
+        final Object directionField = direction;
+        public Object getPoint() {
+            return pointField;
+        }
+        public Object getDirection() {
+            return directionField;
+        }
+        @Override
+        public String toString() {
+            return String.format("%s[point=%s,direction=%s]", this.getClass().getName(), getPoint().toString(), getDirection().toString());
+        }
+    };
+    String expected = polygonVertex.getClass().getName() + "[point=pointValue,direction=directionValue]";
+   [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.junit.ComparisonFailure expected:<...ithm_ESTest$3[point=[pointValue,direction=directionValue]]> but was:<...ithm_ESTest$3[point=[technology.tabula.extractors.SpreadsheetExtractionAlgorithm_ESTest$1@0000000001,direction=technology.tabula.extractors.SpreadsheetExtractionAlgorithm_ESTest$2@0000000002]]> " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+

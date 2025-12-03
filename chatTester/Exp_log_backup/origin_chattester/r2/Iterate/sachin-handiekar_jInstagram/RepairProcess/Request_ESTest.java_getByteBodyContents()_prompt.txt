@@ -1,0 +1,25 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testGetByteBodyContents() {
+        Request request = new Request(Verbs.POST, "https://example.com/api");
+        request.addBodyParameter("key1", "value1");
+        request.addBodyParameter("key2", "value2");
+
+         <Buggy Line>: unreported exception java.io.UnsupportedEncodingException; must be caught or declared to be thrown
+        byte[] expectedByteBodyContents = "key1=value1&key2=value2".getBytes(request.getCharset());
+
+        byte[] actualByteBodyContents = request.getByteBodyContents();
+        assertArrayEquals(expectedByteBodyContents, actualByteBodyContents);
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

@@ -1,0 +1,35 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testConcatSortedPercentEncodedParams() {
+
+       <Buggy Line>: diamond operator is not supported in -source 1.6
+    Map<String, String> params = new HashMap<>();
+
+    params.put("name", "John Doe");
+    params.put("city", "New York");
+    params.put("age", "30");
+    String result = URLUtils.concatSortedPercentEncodedParams(params);
+    String[] pairs = result.split("&");
+    org.junit.Assert.assertEquals(3, pairs.length);
+    java.util.Set<String> expectedPairs = new java.util.HashSet<>();
+    expectedPairs.add("name=John Doe");
+    expectedPairs.add("city=New York");
+    expectedPairs.add("age=30");
+    for (String pair : pairs) {
+        org.junit.Assert.assertTrue("Unexpected pair: " + pair, expectedPairs.contains(pair));
+        expectedPairs.remove(pair);
+    }
+    org.junit.Assert.assertTrue("Not all expected pairs found", expectedPairs.isEmpty());
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

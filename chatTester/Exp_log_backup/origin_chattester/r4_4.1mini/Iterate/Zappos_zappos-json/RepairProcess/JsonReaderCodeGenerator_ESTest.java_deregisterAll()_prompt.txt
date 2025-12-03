@@ -1,0 +1,39 @@
+0-->1-->0-->compileRepair
+
+# JsonBeanIntrospector class
+package com.zappos.json;
+public class JsonBeanIntrospector {
+public JsonBeanIntrospector(ZapposJson jacinda);
+public List<JsonBeanAttribute> getMutators(Class<?> clazz);
+public List<JsonBeanAttribute> getAccessors(Class<?> clazz);
+}
+
+
+# Test Method
+@Test
+public void testDeregisterAll_clearsAllRegisteredReaders() throws Exception {
+    ZapposJson zapposJson = new ZapposJson();
+
+      <Buggy Line>: constructor JsonBeanIntrospector in class com.zappos.json.JsonBeanIntrospector cannot be applied to given types;
+    JsonBeanIntrospector beanIntrospector = new JsonBeanIntrospector();
+
+    JsonReaderCodeGenerator generator = new JsonReaderCodeGenerator(zapposJson, beanIntrospector);
+    generator.registerReader(String.class);
+    java.lang.reflect.Field field = JsonReaderCodeGenerator.class.getDeclaredField("JSON_READER_INVOKERS");
+    field.setAccessible(true);
+    @SuppressWarnings("unchecked")
+    Map<Class<?>, JsonReaderInvoker> map = (Map<Class<?>, JsonReaderInvoker>) field.get(generator);
+    org.junit.Assert.assertFalse("Map should not be empty after registerReader", map.isEmpty());
+    generator.deregisterAll();
+    org.junit.Assert.assertTrue("Map should be empty after deregisterAll", map.isEmpty());
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "JsonBeanIntrospector" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "JsonBeanIntrospector" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

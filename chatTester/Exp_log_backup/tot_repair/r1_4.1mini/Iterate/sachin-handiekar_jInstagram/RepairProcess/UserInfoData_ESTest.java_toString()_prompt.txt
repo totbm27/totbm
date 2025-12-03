@@ -1,0 +1,225 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class UserInfoData {
+@SerializedName("bio")
+private String bio;@SerializedName("counts")
+private Counts counts;@SerializedName("first_name")
+private String firstName;@SerializedName("id")
+private String id;@SerializedName("last_name")
+private String lastName;@SerializedName("profile_picture")
+private String profilePicture;@SerializedName("username")
+private String username;@SerializedName("full_name")
+private String fullName;@SerializedName("website")
+private String website;@SerializedName("is_business")
+private boolean isBusiness;
+# Focal method
+@Override
+public String toString() {
+    return String.format("UserInfoData [bio=%s, counts=%s, first_name=%s, id=%s, last_name=%s, profile_picture=%s, username=%s, fullName=%s, website=%s, isBusiness=%b]", bio, counts, firstName, id, lastName, profilePicture, username, fullName, website, isBusiness);
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testToString_ShouldReturnCorrectStringRepresentation() {
+        Counts counts = new Counts(10, 20, 30);
+        UserInfoData userInfo = new UserInfoData();
+        try {
+            java.lang.reflect.Field bioField = UserInfoData.class.getDeclaredField("bio");
+            bioField.setAccessible(true);
+            bioField.set(userInfo, "This is a bio");
+            java.lang.reflect.Field countsField = UserInfoData.class.getDeclaredField("counts");
+            countsField.setAccessible(true);
+            countsField.set(userInfo, counts);
+            java.lang.reflect.Field firstNameField = UserInfoData.class.getDeclaredField("firstName");
+            firstNameField.setAccessible(true);
+            firstNameField.set(userInfo, "John");
+            java.lang.reflect.Field idField = UserInfoData.class.getDeclaredField("id");
+            idField.setAccessible(true);
+            idField.set(userInfo, "12345");
+            java.lang.reflect.Field lastNameField = UserInfoData.class.getDeclaredField("lastName");
+            lastNameField.setAccessible(true);
+            lastNameField.set(userInfo, "Doe");
+            java.lang.reflect.Field profilePictureField = UserInfoData.class.getDeclaredField("profilePicture");
+            profilePictureField.setAccessible(true);
+            profilePictureField.set(userInfo, "http://example.com/pic.jpg");
+            java.lang.reflect.Field usernameField = UserInfoData.class.getDeclaredField("username");
+            usernameField.setAccessible(true);
+            usernameField.set(userInfo, "johndoe");
+            java.lang.reflect.Field fullNameField = UserInfoData.class.getDeclaredField("fullName");
+            fullNameField.setAccessible(true);
+            fullNameField.set(userInfo, "John Doe");
+            java.lang.reflect.Field websiteField = UserInfoData.class.getDeclaredField("website");
+            websiteField.setAccessible(true);
+            websiteField.set(userInfo, "http://johndoe.com");
+            java.lang.reflect.Field isBusinessField = UserInfoData.class.getDeclaredField("isBusiness");
+            isBusinessField.setAccessible(true);
+            isBusinessField.set(userInfo, true);
+
+            <Buggy Line>: multi-catch statement is not supported in -source 1.6
+        } catch (NoSuchFieldException | IllegalAccessException e) {
+
+            throw new RuntimeException("Failed to set fields for testing", e);
+        }
+        String result = userInfo.toString();
+        String expected = "UserInfoData [bio=This is a bio, counts=Counts [media=10, follows=20, followedBy=30], first_name=John, id=12345, last_name=Doe, profile_picture=http://example.com/pic.jpg, username=johndoe, fullName=John Doe, website=http://johndoe.com, isBusiness=true]";
+        assertEquals(expected, result);
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->1-->compileRepair
+
+# Counts class
+package org.jinstagram.entity.users.basicinfo;
+public class Counts {
+public int getMedia();
+public void setMedia(int media);
+public int getFollows();
+public void setFollows(int follows);
+public int getFollowedBy();
+public void setFollowedBy(int follwedBy);
+public String toString();
+}
+
+
+# Test Method
+    @Test
+    public void testToString_ShouldReturnCorrectStringRepresentation() {
+
+            <Buggy Line>: constructor Counts in class org.jinstagram.entity.users.basicinfo.Counts cannot be applied to given types;
+        Counts counts = new Counts(10, 20, 30);
+
+        UserInfoData userInfo = new UserInfoData();
+        try {
+            java.lang.reflect.Field bioField = UserInfoData.class.getDeclaredField("bio");
+            bioField.setAccessible(true);
+            bioField.set(userInfo, "This is a bio");
+            java.lang.reflect.Field countsField = UserInfoData.class.getDeclaredField("counts");
+            countsField.setAccessible(true);
+            countsField.set(userInfo, counts);
+            java.lang.reflect.Field firstNameField = UserInfoData.class.getDeclaredField("firstName");
+            firstNameField.setAccessible(true);
+            firstNameField.set(userInfo, "John");
+            java.lang.reflect.Field idField = UserInfoData.class.getDeclaredField("id");
+            idField.setAccessible(true);
+            idField.set(userInfo, "12345");
+            java.lang.reflect.Field lastNameField = UserInfoData.class.getDeclaredField("lastName");
+            lastNameField.setAccessible(true);
+            lastNameField.set(userInfo, "Doe");
+            java.lang.reflect.Field profilePictureField = UserInfoData.class.getDeclaredField("profilePicture");
+            profilePictureField.setAccessible(true);
+            profilePictureField.set(userInfo, "http://example.com/pic.jpg");
+            java.lang.reflect.Field usernameField = UserInfoData.class.getDeclaredField("username");
+            usernameField.setAccessible(true);
+            usernameField.set(userInfo, "johndoe");
+            java.lang.reflect.Field fullNameField = UserInfoData.class.getDeclaredField("fullName");
+            fullNameField.setAccessible(true);
+            fullNameField.set(userInfo, "John Doe");
+            java.lang.reflect.Field websiteField = UserInfoData.class.getDeclaredField("website");
+            websiteField.setAccessible(true);
+            websiteField.set(userInfo, "http://johndoe.com");
+            java.lang.reflect.Field isBusinessField = UserInfoData.class.getDeclaredField("isBusiness");
+            isBusinessField.setAccessible(true);
+            isBusinessField.set(userInfo, true);
+        } catch (Exception e) {
+            throw new RuntimeException("Failed to set fields for testing", e);
+        }
+        String result = userInfo.toString();
+        String expected = "UserInfoData [bio=This is a bio, counts=Counts [media=10, follows=20, followedBy=30], first_name=John, id=12345, last_name=Doe, profile_picture=http://example.com/pic.jpg, username=johndoe, fullName=John Doe, website=http://johndoe.com, isBusiness=true]";
+        assertEquals(expected, result);
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "Counts" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "Counts" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+
+3-->3-->1-->testRepair
+# Focal method (Cannot be modified)
+@Override
+public String toString() {
+    return String.format("UserInfoData [bio=%s, counts=%s, first_name=%s, id=%s, last_name=%s, profile_picture=%s, username=%s, fullName=%s, website=%s, isBusiness=%b]", bio, counts, firstName, id, lastName, profilePicture, username, fullName, website, isBusiness);
+}
+
+# Method Intention
+The toString() method is intended to provide a comprehensive, human-readable string representation of the UserInfoData object's current state by formatting and concatenating all its key fields and their values into a single descriptive line.
+
+# Test Method
+    @Test
+    public void testToString_ShouldReturnCorrectStringRepresentation() {
+        Counts counts = new Counts();
+        counts.setMedia(10);
+        counts.setFollows(20);
+        counts.setFollowedBy(30);
+        UserInfoData userInfo = new UserInfoData();
+        try {
+            java.lang.reflect.Field bioField = UserInfoData.class.getDeclaredField("bio");
+            bioField.setAccessible(true);
+            bioField.set(userInfo, "This is a bio");
+            java.lang.reflect.Field countsField = UserInfoData.class.getDeclaredField("counts");
+            countsField.setAccessible(true);
+            countsField.set(userInfo, counts);
+            java.lang.reflect.Field firstNameField = UserInfoData.class.getDeclaredField("firstName");
+            firstNameField.setAccessible(true);
+            firstNameField.set(userInfo, "John");
+            java.lang.reflect.Field idField = UserInfoData.class.getDeclaredField("id");
+            idField.setAccessible(true);
+            idField.set(userInfo, "12345");
+            java.lang.reflect.Field lastNameField = UserInfoData.class.getDeclaredField("lastName");
+            lastNameField.setAccessible(true);
+            lastNameField.set(userInfo, "Doe");
+            java.lang.reflect.Field profilePictureField = UserInfoData.class.getDeclaredField("profilePicture");
+            profilePictureField.setAccessible(true);
+            profilePictureField.set(userInfo, "http://example.com/pic.jpg");
+            java.lang.reflect.Field usernameField = UserInfoData.class.getDeclaredField("username");
+            usernameField.setAccessible(true);
+            usernameField.set(userInfo, "johndoe");
+            java.lang.reflect.Field fullNameField = UserInfoData.class.getDeclaredField("fullName");
+            fullNameField.setAccessible(true);
+            fullNameField.set(userInfo, "John Doe");
+            java.lang.reflect.Field websiteField = UserInfoData.class.getDeclaredField("website");
+            websiteField.setAccessible(true);
+            websiteField.set(userInfo, "http://johndoe.com");
+            java.lang.reflect.Field isBusinessField = UserInfoData.class.getDeclaredField("isBusiness");
+            isBusinessField.setAccessible(true);
+            isBusinessField.set(userInfo, true);
+        } catch (Exception e) {
+            throw new RuntimeException("Failed to set fields for testing", e);
+        }
+        String result = userInfo.toString();
+        String expected = "UserInfoData [bio=This is a bio, counts=Counts [media=10, follows=20, followedBy=30], first_name=John, id=12345, last_name=Doe, profile_picture=http://example.com/pic.jpg, username=johndoe, fullName=John Doe, website=http://johndoe.com, isBusiness=true]";
+       [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.junit.ComparisonFailure expected:<...bio, counts=Counts [[media=10, follows=20, followedBy=3]0], first_name=John,...> but was:<...bio, counts=Counts [[follows=20, followed_by=30, media=1]0], first_name=John,...> " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+

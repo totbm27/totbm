@@ -1,0 +1,161 @@
+0-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+public String getExtractionMethod() {
+    return extractionMethod;
+}
+
+# Method Intention
+The getExtractionMethod() method is intended to provide access to the extraction method used in the Table class, allowing external classes to retrieve and potentially utilize this information for further processing or analysis.
+
+# Test Method
+@Test
+public void testGetRowsComputesAndMemoizesCorrectly() {
+      [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.Error Unresolved compilation problems: 
+ The constructor Table(String) is not visible
+ The constructor RectangularTextContainer(Rectangle2D.Double, String) is undefined
+ The constructor RectangularTextContainer(Rectangle2D.Double, String) is undefined
+ The constructor RectangularTextContainer(Rectangle2D.Double, String) is undefined
+ The constructor RectangularTextContainer(Rectangle2D.Double, String) is undefined
+ The method mock(Class<Table>) is undefined for the type Table_ESTest
+ The method when(List<List<RectangularTextContainer>>) is undefined for the type Table_ESTest
+ The method computeRows() from the type Table is not visible
+ " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->1-->0-->testRepair
+
+
+# Focal Method
+public class Table {
+private final String extractionMethod;
+private Table(String extractionMethod) {
+    this.extractionMethod = extractionMethod;
+}public Table(ExtractionAlgorithm extractionAlgorithm) {
+    this(extractionAlgorithm.toString());
+}
+# Focal method
+public String getExtractionMethod() {
+    return extractionMethod;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->0-->testRepair
+
+
+# Focal Method
+public class Table {
+private final String extractionMethod;
+private Table(String extractionMethod) {
+    this.extractionMethod = extractionMethod;
+}public Table(ExtractionAlgorithm extractionAlgorithm) {
+    this(extractionAlgorithm.toString());
+}
+# Focal method
+public String getExtractionMethod() {
+    return extractionMethod;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+3-->3-->0-->testRepair
+
+
+# Focal Method
+public class Table {
+private final String extractionMethod;
+private Table(String extractionMethod) {
+    this.extractionMethod = extractionMethod;
+}public Table(ExtractionAlgorithm extractionAlgorithm) {
+    this(extractionAlgorithm.toString());
+}
+# Focal method
+public String getExtractionMethod() {
+    return extractionMethod;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+4-->5-->0-->testRepair
+
+
+# Focal Method
+public class Table {
+private final String extractionMethod;
+private Table(String extractionMethod) {
+    this.extractionMethod = extractionMethod;
+}public Table(ExtractionAlgorithm extractionAlgorithm) {
+    this(extractionAlgorithm.toString());
+}
+# Focal method
+public String getExtractionMethod() {
+    return extractionMethod;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+5-->5-->0-->testRepair
+
+
+# Focal Method
+public class Table {
+private final String extractionMethod;
+private Table(String extractionMethod) {
+    this.extractionMethod = extractionMethod;
+}public Table(ExtractionAlgorithm extractionAlgorithm) {
+    this(extractionAlgorithm.toString());
+}
+# Focal method
+public String getExtractionMethod() {
+    return extractionMethod;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+

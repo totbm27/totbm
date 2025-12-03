@@ -1,0 +1,294 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class InstagramSubscription {
+private final Map<String, String> params;
+public InstagramSubscription() {
+    this.params = new HashMap<String, String>();
+    this.params.put(Constants.CALLBACK_URL, OAuthConstants.OUT_OF_BAND);
+}
+# Focal method
+public InstagramSubscription latitute(String latitude) {
+    Preconditions.checkValidLatLong(latitude, "Invalid 'lat' key");
+    this.params.put(Constants.LATITUDE, latitude);
+    return this;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testLatitute_withValidAndInvalidLatitude() {
+    InstagramSubscription subscription = new InstagramSubscription();
+    String[] validLatitudes = { "0", "45.0", "-45.0", "90", "-90", "23.456789" };
+    for (String lat : validLatitudes) {
+        InstagramSubscription returned = subscription.latitute(lat);
+        assertNotNull(returned, "Returned InstagramSubscription instance should not be null");
+        Map<String, String> paramsField = getParamsField(subscription);
+        assertEquals(lat, paramsField.get(Constants.LATITUDE));
+    }
+    String[] invalidLatitudes = { "91", "-91", "abc", "", " ", null };
+    for (String invalidLat : invalidLatitudes) {
+        try {
+            subscription.latitute(invalidLat);
+            fail("Expected an exception for invalid latitude: " + invalidLat);
+
+            <Buggy Line>: multi-catch statement is not supported in -source 1.6
+        } catch (IllegalArgumentException | NullPointerException e) {
+
+            assertTrue(e.getMessage().contains("Invalid") || e instanceof NullPointerException);
+        }
+    }
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->1-->compileRepair
+
+# InstagramSubscription class
+package org.jinstagram.realtime;
+public class InstagramSubscription {
+public InstagramSubscription();
+public InstagramSubscription callback(String callback);
+public InstagramSubscription clientId(String clientId);
+public InstagramSubscription clientSecret(String clientSecret);
+public InstagramSubscription object(SubscriptionType type);
+public InstagramSubscription objectId(String objectId);
+public InstagramSubscription verifyToken(String verifyToken);
+public InstagramSubscription aspect(String aspect);
+public InstagramSubscription latitute(String latitude);
+public InstagramSubscription longitude(String longitude);
+public InstagramSubscription radius(String radius);
+public InstagramSubscription requestConfiguration(final InstagramConfig config);
+public SubscriptionResponse createSubscription() throws InstagramException;
+public SubscriptionResponse deleteSubscription(String id) throws InstagramException;
+public SubscriptionResponse deleteAllSubscription() throws InstagramException;
+public SubscriptionsListResponse getSubscriptionList() throws InstagramException;
+public String toString();
+}
+
+
+# Test Method
+    @Test
+    public void testLatitute_withValidAndInvalidLatitude() {
+        InstagramSubscription subscription = new InstagramSubscription();
+        String[] validLatitudes = { "0", "45.0", "-45.0", "90", "-90", "23.456789" };
+        for (String lat : validLatitudes) {
+            InstagramSubscription returned = subscription.latitute(lat);
+            assertNotNull("Returned InstagramSubscription instance should not be null", returned);
+
+              <Buggy Line>: cannot find symbol method "getParamsField(org.jinstagram.realtime.InstagramSubscription)" in InstagramSubscription_ESTest
+            Map<String, String> paramsField = getParamsField(subscription);
+
+            assertEquals(lat, paramsField.get(Constants.LATITUDE));
+        }
+        String[] invalidLatitudes = { "91", "-91", "abc", "", " ", null };
+        for (String invalidLat : invalidLatitudes) {
+            try {
+                subscription.latitute(invalidLat);
+                fail("Expected an exception for invalid latitude: " + invalidLat);
+            } catch (IllegalArgumentException e) {
+                assertTrue(e.getMessage().contains("Invalid"));
+            } catch (NullPointerException e) {
+                assertTrue(true);
+            }
+        }
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "InstagramSubscription" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "InstagramSubscription" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+
+3-->3-->1-->testRepair
+# Focal method (Cannot be modified)
+public InstagramSubscription latitute(String latitude) {
+    Preconditions.checkValidLatLong(latitude, "Invalid 'lat' key");
+    this.params.put(Constants.LATITUDE, latitude);
+    return this;
+}
+
+# Method Intention
+The latitute(String latitude) method is designed to validate the provided latitude value for correctness and, if valid, store it in the subscription parameters map under the latitude key, enabling method chaining by returning the current InstagramSubscription instance.
+
+# Test Method
+    @Test
+    public void testLatitute_withValidAndInvalidLatitude() {
+        InstagramSubscription subscription = new InstagramSubscription();
+        String[] validLatitudes = { "0", "45.0", "-45.0", "90", "-90", "23.456789" };
+        for (String lat : validLatitudes) {
+            InstagramSubscription returned = subscription.latitute(lat);
+            assertNotNull("Returned InstagramSubscription instance should not be null", returned);
+        }
+        String[] invalidLatitudes = { "91", "-91", "abc", "", " ", null };
+        for (String invalidLat : invalidLatitudes) {
+            try {
+                subscription.latitute(invalidLat);
+                      [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.AssertionError " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+4-->3-->1-->testRepair
+# Focal method (Cannot be modified)
+public InstagramSubscription latitute(String latitude) {
+    Preconditions.checkValidLatLong(latitude, "Invalid 'lat' key");
+    this.params.put(Constants.LATITUDE, latitude);
+    return this;
+}
+
+# Method Intention
+The latitute(String latitude) method is designed to validate the provided latitude value for correctness and, if valid, store it in the subscription parameters map under the latitude key, enabling method chaining by returning the current InstagramSubscription instance.
+
+# Test Method
+    @Test
+    public void testLatitute_withValidAndInvalidLatitude() {
+        InstagramSubscription subscription = new InstagramSubscription();
+        String[] validLatitudes = { "0", "45.0", "-45.0", "90", "-90", "23.456789" };
+        for (String lat : validLatitudes) {
+            InstagramSubscription returned = subscription.latitute(lat);
+            assertNotNull("Returned InstagramSubscription instance should not be null", returned);
+        }
+        String[] invalidLatitudes = { "91", "-91", "abc", "", " ", null };
+        for (String invalidLat : invalidLatitudes) {
+            try {
+                subscription.latitute(invalidLat);
+                     [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.AssertionError " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+5-->3-->1-->testRepair
+# Focal method (Cannot be modified)
+public InstagramSubscription latitute(String latitude) {
+    Preconditions.checkValidLatLong(latitude, "Invalid 'lat' key");
+    this.params.put(Constants.LATITUDE, latitude);
+    return this;
+}
+
+# Method Intention
+The latitute(String latitude) method is designed to validate the provided latitude value for correctness and, if valid, store it in the subscription parameters map under the latitude key, enabling method chaining by returning the current InstagramSubscription instance.
+
+# Test Method
+    @Test
+    public void testLatitute_withValidAndInvalidLatitude() {
+        InstagramSubscription subscription = new InstagramSubscription();
+        String[] validLatitudes = { "0", "45.0", "-45.0", "90", "-90", "23.456789" };
+        for (String lat : validLatitudes) {
+            InstagramSubscription returned = subscription.latitute(lat);
+            assertNotNull("Returned InstagramSubscription instance should not be null", returned);
+        }
+        String[] invalidLatitudes = { "91", "-91", "abc", "", " ", null };
+        for (String invalidLat : invalidLatitudes) {
+            try {
+                subscription.latitute(invalidLat);
+                     [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.AssertionError " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+6-->7-->1-->testRepair
+# Focal method (Cannot be modified)
+public InstagramSubscription latitute(String latitude) {
+    Preconditions.checkValidLatLong(latitude, "Invalid 'lat' key");
+    this.params.put(Constants.LATITUDE, latitude);
+    return this;
+}
+
+# Method Intention
+The latitute(String latitude) method is designed to validate the provided latitude value for correctness and, if valid, store it in the subscription parameters map under the latitude key, enabling method chaining by returning the current InstagramSubscription instance.
+
+# Test Method
+    @Test
+    public void testLatitute_withValidAndInvalidLatitude() {
+        InstagramSubscription subscription = new InstagramSubscription();
+        String[] validLatitudes = { "0", "45.0", "-45.0", "90", "-90", "23.456789" };
+        for (String lat : validLatitudes) {
+            InstagramSubscription returned = subscription.latitute(lat);
+            assertNotNull("Returned InstagramSubscription instance should not be null", returned);
+        }
+        String[] invalidLatitudes = { "91", "-91", "abc", "", " ", null };
+        for (String invalidLat : invalidLatitudes) {
+            try {
+                subscription.latitute(invalidLat);
+                       [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.AssertionError " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+7-->7-->1-->testRepair
+# Focal method (Cannot be modified)
+public InstagramSubscription latitute(String latitude) {
+    Preconditions.checkValidLatLong(latitude, "Invalid 'lat' key");
+    this.params.put(Constants.LATITUDE, latitude);
+    return this;
+}
+
+# Method Intention
+The latitute(String latitude) method is designed to validate the provided latitude value for correctness and, if valid, store it in the subscription parameters map under the latitude key, enabling method chaining by returning the current InstagramSubscription instance.
+
+# Test Method
+    @Test
+    public void testLatitute_withValidAndInvalidLatitude() {
+        InstagramSubscription subscription = new InstagramSubscription();
+        String[] validLatitudes = { "0", "45.0", "-45.0", "90", "-90", "23.456789" };
+        for (String lat : validLatitudes) {
+            InstagramSubscription returned = subscription.latitute(lat);
+            assertNotNull("Returned InstagramSubscription instance should not be null", returned);
+        }
+        String[] invalidLatitudes = { "91", "-91", "abc", "", " ", null };
+        for (String invalidLat : invalidLatitudes) {
+            try {
+                subscription.latitute(invalidLat);
+                     [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.AssertionError " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+

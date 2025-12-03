@@ -1,0 +1,36 @@
+0-->1-->0-->compileRepair
+
+# JsonBeanIntrospector class
+package com.zappos.json;
+public class JsonBeanIntrospector {
+public JsonBeanIntrospector(ZapposJson jacinda);
+public List<JsonBeanAttribute> getMutators(Class<?> clazz);
+public List<JsonBeanAttribute> getAccessors(Class<?> clazz);
+}
+
+
+# Test Method
+@Test
+public void testGetWriter_ReturnsRegisteredInvoker() throws Exception {
+    ZapposJson zapposJson = new ZapposJson();
+
+      <Buggy Line>: constructor JsonBeanIntrospector in class com.zappos.json.JsonBeanIntrospector cannot be applied to given types;
+    JsonBeanIntrospector beanIntrospector = new JsonBeanIntrospector();
+
+    JsonWriterCodeGenerator generator = new JsonWriterCodeGenerator(zapposJson, beanIntrospector);
+    JsonWriterInvoker registeredInvoker = generator.registerWriter(String.class);
+    JsonWriterInvoker retrievedInvoker = generator.getWriter(String.class);
+    org.junit.Assert.assertNotNull("Invoker should not be null after registration", retrievedInvoker);
+    org.junit.Assert.assertEquals("Retrieved invoker should match the registered invoker", registeredInvoker, retrievedInvoker);
+    org.junit.Assert.assertNull("Invoker should be null for unregistered class", generator.getWriter(Integer.class));
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "JsonBeanIntrospector" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "JsonBeanIntrospector" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

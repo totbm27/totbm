@@ -1,0 +1,264 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class MediaFeedData {
+@SerializedName("caption")
+private Caption caption;@SerializedName("comments")
+private Comments comments;@SerializedName("created_time")
+private String createdTime;@SerializedName("id")
+private String id;@SerializedName("filter")
+private String imageFilter;@SerializedName("images")
+private Images images;@SerializedName("likes")
+private Likes likes;@SerializedName("link")
+private String link;@SerializedName("location")
+private Location location;@SerializedName("tags")
+private List<String> tags;@SerializedName("type")
+private String type;@SerializedName("user")
+private User user;@SerializedName("user_has_liked")
+private boolean userHasLiked;@SerializedName("users_in_photo")
+private List<UsersInPhoto> usersInPhotoList;
+# Focal method
+@Override
+public String toString() {
+    return String.format("MediaFeedData [caption=%s, comments=%s, createdTime=%s, id=%s, imageFilter=%s, images=%s, likes=%s, link=%s, location=%s, tags=%s, type=%s, user=%s, userHasLiked=%s, usersInPhoto=%s]", caption, comments, createdTime, id, imageFilter, images, likes, link, location, tags, type, user, userHasLiked, usersInPhotoList);
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testToString() {
+    Caption caption = new Caption();
+    Comments comments = new Comments();
+    String createdTime = "2022-01-01";
+    String id = "123456";
+    String imageFilter = "filter";
+    Images images = new Images();
+    Likes likes = new Likes();
+    String link = "www.example.com";
+    Location location = new Location();
+
+      <Buggy Line>: diamond operator is not supported in -source 1.6
+    List<String> tags = new ArrayList<>();
+
+    String type = "photo";
+    User user = new User();
+    boolean userHasLiked = true;
+    List<UsersInPhoto> usersInPhotoList = new ArrayList<>();
+    MediaFeedData mediaFeedData = new MediaFeedData();
+    mediaFeedData.caption = caption;
+    mediaFeedData.comments = comments;
+    mediaFeedData.createdTime = createdTime;
+    mediaFeedData.id = id;
+    mediaFeedData.imageFilter = imageFilter;
+    mediaFeedData.images = images;
+    mediaFeedData.likes = likes;
+    mediaFeedData.link = link;
+    mediaFeedData.location = location;
+    mediaFeedData.tags = tags;
+    mediaFeedData.type = type;
+    mediaFeedData.user = user;
+    mediaFeedData.userHasLiked = userHasLiked;
+    mediaFeedData.usersInPhotoList = usersInPhotoList;
+    String result = mediaFeedData.toString();
+    assertEquals("MediaFeedData [caption=Caption, comments=Comments, createdTime=2022-01-01, id=123456, imageFilter=filter, images=Images, likes=Likes, link=www.example.com, location=Location, tags=[], type=photo, user=User, userHasLiked=true, usersInPhotoList=[]]", result);
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->1-->compileRepair
+
+
+# Focal Method
+public class MediaFeedData {
+@SerializedName("caption")
+private Caption caption;@SerializedName("comments")
+private Comments comments;@SerializedName("created_time")
+private String createdTime;@SerializedName("id")
+private String id;@SerializedName("filter")
+private String imageFilter;@SerializedName("images")
+private Images images;@SerializedName("likes")
+private Likes likes;@SerializedName("link")
+private String link;@SerializedName("location")
+private Location location;@SerializedName("tags")
+private List<String> tags;@SerializedName("type")
+private String type;@SerializedName("user")
+private User user;@SerializedName("user_has_liked")
+private boolean userHasLiked;@SerializedName("users_in_photo")
+private List<UsersInPhoto> usersInPhotoList;
+# Focal method
+@Override
+public String toString() {
+    return String.format("MediaFeedData [caption=%s, comments=%s, createdTime=%s, id=%s, imageFilter=%s, images=%s, likes=%s, link=%s, location=%s, tags=%s, type=%s, user=%s, userHasLiked=%s, usersInPhoto=%s]", caption, comments, createdTime, id, imageFilter, images, likes, link, location, tags, type, user, userHasLiked, usersInPhotoList);
+}
+}
+
+# Method Intention
+The overall intention of the toString() method in the MediaFeedData class is to provide a formatted string representation of the object's state by concatenating the values of its fields for debugging, logging, or display purposes.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+3-->4-->2-->compileRepair
+
+# Caption class
+package org.jinstagram.entity.common;
+public class Caption {
+public String getCreatedTime();
+public void setCreatedTime(String createdTime);
+public String getText();
+public void setText(String text);
+public FromTagData getFrom();
+public void setFrom(FromTagData from);
+public String getId();
+public void setId(String id);
+public String toString();
+}
+
+
+# Test Method
+@Test
+public void testToString() {
+
+       <Buggy Line>: constructor Caption in class org.jinstagram.entity.common.Caption cannot be applied to given types;
+    Caption caption = new Caption("Sample caption");
+
+    Comments comments = new Comments("Sample comment");
+    String createdTime = "2022-01-01";
+    String id = "1234";
+    String imageFilter = "filter";
+    Images images = new Images("image_url");
+    Likes likes = new Likes(10);
+    String link = "http://samplelink.com";
+    Location location = new Location("Sample location");
+    List<String> tags = List.of("tag1", "tag2");
+    String type = "photo";
+    User user = new User("John Doe");
+    boolean userHasLiked = true;
+    List<UsersInPhoto> usersInPhotoList = List.of(new UsersInPhoto("user1"), new UsersInPhoto("user2"));
+    MediaFeedData mediaFeedData = new MediaFeedData();
+    mediaFeedData.setCaption(caption);
+    mediaFeedData.setComments(comments);
+    mediaFeedData.setCreatedTime(createdTime);
+    mediaFeedData.setId(id);
+    mediaFeedData.setImageFilter(imageFilter);
+    mediaFeedData.setImages(images);
+    mediaFeedData.setLikes(likes);
+    mediaFeedData.setLink(link);
+    mediaFeedData.setLocation(location);
+    mediaFeedData.setTags(tags);
+    mediaFeedData.setType(type);
+    mediaFeedData.setUser(user);
+    mediaFeedData.setUserHasLiked(userHasLiked);
+    mediaFeedData.setUsersInPhotoList(usersInPhotoList);
+    String result = mediaFeedData.toString();
+    assertEquals("MediaFeedData [caption=Sample caption, comments=Sample comment, createdTime=2022-01-01, id=1234, imageFilter=filter, images=image_url, likes=10, link=http://samplelink.com, location=Sample location, tags=[tag1, tag2], type=photo, user=John Doe, userHasLiked=true, usersInPhotoList=[user1, user2]]", result);
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "Caption" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "Caption" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+
+4-->5-->3-->compileRepair
+
+# Caption class
+package org.jinstagram.entity.common;
+public class Caption {
+public String getCreatedTime();
+public void setCreatedTime(String createdTime);
+public String getText();
+public void setText(String text);
+public FromTagData getFrom();
+public void setFrom(FromTagData from);
+public String getId();
+public void setId(String id);
+public String toString();
+}
+
+# Comments class
+package org.jinstagram.entity.common;
+public class Comments {
+public List<CommentData> getComments();
+public void setComments(List<CommentData> comments);
+public int getCount();
+public void setCount(int count);
+public String toString();
+}
+
+
+# Test Method
+@Test
+public void testToString() {
+    Caption caption = new Caption();
+    caption.setText("Sample caption");
+
+       <Buggy Line>: constructor Comments in class org.jinstagram.entity.common.Comments cannot be applied to given types;
+    Comments comments = new Comments("Sample comment");
+
+    String createdTime = "2022-01-01";
+    String id = "1234";
+    String imageFilter = "filter";
+    Images images = new Images("image_url");
+    Likes likes = new Likes(10);
+    String link = "http://samplelink.com";
+    Location location = new Location("Sample location");
+    List<String> tags = List.of("tag1", "tag2");
+    String type = "photo";
+    User user = new User("John Doe");
+    boolean userHasLiked = true;
+    List<UsersInPhoto> usersInPhotoList = List.of(new UsersInPhoto("user1"), new UsersInPhoto("user2"));
+    MediaFeedData mediaFeedData = new MediaFeedData();
+    mediaFeedData.setCaption(caption);
+    mediaFeedData.setComments(comments);
+    mediaFeedData.setCreatedTime(createdTime);
+    mediaFeedData.setId(id);
+    mediaFeedData.setImageFilter(imageFilter);
+    mediaFeedData.setImages(images);
+    mediaFeedData.setLikes(likes);
+    mediaFeedData.setLink(link);
+    mediaFeedData.setLocation(location);
+    mediaFeedData.setTags(tags);
+    mediaFeedData.setType(type);
+    mediaFeedData.setUser(user);
+    mediaFeedData.setUserHasLiked(userHasLiked);
+    mediaFeedData.setUsersInPhotoList(usersInPhotoList);
+    String result = mediaFeedData.toString();
+    String expected = "MediaFeedData [caption=Sample caption, comments=Sample comment, createdTime=2022-01-01, id=1234, imageFilter=filter, images=image_url, likes=10, link=http://samplelink.com, location=Sample location, tags=[tag1, tag2], type=photo, user=John Doe, userHasLiked=true, usersInPhotoList=[user1, user2]]";
+    Assert.assertEquals(expected, result);
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "Comments" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "Comments" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

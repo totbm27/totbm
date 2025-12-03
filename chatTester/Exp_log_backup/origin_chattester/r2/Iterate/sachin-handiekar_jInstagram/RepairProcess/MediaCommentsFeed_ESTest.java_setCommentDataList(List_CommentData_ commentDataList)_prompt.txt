@@ -1,0 +1,60 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testSetCommentDataList() {
+        MediaCommentsFeed mediaCommentsFeed = new MediaCommentsFeed();
+
+          <Buggy Line>: diamond operator is not supported in -source 1.6
+        List<CommentData> testCommentDataList = new LinkedList<>();
+
+        CommentData comment1 = new CommentData();
+        comment1.setText("Test Comment 1");
+        CommentData comment2 = new CommentData();
+        comment2.setText("Test Comment 2");
+        testCommentDataList.add(comment1);
+        testCommentDataList.add(comment2);
+        mediaCommentsFeed.setCommentDataList(testCommentDataList);
+        List<CommentData> retrievedCommentDataList = mediaCommentsFeed.getCommentDataList();
+        assertEquals(testCommentDataList, retrievedCommentDataList);
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testSetCommentDataList() {
+    MediaCommentsFeed mediaCommentsFeed = new MediaCommentsFeed();
+
+      <Buggy Line>: diamond operator is not supported in -source 1.6
+    List<CommentData> testCommentDataList = new LinkedList<>();
+
+    CommentData comment1 = new CommentData();
+    comment1.setText("Test Comment 1");
+    CommentData comment2 = new CommentData();
+    comment2.setText("Test Comment 2");
+    testCommentDataList.add(comment1);
+    testCommentDataList.add(comment2);
+    mediaCommentsFeed.setCommentDataList(testCommentDataList);
+    List<CommentData> retrievedCommentDataList = mediaCommentsFeed.getCommentDataList();
+    assertEquals(testCommentDataList, retrievedCommentDataList);
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

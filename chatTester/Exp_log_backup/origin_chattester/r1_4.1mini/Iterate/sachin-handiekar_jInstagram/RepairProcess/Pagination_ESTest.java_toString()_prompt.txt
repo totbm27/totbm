@@ -1,0 +1,73 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class Pagination {
+@SerializedName("deprecation_warning")
+private String depreciationWarning;@SerializedName("min_tag_id")
+private String minTagId;@SerializedName("next_max_id")
+private String nextMaxId;@SerializedName("next_max_tag_id")
+private String nextMaxTagId;@SerializedName("next_min_id")
+private String nextMinId;@SerializedName("next_url")
+private String nextUrl;
+# Focal method
+@Override
+public String toString() {
+    return String.format("Pagination [depreciationWarning=%s, minTagId=%s, nextMaxId=%s, nextMaxTagId=%s, nextMinId=%s, nextUrl=%s]", depreciationWarning, minTagId, nextMaxId, nextMaxTagId, nextMinId, nextUrl);
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testToString() {
+        Pagination pagination = new Pagination();
+        try {
+            java.lang.reflect.Field field;
+            field = Pagination.class.getDeclaredField("depreciationWarning");
+            field.setAccessible(true);
+            field.set(pagination, "warning1");
+            field = Pagination.class.getDeclaredField("minTagId");
+            field.setAccessible(true);
+            field.set(pagination, "min123");
+            field = Pagination.class.getDeclaredField("nextMaxId");
+            field.setAccessible(true);
+            field.set(pagination, "max456");
+            field = Pagination.class.getDeclaredField("nextMaxTagId");
+            field.setAccessible(true);
+            field.set(pagination, "maxTag789");
+            field = Pagination.class.getDeclaredField("nextMinId");
+            field.setAccessible(true);
+            field.set(pagination, "min012");
+            field = Pagination.class.getDeclaredField("nextUrl");
+            field.setAccessible(true);
+            field.set(pagination, "http://next.url");
+
+            <Buggy Line>: multi-catch statement is not supported in -source 1.6
+        } catch (NoSuchFieldException | IllegalAccessException e) {
+
+            throw new RuntimeException(e);
+        }
+        String expected = "Pagination [depreciationWarning=warning1, minTagId=min123, nextMaxId=max456, nextMaxTagId=maxTag789, nextMinId=min012, nextUrl=http://next.url]";
+        assertEquals(expected, pagination.toString());
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

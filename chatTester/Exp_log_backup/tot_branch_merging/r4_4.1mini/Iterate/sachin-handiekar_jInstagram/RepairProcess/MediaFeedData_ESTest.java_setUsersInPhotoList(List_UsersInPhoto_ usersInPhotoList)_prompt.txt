@@ -1,0 +1,31 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testSetUsersInPhotoList() {
+    MediaFeedData mediaFeedData = new MediaFeedData();
+    UsersInPhoto userInPhoto1 = new UsersInPhoto();
+    UsersInPhoto userInPhoto2 = new UsersInPhoto();
+
+      <Buggy Line>: diamond operator is not supported in -source 1.6
+    List<UsersInPhoto> usersInPhotoList = new LinkedList<>();
+
+    usersInPhotoList.add(userInPhoto1);
+    usersInPhotoList.add(userInPhoto2);
+    mediaFeedData.setUsersInPhotoList(usersInPhotoList);
+    List<UsersInPhoto> result = mediaFeedData.getUsersInPhotoList();
+    org.junit.Assert.assertNotNull(result);
+    org.junit.Assert.assertEquals(2, result.size());
+    org.junit.Assert.assertSame(userInPhoto1, result.get(0));
+    org.junit.Assert.assertSame(userInPhoto2, result.get(1));
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

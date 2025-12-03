@@ -1,0 +1,15 @@
+0-->1-->0-->testRepair
+# Focal Method
+public static PageDims of(final float top, final float left, final float width, final float height) {
+    return new PageDims(top, left, width, height);
+}
+
+# Method Intention
+The of(final float top, final float left, final float width, final float height) method in the PageDims class is intended to provide a static factory method for creating instances of the PageDims class with specified top, left, width, and height dimensions.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention`. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be compatible with Java compiler version 1.6, and the generated code should be enclosed within ``` ```
+
+########
+

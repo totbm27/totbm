@@ -1,0 +1,26 @@
+0-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+public void setBottom(float bottom) {
+    this.setRect(this.x, this.y, this.width, bottom - this.y);
+}
+
+# Method Intention
+The setBottom(float bottom) method in the Rectangle class is intended to update the height of the rectangle by adjusting the bottom coordinate while keeping the top coordinate and width constant.
+
+# Test Method
+    @Test
+    public void testSetBottom() {
+        Rectangle rectangle = new Rectangle(0, 0, 10, 10);
+        float newBottom = 15;
+        rectangle.setBottom(newBottom);
+        assertEquals(newBottom, rectangle.getBottom(), 0.001);
+              [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.AssertionError " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+

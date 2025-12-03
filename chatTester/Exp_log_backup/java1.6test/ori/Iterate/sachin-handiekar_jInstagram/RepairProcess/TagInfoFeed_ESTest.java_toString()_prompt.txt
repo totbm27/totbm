@@ -1,0 +1,62 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class TagInfoFeed {
+@SerializedName("meta")
+private Meta meta;@SerializedName("data")
+private TagInfoData tagInfo;
+# Focal method
+@Override
+public String toString() {
+    return String.format("TagInfoFeed [meta=%s, tagInfo=%s]", meta, tagInfo);
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be compatible with Java compiler version 1.6, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# TagInfoFeed class
+package org.jinstagram.entity.tags;
+public class TagInfoFeed {
+public Meta getMeta();
+public void setMeta(Meta meta);
+public TagInfoData getTagInfo();
+public void setTagInfo(TagInfoData tagInfo);
+public String toString();
+}
+
+
+# Test Method
+    @Test
+    public void testToString() {
+
+         <Buggy Line>: cannot find symbol method "mock(java.lang.Class<org.jinstagram.entity.common.Meta>)" in TagInfoFeed_ESTest
+        Meta mockMeta = mock(Meta.class);
+
+        TagInfoData mockTagInfo = mock(TagInfoData.class);
+        TagInfoFeed tagInfoFeed = new TagInfoFeed();
+        tagInfoFeed.setMeta(mockMeta);
+        tagInfoFeed.setTagInfo(mockTagInfo);
+        String result = tagInfoFeed.toString();
+        String expected = "TagInfoFeed [meta=" + mockMeta + ", tagInfo=" + mockTagInfo + "]";
+        assertEquals(expected, result);
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "TagInfoFeed" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "TagInfoFeed" class  cannot be modified, and the generated code should be compatible with Java compiler version 1.6.
+The generated code should be enclosed within ``` ```.
+
+########
+

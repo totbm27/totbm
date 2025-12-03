@@ -1,0 +1,61 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class SubscriptionResponseObject {
+@SerializedName("object")
+private String object;
+# Focal method
+public void setObject(String object) {
+    this.object = object;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# SubscriptionResponseObject class
+package org.jinstagram.realtime;
+public class SubscriptionResponseObject {
+public String getChangedAspect();
+public void setChangedAspect(String changedAspect);
+public String getSubscriptionId();
+public void setSubscriptionId(String subscriptionId);
+public String getObject();
+public void setObject(String object);
+public String getObjectId();
+public void setObjectId(String objectId);
+public long getEpochTime();
+public void setEpochTime(long epochTime);
+}
+
+
+# Test Method
+@Test
+public void testSetObject() {
+    SubscriptionResponseObject responseObject = new SubscriptionResponseObject();
+    String expectedObject = "Test Object";
+    responseObject.setObject(expectedObject);
+
+   <Buggy Line>: object has private access in org.jinstagram.realtime.SubscriptionResponseObject
+    assertEquals(expectedObject, responseObject.object);
+
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "SubscriptionResponseObject" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "SubscriptionResponseObject" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

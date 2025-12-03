@@ -1,0 +1,77 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testParse_withAndWithoutPattern() throws Exception {
+    BigDecimalFormatter formatter = new BigDecimalFormatter() {
+        private String pattern = null;
+        @Override
+        protected String getPattern() {
+            return pattern;
+        }
+
+          <Buggy Line>: setPattern(java.lang.String) in <anonymous com.zappos.json.format.BigDecimalFormatter_ESTest$1> cannot implement setPattern(java.lang.String) in com.zappos.json.format.ValueFormatter
+        public void setPattern(String pattern) {
+
+            this.pattern = pattern;
+        }
+    };
+    ZapposJson dummyJson = null; 
+    formatter.setPattern(null);
+    BigDecimal result1 = formatter.parse(dummyJson, "123.456");
+    org.junit.Assert.assertEquals(new BigDecimal("123.456"), result1);
+    formatter.setPattern("#,##0.00");
+    BigDecimal result2 = formatter.parse(dummyJson, "1,234.56");
+    org.junit.Assert.assertEquals(new BigDecimal("1234.56"), result2);
+    formatter.setPattern("#,##0");
+    BigDecimal result3 = formatter.parse(dummyJson, "1,234");
+    org.junit.Assert.assertEquals(new BigDecimal("1234"), result3);
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testParse_withAndWithoutPattern() throws Exception {
+    BigDecimalFormatter formatter = new BigDecimalFormatter() {
+        private String pattern = null;
+        @Override
+
+         <Buggy Line>: getPattern() in <anonymous com.zappos.json.format.BigDecimalFormatter_ESTest$1> cannot override getPattern() in com.zappos.json.format.AbstractValueFormatter
+        protected String getPattern() {
+
+            return pattern;
+        }
+    };
+    ZapposJson dummyJson = null; 
+    java.lang.reflect.Field patternField = formatter.getClass().getDeclaredField("pattern");
+    patternField.setAccessible(true);
+    patternField.set(formatter, null);
+    BigDecimal result1 = formatter.parse(dummyJson, "123.456");
+    org.junit.Assert.assertEquals(new BigDecimal("123.456"), result1);
+    patternField.set(formatter, "#,##0.00");
+    BigDecimal result2 = formatter.parse(dummyJson, "1,234.56");
+    org.junit.Assert.assertEquals(new BigDecimal("1234.56"), result2);
+    patternField.set(formatter, "#,##0");
+    BigDecimal result3 = formatter.parse(dummyJson, "1,234");
+    org.junit.Assert.assertEquals(new BigDecimal("1234"), result3);
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

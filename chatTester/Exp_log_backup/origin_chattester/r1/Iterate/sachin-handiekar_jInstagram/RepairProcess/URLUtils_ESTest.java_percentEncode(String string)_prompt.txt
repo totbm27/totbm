@@ -1,0 +1,25 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class URLUtils {
+private static final Set<EncodingRule> ENCODING_RULES;
+# Focal method
+public static String percentEncode(String string) {
+    String encoded = formURLEncode(string);
+    for (EncodingRule rule : ENCODING_RULES) {
+        encoded = rule.apply(encoded);
+    }
+    return encoded;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+

@@ -1,0 +1,67 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class FromTagData {
+@SerializedName("full_name")
+private String fullName;@SerializedName("id")
+private String id;@SerializedName("profile_picture")
+private String profilePicture;@SerializedName("username")
+private String username;
+# Focal method
+@Override
+public String toString() {
+    return String.format("FromTagData [fullName=%s, id=%s, profilePicture=%s, username=%s]", fullName, id, profilePicture, username);
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# FromTagData class
+package org.jinstagram.entity.common;
+public class FromTagData {
+public String getUsername();
+public void setUsername(String username);
+public String getId();
+public void setId(String id);
+public String getProfilePicture();
+public void setProfilePicture(String profilePicture);
+public String getFullName();
+public void setFullName(String fullName);
+public String toString();
+}
+
+
+# Test Method
+    @Test
+    public void testToString_ReturnsFormattedStringWithAllFields() {
+        FromTagData fromTagData = new FromTagData();
+
+         <Buggy Line>: cannot find symbol method "setField(org.jinstagram.entity.common.FromTagData,java.lang.String,java.lang.String)" in FromTagData_ESTest
+        setField(fromTagData, "fullName", "John Doe");
+
+        setField(fromTagData, "id", "12345");
+        setField(fromTagData, "profilePicture", "http://example.com/pic.jpg");
+        setField(fromTagData, "username", "johndoe");
+        String result = fromTagData.toString();
+        assertEquals("FromTagData [fullName=John Doe, id=12345, profilePicture=http://example.com/pic.jpg, username=johndoe]", result);
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "FromTagData" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "FromTagData" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

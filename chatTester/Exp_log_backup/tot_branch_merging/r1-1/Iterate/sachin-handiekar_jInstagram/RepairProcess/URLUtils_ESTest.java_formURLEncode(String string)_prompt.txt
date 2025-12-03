@@ -1,0 +1,176 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class URLUtils {
+private static final String UTF_8 = "UTF-8";private static final String ERROR_MSG = String.format("Cannot find specified encoding: %s", UTF_8);
+# Focal method
+public static String formURLEncode(String string) {
+    Preconditions.checkNotNull(string, "Cannot encode null string");
+    try {
+        return URLEncoder.encode(string, UTF_8);
+    } catch (UnsupportedEncodingException uee) {
+        throw new IllegalStateException(ERROR_MSG, uee);
+    }
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+public static String formURLEncode(String string) {
+    Preconditions.checkNotNull(string, "Cannot encode null string");
+    try {
+        return URLEncoder.encode(string, UTF_8);
+    } catch (UnsupportedEncodingException uee) {
+        throw new IllegalStateException(ERROR_MSG, uee);
+    }
+}
+
+# Method Intention
+The formURLEncode(String string) method is intended to encode the input string using the UTF-8 encoding scheme for use in constructing a URL, handling potential UnsupportedEncodingException by throwing an IllegalStateException with an error message.
+
+# Test Method
+    @Test
+    public void testFormURLEncode() {
+        String inputString = "test string";
+        String expectedEncodedString = "test%20string";
+        String encodedString = URLUtils.formURLEncode(inputString);
+       [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.junit.ComparisonFailure expected:<test[%20]string> but was:<test[+]string> " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->0-->testRepair
+# Focal method (Cannot be modified)
+public static String formURLEncode(String string) {
+    Preconditions.checkNotNull(string, "Cannot encode null string");
+    try {
+        return URLEncoder.encode(string, UTF_8);
+    } catch (UnsupportedEncodingException uee) {
+        throw new IllegalStateException(ERROR_MSG, uee);
+    }
+}
+
+# Method Intention
+The formURLEncode(String string) method is intended to encode the input string using the UTF-8 encoding scheme to ensure that it is safe to be included in a URL, handling any potential UnsupportedEncodingException by throwing an IllegalStateException with a specific error message.
+
+# Test Method
+@Test
+public void testFormURLEncode() {
+    String inputString = "test string";
+    String expectedEncodedString = "test%20string";
+    String encodedString = URLUtils.formURLEncode(inputString);
+   [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.junit.ComparisonFailure expected:<test[%20]string> but was:<test[+]string> " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+3-->3-->0-->testRepair
+# Focal method (Cannot be modified)
+public static String formURLEncode(String string) {
+    Preconditions.checkNotNull(string, "Cannot encode null string");
+    try {
+        return URLEncoder.encode(string, UTF_8);
+    } catch (UnsupportedEncodingException uee) {
+        throw new IllegalStateException(ERROR_MSG, uee);
+    }
+}
+
+# Method Intention
+The formURLEncode(String string) method is intended to encode the input string using the UTF-8 encoding scheme for use in constructing a URL, handling potential UnsupportedEncodingException by throwing an IllegalStateException with an error message.
+
+# Test Method
+@Test
+public void testFormURLEncode() {
+    String inputString = "test string";
+    String expectedEncodedString = "test%20string";
+    String encodedString = URLUtils.formURLEncode(inputString);
+   [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.junit.ComparisonFailure expected:<test[%20]string> but was:<test[+]string> " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+4-->5-->0-->testRepair
+# Focal method (Cannot be modified)
+public static String formURLEncode(String string) {
+    Preconditions.checkNotNull(string, "Cannot encode null string");
+    try {
+        return URLEncoder.encode(string, UTF_8);
+    } catch (UnsupportedEncodingException uee) {
+        throw new IllegalStateException(ERROR_MSG, uee);
+    }
+}
+
+# Method Intention
+The formURLEncode(String string) method is intended to encode the input string using the UTF-8 encoding scheme for use in constructing a URL, handling potential UnsupportedEncodingException by throwing an IllegalStateException with an error message.
+
+# Test Method
+@Test
+public void testFormURLEncode() {
+    String inputString = "test string";
+    String expectedEncodedString = "test%20string";
+    String encodedString = URLUtils.formURLEncode(inputString);
+   [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.junit.ComparisonFailure expected:<test[%20]string> but was:<test[+]string> " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+
+5-->5-->0-->testRepair
+# Focal method (Cannot be modified)
+public static String formURLEncode(String string) {
+    Preconditions.checkNotNull(string, "Cannot encode null string");
+    try {
+        return URLEncoder.encode(string, UTF_8);
+    } catch (UnsupportedEncodingException uee) {
+        throw new IllegalStateException(ERROR_MSG, uee);
+    }
+}
+
+# Method Intention
+The formURLEncode(String string) method is intended to encode the input string using the UTF-8 encoding scheme for use in constructing a URL, handling potential UnsupportedEncodingException by throwing an IllegalStateException with an error message.
+
+# Test Method
+@Test
+public void testFormURLEncode() {
+    String inputString = "test string";
+    String expectedEncodedString = "test%20string";
+    String encodedString = URLUtils.formURLEncode(inputString);
+   [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.junit.ComparisonFailure expected:<test[%20]string> but was:<test[+]string> " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+

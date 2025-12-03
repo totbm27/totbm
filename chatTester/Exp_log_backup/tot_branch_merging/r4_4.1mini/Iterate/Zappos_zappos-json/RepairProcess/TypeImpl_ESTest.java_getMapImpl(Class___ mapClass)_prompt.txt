@@ -1,0 +1,53 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testGetMapImpl() {
+    TypeImpl ti1 = TypeImpl.getMapImpl(java.util.Map.class);
+    assert ti1.getInfClass() == java.util.Map.class;
+    assert ti1.getImplClass() == java.util.HashMap.class;
+    TypeImpl ti2 = TypeImpl.getMapImpl(java.util.AbstractMap.class);
+    assert ti2.getInfClass() == java.util.AbstractMap.class;
+    assert ti2.getImplClass() == java.util.HashMap.class;
+    TypeImpl ti3 = TypeImpl.getMapImpl(java.util.concurrent.ConcurrentMap.class);
+    assert ti3.getInfClass() == java.util.concurrent.ConcurrentMap.class;
+    assert ti3.getImplClass() == java.util.concurrent.ConcurrentHashMap.class;
+    TypeImpl ti4 = TypeImpl.getMapImpl(java.util.SortedMap.class);
+    assert ti4.getInfClass() == java.util.SortedMap.class;
+    assert ti4.getImplClass() == java.util.TreeMap.class;
+    TypeImpl ti5 = TypeImpl.getMapImpl(java.util.LinkedHashMap.class);
+    assert ti5.getInfClass() == java.util.LinkedHashMap.class;
+    assert ti5.getImplClass() == java.util.LinkedHashMap.class;
+    try {
+        TypeImpl.getMapImpl(java.util.AbstractMap.class.getSuperclass()); 
+    } catch (RuntimeException e) {
+        assert false : "Unexpected exception for Object.class";
+    }
+
+      <Buggy Line>: interface not allowed here
+    interface DummyMap extends java.util.Map {}
+
+    try {
+        TypeImpl.getMapImpl(DummyMap.class);
+        assert false : "Expected RuntimeException for unknown interface";
+    } catch (RuntimeException e) {
+        assert e.getMessage().contains("Cannot find appropriate implementation");
+    }
+    abstract class DummyAbstractMap extends java.util.AbstractMap {}
+    try {
+        TypeImpl.getMapImpl(DummyAbstractMap.class);
+        assert false : "Expected RuntimeException for unknown abstract class";
+    } catch (RuntimeException e) {
+        assert e.getMessage().contains("Cannot find appropriate implementation");
+    }
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

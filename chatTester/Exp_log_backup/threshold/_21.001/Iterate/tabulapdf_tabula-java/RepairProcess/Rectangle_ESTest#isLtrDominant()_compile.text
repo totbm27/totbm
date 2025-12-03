@@ -1,0 +1,13 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Rectangle_ESTest.java
+[GENERATED PATH] Rectangle_ESTest#isLtrDominant().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Rectangle_ESTest.java:[30,25] cannot find symbol
+  symbol:   method getTopLeft()
+  location: variable rectangle of type technology.tabula.Rectangle
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Rectangle_ESTest.java:[30,57] cannot find symbol
+  symbol:   method getBottomRight()
+  location: variable rectangle of type technology.tabula.Rectangle
+[INFO] 2 errors 
+####################
+

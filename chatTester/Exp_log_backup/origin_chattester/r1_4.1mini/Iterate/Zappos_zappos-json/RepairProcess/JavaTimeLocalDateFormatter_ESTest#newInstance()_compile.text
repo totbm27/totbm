@@ -1,0 +1,18 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaTimeLocalDateFormatter_ESTest.java
+[GENERATED PATH] JavaTimeLocalDateFormatter_ESTest#newInstance().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaTimeLocalDateFormatter_ESTest.java:[36,9] cannot find symbol
+  symbol:   class JavaTimeLocalDateFormatterFactory
+  location: class com.zappos.json.format.JavaTimeLocalDateFormatter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaTimeLocalDateFormatter_ESTest.java:[36,57] cannot find symbol
+  symbol:   class JavaTimeLocalDateFormatterFactory
+  location: class com.zappos.json.format.JavaTimeLocalDateFormatter_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaTimeLocalDateFormatter_ESTest.java:[41,23] incompatible types: com.zappos.json.format.ValueFormatter<java.time.LocalDate> cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaTimeLocalDateFormatter_ESTest.java:[42,23] incompatible types: com.zappos.json.format.ValueFormatter<java.time.LocalDate> cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaTimeLocalDateFormatter_ESTest.java:[43,23] incompatible types: com.zappos.json.format.ValueFormatter<java.time.LocalDate> cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaTimeLocalDateFormatter_ESTest.java:[44,30] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaTimeLocalDateFormatter_ESTest.java:[45,30] incompatible types: boolean cannot be converted to java.lang.String
+[INFO] 7 errors 
+####################
+

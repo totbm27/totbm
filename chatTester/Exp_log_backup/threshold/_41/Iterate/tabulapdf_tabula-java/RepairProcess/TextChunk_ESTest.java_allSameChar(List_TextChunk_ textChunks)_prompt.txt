@@ -1,0 +1,261 @@
+0-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+public static boolean allSameChar(List<TextChunk> textChunks) {
+    if (textChunks.size() == 1)
+        return false;
+    boolean hasHadAtLeastOneNonEmptyTextChunk = false;
+    char first = '\u0000';
+    for (TextChunk tc : textChunks) {
+        if (tc.getText().length() == 0) {
+            continue;
+        }
+        if (first == '\u0000') {
+            first = tc.getText().charAt(0);
+        } else {
+            hasHadAtLeastOneNonEmptyTextChunk = true;
+            if (!tc.isSameChar(first))
+                return false;
+        }
+    }
+    return hasHadAtLeastOneNonEmptyTextChunk;
+}
+
+# Method Intention
+The allSameChar method aims to determine if all TextChunks in the provided list have the same non-empty character at the beginning of their text content, returning true if at least one non-empty TextChunk is found and all others match the initial character, and false otherwise.
+
+# Test Method
+    @Test
+    public void testAllSameChar() {
+        TextChunk tc1 = new TextChunk(0, 0, 10, 10);
+           [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.Error Unresolved compilation problems: 
+ The constructor TextElement(int, int, int, int, String) is undefined
+ The constructor TextElement(int, int, int, int, String) is undefined
+ The constructor TextElement(int, int, int, int, String) is undefined
+ The constructor TextElement(int, int, int, int, String) is undefined
+ The constructor TextElement(int, int, int, int, String) is undefined
+ The constructor TextElement(int, int, int, int, String) is undefined
+ " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method, and the generated code should be compatible with Java compiler version 1.6.
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->1-->0-->testRepair
+
+
+# Test Method
+    @Test
+    public void testAllSameChar() {
+        TextChunk tc1 = new TextChunk(0, 0, 10, 10);
+        tc1.add(new TextElement(0, 0, 10, 10, "apple"));
+        TextChunk tc2 = new TextChunk(0, 0, 10, 10);
+
+           <Buggy Line>: no suitable constructor found for TextChunk(int,int,java.lang.String)
+        tc2.add(new TextElement(0, 0, 10, 10, "apricot"));
+
+        List<TextChunk> textChunksSameChar = new ArrayList<>();
+        textChunksSameChar.add(tc1);
+        textChunksSameChar.add(tc2);
+        assertTrue(TextChunk.allSameChar(textChunksSameChar));
+        TextChunk tc3 = new TextChunk(0, 0, 10, 10);
+        tc3.add(new TextElement(0, 0, 10, 10, "banana"));
+        TextChunk tc4 = new TextChunk(0, 0, 10, 10);
+        tc4.add(new TextElement(0, 0, 10, 10, "cherry"));
+        List<TextChunk> textChunksDiffChar = new ArrayList<>();
+        textChunksDiffChar.add(tc3);
+        textChunksDiffChar.add(tc4);
+        assertFalse(TextChunk.allSameChar(textChunksDiffChar));
+        TextChunk tc5 = new TextChunk(0, 0, 10, 10);
+        tc5.add(new TextElement(0, 0, 10, 10, ""));
+        TextChunk tc6 = new TextChunk(0, 0, 10, 10);
+        tc6.add(new TextElement(0, 0, 10, 10, ""));
+        List<TextChunk> textChunksEmpty = new ArrayList<>();
+        textChunksEmpty.add(tc5);
+        textChunksEmpty.add(tc6);
+        assertFalse(TextChunk.allSameChar(textChunksEmpty));
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair, and the generated code should be compatible with Java compiler version 1.6. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->0-->testRepair
+
+
+# Test Method
+    @Test
+    public void testAllSameChar() {
+        TextChunk tc1 = new TextChunk(0, 0, 10, 10);
+        tc1.add(new TextElement(0, 0, 10, 10, "apple"));
+        TextChunk tc2 = new TextChunk(0, 0, 10, 10);
+        tc2.add(new TextElement(0, 0, 10, 10, "apricot"));
+        List<TextChunk> textChunksSameChar = new ArrayList<>();
+
+      <Buggy Line>: no suitable constructor found for TextElement(int,int,int,int,java.lang.String)
+        textChunksSameChar.add(tc1);
+
+        textChunksSameChar.add(tc2);
+        assertTrue(TextChunk.allSameChar(textChunksSameChar));
+        TextChunk tc3 = new TextChunk(0, 0, 10, 10);
+        tc3.add(new TextElement(0, 0, 10, 10, "banana"));
+        TextChunk tc4 = new TextChunk(0, 0, 10, 10);
+        tc4.add(new TextElement(0, 0, 10, 10, "cherry"));
+        List<TextChunk> textChunksDiffChar = new ArrayList<>();
+        textChunksDiffChar.add(tc3);
+        textChunksDiffChar.add(tc4);
+        assertFalse(TextChunk.allSameChar(textChunksDiffChar));
+        TextChunk tc5 = new TextChunk(0, 0, 10, 10);
+        tc5.add(new TextElement(0, 0, 10, 10, ""));
+        TextChunk tc6 = new TextChunk(0, 0, 10, 10);
+        tc6.add(new TextElement(0, 0, 10, 10, ""));
+        List<TextChunk> textChunksEmpty = new ArrayList<>();
+        textChunksEmpty.add(tc5);
+        textChunksEmpty.add(tc6);
+        assertFalse(TextChunk.allSameChar(textChunksEmpty));
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair, and the generated code should be compatible with Java compiler version 1.6. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+3-->3-->0-->testRepair
+
+
+# Test Method
+    @Test
+    public void testAllSameChar() {
+        TextChunk tc1 = new TextChunk(0, 0, 10, 10);
+        tc1.add(new TextElement(0, 0, 10, 10, "apple"));
+        TextChunk tc2 = new TextChunk(0, 0, 10, 10);
+
+           <Buggy Line>: no suitable constructor found for TextElement(int,int,int,int,java.lang.String)
+        tc2.add(new TextElement(0, 0, 10, 10, "apricot"));
+
+        List<TextChunk> textChunksSameChar = new ArrayList<>();
+        textChunksSameChar.add(tc1);
+        textChunksSameChar.add(tc2);
+        assertTrue(TextChunk.allSameChar(textChunksSameChar));
+        TextChunk tc3 = new TextChunk(0, 0, 10, 10);
+        tc3.add(new TextElement(0, 0, 10, 10, "banana"));
+        TextChunk tc4 = new TextChunk(0, 0, 10, 10);
+        tc4.add(new TextElement(0, 0, 10, 10, "cherry"));
+        List<TextChunk> textChunksDiffChar = new ArrayList<>();
+        textChunksDiffChar.add(tc3);
+        textChunksDiffChar.add(tc4);
+        assertFalse(TextChunk.allSameChar(textChunksDiffChar));
+        TextChunk tc5 = new TextChunk(0, 0, 10, 10);
+        tc5.add(new TextElement(0, 0, 10, 10, ""));
+        TextChunk tc6 = new TextChunk(0, 0, 10, 10);
+        tc6.add(new TextElement(0, 0, 10, 10, ""));
+        List<TextChunk> textChunksEmpty = new ArrayList<>();
+        textChunksEmpty.add(tc5);
+        textChunksEmpty.add(tc6);
+        assertFalse(TextChunk.allSameChar(textChunksEmpty));
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair, and the generated code should be compatible with Java compiler version 1.6. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+4-->5-->0-->testRepair
+
+
+# Test Method
+    @Test
+    public void testAllSameChar() {
+        TextChunk tc1 = new TextChunk(0, 0, 10, 10);
+        tc1.add(new TextElement(0, 0, 10, 10, "apple"));
+        TextChunk tc2 = new TextChunk(0, 0, 10, 10);
+
+           <Buggy Line>: no suitable constructor found for TextElement(int,int,int,int,java.lang.String)
+        tc2.add(new TextElement(0, 0, 10, 10, "apricot"));
+
+        List<TextChunk> textChunksSameChar = new ArrayList<>();
+        textChunksSameChar.add(tc1);
+        textChunksSameChar.add(tc2);
+        assertTrue(TextChunk.allSameChar(textChunksSameChar));
+        TextChunk tc3 = new TextChunk(0, 0, 10, 10);
+        tc3.add(new TextElement(0, 0, 10, 10, "banana"));
+        TextChunk tc4 = new TextChunk(0, 0, 10, 10);
+        tc4.add(new TextElement(0, 0, 10, 10, "cherry"));
+        List<TextChunk> textChunksDiffChar = new ArrayList<>();
+        textChunksDiffChar.add(tc3);
+        textChunksDiffChar.add(tc4);
+        assertFalse(TextChunk.allSameChar(textChunksDiffChar));
+        TextChunk tc5 = new TextChunk(0, 0, 10, 10);
+        tc5.add(new TextElement(0, 0, 10, 10, ""));
+        TextChunk tc6 = new TextChunk(0, 0, 10, 10);
+        tc6.add(new TextElement(0, 0, 10, 10, ""));
+        List<TextChunk> textChunksEmpty = new ArrayList<>();
+        textChunksEmpty.add(tc5);
+        textChunksEmpty.add(tc6);
+        assertFalse(TextChunk.allSameChar(textChunksEmpty));
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair, and the generated code should be compatible with Java compiler version 1.6. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+5-->5-->0-->testRepair
+
+
+# Test Method
+    @Test
+    public void testAllSameChar() {
+        TextChunk tc1 = new TextChunk(0, 0, 10, 10);
+        tc1.add(new TextElement(0, 0, 10, 10, "apple"));
+        TextChunk tc2 = new TextChunk(0, 0, 10, 10);
+
+           <Buggy Line>: no suitable constructor found for TextElement(int,int,int,int,java.lang.String)
+        tc2.add(new TextElement(0, 0, 10, 10, "apricot"));
+
+        List<TextChunk> textChunksSameChar = new ArrayList<>();
+        textChunksSameChar.add(tc1);
+        textChunksSameChar.add(tc2);
+        assertTrue(TextChunk.allSameChar(textChunksSameChar));
+        TextChunk tc3 = new TextChunk(0, 0, 10, 10);
+        tc3.add(new TextElement(0, 0, 10, 10, "banana"));
+        TextChunk tc4 = new TextChunk(0, 0, 10, 10);
+        tc4.add(new TextElement(0, 0, 10, 10, "cherry"));
+        List<TextChunk> textChunksDiffChar = new ArrayList<>();
+        textChunksDiffChar.add(tc3);
+        textChunksDiffChar.add(tc4);
+        assertFalse(TextChunk.allSameChar(textChunksDiffChar));
+        TextChunk tc5 = new TextChunk(0, 0, 10, 10);
+        tc5.add(new TextElement(0, 0, 10, 10, ""));
+        TextChunk tc6 = new TextChunk(0, 0, 10, 10);
+        tc6.add(new TextElement(0, 0, 10, 10, ""));
+        List<TextChunk> textChunksEmpty = new ArrayList<>();
+        textChunksEmpty.add(tc5);
+        textChunksEmpty.add(tc6);
+        assertFalse(TextChunk.allSameChar(textChunksEmpty));
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair, and the generated code should be compatible with Java compiler version 1.6. 
+The generated code should be enclosed within ``` ```.
+
+########
+

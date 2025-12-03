@@ -1,0 +1,44 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testSortWithNaturalOrder() {
+
+          <Buggy Line>: cannot find symbol method "of(int,int,int,int,int)" in List
+    List<Integer> intList = new Vector<>(List.of(5, 3, 8, 1, 9));
+
+    QuickSort.sort(intList);
+    List<Integer> expectedIntList = List.of(1, 3, 5, 8, 9);
+    org.junit.Assert.assertEquals(expectedIntList, intList);
+    List<String> strList = new Vector<>(List.of("banana", "Apple", "cherry"));
+    QuickSort.sort(strList);
+    List<String> expectedStrList = List.of("Apple", "banana", "cherry");
+    org.junit.Assert.assertEquals(expectedStrList, strList);
+    List<Integer> sortedIntList = new Vector<>(List.of(1, 2, 3, 4, 5));
+    QuickSort.sort(sortedIntList);
+    List<Integer> expectedSortedIntList = List.of(1, 2, 3, 4, 5);
+    org.junit.Assert.assertEquals(expectedSortedIntList, sortedIntList);
+    List<Integer> reverseIntList = new Vector<>(List.of(9, 7, 5, 3, 1));
+    QuickSort.sort(reverseIntList);
+    List<Integer> expectedReverseIntList = List.of(1, 3, 5, 7, 9);
+    org.junit.Assert.assertEquals(expectedReverseIntList, reverseIntList);
+    List<Integer> dupIntList = new Vector<>(List.of(4, 2, 4, 3, 2));
+    QuickSort.sort(dupIntList);
+    List<Integer> expectedDupIntList = List.of(2, 2, 3, 4, 4);
+    org.junit.Assert.assertEquals(expectedDupIntList, dupIntList);
+    List<Integer> emptyList = new Vector<>();
+    QuickSort.sort(emptyList);
+    List<Integer> expectedEmptyList = List.of();
+    org.junit.Assert.assertEquals(expectedEmptyList, emptyList);
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "List" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "List" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

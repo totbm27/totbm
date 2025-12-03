@@ -1,0 +1,36 @@
+0-->1-->0-->compileRepair
+
+# JavaTimeLocalDateFormatter class
+package com.zappos.json.format;
+public class JavaTimeLocalDateFormatter {
+public LocalDate cast(Object obj);
+public String format(ZapposJson zapposJson, LocalDate object);
+public LocalDate parse(ZapposJson zapposJson, String string) throws Exception;
+public ValueFormatter<LocalDate> setPattern(String pattern);
+public ValueFormatter<LocalDate> newInstance();
+}
+
+
+# Test Method
+    @Test
+    public void testSetPattern() {
+        JavaTimeLocalDateFormatter formatter = new JavaTimeLocalDateFormatter();
+        String pattern = "yyyy-MM-dd";
+        ValueFormatter<LocalDate> result = formatter.setPattern(pattern);
+        DateTimeFormatter expectedFormatter = DateTimeFormatter.ofPattern(pattern).withZone(ZoneId.systemDefault());
+
+       <Buggy Line>: cannot find symbol method "getFormatter()" in JavaTimeLocalDateFormatter
+        assertEquals(expectedFormatter, formatter.getFormatter());
+
+        assertEquals(formatter, result);
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "JavaTimeLocalDateFormatter" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "JavaTimeLocalDateFormatter" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

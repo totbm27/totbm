@@ -1,0 +1,361 @@
+0-->1-->0-->compileRepair
+
+# TextChunk class
+package technology.tabula;
+public class TextChunk {
+public static final TextChunk EMPTY = new TextChunk(0, 0, 0, 0);
+public TextChunk(float top, float left, float width, float height);
+public TextChunk(TextElement textElement);
+public TextChunk(List<TextElement> textElements);
+public TextChunk groupByDirectionality(Boolean isLtrDominant);
+public int isLtrDominant();
+public TextChunk merge(TextChunk other);
+public void add(TextElement textElement);
+public void add(List<TextElement> elements);
+public String getText();
+public String getText(boolean useLineReturns);
+public boolean isSameChar(Character c);
+public boolean isSameChar(Character[] c);
+public TextChunk[] splitAt(int i);
+public List<TextChunk> squeeze(Character c, int minRunLength);
+public int hashCode();
+public boolean equals(Object obj);
+public static boolean allSameChar(List<TextChunk> textChunks);
+public static List<Line> groupByLines(List<TextChunk> textChunks);
+}
+
+
+# Test Method
+    @Test
+    public void testSplitAt_ValidIndex() {
+        List<TextElement> elements = new ArrayList<>();
+
+        <Buggy Line>: cannot find symbol method "createTextElement(java.lang.String,int,int)" in TextChunk_ESTest
+        elements.add(createTextElement("A", 0, 0));
+
+        elements.add(createTextElement("B", 1, 0));
+        elements.add(createTextElement("C", 2, 0));
+        elements.add(createTextElement("D", 3, 0));
+        elements.add(createTextElement("E", 4, 0));
+        TextChunk chunk = new TextChunk(elements);
+        TextChunk[] split = chunk.splitAt(2);
+        assertEquals(2, split.length);
+        String firstText = split[0].getText(false);
+        assertTrue(firstText.contains("A"));
+        assertTrue(firstText.contains("B"));
+        assertFalse(firstText.contains("C"));
+        assertFalse(firstText.contains("D"));
+        assertFalse(firstText.contains("E"));
+        String secondText = split[1].getText(false);
+        assertFalse(secondText.contains("A"));
+        assertFalse(secondText.contains("B"));
+        assertTrue(secondText.contains("C"));
+        assertTrue(secondText.contains("D"));
+        assertTrue(secondText.contains("E"));
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "TextChunk" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "TextChunk" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# TextChunk class
+package technology.tabula;
+public class TextChunk {
+public static final TextChunk EMPTY = new TextChunk(0, 0, 0, 0);
+public TextChunk(float top, float left, float width, float height);
+public TextChunk(TextElement textElement);
+public TextChunk(List<TextElement> textElements);
+public TextChunk groupByDirectionality(Boolean isLtrDominant);
+public int isLtrDominant();
+public TextChunk merge(TextChunk other);
+public void add(TextElement textElement);
+public void add(List<TextElement> elements);
+public String getText();
+public String getText(boolean useLineReturns);
+public boolean isSameChar(Character c);
+public boolean isSameChar(Character[] c);
+public TextChunk[] splitAt(int i);
+public List<TextChunk> squeeze(Character c, int minRunLength);
+public int hashCode();
+public boolean equals(Object obj);
+public static boolean allSameChar(List<TextChunk> textChunks);
+public static List<Line> groupByLines(List<TextChunk> textChunks);
+}
+
+
+# Test Method
+    @Test
+    public void testSplitAt_ValidIndex() {
+        List<TextElement> elements = new ArrayList<>();
+
+         <Buggy Line>: no suitable constructor found for TextElement(java.lang.String,int,int)
+        elements.add(new TextElement("A", 0, 0));
+
+        elements.add(new TextElement("B", 1, 0));
+        elements.add(new TextElement("C", 2, 0));
+        elements.add(new TextElement("D", 3, 0));
+        elements.add(new TextElement("E", 4, 0));
+        TextChunk chunk = new TextChunk(elements);
+        TextChunk[] split = chunk.splitAt(2);
+        assertEquals(2, split.length);
+        String firstText = split[0].getText(false);
+        assertTrue(firstText.contains("A"));
+        assertTrue(firstText.contains("B"));
+        assertFalse(firstText.contains("C"));
+        assertFalse(firstText.contains("D"));
+        assertFalse(firstText.contains("E"));
+        String secondText = split[1].getText(false);
+        assertFalse(secondText.contains("A"));
+        assertFalse(secondText.contains("B"));
+        assertTrue(secondText.contains("C"));
+        assertTrue(secondText.contains("D"));
+        assertTrue(secondText.contains("E"));
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->1-->compileRepair
+
+# TextChunk class
+package technology.tabula;
+public class TextChunk {
+public static final TextChunk EMPTY = new TextChunk(0, 0, 0, 0);
+public TextChunk(float top, float left, float width, float height);
+public TextChunk(TextElement textElement);
+public TextChunk(List<TextElement> textElements);
+public TextChunk groupByDirectionality(Boolean isLtrDominant);
+public int isLtrDominant();
+public TextChunk merge(TextChunk other);
+public void add(TextElement textElement);
+public void add(List<TextElement> elements);
+public String getText();
+public String getText(boolean useLineReturns);
+public boolean isSameChar(Character c);
+public boolean isSameChar(Character[] c);
+public TextChunk[] splitAt(int i);
+public List<TextChunk> squeeze(Character c, int minRunLength);
+public int hashCode();
+public boolean equals(Object obj);
+public static boolean allSameChar(List<TextChunk> textChunks);
+public static List<Line> groupByLines(List<TextChunk> textChunks);
+}
+
+
+# Focal Method
+public class TextChunk {
+public TextChunk(float top, float left, float width, float height) {
+    super(top, left, width, height);
+}public TextChunk(TextElement textElement) {
+    super(textElement.y, textElement.x, textElement.width, textElement.height);
+    this.add(textElement);
+}public TextChunk(List<TextElement> textElements) {
+    this(textElements.get(0));
+    for (int i = 1; i < textElements.size(); i++) {
+        this.add(textElements.get(i));
+    }
+}
+# Focal method
+public TextChunk[] splitAt(int i) {
+    if (i < 1 || i >= this.getTextElements().size()) {
+        throw new IllegalArgumentException();
+    }
+    return new TextChunk[] { new TextChunk(this.getTextElements().subList(0, i)), new TextChunk(this.getTextElements().subList(i, this.getTextElements().size())) };
+}
+}
+
+# Method Intention
+The splitAt(int i) method in the TextChunk class is intended to divide the list of TextElements within the TextChunk object into two separate TextChunk objects at the specified index i, ensuring that the original order of TextElements is maintained in each resulting TextChunk.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+3-->4-->1-->compileRepair
+
+# TextChunk class
+package technology.tabula;
+public class TextChunk {
+public static final TextChunk EMPTY = new TextChunk(0, 0, 0, 0);
+public TextChunk(float top, float left, float width, float height);
+public TextChunk(TextElement textElement);
+public TextChunk(List<TextElement> textElements);
+public TextChunk groupByDirectionality(Boolean isLtrDominant);
+public int isLtrDominant();
+public TextChunk merge(TextChunk other);
+public void add(TextElement textElement);
+public void add(List<TextElement> elements);
+public String getText();
+public String getText(boolean useLineReturns);
+public boolean isSameChar(Character c);
+public boolean isSameChar(Character[] c);
+public TextChunk[] splitAt(int i);
+public List<TextChunk> squeeze(Character c, int minRunLength);
+public int hashCode();
+public boolean equals(Object obj);
+public static boolean allSameChar(List<TextChunk> textChunks);
+public static List<Line> groupByLines(List<TextChunk> textChunks);
+}
+
+
+# Focal Method
+public class TextChunk {
+public TextChunk(float top, float left, float width, float height) {
+    super(top, left, width, height);
+}public TextChunk(TextElement textElement) {
+    super(textElement.y, textElement.x, textElement.width, textElement.height);
+    this.add(textElement);
+}public TextChunk(List<TextElement> textElements) {
+    this(textElements.get(0));
+    for (int i = 1; i < textElements.size(); i++) {
+        this.add(textElements.get(i));
+    }
+}
+# Focal method
+public TextChunk[] splitAt(int i) {
+    if (i < 1 || i >= this.getTextElements().size()) {
+        throw new IllegalArgumentException();
+    }
+    return new TextChunk[] { new TextChunk(this.getTextElements().subList(0, i)), new TextChunk(this.getTextElements().subList(i, this.getTextElements().size())) };
+}
+}
+
+# Method Intention
+The splitAt(int i) method in the TextChunk class is intended to divide the list of TextElements contained within the TextChunk object into two separate TextChunk objects at the specified index i, ensuring that the original order of the TextElements is maintained in each resulting TextChunk.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+4-->5-->2-->compileRepair
+
+# TextChunk class
+package technology.tabula;
+public class TextChunk {
+public static final TextChunk EMPTY = new TextChunk(0, 0, 0, 0);
+public TextChunk(float top, float left, float width, float height);
+public TextChunk(TextElement textElement);
+public TextChunk(List<TextElement> textElements);
+public TextChunk groupByDirectionality(Boolean isLtrDominant);
+public int isLtrDominant();
+public TextChunk merge(TextChunk other);
+public void add(TextElement textElement);
+public void add(List<TextElement> elements);
+public String getText();
+public String getText(boolean useLineReturns);
+public boolean isSameChar(Character c);
+public boolean isSameChar(Character[] c);
+public TextChunk[] splitAt(int i);
+public List<TextChunk> squeeze(Character c, int minRunLength);
+public int hashCode();
+public boolean equals(Object obj);
+public static boolean allSameChar(List<TextChunk> textChunks);
+public static List<Line> groupByLines(List<TextChunk> textChunks);
+}
+
+
+# Focal Method
+public class TextChunk {
+public TextChunk(float top, float left, float width, float height) {
+    super(top, left, width, height);
+}public TextChunk(TextElement textElement) {
+    super(textElement.y, textElement.x, textElement.width, textElement.height);
+    this.add(textElement);
+}public TextChunk(List<TextElement> textElements) {
+    this(textElements.get(0));
+    for (int i = 1; i < textElements.size(); i++) {
+        this.add(textElements.get(i));
+    }
+}
+# Focal method
+public TextChunk[] splitAt(int i) {
+    if (i < 1 || i >= this.getTextElements().size()) {
+        throw new IllegalArgumentException();
+    }
+    return new TextChunk[] { new TextChunk(this.getTextElements().subList(0, i)), new TextChunk(this.getTextElements().subList(i, this.getTextElements().size())) };
+}
+}
+
+# Method Intention
+The splitAt(int i) method in the TextChunk class is intended to divide the list of TextElements contained within the TextChunk instance into two separate TextChunk instances at the specified index i, ensuring that the original order of the TextElements is maintained in each resulting TextChunk.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+5-->6-->3-->compileRepair
+
+# TextChunk class
+package technology.tabula;
+public class TextChunk {
+public static final TextChunk EMPTY = new TextChunk(0, 0, 0, 0);
+public TextChunk(float top, float left, float width, float height);
+public TextChunk(TextElement textElement);
+public TextChunk(List<TextElement> textElements);
+public TextChunk groupByDirectionality(Boolean isLtrDominant);
+public int isLtrDominant();
+public TextChunk merge(TextChunk other);
+public void add(TextElement textElement);
+public void add(List<TextElement> elements);
+public String getText();
+public String getText(boolean useLineReturns);
+public boolean isSameChar(Character c);
+public boolean isSameChar(Character[] c);
+public TextChunk[] splitAt(int i);
+public List<TextChunk> squeeze(Character c, int minRunLength);
+public int hashCode();
+public boolean equals(Object obj);
+public static boolean allSameChar(List<TextChunk> textChunks);
+public static List<Line> groupByLines(List<TextChunk> textChunks);
+}
+
+
+# Focal Method
+public class TextChunk {
+public TextChunk(float top, float left, float width, float height) {
+    super(top, left, width, height);
+}public TextChunk(TextElement textElement) {
+    super(textElement.y, textElement.x, textElement.width, textElement.height);
+    this.add(textElement);
+}public TextChunk(List<TextElement> textElements) {
+    this(textElements.get(0));
+    for (int i = 1; i < textElements.size(); i++) {
+        this.add(textElements.get(i));
+    }
+}
+# Focal method
+public TextChunk[] splitAt(int i) {
+    if (i < 1 || i >= this.getTextElements().size()) {
+        throw new IllegalArgumentException();
+    }
+    return new TextChunk[] { new TextChunk(this.getTextElements().subList(0, i)), new TextChunk(this.getTextElements().subList(i, this.getTextElements().size())) };
+}
+}
+
+# Method Intention
+The splitAt(int i) method in the TextChunk class is intended to divide the list of TextElements into two separate TextChunk arrays at the specified index i, ensuring that the resulting TextChunks maintain the order of the original elements.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+

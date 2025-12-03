@@ -1,0 +1,42 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java
+[GENERATED PATH] Ruling_ESTest#collapseOrientedRulings(List<Ruling> lines).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[41,35] cannot find symbol
+  symbol:   method collapseOrientedRulings(java.util.List<technology.tabula.Ruling>)
+  location: class technology.tabula.Ruling_ESTest
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java
+[GENERATED PATH] Ruling_ESTest#collapseOrientedRulings(List<Ruling> lines).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[51,33] cannot find symbol
+  symbol:   method collapseOrientedRulings(java.util.List<technology.tabula.Ruling>)
+  location: class technology.tabula.Ruling_ESTest
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java
+[GENERATED PATH] Ruling_ESTest#collapseOrientedRulings(List<Ruling> lines).java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[44,27] cannot find symbol
+  symbol:   method collapseOrientedRulings(java.util.List<technology.tabula.Ruling>)
+  location: class technology.tabula.Ruling_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[49,36] cannot find symbol
+  symbol:   method getStartX()
+  location: variable collapsedRuling of type technology.tabula.Ruling
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[50,36] cannot find symbol
+  symbol:   method getStartY()
+  location: variable collapsedRuling of type technology.tabula.Ruling
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[51,37] cannot find symbol
+  symbol:   method getEndX()
+  location: variable collapsedRuling of type technology.tabula.Ruling
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[52,37] cannot find symbol
+  symbol:   method getEndY()
+  location: variable collapsedRuling of type technology.tabula.Ruling
+[INFO] 5 errors 
+####################
+

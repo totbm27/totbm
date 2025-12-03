@@ -1,0 +1,54 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testGetSortedKeys() {
+
+      <Buggy Line>: cannot find symbol method "of(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)" in Map
+    Map<String, String> testMap = Map.of(
+
+        "banana", "yellow",
+        "apple", "red",
+        "cherry", "dark red"
+    );
+    List<String> sortedKeys = MapUtils.getSortedKeys(testMap);
+    List<String> expectedKeys = List.of("apple", "banana", "cherry");
+    org.junit.Assert.assertEquals(expectedKeys, sortedKeys);
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "Map" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "Map" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+    @Test
+    public void testGetSortedKeys() {
+
+           <Buggy Line>: diamond operator is not supported in -source 1.6
+        Map<String, String> testMap = new HashMap<>();
+
+        testMap.put("banana", "yellow");
+        testMap.put("apple", "red");
+        testMap.put("cherry", "dark red");
+        List<String> sortedKeys = MapUtils.getSortedKeys(testMap);
+        List<String> expectedKeys = List.of("apple", "banana", "cherry");
+        assertEquals(expectedKeys, sortedKeys);
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

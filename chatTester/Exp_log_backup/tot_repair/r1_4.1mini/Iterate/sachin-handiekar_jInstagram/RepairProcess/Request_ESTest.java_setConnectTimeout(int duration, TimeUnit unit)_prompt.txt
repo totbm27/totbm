@@ -1,0 +1,57 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class Request {
+private int connectTimeout;
+public Request(Verbs verb, String url) {
+    this.verb = verb;
+    this.url = url;
+    this.querystringParams = new HashMap<String, String>();
+    this.bodyParams = new HashMap<String, String>();
+    this.headers = new HashMap<String, String>();
+}
+# Focal method
+public void setConnectTimeout(int duration, TimeUnit unit) {
+    this.connectTimeout = (int) unit.toMillis(duration);
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testSetConnectTimeout() throws Exception {
+    Verbs verb = Verbs.GET; 
+    String url = "http://example.com";
+    Request request = new Request(verb, url);
+    int duration = 5;
+    TimeUnit unit = TimeUnit.SECONDS;
+    request.setConnectTimeout(duration, unit);
+    Field field = Request.class.getDeclaredField("connectTimeout");
+    field.setAccessible(true);
+
+      <Buggy Line>: incompatible types: java.lang.Object cannot be converted to int
+    int actualTimeout = (int) field.get(request);
+
+    assertEquals(5000, actualTimeout);
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+

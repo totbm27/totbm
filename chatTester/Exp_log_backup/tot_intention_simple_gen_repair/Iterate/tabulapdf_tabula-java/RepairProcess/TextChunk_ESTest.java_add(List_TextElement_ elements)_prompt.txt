@@ -1,0 +1,288 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testAddListOfTextElements() {
+
+          <Buggy Line>: no suitable constructor found for TextElement(java.lang.String,float,float,float,float)
+    TextElement initialElement = new TextElement("A", 10f, 20f, 5f, 7f);
+
+    TextChunk chunk = new TextChunk(initialElement);
+    List<TextElement> additionalElements = new ArrayList<>();
+    additionalElements.add(new TextElement("B", 15f, 25f, 6f, 8f));
+    additionalElements.add(new TextElement("C", 5f, 18f, 4f, 6f));
+    additionalElements.add(new TextElement("D", 12f, 22f, 5f, 7f));
+    chunk.add(additionalElements);
+    String expectedText = "ABCD";
+    String actualText = chunk.getText(false).replaceAll("\\s+", ""); 
+    org.junit.Assert.assertEquals("TextChunk text should contain all added TextElements in order",
+            expectedText, actualText);
+    float minLeft = Math.min(Math.min(initialElement.x, 15f), Math.min(5f, 12f));
+    float minTop = Math.min(Math.min(initialElement.y, 15f), Math.min(5f, 12f));
+    float maxRight = Math.max(Math.max(initialElement.x + initialElement.width, 25f + 6f),
+            Math.max(18f + 4f, 22f + 5f));
+    float maxBottom = Math.max(Math.max(initialElement.y + initialElement.height, 15f + 8f),
+            Math.max(5f + 6f, 12f + 7f));
+    Rectangle2D bounds = chunk.getBounds2D();
+    org.junit.Assert.assertTrue("Bounding box left should be <= min left of all elements",
+            bounds.getX() <= minLeft + 0.001);
+    org.junit.Assert.assertTrue("Bounding box top should be <= min top of all elements",
+            bounds.getY() <= minTop + 0.001);
+    org.junit.Assert.assertTrue("Bounding box right should be >= max right of all elements",
+            bounds.getX() + bounds.getWidth() >= maxRight - 0.001);
+    org.junit.Assert.assertTrue("Bounding box bottom should be >= max bottom of all elements",
+            bounds.getY() + bounds.getHeight() >= maxBottom - 0.001);
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testAddListOfTextElements() {
+
+          <Buggy Line>: no suitable constructor found for TextElement(java.lang.String,float,float,float,float)
+    TextElement initialElement = new TextElement("A", 10f, 20f, 5f, 7f);
+
+    TextChunk chunk = new TextChunk(initialElement);
+    List<TextElement> additionalElements = new ArrayList<>();
+    additionalElements.add(new TextElement("B", 15f, 25f, 6f, 8f));
+    additionalElements.add(new TextElement("C", 5f, 18f, 4f, 6f));
+    additionalElements.add(new TextElement("D", 12f, 22f, 5f, 7f));
+    chunk.add(additionalElements);
+    String expectedText = "ABCD";
+    String actualText = chunk.getText(false).replaceAll("\\s+", ""); 
+    org.junit.Assert.assertEquals("TextChunk text should contain all added TextElements in order",
+            expectedText, actualText);
+    float minLeft = Math.min(Math.min(initialElement.x, 15f), Math.min(5f, 12f));
+    float minTop = Math.min(Math.min(initialElement.y, 15f), Math.min(5f, 12f));
+    float maxRight = Math.max(Math.max(initialElement.x + initialElement.width, 25f + 6f),
+            Math.max(18f + 4f, 22f + 5f));
+    float maxBottom = Math.max(Math.max(initialElement.y + initialElement.height, 15f + 8f),
+            Math.max(5f + 6f, 12f + 7f));
+    Rectangle2D bounds = chunk.getBounds2D();
+    org.junit.Assert.assertTrue("Bounding box left should be <= min left of all elements",
+            bounds.getX() <= minLeft + 0.001);
+    org.junit.Assert.assertTrue("Bounding box top should be <= min top of all elements",
+            bounds.getY() <= minTop + 0.001);
+    org.junit.Assert.assertTrue("Bounding box right should be >= max right of all elements",
+            bounds.getX() + bounds.getWidth() >= maxRight - 0.001);
+    org.junit.Assert.assertTrue("Bounding box bottom should be >= max bottom of all elements",
+            bounds.getY() + bounds.getHeight() >= maxBottom - 0.001);
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->1-->compileRepair
+
+
+# Focal Method
+public class TextChunk {
+public TextChunk(float top, float left, float width, float height) {
+    super(top, left, width, height);
+}public TextChunk(TextElement textElement) {
+    super(textElement.y, textElement.x, textElement.width, textElement.height);
+    this.add(textElement);
+}public TextChunk(List<TextElement> textElements) {
+    this(textElements.get(0));
+    for (int i = 1; i < textElements.size(); i++) {
+        this.add(textElements.get(i));
+    }
+}
+# Focal method
+public void add(List<TextElement> elements) {
+    for (TextElement te : elements) {
+        this.add(te);
+    }
+}
+}
+
+# Method Intention
+The add(List<TextElement> elements) method in the TextChunk class is intended to add multiple TextElement objects to the TextChunk instance by iterating through the provided list of TextElement objects and invoking the add(TextElement te) method for each element.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+3-->4-->1-->compileRepair
+
+
+# Focal Method
+public class TextChunk {
+public TextChunk(float top, float left, float width, float height) {
+    super(top, left, width, height);
+}public TextChunk(TextElement textElement) {
+    super(textElement.y, textElement.x, textElement.width, textElement.height);
+    this.add(textElement);
+}public TextChunk(List<TextElement> textElements) {
+    this(textElements.get(0));
+    for (int i = 1; i < textElements.size(); i++) {
+        this.add(textElements.get(i));
+    }
+}
+# Focal method
+public void add(List<TextElement> elements) {
+    for (TextElement te : elements) {
+        this.add(te);
+    }
+}
+}
+
+# Method Intention
+The add(List<TextElement> elements) method in the TextChunk class is intended to add multiple TextElement objects to the TextChunk instance by iterating through the provided list of TextElement objects and invoking the add(TextElement te) method for each element.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+4-->5-->1-->compileRepair
+
+
+# Focal Method
+public class TextChunk {
+public TextChunk(float top, float left, float width, float height) {
+    super(top, left, width, height);
+}public TextChunk(TextElement textElement) {
+    super(textElement.y, textElement.x, textElement.width, textElement.height);
+    this.add(textElement);
+}public TextChunk(List<TextElement> textElements) {
+    this(textElements.get(0));
+    for (int i = 1; i < textElements.size(); i++) {
+        this.add(textElements.get(i));
+    }
+}
+# Focal method
+public void add(List<TextElement> elements) {
+    for (TextElement te : elements) {
+        this.add(te);
+    }
+}
+}
+
+# Method Intention
+The add(List<TextElement> elements) method in the TextChunk class is intended to add multiple TextElement objects to the TextChunk instance by iterating through the provided list of TextElement objects and invoking the add(TextElement te) method for each element.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+5-->6-->2-->compileRepair
+
+
+# Focal Method
+public class TextChunk {
+public TextChunk(float top, float left, float width, float height) {
+    super(top, left, width, height);
+}public TextChunk(TextElement textElement) {
+    super(textElement.y, textElement.x, textElement.width, textElement.height);
+    this.add(textElement);
+}public TextChunk(List<TextElement> textElements) {
+    this(textElements.get(0));
+    for (int i = 1; i < textElements.size(); i++) {
+        this.add(textElements.get(i));
+    }
+}
+# Focal method
+public void add(List<TextElement> elements) {
+    for (TextElement te : elements) {
+        this.add(te);
+    }
+}
+}
+
+# Method Intention
+The add(List<TextElement> elements) method in the TextChunk class is intended to add multiple TextElement objects to the TextChunk instance by iterating through the provided list of TextElement objects and invoking the add(TextElement te) method for each element.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+6-->7-->3-->compileRepair
+
+
+# Focal Method
+public class TextChunk {
+public TextChunk(float top, float left, float width, float height) {
+    super(top, left, width, height);
+}public TextChunk(TextElement textElement) {
+    super(textElement.y, textElement.x, textElement.width, textElement.height);
+    this.add(textElement);
+}public TextChunk(List<TextElement> textElements) {
+    this(textElements.get(0));
+    for (int i = 1; i < textElements.size(); i++) {
+        this.add(textElements.get(i));
+    }
+}
+# Focal method
+public void add(List<TextElement> elements) {
+    for (TextElement te : elements) {
+        this.add(te);
+    }
+}
+}
+
+# Method Intention
+The add(List<TextElement> elements) method in the TextChunk class is intended to add multiple TextElement objects to the TextChunk instance by iterating through the provided list of TextElement objects and invoking the add(TextElement te) method for each element.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+7-->8-->3-->compileRepair
+
+
+# Focal Method
+public class TextChunk {
+public TextChunk(float top, float left, float width, float height) {
+    super(top, left, width, height);
+}public TextChunk(TextElement textElement) {
+    super(textElement.y, textElement.x, textElement.width, textElement.height);
+    this.add(textElement);
+}public TextChunk(List<TextElement> textElements) {
+    this(textElements.get(0));
+    for (int i = 1; i < textElements.size(); i++) {
+        this.add(textElements.get(i));
+    }
+}
+# Focal method
+public void add(List<TextElement> elements) {
+    for (TextElement te : elements) {
+        this.add(te);
+    }
+}
+}
+
+# Method Intention
+The add(List<TextElement> elements) method in the TextChunk class is intended to add multiple TextElement objects to the TextChunk instance by iterating through the provided list of TextElement objects and invoking the add(TextElement te) method for each element.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+

@@ -1,0 +1,64 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class MediaInfoFeed {
+@SerializedName("data")
+private MediaFeedData data;
+# Focal method
+public void setData(MediaFeedData data) {
+    this.data = data;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+
+# Test Method
+@Test
+    public void setData(MediaFeedData data) {
+
+        <Buggy Line>: cannot find symbol variable "data"
+        this.data = data;
+
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->1-->compileRepair
+
+
+# Focal Method
+public class MediaInfoFeed {
+@SerializedName("data")
+private MediaFeedData data;
+# Focal method
+public void setData(MediaFeedData data) {
+    this.data = data;
+}
+}
+
+# Method Intention
+The setData(MediaFeedData data) method in the MediaInfoFeed class is intended to set the MediaFeedData object that contains information about media feeds to be used within the class.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+

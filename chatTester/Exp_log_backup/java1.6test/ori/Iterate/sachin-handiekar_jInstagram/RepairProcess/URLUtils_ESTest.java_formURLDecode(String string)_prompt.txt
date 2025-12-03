@@ -1,0 +1,181 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class URLUtils {
+private static final String UTF_8 = "UTF-8";private static final String ERROR_MSG = String.format("Cannot find specified encoding: %s", UTF_8);
+# Focal method
+public static String formURLDecode(String string) {
+    Preconditions.checkNotNull(string, "Cannot decode null string");
+    try {
+        return URLDecoder.decode(string, UTF_8);
+    } catch (UnsupportedEncodingException uee) {
+        throw new IllegalStateException(ERROR_MSG, uee);
+    }
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be compatible with Java compiler version 1.6, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+public static String formURLDecode(String string) {
+    Preconditions.checkNotNull(string, "Cannot decode null string");
+    try {
+        return URLDecoder.decode(string, UTF_8);
+    } catch (UnsupportedEncodingException uee) {
+        throw new IllegalStateException(ERROR_MSG, uee);
+    }
+}
+
+# Method Intention
+The formURLDecode(String string) method is intended to decode a URL-encoded string using the UTF-8 encoding, handling any UnsupportedEncodingException by throwing an IllegalStateException with a specific error message.
+
+# Test Method
+    @Test
+    public void testFormURLDecode() {
+        String encodedString = "Hello%20World";
+        String decodedString = URLUtils.formURLDecode(encodedString);
+        assertEquals("Decoded string should match original", "Hello World", decodedString);
+        try {
+          [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException Cannot decode null string " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method, and the generated code should be compatible with Java compiler version 1.6.
+The generated code should be enclosed within ``` ```.
+
+########
+
+2-->3-->0-->testRepair
+# Focal method (Cannot be modified)
+public static String formURLDecode(String string) {
+    Preconditions.checkNotNull(string, "Cannot decode null string");
+    try {
+        return URLDecoder.decode(string, UTF_8);
+    } catch (UnsupportedEncodingException uee) {
+        throw new IllegalStateException(ERROR_MSG, uee);
+    }
+}
+
+# Method Intention
+The formURLDecode(String string) method aims to decode a URL-encoded string using the UTF-8 encoding, handling potential UnsupportedEncodingException by throwing an IllegalStateException with a specific error message.
+
+# Test Method
+@Test
+public void testFormURLDecode() {
+    String encodedString = "Hello%20World";
+    String decodedString = URLUtils.formURLDecode(encodedString);
+    assertEquals("Decoded string should match original", "Hello World", decodedString);
+    try {
+      [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException Cannot decode null string " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method, and the generated code should be compatible with Java compiler version 1.6.
+The generated code should be enclosed within ``` ```.
+
+########
+
+3-->3-->0-->testRepair
+# Focal method (Cannot be modified)
+public static String formURLDecode(String string) {
+    Preconditions.checkNotNull(string, "Cannot decode null string");
+    try {
+        return URLDecoder.decode(string, UTF_8);
+    } catch (UnsupportedEncodingException uee) {
+        throw new IllegalStateException(ERROR_MSG, uee);
+    }
+}
+
+# Method Intention
+The formURLDecode(String string) method is intended to decode a URL-encoded string using the UTF-8 encoding, handling any UnsupportedEncodingException by throwing an IllegalStateException with a specific error message.
+
+# Test Method
+@Test
+public void testFormURLDecode() {
+    String encodedString = "Hello%20World";
+    String decodedString = URLUtils.formURLDecode(encodedString);
+    assertEquals("Decoded string should match original", "Hello World", decodedString);
+    try {
+      [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException Cannot decode null string " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method, and the generated code should be compatible with Java compiler version 1.6.
+The generated code should be enclosed within ``` ```.
+
+########
+
+4-->5-->0-->testRepair
+# Focal method (Cannot be modified)
+public static String formURLDecode(String string) {
+    Preconditions.checkNotNull(string, "Cannot decode null string");
+    try {
+        return URLDecoder.decode(string, UTF_8);
+    } catch (UnsupportedEncodingException uee) {
+        throw new IllegalStateException(ERROR_MSG, uee);
+    }
+}
+
+# Method Intention
+The formURLDecode(String string) method aims to decode a URL-encoded string using the UTF-8 encoding, handling potential UnsupportedEncodingException by throwing an IllegalStateException with a specific error message.
+
+# Test Method
+@Test
+public void testFormURLDecode() {
+    String encodedString = "Hello%20World";
+    String decodedString = URLUtils.formURLDecode(encodedString);
+    assertEquals("Decoded string should match original", "Hello World", decodedString);
+    try {
+      [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException Cannot decode null string " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method, and the generated code should be compatible with Java compiler version 1.6.
+The generated code should be enclosed within ``` ```.
+
+########
+
+5-->5-->0-->testRepair
+# Focal method (Cannot be modified)
+public static String formURLDecode(String string) {
+    Preconditions.checkNotNull(string, "Cannot decode null string");
+    try {
+        return URLDecoder.decode(string, UTF_8);
+    } catch (UnsupportedEncodingException uee) {
+        throw new IllegalStateException(ERROR_MSG, uee);
+    }
+}
+
+# Method Intention
+The formURLDecode(String string) method is intended to decode a URL-encoded string using the UTF-8 encoding, handling any UnsupportedEncodingException by throwing an IllegalStateException with a specific error message.
+
+# Test Method
+@Test
+public void testFormURLDecode() {
+    String encodedString = "Hello%20World";
+    String decodedString = URLUtils.formURLDecode(encodedString);
+    assertEquals("Decoded string should match original", "Hello World", decodedString);
+    try {
+      [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException Cannot decode null string " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method, and the generated code should be compatible with Java compiler version 1.6.
+The generated code should be enclosed within ``` ```.
+
+########
+

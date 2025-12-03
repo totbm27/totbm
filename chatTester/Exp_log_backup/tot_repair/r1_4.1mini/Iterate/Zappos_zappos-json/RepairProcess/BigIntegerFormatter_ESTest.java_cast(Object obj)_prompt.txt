@@ -1,0 +1,16 @@
+0-->1-->0-->testRepair
+# Focal Method
+@Override
+public BigInteger cast(Object obj) {
+    return BigInteger.class.cast(obj);
+}
+
+# Method Intention
+The cast(Object obj) method is intended to safely convert or cast the given object to a BigInteger type by leveraging Java's Class.cast() method, ensuring a ClassCastException is thrown if the object is not an instance of BigInteger.
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention`. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```
+
+########
+

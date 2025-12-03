@@ -1,0 +1,73 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Response_ESTest.java
+[GENERATED PATH] Response_ESTest#getURL().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Response_ESTest.java:[29,40] constructor MockURL in class org.evosuite.runtime.mock.java.net.MockURL cannot be applied to given types;
+  required: no arguments
+  found: java.net.URL
+  reason: actual and formal argument lists differ in length
+[INFO] 1 error
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Response_ESTest.java
+[GENERATED PATH] Response_ESTest#getURL().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Response_ESTest.java:[32,12] cannot find symbol
+  symbol:   method setURL(java.net.URL)
+  location: variable mockURL of type org.evosuite.runtime.mock.java.net.MockURL
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Response_ESTest.java:[33,47] no suitable method found for openConnection(no arguments)
+    method org.evosuite.runtime.mock.java.net.MockURL.openConnection(java.net.URL) is not applicable
+      (actual and formal argument lists differ in length)
+    method org.evosuite.runtime.mock.java.net.MockURL.openConnection(java.net.URL,java.net.Proxy) is not applicable
+      (actual and formal argument lists differ in length)
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Response_ESTest.java
+[GENERATED PATH] Response_ESTest#getURL().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Response_ESTest.java:[33,23] constructor MockURL in class org.evosuite.runtime.mock.java.net.MockURL cannot be applied to given types;
+  required: no arguments
+  found: java.net.URL
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Response_ESTest.java:[35,47] no suitable method found for openConnection(no arguments)
+    method org.evosuite.runtime.mock.java.net.MockURL.openConnection(java.net.URL) is not applicable
+      (actual and formal argument lists differ in length)
+    method org.evosuite.runtime.mock.java.net.MockURL.openConnection(java.net.URL,java.net.Proxy) is not applicable
+      (actual and formal argument lists differ in length)
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Response_ESTest.java
+[GENERATED PATH] Response_ESTest#getURL().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Response_ESTest.java:[35,23] constructor MockURL in class org.evosuite.runtime.mock.java.net.MockURL cannot be applied to given types;
+  required: no arguments
+  found: java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Response_ESTest.java:[37,47] no suitable method found for openConnection(no arguments)
+    method org.evosuite.runtime.mock.java.net.MockURL.openConnection(java.net.URL) is not applicable
+      (actual and formal argument lists differ in length)
+    method org.evosuite.runtime.mock.java.net.MockURL.openConnection(java.net.URL,java.net.Proxy) is not applicable
+      (actual and formal argument lists differ in length)
+[INFO] 2 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Response_ESTest.java
+[GENERATED PATH] Response_ESTest#getURL().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Response_ESTest.java:[38,12] cannot find symbol
+  symbol:   method setURL(java.lang.String)
+  location: variable mockURL of type org.evosuite.runtime.mock.java.net.MockURL
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/Response_ESTest.java:[40,47] no suitable method found for openConnection(no arguments)
+    method org.evosuite.runtime.mock.java.net.MockURL.openConnection(java.net.URL) is not applicable
+      (actual and formal argument lists differ in length)
+    method org.evosuite.runtime.mock.java.net.MockURL.openConnection(java.net.URL,java.net.Proxy) is not applicable
+      (actual and formal argument lists differ in length)
+[INFO] 2 errors 
+####################
+

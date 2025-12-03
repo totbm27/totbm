@@ -1,0 +1,59 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class UserFeed {
+@SerializedName("pagination")
+private Pagination pagination;
+# Focal method
+public void setPagination(Pagination pagination) {
+    this.pagination = pagination;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# UserFeed class
+package org.jinstagram.entity.users.feed;
+public class UserFeed {
+public Meta getMeta();
+public void setMeta(Meta meta);
+public Pagination getPagination();
+public void setPagination(Pagination pagination);
+public List<UserFeedData> getUserList();
+public void setUserList(List<UserFeedData> userList);
+public String toString();
+}
+
+
+# Test Method
+    @Test
+    public void testSetPagination() {
+        UserFeed userFeed = new UserFeed();
+        Pagination pagination = new Pagination();
+
+      <Buggy Line>: cannot find symbol method "getPagination(org.jinstagram.entity.users.feed.UserFeed)" in UserFeed_ESTest
+        assertNull(getPagination(userFeed));
+
+        userFeed.setPagination(pagination);
+        assertSame(pagination, getPagination(userFeed));
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "UserFeed" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "UserFeed" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

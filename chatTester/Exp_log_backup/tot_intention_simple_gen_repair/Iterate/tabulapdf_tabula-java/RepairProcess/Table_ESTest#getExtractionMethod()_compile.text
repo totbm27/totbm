@@ -1,0 +1,108 @@
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java
+[GENERATED PATH] Table_ESTest#getExtractionMethod().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[29,37] cannot find symbol
+  symbol:   class TestTable
+  location: class technology.tabula.Table_ESTest
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[34,60] cannot find symbol
+  symbol:   variable ALGORITHM_X
+  location: interface technology.tabula.extractors.ExtractionAlgorithm
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[36,36] cannot find symbol
+  symbol:   variable ALGORITHM_X
+  location: interface technology.tabula.extractors.ExtractionAlgorithm
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[38,60] cannot find symbol
+  symbol:   variable ALGORITHM_Y
+  location: interface technology.tabula.extractors.ExtractionAlgorithm
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[40,36] cannot find symbol
+  symbol:   variable ALGORITHM_Y
+  location: interface technology.tabula.extractors.ExtractionAlgorithm
+[INFO] 5 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java
+[GENERATED PATH] Table_ESTest#getExtractionMethod().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[32,39] incompatible types: java.lang.String cannot be converted to technology.tabula.extractors.ExtractionAlgorithm
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[36,56] cannot find symbol
+  symbol:   variable ALGORITHM_X
+  location: interface technology.tabula.extractors.ExtractionAlgorithm
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[38,32] cannot find symbol
+  symbol:   variable ALGORITHM_X
+  location: interface technology.tabula.extractors.ExtractionAlgorithm
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[39,56] cannot find symbol
+  symbol:   variable ALGORITHM_Y
+  location: interface technology.tabula.extractors.ExtractionAlgorithm
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[41,32] cannot find symbol
+  symbol:   variable ALGORITHM_Y
+  location: interface technology.tabula.extractors.ExtractionAlgorithm
+[INFO] 5 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java
+[GENERATED PATH] Table_ESTest#getExtractionMethod().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[34,58] cannot find symbol
+  symbol:   method valueOf(java.lang.String)
+  location: interface technology.tabula.extractors.ExtractionAlgorithm
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[38,56] cannot find symbol
+  symbol:   variable ALGORITHM_X
+  location: interface technology.tabula.extractors.ExtractionAlgorithm
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[40,32] cannot find symbol
+  symbol:   variable ALGORITHM_X
+  location: interface technology.tabula.extractors.ExtractionAlgorithm
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[41,56] cannot find symbol
+  symbol:   variable ALGORITHM_Y
+  location: interface technology.tabula.extractors.ExtractionAlgorithm
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[43,32] cannot find symbol
+  symbol:   variable ALGORITHM_Y
+  location: interface technology.tabula.extractors.ExtractionAlgorithm
+[INFO] 5 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java
+[GENERATED PATH] Table_ESTest#getExtractionMethod().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[36,58] cannot find symbol
+  symbol:   method valueOf(java.lang.String)
+  location: interface technology.tabula.extractors.ExtractionAlgorithm
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[40,56] cannot find symbol
+  symbol:   variable ALGORITHM_X
+  location: interface technology.tabula.extractors.ExtractionAlgorithm
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[42,32] cannot find symbol
+  symbol:   variable ALGORITHM_X
+  location: interface technology.tabula.extractors.ExtractionAlgorithm
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[43,56] cannot find symbol
+  symbol:   variable ALGORITHM_Y
+  location: interface technology.tabula.extractors.ExtractionAlgorithm
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[45,32] cannot find symbol
+  symbol:   variable ALGORITHM_Y
+  location: interface technology.tabula.extractors.ExtractionAlgorithm
+[INFO] 5 errors 
+####################
+
+original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java
+[GENERATED PATH] Table_ESTest#getExtractionMethod().java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[38,58] cannot find symbol
+  symbol:   method valueOf(java.lang.String)
+  location: interface technology.tabula.extractors.ExtractionAlgorithm
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[42,56] cannot find symbol
+  symbol:   variable ALGORITHM_X
+  location: interface technology.tabula.extractors.ExtractionAlgorithm
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[44,32] cannot find symbol
+  symbol:   variable ALGORITHM_X
+  location: interface technology.tabula.extractors.ExtractionAlgorithm
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[45,56] cannot find symbol
+  symbol:   variable ALGORITHM_Y
+  location: interface technology.tabula.extractors.ExtractionAlgorithm
+[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Table_ESTest.java:[47,32] cannot find symbol
+  symbol:   variable ALGORITHM_Y
+  location: interface technology.tabula.extractors.ExtractionAlgorithm
+[INFO] 5 errors 
+####################
+

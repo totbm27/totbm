@@ -1,0 +1,63 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class OAuthConfig {
+private final String scope;
+public OAuthConfig(String key, String secret) {
+    this(key, secret, null, null);
+}public OAuthConfig(String key, String secret, String callback, String scope) {
+    this(key, secret, callback, scope, null);
+}public OAuthConfig(String key, String secret, String callback, String scope, String display) {
+    this.apiKey = key;
+    this.apiSecret = secret;
+    this.callback = (callback != null) ? callback : OAuthConstants.OUT_OF_BAND;
+    this.scope = scope;
+    this.display = display;
+}
+# Focal method
+public String getScope() {
+    return scope;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->1-->0-->testRepair
+# Focal method (Cannot be modified)
+public String getScope() {
+    return scope;
+}
+
+# Method Intention
+The getScope() method is designed to retrieve and return the OAuth authorization scope associated with the current OAuthConfig instance, indicating the specific permissions or access levels requested during the OAuth authentication process.
+
+# Test Method
+@Test
+public void testGetScope() {
+    String expectedScope1 = null;
+    OAuthConfig config1 = new OAuthConfig("key1", "secret1");
+    String expectedScope2 = "read_profile";
+    OAuthConfig config2 = new OAuthConfig("key2", "secret2", "callbackUrl", expectedScope2);
+    String expectedScope3 = "write_data";
+    OAuthConfig config3 = new OAuthConfig("key3", "secret3", "callbackUrl", expectedScope3, "popup");
+    String actualScope1 = config1.getScope();
+    String actualScope2 = config2.getScope();
+    String actualScope3 = config3.getScope();
+          [Generate an assertion statement here]
+
+
+# Instruction
+The test method throw an error " java.lang.AssertionError " in "  ". 
+Please analyze the code logic and method intention of the Focal method, then generate a correct assertion statement in the test method. Return the complete and compilable test method for the Focal method.
+The generated code should be enclosed within ``` ```.
+
+########
+

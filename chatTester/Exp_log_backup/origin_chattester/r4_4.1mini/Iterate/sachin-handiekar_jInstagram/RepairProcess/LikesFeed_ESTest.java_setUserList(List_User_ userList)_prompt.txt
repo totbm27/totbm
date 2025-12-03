@@ -1,0 +1,93 @@
+0-->1-->0-->compileRepair
+
+
+# Test Method
+@Test
+public void testSetUserList() {
+    LikesFeed likesFeed = new LikesFeed();
+
+      <Buggy Line>: diamond operator is not supported in -source 1.6
+    List<User> newUserList = new LinkedList<>();
+
+    User user1 = new User();
+    user1.setId("123");
+    user1.setUsername("userOne");
+    User user2 = new User();
+    user2.setId("456");
+    user2.setUsername("userTwo");
+    newUserList.add(user1);
+    newUserList.add(user2);
+    likesFeed.setUserList(newUserList);
+    List<User> retrievedList = likesFeed.getUserList();
+    org.junit.Assert.assertNotNull(retrievedList);
+    org.junit.Assert.assertEquals(2, retrievedList.size());
+    org.junit.Assert.assertEquals("123", retrievedList.get(0).getId());
+    org.junit.Assert.assertEquals("userOne", retrievedList.get(0).getUsername());
+    org.junit.Assert.assertEquals("456", retrievedList.get(1).getId());
+    org.junit.Assert.assertEquals("userTwo", retrievedList.get(1).getUsername());
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy code line and return the complete and compilable test method after repair. 
+The generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# User class
+package org.jinstagram.entity.common;
+public class User {
+public String getUserName();
+public void setUserName(String userName);
+public String getFullName();
+public void setFullName(String fullName);
+public String getProfilePictureUrl();
+public void setProfilePictureUrl(String profilePictureUrl);
+public String getBio();
+public void setBio(String bio);
+public String getWebsiteUrl();
+public void setWebsiteUrl(String websiteUrl);
+public String getId();
+public void setId(String id);
+public String toString();
+}
+
+
+# Test Method
+@Test
+public void testSetUserList() {
+    LikesFeed likesFeed = new LikesFeed();
+    List<User> newUserList = new LinkedList<User>();
+    User user1 = new User();
+    user1.setId("123");
+
+  <Buggy Line>: cannot find symbol method "setUsername(java.lang.String)" in User
+    user1.setUsername("userOne");
+
+    User user2 = new User();
+    user2.setId("456");
+    user2.setUsername("userTwo");
+    newUserList.add(user1);
+    newUserList.add(user2);
+    likesFeed.setUserList(newUserList);
+    List<User> retrievedList = likesFeed.getUserList();
+    org.junit.Assert.assertNotNull(retrievedList);
+    org.junit.Assert.assertEquals(2, retrievedList.size());
+    org.junit.Assert.assertEquals("123", retrievedList.get(0).getId());
+    org.junit.Assert.assertEquals("userOne", retrievedList.get(0).getUsername());
+    org.junit.Assert.assertEquals("456", retrievedList.get(1).getId());
+    org.junit.Assert.assertEquals("userTwo", retrievedList.get(1).getUsername());
+}
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "User" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "User" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

@@ -1,0 +1,59 @@
+0-->1-->0-->compileRepair
+
+
+# Focal Method
+public class RelationshipData {
+@SerializedName("target_user_is_private")
+private boolean targetUserPrivate;
+# Focal method
+public void setTargetUserPrivate(boolean targetUserPrivate) {
+    this.targetUserPrivate = targetUserPrivate;
+}
+}
+
+# Method Intention
+
+
+# Instruction
+Please generate a complete and compilable test method for the `Focal Method` based on the `Method Intention` and Class Information. 
+The generated test method coverage for the focal method is as comprehensive as possible, and the generated code should be enclosed within ``` ```.
+
+########
+
+1-->2-->0-->compileRepair
+
+# RelationshipData class
+package org.jinstagram.entity.relationships;
+public class RelationshipData {
+public String getOutgoingStatus();
+public void setOutgoingStatus(String outgoingStatus);
+public void setTargetUserPrivate(boolean targetUserPrivate);
+public boolean isTargetUserPrivate();
+public String getIncomingStatus();
+public void setIncomingStatus(String incomingStatus);
+public String toString();
+}
+
+
+# Test Method
+    @Test
+    public void testSetTargetUserPrivate() {
+        RelationshipData relationshipData = new RelationshipData();
+        relationshipData.setTargetUserPrivate(true);
+
+      <Buggy Line>: cannot find symbol method "getTargetUserPrivate(org.jinstagram.entity.relationships.RelationshipData)" in RelationshipData_ESTest
+        assertTrue(getTargetUserPrivate(relationshipData));
+
+        relationshipData.setTargetUserPrivate(false);
+        assertFalse(getTargetUserPrivate(relationshipData));
+    }
+
+
+# Instruction
+The test method has a bug error (marked <Buggy Line>). 
+Please fix the buggy line based on the given "RelationshipData" class information (it is crucial) and return the complete and compilable test method after fix. 
+Note that the contents in  "RelationshipData" class  cannot be modified.
+The generated code should be enclosed within ``` ```.
+
+########
+

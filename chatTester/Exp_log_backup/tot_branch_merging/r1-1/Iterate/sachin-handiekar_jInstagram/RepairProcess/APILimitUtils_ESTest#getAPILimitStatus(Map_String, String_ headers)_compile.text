@@ -1,9 +1,0 @@
-original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/APILimitUtils_ESTest.java
-[GENERATED PATH] APILimitUtils_ESTest#getAPILimitStatus(Map<String, String> headers).java
-[ERROR] COMPILATION ERROR : 
-[INFO] -------------------------------------------------------------
-[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/http/APILimitUtils_ESTest.java:[26,51] diamond operator is not supported in -source 1.6
-  (use -source 7 or higher to enable diamond operator)
-[INFO] 1 error
-####################
-

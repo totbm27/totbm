@@ -1,9 +1,0 @@
-original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java
-[GENERATED PATH] ZapposJson_ESTest#deregister(Class<?> clazz).java
-[ERROR] COMPILATION ERROR : 
-[INFO] -------------------------------------------------------------
-[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/ZapposJson_ESTest.java:[45,31] lambda expressions are not supported in -source 1.7
-  (use -source 8 or higher to enable lambda expressions)
-[INFO] 1 error
-####################
-

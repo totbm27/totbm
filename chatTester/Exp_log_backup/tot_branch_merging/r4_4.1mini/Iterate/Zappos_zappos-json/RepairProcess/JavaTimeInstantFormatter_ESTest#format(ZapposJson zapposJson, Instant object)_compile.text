@@ -1,8 +1,0 @@
-original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaTimeInstantFormatter_ESTest.java
-[GENERATED PATH] JavaTimeInstantFormatter_ESTest#format(ZapposJson zapposJson, Instant object).java
-[ERROR] COMPILATION ERROR : 
-[INFO] -------------------------------------------------------------
-[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/JavaTimeInstantFormatter_ESTest.java:[32,9] method does not override or implement a method from a supertype
-[INFO] 1 error
-####################
-

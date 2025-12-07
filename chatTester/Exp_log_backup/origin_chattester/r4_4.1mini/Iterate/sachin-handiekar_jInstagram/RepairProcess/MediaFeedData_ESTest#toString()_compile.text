@@ -1,8 +1,0 @@
-original test path: /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java
-[GENERATED PATH] MediaFeedData_ESTest#toString().java
-[ERROR] COMPILATION ERROR : 
-[INFO] -------------------------------------------------------------
-[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/sachin-handiekar_jInstagram/src/test/java/org/jinstagram/entity/users/feed/MediaFeedData_ESTest.java:[46,56] incompatible types: java.util.List<java.lang.Object> cannot be converted to java.util.List<org.jinstagram.entity.common.UsersInPhoto>
-[INFO] 1 error
-####################
-

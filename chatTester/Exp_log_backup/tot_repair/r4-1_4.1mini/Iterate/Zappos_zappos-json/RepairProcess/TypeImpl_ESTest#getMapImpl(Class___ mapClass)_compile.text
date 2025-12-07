@@ -1,8 +1,0 @@
-original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/TypeImpl_ESTest.java
-[GENERATED PATH] TypeImpl_ESTest#getMapImpl(Class<?> mapClass).java
-[ERROR] COMPILATION ERROR : 
-[INFO] -------------------------------------------------------------
-[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/util/TypeImpl_ESTest.java:[55,5] interface not allowed here
-[INFO] 1 error
-####################
-

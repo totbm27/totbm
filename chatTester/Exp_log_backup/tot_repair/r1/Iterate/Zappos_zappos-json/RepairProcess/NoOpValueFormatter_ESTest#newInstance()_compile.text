@@ -1,9 +1,0 @@
-original test path: /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/NoOpValueFormatter_ESTest.java
-[GENERATED PATH] NoOpValueFormatter_ESTest#newInstance().java
-[ERROR] COMPILATION ERROR : 
-[INFO] -------------------------------------------------------------
-[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/Zappos_zappos-json/src/test/java/com/zappos/json/format/NoOpValueFormatter_ESTest.java:[31,117] method references are not supported in -source 1.7
-  (use -source 8 or higher to enable method references)
-[INFO] 1 error
-####################
-

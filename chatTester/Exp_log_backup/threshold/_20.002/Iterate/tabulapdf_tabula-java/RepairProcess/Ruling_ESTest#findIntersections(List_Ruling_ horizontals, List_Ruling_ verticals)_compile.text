@@ -1,9 +1,0 @@
-original test path: /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java
-[GENERATED PATH] Ruling_ESTest#findIntersections(List<Ruling> horizontals, List<Ruling> verticals).java
-[ERROR] COMPILATION ERROR : 
-[INFO] -------------------------------------------------------------
-[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[52,222] ')' expected
-[ERROR] /Users/curtis/Github/Thesis/chatTester/Repos/tabulapdf_tabula-java/src/test/java/technology/tabula/Ruling_ESTest.java:[53,222] ')' expected
-[INFO] 2 errors 
-####################
-

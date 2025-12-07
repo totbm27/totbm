@@ -1,5 +1,22 @@
 # ToT Branch Merging
 
+
+## Replication Package Note (Important)
+
+Due to the large size of the dataset and external repositories, several directories have been compressed. Before running any experiments, please unzip the following files in the current directory:
+
+Repos.zip (Required for experiments)
+
+RepoData.zip (Required for data)
+
+CoverageCal.zip (Required for coverage calculation)
+
+Java_Analyzer.zip (Required tools)
+
+Exp_log_backup.zip (Experimental logs)
+
+You can use the command: unzip "*.zip"
+
 ## Setup
 
 set up :
